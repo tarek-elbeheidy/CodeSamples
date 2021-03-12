@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="BookOrgTemplates"
+                OnQuickLaunch="TRUE"
+                TemplateType="10060"
+                Url="Lists/BookOrgTemplates"
+                Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="OrgTitleEN">Qatar Ministry of Foreign Affairs</Field>
+          <Field Name="OrgTitleAr">وزارة الخارجية القطرية</Field>
+          <Field Name="TemplateEN"> </Field>
+          <Field Name="TemplateAr"></Field>
+        </Row>
+        <!--<Row>
+          <Field Name="OrgTitleEN">Science and International Economics Faculty</Field>
+          <Field Name="OrgTitleAr">كلية العلوم و الاقتصاد الدولى</Field>
+          <Field Name="TemplateEN"></Field>
+          <Field Name="TemplateAr"></Field>
+        </Row>-->
+        <Row>
+          <Field Name="OrgTitleEN">Other</Field>
+          <Field Name="OrgTitleAr">أخري</Field>
+          <Field Name="TemplateEN"></Field>
+          <Field Name="TemplateAr"></Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

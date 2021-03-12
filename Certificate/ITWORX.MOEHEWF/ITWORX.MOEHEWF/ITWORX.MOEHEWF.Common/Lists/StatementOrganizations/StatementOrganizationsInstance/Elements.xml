@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StatementOrganizations"
+                OnQuickLaunch="TRUE"
+                TemplateType="10062"
+                Url="Lists/StatementOrganizations"
+                Description="My List Instance"
+                FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Institutions of Higher Education</Field>
+          <Field Name="TitleAr"> مؤسسات شؤون التعليم العالى</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in Britain</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية فى بريطانيا </Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in Australia</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية في استراليا </Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in France</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية في فرنسا </Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in USA</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية فى أمريكا </Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in Canada</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية فى كندا </Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Attaché in Jordan</Field>
+          <Field Name="TitleAr"> الملحقية الثقافية الأردنية </Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+        </Row>
+      </Rows>
+    </Data>
+    
+  </ListInstance>
+</Elements>

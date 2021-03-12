@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="PALegalAffairsAttachements"
+                OnQuickLaunch="TRUE"
+                TemplateType="20053"
+                Url="Lists/PALegalAffairsAttachements"
+                Description="My List Instance"
+                FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+
+  </ListInstance>
+</Elements>

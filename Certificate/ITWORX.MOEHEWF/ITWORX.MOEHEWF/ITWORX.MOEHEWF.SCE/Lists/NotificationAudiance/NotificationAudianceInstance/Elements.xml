@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="NotificationAudiance"
+                OnQuickLaunch="TRUE"
+                TemplateType="10212"
+                Url="Lists/NotificationAudiance"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title"></Field>
+          <Field Name="TitleAr">مستخدمين داخليين</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">External Users</Field>
+          <Field Name="TitleAr">مستخدمين خارجيين</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">All</Field>
+          <Field Name="TitleAr">الجميع</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

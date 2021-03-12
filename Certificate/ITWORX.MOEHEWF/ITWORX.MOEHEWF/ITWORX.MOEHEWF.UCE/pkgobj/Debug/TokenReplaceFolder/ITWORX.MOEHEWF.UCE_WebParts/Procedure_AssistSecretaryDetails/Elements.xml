@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Procedure_AssistSecretaryDetails" List="113" Url="_catalogs/wp">
+    <File Path="Procedure_AssistSecretaryDetails\Procedure_AssistSecretaryDetails.webpart" Url="ITWORX.MOEHEWF.UCE_Procedure_AssistSecretaryDetails.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="UCE" />
+    </File>
+  </Module>
+</Elements>

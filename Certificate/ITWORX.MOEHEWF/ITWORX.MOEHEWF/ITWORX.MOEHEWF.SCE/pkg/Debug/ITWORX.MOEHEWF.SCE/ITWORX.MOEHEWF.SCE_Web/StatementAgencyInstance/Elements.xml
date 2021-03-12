@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StatementAgency"
+                OnQuickLaunch="TRUE"
+                TemplateType="10211"
+                Url="Lists/StatementAgency"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Cultural Mission Britain</Field>
+          <Field Name="TitleAr">الملحقية الثقافية بريطانيا</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Mission France</Field>
+          <Field Name="TitleAr">الملحقية الثقافية فرنسا</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Mission America</Field>
+          <Field Name="TitleAr">الملحقية الثقافية أمريكا</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Mission Canada</Field>
+          <Field Name="TitleAr">الملحقية الثقافية كندا</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ultural Mission Australia</Field>
+          <Field Name="TitleAr">الملحقية الثقافية استراليا</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

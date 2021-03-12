@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCEHMReturnRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCEHMReturnRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01003680204beba84cd8a74d75c47048610f" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{5292627f-6cd5-4b86-92e5-bb113a31c22b}" Name="ClarificationReason" /><FieldRef ID="{36ccc5b8-3a0b-4539-a53e-3b2057dec6f3}" Name="OtherClarificationReason" /><FieldRef ID="{645001f6-6ece-4160-b948-4e04c37ccbed}" Name="ClarificationReplay" /><FieldRef ID="{85c48ebf-c337-41bf-bd22-3cc40c82cc8f}" Name="Comments1" /><FieldRef ID="{9e677e03-a331-47db-a769-c0102d004482}" Name="RequestID" /><FieldRef ID="{2feaad67-9434-4a86-bc9d-c8121cabdfc0}" Name="Employee" /><FieldRef ID="{01906c25-9525-481b-a001-b6428350b4ec}" Name="ReturnDate" /><FieldRef ID="{c4cb6057-44fa-4000-8041-3b46637d670c}" Name="ClarificationReasonAr" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="ClarificationReason" ID="{5292627f-6cd5-4b86-92e5-bb113a31c22b}" DisplayName="ClarificationReason" Type="Lookup" List="Lists/ReturnReasons" ShowField="Title" /><Field Name="OtherClarificationReason" ID="{36ccc5b8-3a0b-4539-a53e-3b2057dec6f3}" DisplayName="OtherClarificationReason" Type="Text" /><Field Name="ClarificationReplay" ID="{645001f6-6ece-4160-b948-4e04c37ccbed}" DisplayName="ClarificationReplay" Type="Text" /><Field Name="Comments1" ID="{85c48ebf-c337-41bf-bd22-3cc40c82cc8f}" DisplayName="Comments" Type="Text" /><Field Name="RequestID" ID="{9e677e03-a331-47db-a769-c0102d004482}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="Employee" ID="{2feaad67-9434-4a86-bc9d-c8121cabdfc0}" DisplayName="Employee" Type="User" List="UserInfo" /><Field Name="ReturnDate" ID="{01906c25-9525-481b-a001-b6428350b4ec}" DisplayName="ReturnDate" Type="DateTime" /><Field Name="ClarificationReasonAr" ID="{c4cb6057-44fa-4000-8041-3b46637d670c}" DisplayName="ClarificationReasonAr" Type="Lookup" List="Lists/ReturnReasons" ShowField="TitleAr" FieldRef="{5292627f-6cd5-4b86-92e5-bb113a31c22b}" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="ClarificationReason" /><FieldRef Name="OtherClarificationReason" /><FieldRef Name="ClarificationReplay" /><FieldRef Name="Comments1" /><FieldRef Name="RequestID" /><FieldRef Name="Employee" /><FieldRef Name="ReturnDate" /><FieldRef Name="ClarificationReasonAr" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

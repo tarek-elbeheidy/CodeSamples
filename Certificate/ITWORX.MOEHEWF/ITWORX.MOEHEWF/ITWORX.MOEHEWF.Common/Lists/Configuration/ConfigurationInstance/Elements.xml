@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Configuration"
+                OnQuickLaunch="TRUE"
+                TemplateType="10004"
+                Url="Lists/Configuration"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Dashboard Page Size</Field>
+          <Field Name="Key">DashboardPageSize</Field>
+          <Field Name="Value">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Search Page Size</Field>
+          <Field Name="Key">SearchPageSize</Field>
+          <Field Name="Value">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Statement Requests Page Size</Field>
+          <Field Name="Key">StatementReqsPageSize</Field>
+          <Field Name="Value">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Suspended Reply To Calarification</Field>
+          <Field Name="Key">CalarificationReplySuspend</Field>
+          <Field Name="Value">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cultural Mission Suspend</Field>
+          <Field Name="Key">CulturalMissionSuspend</Field>
+          <Field Name="Value">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">External Communications Suspend</Field>
+          <Field Name="Key">ExternalCommunicationsSuspend</Field>
+          <Field Name="Value">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Delay To Complete Requests</Field>
+          <Field Name="Key">DelaycompletingRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate Equivalency Fees</Field>
+          <Field Name="Key">CertificateEquivalencyFees</Field>
+          <Field Name="Value">300</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Receptionist New Requests Without Action</Field>
+          <Field Name="Key">ReceptionistNewRequestsWithoutAction</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Returned Requests Page Size</Field>
+          <Field Name="Key">ReturnedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures Page Size</Field>
+          <Field Name="Key">Procedures</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Clarification Requests Page Size</Field>
+          <Field Name="Key">ClarificationRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Program Manager Delayed Requests</Field>
+          <Field Name="Key">ProgramManagerDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Equivalency Employee New Requests Without Action</Field>
+          <Field Name="Key">ProgramEmployeeNewRequestsWithoutAction</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Program Employee Delayed Requests</Field>
+          <Field Name="Key">ProgramEmployeeDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Head Manager Delayed Requests</Field>
+          <Field Name="Key">HeadManagerDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Assistant Undersecretary Delayed Requests</Field>
+          <Field Name="Key">AssistantUndersecretaryDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Committee Delayed Requests</Field>
+          <Field Name="Key">TechnicalCommitteeDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Legal Employee Delayed Requests</Field>
+          <Field Name="Key">LegalEmployeeDelayedRequests</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Delayed Requests From Program Employee</Field>
+          <Field Name="Key">DelayedRequestsFromProgramEmployee</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Pending Requests</Field>
+          <Field Name="Key">PendingRequests</Field>
+          <Field Name="Value">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Delayed Applicant Reply</Field>
+          <Field Name="Key">DelayedApplicantReply</Field>
+          <Field Name="Value">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Study Year</Field>
+          <Field Name="Key">StudyYear</Field>
+          <Field Name="Value">2015</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Form Based Authentication applicants group</Field>
+          <Field Name="Key">FBA_Applicants</Field>
+          <Field Name="Value">FBA_Users</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">Search Similar Requests Page Size</Field>
+          <Field Name="Key">SimilarRequestsPageSize</Field>
+          <Field Name="Value">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Number of Delayed Days</Field>
+          <Field Name="Key">DelayedDays</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">University Certificate Equivalency Relative Web Url</Field>
+          <Field Name="Key">UCERelativeWebUrl</Field>
+          <Field Name="Value">/en</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Document Libraries</Field>
+          <Field Name="Key">DocumentLibraries</Field>
+          <Field Name="Value">TestLibrary1,TestLibrary2,TestLibrary4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Limited hours To save before deletion</Field>
+          <Field Name="Key">LimitedHoursToSavebeforeDeletion</Field>
+          <Field Name="Value">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP Server</Field>
+          <Field Name="Key">SMTPServer</Field>
+          <Field Name="Value">smtp_inout.itworx.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP Server Port</Field>
+          <Field Name="Key">SMTPServerPort</Field>
+          <Field Name="Value">25</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP From Address</Field>
+          <Field Name="Key">SMTPFromAddress</Field>
+          <Field Name="Value">mirna.hossam@itworx.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP From Display Name</Field>
+          <Field Name="Key">SMTPFromDisplayName</Field>
+          <Field Name="Value">Certificate Equivalence Service</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP From Display Name</Field>
+          <Field Name="Key">SMTPPAFromDisplayName</Field>
+          <Field Name="Value">Prior Approval Service</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP User Name</Field>
+          <Field Name="Key">SMTPUserName</Field>
+          <Field Name="Value"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMTP Password</Field>
+          <Field Name="Key">SMTPPassword</Field>
+          <Field Name="Value"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">UCE Request No Prefix</Field>
+          <Field Name="Key">UCERequestNoPrefix</Field>
+          <Field Name="Value">UCE</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">UCE Padding Total Request</Field>
+          <Field Name="Key">UCEPaddingTotalRequest</Field>
+          <Field Name="Value">000000</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PA Request No Prefix</Field>
+          <Field Name="Key">PARequestNoPrefix</Field>
+          <Field Name="Value">PA</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PA Padding Total Request</Field>
+          <Field Name="Key">PAPaddingTotalRequest</Field>
+          <Field Name="Value">000000</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMS PA Enabled</Field>
+          <Field Name="Key">SMSPAEnabled</Field>
+          <Field Name="Value">True</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SMS UCE Enabled</Field>
+          <Field Name="Key">SMSUCEEnabled</Field>
+          <Field Name="Value">True</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate Equivalency Currency</Field>
+          <Field Name="Key">CertificateEquivalencyCurrency</Field>
+          <Field Name="Value">QAR</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PA Number of Delayed Days</Field>
+          <Field Name="Key">PADelayedDays</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Head Manager Name</Field>
+          <Field Name="Key">HeadManagerName</Field>
+          <Field Name="Value">مريم ابراهيم الزياره</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Academic Study Start</Field>
+          <Field Name="Key">AcademicStudyStart</Field>
+          <Field Name="Value">1950</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Academic Study End</Field>
+          <Field Name="Key">AcademicStudyEnd</Field>
+          <Field Name="Value">2019</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Academic Study Mandatory Year</Field>
+          <Field Name="Key">AcademicStudyMandatoryYear</Field>
+          <Field Name="Value">2017</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Schooling Academic Study Start</Field>
+          <Field Name="Key">SchoolingAcademicStudyStart</Field>
+          <Field Name="Value">1951</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Schooling Academic Study End</Field>
+          <Field Name="Key">SchoolingAcademicStudyEnd</Field>
+          <Field Name="Value">2022</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCE Request No Prefix</Field>
+          <Field Name="Key">SCERequestNoPrefix</Field>
+          <Field Name="Value">SCE</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCE Padding Total Request</Field>
+          <Field Name="Key">SCEPaddingTotalRequest</Field>
+          <Field Name="Value">000000</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCE Delayed Days</Field>
+          <Field Name="Key">SCEDelayedDays</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCE MOI Service Enabled</Field>
+          <Field Name="Key">SCEMOIServiceEnabled</Field>
+          <Field Name="Value">True</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCE Head Manager Mail</Field>
+          <Field Name="Key">SCEHeadManagerMail</Field>
+          <Field Name="Value">h.khalifa@edu.gov.qa</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">SMS SCE Enabled</Field>
+          <Field Name="Key">SMSSCEEnabled</Field>
+          <Field Name="Value">True</Field>
+        </Row>
+        
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

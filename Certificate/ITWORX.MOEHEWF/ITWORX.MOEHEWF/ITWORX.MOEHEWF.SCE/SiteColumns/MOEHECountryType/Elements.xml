@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4f74f482-0dbb-4f61-ae6f-632b9503494c}"
+       Name="MOEHECountryType"
+       DisplayName="MOEHE Country Type"
+       Type="Choice"
+       Required="FALSE"
+       Group="MOEHE">
+    <CHOICES>
+      <CHOICE>Arab</CHOICE>
+      <CHOICE>Foreign</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

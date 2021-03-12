@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="78c17adf-d508-4462-b1af-456660f0a8d7" solutionId="78c17adf-d508-4462-b1af-456660f0a8d7" resetWebServer="false" sharePointProductVersion="16.0" name="MOEHE.PSC.UI" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="5267e6e7-eb7b-488a-990d-7b8cd6885c6e" />
+  </projectItems>
+</package>

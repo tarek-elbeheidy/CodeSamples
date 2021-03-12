@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Applicants"
+                OnQuickLaunch="TRUE"
+                TemplateType="10001"
+                Url="Lists/Applicants"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+  </ListInstance>
+</Elements>

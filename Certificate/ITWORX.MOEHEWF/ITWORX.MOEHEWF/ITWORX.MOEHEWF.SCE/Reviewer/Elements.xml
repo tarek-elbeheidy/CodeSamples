@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Reviewer"  Url="Pages">
+    <File Path="Reviewer\SCEEquivalenceEmployeesDashboard.aspx" Url="SCEEquivalenceEmployeesDashboard.aspx" Type="GhostableInLibrary"  >
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,EquivalenceEmployee;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+        <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard.EmployeeDashboard, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+      <property name="SPGroupName" type="string">SCE Equivalence Employees</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmployeeDashboard</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCESectionManagerDashboard.aspx" Url="SCESectionManagerDashboard.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCESectionManagerDashboard;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[   
+         <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard.EmployeeDashboard, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+     <property name="SPGroupName" type="string">SCE Section Managers</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmployeeDashboard</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+       
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEHigherEducationalInstitutionsDashboard.aspx" Url="SCEHigherEducationalInstitutionsDashboard.aspx" Type="GhostableInLibrary" >
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEHigherEducationalInstitutionsDashboard;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[  
+           <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard.EmployeeDashboard, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+     <property name="SPGroupName" type="string">SCE Higher Educational Institutions</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmployeeDashboard</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCECulturalMissionDashboard.aspx" Url="SCECulturalMissionDashboard.aspx" Type="GhostableInLibrary" >
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCECulturalMissionDashboard;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+        
+          <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard.EmployeeDashboard, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+     <property name="SPGroupName" type="string">SCE Cultural Mission Britain,SCE Cultural Mission Australia,SCE Cultural Mission France,SCE Cultural Mission USA,SCE Cultural Mission Canada,SCE Cultural Mission Jordan,SCE Cultural Mission Egypt</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmployeeDashboard</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+        
+     
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEDepartmentManagerDashboard.aspx" Url="SCEDepartmentManagerDashboard.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEDepartmentManagerDashboard;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+         <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard.EmployeeDashboard, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+    <property name="SPGroupName" type="string">SCE Department Managers</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmployeeDashboard</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+     
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCENewClarificationReq.aspx" Url="SCENewClarificationReq.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCENewClarificationReq;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.NewClarificationRequest.NewClarificationRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">NewClarificationRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEClarificationsListing.aspx" Url="SCEClarificationsListing.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEClarificationsListing;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+   <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.ClarificationRequest.ClarificationRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ClarificationRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEClarificationRequestDetails.aspx" Url="SCEClarificationRequestDetails.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEClarificationRequestDetails;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+ <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.ViewClarificationRequest.ViewClarificationRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ViewClarificationRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\NewSCERequest.aspx" Url="NewSCERequest.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,NewSCERequest;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+ <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.NewRequest.NewRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">NewRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+       ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\EditSCERequest.aspx" Url="EditSCERequest.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,EditSCERequest;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+ <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EditRequest.EditRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">EditRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+       ]]>
+        </AllUsersWebPart>
+    </File> 
+    <File Path="Reviewer\SCEPERecommendation.aspx" Url="SCEPERecommendation.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+          <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEPERecommendation;" />
+          <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.PERecommendation.PERecommendation, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">PERecommendation</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>  
+    <File Path="Reviewer\AddSCEStatement.aspx" Url="AddSCEStatement.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,AddSCEStatement;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.AddSCEStatement.AddSCEStatement, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">AddSCEStatement</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEStatementListing.aspx" Url="SCEStatementListing.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEStatementListing;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEStatementListing.SCEStatementListing, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEStatementListing</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>  
+    <File Path="Reviewer\SCEStatementReply.aspx" Url="SCEStatementReply.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEStatementReply;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEStatementReply.SCEStatementReply, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEStatementReply</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEViewStatement.aspx" Url="SCEViewStatement.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEViewStatement;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+    <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEViewStatement.SCEViewStatement, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEViewStatement</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCERejectRequestPM.aspx" Url="SCERejectRequestPM.aspx"  Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCERejectRequestPM;" />
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpzMyZone">
+        <![CDATA[
+        <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.PMRejectRequestSCE.PMRejectRequestSCE, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - PMRejectRequestSCE</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEDecisionPM.aspx" Url="SCEDecisionPM.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation"/>
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEDecisionPM;" />
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpzMyZone">
+        <![CDATA[
+        <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.PMDecisionSCE.PMDecisionSCE, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - PMDecisionSCE</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+      
+      
+      
+    </File>
+    <File Path="Reviewer\SCERequestHistory.aspx" Url="SCERequestHistory.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation"/>
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCERequestHistory;" />
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpzMyZone">
+        <![CDATA[
+        <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCERequestHistroyWP.SCERequestHistroyWP, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - SCERequestHistroyWP</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCERReturnRequestEmp.aspx" Url="SCERReturnRequestEmp.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCERReturnRequestEmp;" />
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpzMyZone">
+        <![CDATA[
+        <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.EmpReturnRequestWP.EmpReturnRequestWP, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">ITWORX.MOEHEWF.SCE - EmpReturnRequestWP</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCESearchSimilarRequests.aspx" Url="SCESearchSimilarRequests.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCESearchSimilarRequests;" />
+
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCESearchSimilarRequests.SCESearchSimilarRequests, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCESearchSimilarRequests</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+       ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEViewSimilarRequests.aspx" Url="SCEViewSimilarRequests.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEViewSimilarRequests;" />
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEViewSimilarRequests.SCEViewSimilarRequests, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>‏‏يتعذر استيراد جزء ويب هذا.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEViewSimilarRequests</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+       ]]>
+      </AllUsersWebPart>
+      
+    </File>
+    <File Path="Reviewer\SCEBookRequests.aspx" Url="SCEBookRequests.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCESideNavigation.aspx, SCESideNavigation" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEBookRequests;" />
+
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+ <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEBooksRequests.SCEBooksRequests, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEBooksRequests</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+       ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEBookRequestDetails.aspx" Url="SCEBookRequestDetails.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEBookRequestDetails;" />
+
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.NewSCEBooksRequest.NewSCEBooksRequest, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">NewSCEBooksRequest</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+
+       ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="Reviewer\SCEReplyToBookRequest.aspx" Url="SCEReplyToBookRequest.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingPageLayout" Value="~siteCollection/_catalogs/masterpage/Layout/SCELayout.aspx, SCELayout" />
+      <Property Name="Title" Value="$Resources:ITWORX_MOEHEWF_SCE,SCEReplyToBookRequest;" />
+
+      <AllUsersWebPart WebPartOrder ="0" WebPartZoneID ="wpzMyZone">
+        <![CDATA[ 
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ITWORX.MOEHEWF.SCE.WebParts.SCEReplyToBook.SCEReplyToBook, ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">SCEReplyToBook</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>       ]]>
+      </AllUsersWebPart>
+    </File>
+  </Module>
+</Elements>

@@ -1,0 +1,233 @@
+﻿<%@ Master Language="C#" %>
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Import Namespace="Microsoft.SharePoint" %> <%@ Assembly Name="Microsoft.Web.CommandUI, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@Register TagPrefix="MOEHE" TagName="LanguageSwitcher" Src="~/_controltemplates/15/ITWORX.MOEHEWF.Common/LanguageSwitcher.ascx"%>
+<%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:o="urn:schemas-microsoft-com:office:office" runat="server" lang="<%$Resources:wss,language_value%>" dir="<%$Resources:wss,multipages_direction_dir_value%>">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="GENERATOR" content="Microsoft SharePoint" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Expires" content="0" />
+	<SharePoint:IEVersionMetaTag runat="server"/>
+	<meta name="ROBOTS" content="NOHTMLINDEX" />
+	<SharePoint:PageTitle runat="server"><asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server"/></SharePoint:PageTitle>
+	<SharePoint:CssLink runat="server" Alternate="false" Version="15"/>
+	<SharePoint:CssRegistration name="corev15.css" EnableCssTheming="false" runat="server" />
+	<SharePoint:CssRegistration name="error.css" EnableCssTheming="false" runat="server" />
+	<SharePoint:CssRegistration name="master.css" EnableCssTheming="false" runat="server" />
+	<SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/bootstrap.min.css%>" runat="server"/>
+	<SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/font-awesome.min.css%>" runat="server"/>
+    <SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/jquery-ui.css%>" runat="server"/>
+	<SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/select2.min.css%>" runat="server"/>
+    <SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/master.css%>" runat="server"/>
+	<SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/common/home-theme.css%>" runat="server"/>
+	<SharePoint:LanguageSpecificContent runat="server" Languages="1025">
+        <ContentTemplate>
+			<SharePoint:CssRegistration name="<% $SPUrl:~SiteCollection/_layouts/15/ITWORX.MOEHEWF.Common/css/ar-sa/bootstrap-rtl.min.css%>" runat="server"/>
+        </ContentTemplate>
+        </SharePoint:LanguageSpecificContent>
+    <SharePoint:LanguageSpecificContent runat="server" Languages="1025,1033">
+            <ContentTemplate>
+	        <SharePoint:CssRegistration runat="server" ID="CssRegistration17" Name="&lt;% $SPUrl:~sitecollection/_catalogs/masterpage/MOEHE/common/css/common-master.css %&gt;" After="corev15.css" />
+	        <SharePoint:CssRegistration runat="server" ID="defaultTheme" Name="&lt;% $SPUrl:~sitecollection/_catalogs/masterpage/MOEHE/common/css/common-master-theme.css %&gt;" After="corev15.css" />
+	        <SharePoint:CssRegistration runat="server" ID="CssRegistration11" Name="&lt;% $SPUrl:~sitecollection/_catalogs/masterpage/MOEHE/~language/css/common-master.css %&gt;" After="corev15.css" />
+	        
+            </ContentTemplate>
+            </SharePoint:LanguageSpecificContent>
+
+	<SharePoint:ULSClientConfig runat="server"/>
+	<SharePoint:ScriptLink language="javascript" name="core.js" OnDemand="true" EnableCustomActions="false" Localizable="false" runat="server" />
+		<script src="/_layouts/15/ITWORX.MOEHEWF.Common/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="/_layouts/15/ITWORX.MOEHEWF.Common/js/select2.min.js" type="text/javascript"></script>
+		<script src="/_layouts/15/ITWORX.MOEHEWF.Common/js/bootstrap.min.js" type="text/javascript"></script>		
+		<script src="/_layouts/15/ITWORX.MOEHEWF.Common/js/jquery-ui.js" type="text/javascript"></script>
+        <script src="/_layouts/15/ITWORX.MOEHEWF.Common/js/master.js" type="text/javascript"></script>
+     <script src="/_catalogs/masterpage/MOEHE/common/js/home.js" type="text/javascript"></script>
+
+	<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server"/>
+	<link rel="shortcut icon" href="/_layouts/15/ITWORX.MOEHEWF.Common/images/favicon.ico?rev=40" type="image/vnd.microsoft.icon" />
+	<asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server"/>
+</head>
+<body onload="if (typeof(_spBodyOnLoadWrapper) != 'undefined') _spBodyOnLoadWrapper();">
+<div id="main-content" class="register">
+<form runat="server" onsubmit="if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;}">
+	<asp:ScriptManager id="ScriptManager" runat="server" EnablePageMethods="false" EnablePartialRendering="true" EnableScriptGlobalization="false" EnableScriptLocalization="true" />
+	<div class="langBtn pull-right">
+    <MOEHE:LanguageSwitcher runat="server" />
+        </div>
+    <div id="ms-error-header" class="ms-pr" style="display:none;">
+		<h1 class="ms-core-pageTitle">
+			<asp:ContentPlaceHolder id="PlaceHolderPageTitleInTitleArea" runat="server" />
+		</h1>
+		<div>
+			<asp:ContentPlaceHolder id="PlaceHolderHelpButton" runat="server" />
+		</div>
+	</div>
+	<div id="ms-error">
+		<div id="ms-error-top" style="background-color:red;">
+			<asp:ContentPlaceHolder id="PlaceHolderSimpleCloseX" runat="server" />
+		</div>
+		<div id="ms-error-content">
+			<div id="ms-error-error-content">
+				<SharePoint:AjaxDelta id="DeltaPlaceHolderMain" BlockElement="true" runat="server">
+					<asp:ContentPlaceHolder id="PlaceHolderMain" runat="server" />
+				</SharePoint:AjaxDelta>
+			</div>
+			<asp:ContentPlaceHolder id="PlaceHolderGoBackLink" runat="server">
+				<div id="ms-error-gobackcont" class="ms-calloutLink" style="display:none;">
+					<SharePoint:ReturnLink Text="<%$Resources:wss,multipages_back_to_site%>" Id="idSimpleGoBackToHome" runat="server"/>
+				</div>
+			</asp:ContentPlaceHolder>
+		
+
+			
+
+		</div>
+		
+	</div>
+</form>
+</div>
+
+
+<footer class="he-footer page-padding">
+          <div class="row flex-display">
+            <div class="col-md-7 no-padding">
+              <h2 class="title">
+                 <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,contact%&gt;" />
+              </h2>
+              <ul class="address no-padding">
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fa fa-map-marker" aria-hidden="true">
+                      </i>
+  <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,address%&gt;" />
+                    </span>
+                  </a>
+                </li>
+                <li class="number-font">
+                  <span>
+                    <i class="fa fa-envelope-open" aria-hidden="true">
+                    </i>
+                    P.O. Box 3511   
+                  </span>
+                </li>
+              </ul>
+              <ul class="phones no-padding">
+                <li class="number-font">
+                  <a href="tel:155">
+                    <span>
+                      <span class="fa">
+                        <img src="/_catalogs/masterpage/MOEHE/common/img/hotline.png" />
+                      </span>
+                      155                      </span>
+                  </a>
+                </li>
+                <li class="number-font">
+                  <a href="tel:44044444">
+                    <span>
+                      <i class="fa fa-phone" aria-hidden="true">
+                      </i>
+                      44044444
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="email no-padding">
+                <li class="number-font">
+                  <a href="tel:44044586">
+                    <span>
+                      <i class="fa fa-fax" aria-hidden="true">
+                      </i>
+                      44044586     
+                                          </span>
+                  </a>
+                </li>
+                <li class="number-font">
+                  <a href="mailto:info@edu.gov.qa">
+                    <span>
+                      <i class="fa fa-envelope-o" aria-hidden="true">
+                      </i>
+                      info@edu.gov.qa  
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 no-padding">
+              <ul class="links no-padding no-margin">
+                <li>
+                  					<asp:Literal runat="server" Text="&lt;a href='" />
+                                        <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,siteMap%&gt;" />
+                                        <asp:Literal runat="server" Text="' class='' " />
+                                        <asp:Literal runat="server" Text="  &gt; " />
+                                        <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,siteMap%&gt;" />
+                                        <asp:Literal runat="server" Text=" &lt;/a &gt;" />
+                </li>
+                <li>
+                  <a href="#">
+                  	الاسئلة الشائعة
+                   
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 no-padding">
+              <div class="flex-display followCopy">
+                <div class="row text-left">
+                  <h3 class="title">
+                    <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,follow%&gt;" />
+                                      </h3>
+                  <ul class="follow-us no-padding no-margin">
+                    <li class="youtube">
+                      <a href="https://www.youtube.com/user/secqatar123/">
+                        <i class="fa fa-youtube" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="facebook">
+                      <a href="https://business.facebook.com/Qatar.edu/">
+                        <i class="fa fa-facebook" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="twitter">
+                      <a href="https://twitter.com/Qatar_edu">
+                        <i class="fa fa-twitter" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="instagram">
+                      <a href="https://www.instagram.com/Qatar_edu/">
+                        <i class="fa fa-instagram" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="linkedin">
+                      <a href="https://in.linkedin.com/company/qatar_edu">
+                        <i class="fa fa-linkedin" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                    <li class="snapchat">
+                      <a href="#">
+                        <i class="fa fa-snapchat-ghost" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row copy-right text-left">
+                  <h3>
+                     <asp:Literal runat="server" Text="&lt;%$Resources:ITWORX_MOEHEWF_UCE,copyRights%&gt;" />
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>

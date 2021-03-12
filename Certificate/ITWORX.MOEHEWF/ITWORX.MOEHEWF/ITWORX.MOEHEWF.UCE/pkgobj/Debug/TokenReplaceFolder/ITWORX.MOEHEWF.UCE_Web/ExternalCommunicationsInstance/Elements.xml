@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ExternalCommunications" OnQuickLaunch="TRUE" 
+                TemplateType="10025" 
+                Url="Lists/ExternalCommunications" 
+                Description="My List Instance" 
+                FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560"></ListInstance>
+</Elements>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Reviewer\" Type="ElementManifest" />
+    <ProjectItemFile Source="PAArabicAsianProgramEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAAsianAndEuropianEmployeeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAClarificationReqDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAClarificationRequestsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PACulturalMissionEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAEuropeanProgramEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAExternalCommDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAExternalCommunicationsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAHeadManagerDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAHeadManagerReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAHeadManagerViewDecision.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAHigherEducationalInstitutionsDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAHistoricalRecords.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PALegalEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PALegalEmployeeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAPaymentRecords.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedureAssistSecretaryDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedureDepartManagerDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedureReceptionistDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresAssistSecretaryListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresDeptManagerListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresLegalAffairsOpinion.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresProgramEmployeeDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresProgramEmployeeListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresReceptionistListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresTechCommitteListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedureTechCommitteeDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramEmployeeClarificationReqs.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramEmployeeRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerProcDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerProcedureListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerRecommendListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReceptionistDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReceptionistReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReviewerDecisions.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReviewerDisplayApplicantDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReviewerDisplayRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReviewerDisplaySimilarRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAReviewerRecommendations.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PASearchSimilarRequests.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PASearchStatusRecommendation.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PASecretaryDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAStatementRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAStatementRequestsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PATechCommitteDecisions.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PATechnicalCommitteeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PATechnicalCommitteeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAViewFinalDecision.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAViewSimilarRequests.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PAApplicantRequestsClosed.aspx" Target="Reviewer\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

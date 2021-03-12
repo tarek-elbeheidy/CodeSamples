@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="PADelegationDocuments" OnQuickLaunch="TRUE" TemplateType="20018" Url="Lists/PADelegationDocuments" Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee"></ListInstance>
+</Elements>

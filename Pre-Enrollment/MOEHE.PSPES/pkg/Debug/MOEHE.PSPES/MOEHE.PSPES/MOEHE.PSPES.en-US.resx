@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="AllowedSchoolCapacity" xml:space="preserve">
+    <value>Allowed School Capacity</value>
+  </data>
+  <data name="ApplicationDate" xml:space="preserve">
+    <value>Application Date</value>
+  </data>
+  <data name="ApplicationReferenceNo" xml:space="preserve">
+    <value>Application Reference No.</value>
+  </data>
+  <data name="AvailableSeatsInRequestedGrade" xml:space="preserve">
+    <value>Available Seats In Requested Grade</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CurrentCurriculum" xml:space="preserve">
+    <value>Curriculum</value>
+  </data>
+  <data name="CurrentGrade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="CurrentSchool" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="CurrentTerm" xml:space="preserve">
+    <value>Academic Term</value>
+  </data>
+  <data name="CurrentYearBuildingCapacity" xml:space="preserve">
+    <value>Current Year Building Capacity</value>
+  </data>
+  <data name="CurrentYearEnrolledStudents" xml:space="preserve">
+    <value>Current Year Enrolled Students</value>
+  </data>
+  <data name="CurrentYearEnrolledStudentsinPreviousGrade" xml:space="preserve">
+    <value>Current Year Enrolled Students in Previous Grade</value>
+  </data>
+  <data name="Curriculum" xml:space="preserve">
+    <value>Curriculum</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="PreEnrolmentGrade" xml:space="preserve">
+    <value>Pre Enrolment Grade</value>
+  </data>
+  <data name="PreEnrolmentSchool" xml:space="preserve">
+    <value>Pre Enrolment School</value>
+  </data>
+  <data name="PreEnrolmentTerm" xml:space="preserve">
+    <value>Pre Enrolment Term</value>
+  </data>
+  <data name="PreviousCurriculum" xml:space="preserve">
+    <value>Curriculum</value>
+  </data>
+  <data name="PreviousGrade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="PreviousSchool" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="PreviousTerm" xml:space="preserve">
+    <value>Academic Term</value>
+  </data>
+  <data name="PSORequired" xml:space="preserve">
+    <value>Required by MOE</value>
+  </data>
+  <data name="QatariID" xml:space="preserve">
+    <value>Qatari ID</value>
+  </data>
+  <data name="ResedentialArea" xml:space="preserve">
+    <value>Resedential Area</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ResultFail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="ResultPass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="SchoolCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="SchoolRequired" xml:space="preserve">
+    <value>Required by School</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SelectGradeForSupportingDocs" xml:space="preserve">
+    <value>Select grade to mark  All Supporting Docs as Required</value>
+  </data>
+  <data name="SelectGradeOrAll" xml:space="preserve">
+    <value>Select Grade or All</value>
+  </data>
+  <data name="SetupDocumentAttachedToSchol" xml:space="preserve">
+    <value>Setup Required documents for Admission</value>
+  </data>
+  <data name="TermName" xml:space="preserve">
+    <value>Academic Term</value>
+  </data>
+  <data name="TransporationRequired" xml:space="preserve">
+    <value>Bus Required</value>
+  </data>
+  <data name="WaitListNumber" xml:space="preserve">
+    <value>Wait List Number</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Availableseats" xml:space="preserve">
+    <value>Available seats</value>
+  </data>
+  <data name="CurrentEnrolledStudents" xml:space="preserve">
+    <value>Current year enrolled students</value>
+  </data>
+  <data name="CurrentYearSchoolbuildingCapacity" xml:space="preserve">
+    <value>Current year school building capacity</value>
+  </data>
+  <data name="increaseseatcap" xml:space="preserve">
+    <value>Increase seat capacity (number)</value>
+  </data>
+  <data name="LastGradePassing" xml:space="preserve">
+    <value>Last grade passing out seats</value>
+  </data>
+  <data name="Lastmodifieddate" xml:space="preserve">
+    <value>Last modified Date</value>
+  </data>
+  <data name="LastmodifiedUser" xml:space="preserve">
+    <value>Last modified by user</value>
+  </data>
+  <data name="NextClass" xml:space="preserve">
+    <value>Next Term</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="OverCapacitynotice" xml:space="preserve">
+    <value>Over capacity seats: Current enrolled students Minus (-) Current year school building capacity</value>
+  </data>
+  <data name="PreenrollmentnextYr" xml:space="preserve">
+    <value>Pre-enrollment seats for next year</value>
+  </data>
+  <data name="Preenrollmentseatstatus" xml:space="preserve">
+    <value>Pre-enrollment seats status</value>
+  </data>
+  <data name="Preparingattacheddocumentsforschools" xml:space="preserve">
+    <value>Seat Capacity Allocation</value>
+  </data>
+  <data name="SchoolCapacitynextYr" xml:space="preserve">
+    <value>School capacity for next year</value>
+  </data>
+  <data name="SchoolCode1" xml:space="preserve">
+    <value>School Code</value>
+  </data>
+  <data name="SchoolDetails" xml:space="preserve">
+    <value>School Details</value>
+  </data>
+  <data name="SchoolName1" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="SeatsPercentage" xml:space="preserve">
+    <value>Seats percentage %</value>
+  </data>
+  <data name="CurrentCapStatus" xml:space="preserve">
+    <value>Current Seat Capacity Status</value>
+  </data>
+  <data name="ViewPrepareCap" xml:space="preserve">
+    <value>View &amp; Prepare Capacity</value>
+  </data>
+  <data name="AcademicInformation" xml:space="preserve">
+    <value>Academic Information</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>Application Information</value>
+  </data>
+  <data name="ApplicationRefNo" xml:space="preserve">
+    <value>Application Ref. No.</value>
+  </data>
+  <data name="AvailableSeatsInfo1" xml:space="preserve">
+    <value>على الافتراض الطاقة الإستيعابية للصف هو 30.</value>
+  </data>
+  <data name="AvailableSeatsInfo2" xml:space="preserve">
+    <value>يتم تحديد المقاعد المتاحة مع الأخذ بعين الاعتبار الطلبة الحاليين في الصف الأقل من الصف المطلوب.</value>
+  </data>
+  <data name="AvailableSeatsInformation" xml:space="preserve">
+    <value>Available Seats Information</value>
+  </data>
+  <data name="CurrentYearAcademicInformation" xml:space="preserve">
+    <value>Current Year Academic Information</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Employer" xml:space="preserve">
+    <value>Employer</value>
+  </data>
+  <data name="EmploymentInformation" xml:space="preserve">
+    <value>Employment Information</value>
+  </data>
+  <data name="EmploymentType" xml:space="preserve">
+    <value>Sector</value>
+  </data>
+  <data name="GuardianInformation" xml:space="preserve">
+    <value>Guardian Information</value>
+  </data>
+  <data name="GuardianName" xml:space="preserve">
+    <value>Guardian Name</value>
+  </data>
+  <data name="Landline" xml:space="preserve">
+    <value>Landline</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="MobileNumber" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="PersonalInformation" xml:space="preserve">
+    <value>Personal Information</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PRVYearsAcademicInfo" xml:space="preserve">
+    <value>Previous Years Academic Information</value>
+  </data>
+  <data name="QID" xml:space="preserve">
+    <value>Qatari ID Number</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="RequestedGrade" xml:space="preserve">
+    <value>Requested Grade</value>
+  </data>
+  <data name="ResidentialArea" xml:space="preserve">
+    <value>Residential Area</value>
+  </data>
+  <data name="School" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Term</value>
+  </data>
+  <data name="TransportationRequired" xml:space="preserve">
+    <value>Bus Required</value>
+  </data>
+  <data name="PleaseschooseSCcode" xml:space="preserve">
+    <value>Please chooose School Code</value>
+  </data>
+  <data name="empTP" xml:space="preserve">
+    <value>Employee Type:</value>
+  </data>
+  <data name="Distribut" xml:space="preserve">
+    <value>Distribution of newly allocated Seats</value>
+  </data>
+  <data name="PreenrollmentSeats" xml:space="preserve">
+    <value>PreEnrollment seats for grade</value>
+  </data>
+  <data name="Seatsafterprom" xml:space="preserve">
+    <value>Seats After promotion</value>
+  </data>
+  <data name="AvailSeatsafterprom" xml:space="preserve">
+    <value>Avaiable seats after promotion</value>
+  </data>
+  <data name="CurrEnrollment" xml:space="preserve">
+    <value>Current Enrolled Students</value>
+  </data>
+  <data name="CurrGradeCap" xml:space="preserve">
+    <value>Current Grade Capacity</value>
+  </data>
+  <data name="CurryravailSeats" xml:space="preserve">
+    <value>Current Yr Available Seats</value>
+  </data>
+  <data name="GradeLevel" xml:space="preserve">
+    <value>Grade Level</value>
+  </data>
+  <data name="NOTEPreenroll1" xml:space="preserve">
+    <value>Note: Pre-Enrollment seats for Next Year</value>
+  </data>
+  <data name="NOTEPreenroll2" xml:space="preserve">
+    <value>Current year Available seats +</value>
+  </data>
+  <data name="NOTEPreenroll3" xml:space="preserve">
+    <value>Current Year LastGrade Passing Out Seats:</value>
+  </data>
+  <data name="NOTEPreenroll4" xml:space="preserve">
+    <value>Increased seat capacity for next year</value>
+  </data>
+  <data name="LearningDifficulties" xml:space="preserve">
+    <value>Learning Difficulties</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SpecialNeed" xml:space="preserve">
+    <value>Special Needs</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DocumentName" xml:space="preserve">
+    <value>Document Name</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FitForSchooling" xml:space="preserve">
+    <value>Fit for Schooling</value>
+  </data>
+  <data name="HCNumber" xml:space="preserve">
+    <value>Health Card Number</value>
+  </data>
+  <data name="HealthCenter" xml:space="preserve">
+    <value>Health Center</value>
+  </data>
+  <data name="HealthInformation" xml:space="preserve">
+    <value>Health Information</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="PreviousHealthIssues" xml:space="preserve">
+    <value>Is there any historical health issues?</value>
+  </data>
+  <data name="RequiredDocuments" xml:space="preserve">
+    <value>Required Documents</value>
+  </data>
+  <data name="SubmissionError" xml:space="preserve">
+    <value>You have errors , please check below</value>
+  </data>
+  <data name="SubmissionSuccess" xml:space="preserve">
+    <value>The form was successfully submitted</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="SupportingDocuments" xml:space="preserve">
+    <value>Supporting Documents</value>
+  </data>
+  <data name="BodyClass" xml:space="preserve">
+    <value>ltrenglish</value>
+  </data>
+  <data name="BootstrapCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/bootstrap/bootstrap.min.css</value>
+  </data>
+  <data name="CollectionCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/css-plugin-collections.css</value>
+  </data>
+  <data name="ComponentsCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/components.min.css</value>
+  </data>
+  <data name="CustomJS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/js/custom.js</value>
+  </data>
+  <data name="DatatableJS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/js/datatables/datatables.js</value>
+  </data>
+  <data name="DatatablesBootstrapCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/datatables/datatables.bootstrap.css</value>
+  </data>
+  <data name="FormWizardJS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/js/form-wizard.min.js</value>
+  </data>
+  <data name="LogoURL" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/images/LogoEng.svg</value>
+  </data>
+  <data name="MainCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/style-main.css</value>
+  </data>
+  <data name="MainExtraCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/style-main-extra.css</value>
+  </data>
+  <data name="MegaMenuCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/menuzord-megamenu.css</value>
+  </data>
+  <data name="MOE" xml:space="preserve">
+    <value>Ministry of Education and Higher Education - Qatar</value>
+  </data>
+  <data name="PaddingMarginCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/bootstrap/custom-bootstrap-margin-padding.css</value>
+  </data>
+  <data name="PluginsCSS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/plugins.min.css</value>
+  </data>
+  <data name="RowreorderJS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/js/datatables/table-datatables-rowreorder.js</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="BTNClass" xml:space="preserve">
+    <value>fa fa-angle-left</value>
+  </data>
+  <data name="BTNClassNxt" xml:space="preserve">
+    <value>fa fa-angle-right</value>
+  </data>
+  <data name="applicantData" xml:space="preserve">
+    <value>Applicant data</value>
+  </data>
+  <data name="ApplicationCompletionprocess" xml:space="preserve">
+    <value>Application Finalization Process</value>
+  </data>
+  <data name="appRefNum" xml:space="preserve">
+    <value>Application Reference Number</value>
+  </data>
+  <data name="CallforTest" xml:space="preserve">
+    <value>Call for Test</value>
+  </data>
+  <data name="CompletionSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="interview1" xml:space="preserve">
+    <value>Interview</value>
+  </data>
+  <data name="noActionTaken" xml:space="preserve">
+    <value>No Action Taken</value>
+  </data>
+  <data name="preEnrolScll" xml:space="preserve">
+    <value>PreEnrollment School</value>
+  </data>
+  <data name="ProcessApplied" xml:space="preserve">
+    <value>Applied Process for this application</value>
+  </data>
+  <data name="QatariID1" xml:space="preserve">
+    <value>Student Qatari ID (QID)</value>
+  </data>
+  <data name="RejectedTest" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="rejectReason" xml:space="preserve">
+    <value>Rejection Reason</value>
+  </data>
+  <data name="SearchCrit" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Send SMS message</value>
+  </data>
+  <data name="SendTestResult" xml:space="preserve">
+    <value>Send Test Result</value>
+  </data>
+  <data name="studentGender" xml:space="preserve">
+    <value>Student Gender</value>
+  </data>
+  <data name="studentName1" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="studentNationality" xml:space="preserve">
+    <value>Student Nationality</value>
+  </data>
+  <data name="submitMissingdoc" xml:space="preserve">
+    <value>Submit missing Documents</value>
+  </data>
+  <data name="test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TestDate" xml:space="preserve">
+    <value>Test Date</value>
+  </data>
+  <data name="TestResult" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="TestTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Callinterview" xml:space="preserve">
+    <value>Call for Interview</value>
+  </data>
+  <data name="interviewDate" xml:space="preserve">
+    <value>Interview Date</value>
+  </data>
+  <data name="interviewSection" xml:space="preserve">
+    <value>Interview Section</value>
+  </data>
+  <data name="interviewTime" xml:space="preserve">
+    <value>Interview Time</value>
+  </data>
+  <data name="InterviwRejectReason" xml:space="preserve">
+    <value>Interview Rejection reason</value>
+  </data>
+  <data name="Interviwresult" xml:space="preserve">
+    <value>Interview Result</value>
+  </data>
+  <data name="InterviwSMShistory" xml:space="preserve">
+    <value>SMS History</value>
+  </data>
+  <data name="Noactioninterview" xml:space="preserve">
+    <value>No action Taken</value>
+  </data>
+  <data name="Rejectinterview" xml:space="preserve">
+    <value>Reject Interview</value>
+  </data>
+  <data name="sendInterviewsms" xml:space="preserve">
+    <value>Send SMS message</value>
+  </data>
+  <data name="sendInterviwresult" xml:space="preserve">
+    <value>Send Interview Result</value>
+  </data>
+  <data name="SendTestRstConfirmation" xml:space="preserve">
+    <value>Send Test Result Confirmation</value>
+  </data>
+  <data name="studentGrade" xml:space="preserve">
+    <value>Student Grade</value>
+  </data>
+  <data name="UPLOADTestResult" xml:space="preserve">
+    <value>Upload Test Result</value>
+  </data>
+  <data name="Callforpayment" xml:space="preserve">
+    <value>Call for Payment</value>
+  </data>
+  <data name="CallseatReservation" xml:space="preserve">
+    <value>Call for Seat Reservation Fees</value>
+  </data>
+  <data name="feesPaidDate" xml:space="preserve">
+    <value>Fees paid Date</value>
+  </data>
+  <data name="reservationFees" xml:space="preserve">
+    <value>Reservation Fees</value>
+  </data>
+  <data name="seatReservation" xml:space="preserve">
+    <value>Seat Reservation</value>
+  </data>
+  <data name="feesInfo" xml:space="preserve">
+    <value>Fees information</value>
+  </data>
+  <data name="CompleteApplication" xml:space="preserve">
+    <value>Click to Finalize the Application</value>
+  </data>
+  <data name="CompleteApplicationTitle" xml:space="preserve">
+    <value>Finalize Application</value>
+  </data>
+  <data name="confirmreservComplete" xml:space="preserve">
+    <value>Confirm Seat Reservation</value>
+  </data>
+  <data name="EditApplication" xml:space="preserve">
+    <value>Click to edit the application</value>
+  </data>
+  <data name="EditApplicationTitle" xml:space="preserve">
+    <value>Edit Application</value>
+  </data>
+  <data name="sendreservpaymentSMS" xml:space="preserve">
+    <value>Send Payment Request</value>
+  </data>
+  <data name="showSMSHistory" xml:space="preserve">
+    <value>Show SMS History</value>
+  </data>
+  <data name="StudentApplcationHistory" xml:space="preserve">
+    <value>Student Applications History</value>
+  </data>
+  <data name="ApplicationStatus" xml:space="preserve">
+    <value>Application Status</value>
+  </data>
+  <data name="AddApplicationTitle" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="NoRequiredDocuments" xml:space="preserve">
+    <value>No Required Documents for the selected grade</value>
+  </data>
+  <data name="AddGrades" xml:space="preserve">
+    <value>Add Grades</value>
+  </data>
+  <data name="AreThereGradesApproved" xml:space="preserve">
+    <value>Are there any new grades Approved and added for this school for the Pre-Enrollment Year?</value>
+  </data>
+  <data name="HowmanyGrades" xml:space="preserve">
+    <value>How many Grades?</value>
+  </data>
+  <data name="NorequiredDocs" xml:space="preserve">
+    <value>No required documents for this application</value>
+  </data>
+  <data name="NoTestResults" xml:space="preserve">
+    <value>No Test Result exists  for this application</value>
+  </data>
+  <data name="FinalizedStatus" xml:space="preserve">
+    <value>Finalized</value>
+  </data>
+  <data name="ViewApplication" xml:space="preserve">
+    <value>View Application</value>
+  </data>
+  <data name="WaitList" xml:space="preserve">
+    <value>Waitlist</value>
+  </data>
+  <data name="EditApplicationFormTitle" xml:space="preserve">
+    <value>Edit Student Registration</value>
+  </data>
+  <data name="SendInvitation" xml:space="preserve">
+    <value>Send Invitation \ Rejection</value>
+  </data>
+  <data name="SendResult" xml:space="preserve">
+    <value>Send Result</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="InterviewResultBy" xml:space="preserve">
+    <value>Interview Result processed By</value>
+  </data>
+  <data name="MessageText" xml:space="preserve">
+    <value>Message Text</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="ResultBy" xml:space="preserve">
+    <value>Test Result processed By</value>
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="NotValidQID" xml:space="preserve">
+    <value>Invalid QID</value>
+  </data>
+  <data name="RVSchool" xml:space="preserve">
+    <value>this field is required</value>
+  </data>
+  <data name="EnrollmentControlling" xml:space="preserve">
+    <value>Enrollment Controlling</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="EnrollmentDateFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="EnrollmentDates" xml:space="preserve">
+    <value>Enrollment Dates</value>
+  </data>
+  <data name="EnrollmentDateTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="EnrollmentGrades" xml:space="preserve">
+    <value>Allowed Grades</value>
+  </data>
+  <data name="EnrollmentNationalities" xml:space="preserve">
+    <value>Allowed Nationalities</value>
+  </data>
+  <data name="EnrollmentOpenGrade" xml:space="preserve">
+    <value>Grades</value>
+  </data>
+  <data name="EnrollmentOpenNationalities" xml:space="preserve">
+    <value>Nationalies</value>
+  </data>
+  <data name="Nationalities" xml:space="preserve">
+    <value>Nationalities</value>
+  </data>
+  <data name="SelectedNationalities" xml:space="preserve">
+    <value>Selected Nationalities</value>
+  </data>
+  <data name="SelectGrades" xml:space="preserve">
+    <value>Selected Grades</value>
+  </data>
+  <data name="SelectNationalities" xml:space="preserve">
+    <value>Selected Nationalities</value>
+  </data>
+  <data name="UseCTRL" xml:space="preserve">
+    <value>Use 'Ctrl' to select multiple items</value>
+  </data>
+  <data name="AddApplicationDisclaimer" xml:space="preserve">
+    <value>Please note that the completion of applications for the reservation of seats is in accordance with the vision of the school and its regulations approved by the Ministry of Education and Higher Education</value>
+  </data>
+  <data name="ChosenJS" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/js/chosen.jquery.js</value>
+  </data>
+  <data name="AddException" xml:space="preserve">
+    <value>Add Exception</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="AllowRegistrationWhileEnrollmentClosed" xml:space="preserve">
+    <value>Allow Registration While Enrollment Closed</value>
+  </data>
+  <data name="AllowRepeatYear" xml:space="preserve">
+    <value>Allow Repeat Year</value>
+  </data>
+  <data name="ExceptionDetails" xml:space="preserve">
+    <value>Exception Details</value>
+  </data>
+  <data name="Exceptions" xml:space="preserve">
+    <value>Exceptions</value>
+  </data>
+  <data name="ExceptionValidUntil" xml:space="preserve">
+    <value>Exception Valid Until</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="beautifulCheckboxURL" xml:space="preserve">
+    <value>/_layouts/15/MOEHE.PSPES/assets/css/beautiful-checkbox.css</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Selectfile" xml:space="preserve">
+    <value>Select file</value>
+  </data>
+  <data name="ERROR_NOTFINALIZED_APPLICATION" xml:space="preserve">
+    <value>Provided application not yet finalized to process for the withdrawal.</value>
+  </data>
+  <data name="ERROR_SELECT_WITHDRAWALDATE" xml:space="preserve">
+    <value>Mandatory to select the withdrawal date.</value>
+  </data>
+  <data name="ERROR_SELECT_WITHDRAWALREASON" xml:space="preserve">
+    <value>Mandatory to select the withdrawal reason</value>
+  </data>
+  <data name="ERROR_SELECT_WITHDRAWALREQUESTDATE" xml:space="preserve">
+    <value>Mandatory to select the withdrawal request date</value>
+  </data>
+  <data name="ERROR_STUDENTDATA_NOTAVAILABLE" xml:space="preserve">
+    <value>Student data not available.</value>
+  </data>
+  <data name="ERROR_UPLOAD_DOCUMENT" xml:space="preserve">
+    <value>Mandatory to upload the document.</value>
+  </data>
+  <data name="ERROR_VALID_QID" xml:space="preserve">
+    <value>Please enter a valid Student QID</value>
+  </data>
+  <data name="FIELD_PAGE_WITHDRAWALREQUESTDATE" xml:space="preserve">
+    <value>Withdrawal Request Date</value>
+  </data>
+  <data name="FIELD_PAGE_WITHDRAWALTDATE" xml:space="preserve">
+    <value>Withdrawal Date</value>
+  </data>
+  <data name="FIELD_PAGE_WITHDRAWALTREASON" xml:space="preserve">
+    <value>Withdrawal Reason</value>
+  </data>
+  <data name="FIELD_PAGE_WITHDRAWALTUPLOAD" xml:space="preserve">
+    <value>Upload the Parent Request Form</value>
+  </data>
+  <data name="SUCCESS_WITHDRAWAL_ONSUBMIT" xml:space="preserve">
+    <value>Application cancelled successfully.</value>
+  </data>
+  <data name="TITLE_PAGE_WITHDRAWAL" xml:space="preserve">
+    <value>WITHDRAW THE STUDENT APPLICATION FROM SCHOOL</value>
+  </data>
+  <data name="TITLE_PAGE_WITHDRAWALINFO" xml:space="preserve">
+    <value>Withdrawal Info</value>
+  </data>
+  <data name="ERROR_NODATA" xml:space="preserve">
+    <value>No available data for this student in Ministry of Interior, please contact helpdesk</value>
+  </data>
+  <data name="BUTTON_TITLE_EXPORTEXCEL" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="BUTTON_TITLE_EXPORTPDF" xml:space="preserve">
+    <value>Export to PDF</value>
+  </data>
+  <data name="FIELD_TITLE_HEALTHISSUES" xml:space="preserve">
+    <value>Health Issues</value>
+  </data>
+  <data name="FIELD_TITLE_INTERVIEWINFO" xml:space="preserve">
+    <value>Interview Information</value>
+  </data>
+  <data name="FIELD_TITLE_TESTINFO" xml:space="preserve">
+    <value>Test Information</value>
+  </data>
+  <data name="REPORT_PAGE_REPORTINFO" xml:space="preserve">
+    <value>Report Information</value>
+  </data>
+  <data name="REPORT_PAGE_TITLE" xml:space="preserve">
+    <value>ALL IN ONE REPORT</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="SchoolGender" xml:space="preserve">
+    <value>School Gender</value>
+  </data>
+  <data name="SEAT_CAPACITY_REPORT_PAGE_TITLE" xml:space="preserve">
+    <value>Schools Seat Capacity and Availability Report</value>
+  </data>
+</root>

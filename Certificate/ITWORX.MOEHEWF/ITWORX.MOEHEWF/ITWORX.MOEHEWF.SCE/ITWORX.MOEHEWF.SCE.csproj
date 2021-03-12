@@ -1,0 +1,1258 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0EA7186-AB4C-4123-8603-EC88B1801F3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITWORX.MOEHEWF.SCE</RootNamespace>
+    <AssemblyName>ITWORX.MOEHEWF.SCE</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, PublicKeyToken=912e7393af98ccb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.3\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPdf, Version=5.2.0.22321, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronPdf.5.2.0.1\lib\net40\IronPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.licensekey, Version=3.0.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.licensekey.3.0.4\lib\net40\itext.licensekey.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.typography, Version=2.0.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.pdfcalligraph.2.0.3\lib\net40\itext.typography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Integration.SMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=495f854eafa1594f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ITWORX.MOEHE.Integration.SMS.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Utilities">
+      <HintPath>..\References\ITWORX.MOEHE.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Linq, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ITWORX.MOEHEWF.Common\References\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NReco.PdfGenerator, Version=1.1.15.0, Culture=neutral, PublicKeyToken=231663d50a41b451, processorArchitecture=MSIL">
+      <HintPath>..\packages\NReco.PdfGenerator.1.1.15\lib\net20\NReco.PdfGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CertificateResourceList.cs" />
+    <Compile Include="BL\CertificateType.cs" />
+    <Compile Include="BL\ClarificationRequests.cs" />
+    <Compile Include="BL\ExceptionRequests.cs" />
+    <Compile Include="BL\LateRequests.cs" />
+    <Compile Include="BL\Levels.cs" />
+    <Compile Include="BL\NationalityCategoryList.cs" />
+    <Compile Include="BL\NationalityList.cs" />
+    <Compile Include="BL\NewRequests.cs" />
+    <Compile Include="BL\SCERequestAttachments.cs" />
+    <Compile Include="BL\SCENotifcations.cs" />
+    <Compile Include="BL\ReassignRequests.cs" />
+    <Compile Include="BL\ReturnedRequests.cs" />
+    <Compile Include="BL\ScholasticLevel.cs" />
+    <Compile Include="BL\SchoolType.cs" />
+    <Compile Include="BL\SearchRequests.cs" />
+    <Compile Include="BL\StatementRequestBL.cs" />
+    <Compile Include="Context\SCEContext.cs" />
+    <Compile Include="Context\SCEContextExtended.cs" />
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ApprovedSimilarRequestsSCE.ascx.cs">
+      <DependentUpon>ApprovedSimilarRequestsSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ApprovedSimilarRequestsSCE.ascx.designer.cs">
+      <DependentUpon>ApprovedSimilarRequestsSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\DisplayRequestDetails.ascx.cs">
+      <DependentUpon>DisplayRequestDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\DisplayRequestDetails.ascx.designer.cs">
+      <DependentUpon>DisplayRequestDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequests.ascx.cs">
+      <DependentUpon>ClarificationRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NavigationLinksSCE.ascx.cs">
+      <DependentUpon>NavigationLinksSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NavigationLinksSCE.ascx.designer.cs">
+      <DependentUpon>NavigationLinksSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequests.ascx.designer.cs">
+      <DependentUpon>ClarificationRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ExceptionRequests.ascx.cs">
+      <DependentUpon>ExceptionRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ExceptionRequests.ascx.designer.cs">
+      <DependentUpon>ExceptionRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\LateRequests.ascx.cs">
+      <DependentUpon>LateRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\LateRequests.ascx.designer.cs">
+      <DependentUpon>LateRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewRequests.ascx.cs">
+      <DependentUpon>NewRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewRequests.ascx.designer.cs">
+      <DependentUpon>NewRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReassignRequests.ascx.cs">
+      <DependentUpon>ReassignRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReassignRequests.ascx.designer.cs">
+      <DependentUpon>ReassignRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReturnedRequests.ascx.cs">
+      <DependentUpon>ReturnedRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReturnedRequests.ascx.designer.cs">
+      <DependentUpon>ReturnedRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchRequests.ascx.cs">
+      <DependentUpon>SearchRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchRequests.ascx.designer.cs">
+      <DependentUpon>SearchRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchSimilarRequestsSCE.ascx.cs">
+      <DependentUpon>SearchSimilarRequestsSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchSimilarRequestsSCE.ascx.designer.cs">
+      <DependentUpon>SearchSimilarRequestsSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\CertificateResourceItem.cs" />
+    <Compile Include="Entities\ClarificationRequests.cs" />
+    <Compile Include="Entities\ExceptionRequests.cs" />
+    <Compile Include="Entities\FileUploadProperties.cs" />
+    <Compile Include="Entities\LateRequests.cs" />
+    <Compile Include="Entities\NationalityCategoryItem.cs" />
+    <Compile Include="Entities\NationalityItem.cs" />
+    <Compile Include="Entities\NewRequests.cs" />
+    <Compile Include="Entities\ReassignRequests.cs" />
+    <Compile Include="Entities\ReturnedRequests.cs" />
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequestSCE.ascx.cs">
+      <DependentUpon>ClarificationRequestSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequestSCE.ascx.designer.cs">
+      <DependentUpon>ClarificationRequestSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewClarificationSCE.ascx.cs">
+      <DependentUpon>NewClarificationSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewClarificationSCE.ascx.designer.cs">
+      <DependentUpon>NewClarificationSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ViewClarificationRequestSCE.ascx.cs">
+      <DependentUpon>ViewClarificationRequestSCE.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ViewClarificationRequestSCE.ascx.designer.cs">
+      <DependentUpon>ViewClarificationRequestSCE.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\SCEClarificationRequest.cs" />
+    <Compile Include="Entities\SCEIB.cs" />
+    <Compile Include="Entities\SCEIGCSE.cs" />
+    <Compile Include="Entities\SearchRequests.cs" />
+    <Compile Include="Entities\StatementRequest.cs" />
+    <Compile Include="Entities\SearchSimilarRequest.cs" />
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\ChangeFUProperties.aspx.cs">
+      <DependentUpon>ChangeFUProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\ChangeFUProperties.aspx.designer.cs">
+      <DependentUpon>ChangeFUProperties.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\GetMOIUserProfile.aspx.cs">
+      <DependentUpon>GetMOIUserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\GetMOIUserProfile.aspx.designer.cs">
+      <DependentUpon>GetMOIUserProfile.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\Timeout.aspx.cs">
+      <DependentUpon>Timeout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.SCE\Timeout.aspx.designer.cs">
+      <DependentUpon>Timeout.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ITWORX_MOEHEWF_SCE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ITWORX_MOEHEWF_SCE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEBookReply\SCEBookReply.cs" />
+    <Compile Include="WebParts\SCEBookReply\SCEBookReplyUserControl.ascx.cs">
+      <DependentUpon>SCEBookReplyUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEBookReply\SCEBookReplyUserControl.ascx.designer.cs">
+      <DependentUpon>SCEBookReplyUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\BusinessHelper.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\ControlBase.cs" />
+    <Compile Include="WebParts\AddSCEStatement\AddSCEStatement.cs" />
+    <Compile Include="WebParts\AddSCEStatement\AddSCEStatementUserControl.ascx.cs">
+      <DependentUpon>AddSCEStatementUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\AddSCEStatement\AddSCEStatementUserControl.ascx.designer.cs">
+      <DependentUpon>AddSCEStatementUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\EditRequest\EditRequest.cs" />
+    <Compile Include="WebParts\EditRequest\EditRequestUserControl.ascx.cs">
+      <DependentUpon>EditRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\EditRequest\EditRequestUserControl.ascx.designer.cs">
+      <DependentUpon>EditRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\EmployeeDashboard\EmployeeDashboard.cs" />
+    <Compile Include="WebParts\EmployeeDashboard\EmployeeDashboardUserControl.ascx.cs">
+      <DependentUpon>EmployeeDashboardUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\EmployeeDashboard\EmployeeDashboardUserControl.ascx.designer.cs">
+      <DependentUpon>EmployeeDashboardUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ClarificationRequest\ClarificationRequest.cs" />
+    <Compile Include="WebParts\ClarificationRequest\ClarificationRequestUserControl.ascx.cs">
+      <DependentUpon>ClarificationRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\ClarificationRequest\ClarificationRequestUserControl.ascx.designer.cs">
+      <DependentUpon>ClarificationRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\EmpReturnRequestWP\EmpReturnRequestWP.cs" />
+    <Compile Include="WebParts\EmpReturnRequestWP\EmpReturnRequestWPUserControl.ascx.cs">
+      <DependentUpon>EmpReturnRequestWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\EmpReturnRequestWP\EmpReturnRequestWPUserControl.ascx.designer.cs">
+      <DependentUpon>EmpReturnRequestWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\NewClarificationRequest\NewClarificationRequest.cs" />
+    <Compile Include="WebParts\NewClarificationRequest\NewClarificationRequestUserControl.ascx.cs">
+      <DependentUpon>NewClarificationRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\NewClarificationRequest\NewClarificationRequestUserControl.ascx.designer.cs">
+      <DependentUpon>NewClarificationRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\NewRequest\NewRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebParts\NewRequest\NewRequestUserControl.ascx.cs">
+      <DependentUpon>NewRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\NewRequest\NewRequestUserControl.ascx.designer.cs">
+      <DependentUpon>NewRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMDecisionSCE\PMDecisionSCE.cs" />
+    <Compile Include="WebParts\PMDecisionSCE\PMDecisionSCEUserControl.ascx.cs">
+      <DependentUpon>PMDecisionSCEUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PMDecisionSCE\PMDecisionSCEUserControl.ascx.designer.cs">
+      <DependentUpon>PMDecisionSCEUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMRejectRequestSCE\PMRejectRequestSCE.cs" />
+    <Compile Include="WebParts\PMRejectRequestSCE\PMRejectRequestSCEUserControl.ascx.cs">
+      <DependentUpon>PMRejectRequestSCEUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PMRejectRequestSCE\PMRejectRequestSCEUserControl.ascx.designer.cs">
+      <DependentUpon>PMRejectRequestSCEUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCERequestHistroyWP\SCERequestHistroyWP.cs" />
+    <Compile Include="WebParts\SCERequestHistroyWP\SCERequestHistroyWPUserControl.ascx.cs">
+      <DependentUpon>SCERequestHistroyWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCERequestHistroyWP\SCERequestHistroyWPUserControl.ascx.designer.cs">
+      <DependentUpon>SCERequestHistroyWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PERecommendation\PERecommendation.cs" />
+    <Compile Include="WebParts\PERecommendation\PERecommendationUserControl.ascx.cs">
+      <DependentUpon>PERecommendationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PERecommendation\PERecommendationUserControl.ascx.designer.cs">
+      <DependentUpon>PERecommendationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCENavigationLinks\SCENavigationLinks.cs" />
+    <Compile Include="WebParts\SCENavigationLinks\SCENavigationLinksUserControl.ascx.cs">
+      <DependentUpon>SCENavigationLinksUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCENavigationLinks\SCENavigationLinksUserControl.ascx.designer.cs">
+      <DependentUpon>SCENavigationLinksUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\Sample\Sample.cs" />
+    <Compile Include="WebParts\Sample\SampleUserControl.ascx.cs">
+      <DependentUpon>SampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\Sample\SampleUserControl.ascx.designer.cs">
+      <DependentUpon>SampleUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEStatementListing\SCEStatementListing.cs" />
+    <Compile Include="WebParts\SCEStatementListing\SCEStatementListingUserControl.ascx.cs">
+      <DependentUpon>SCEStatementListingUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEStatementListing\SCEStatementListingUserControl.ascx.designer.cs">
+      <DependentUpon>SCEStatementListingUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEStatementReply\SCEStatementReply.cs" />
+    <Compile Include="WebParts\SCEStatementReply\SCEStatementReplyUserControl.ascx.cs">
+      <DependentUpon>SCEStatementReplyUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEStatementReply\SCEStatementReplyUserControl.ascx.designer.cs">
+      <DependentUpon>SCEStatementReplyUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEViewStatement\SCEViewStatement.cs" />
+    <Compile Include="WebParts\SCEViewStatement\SCEViewStatementUserControl.ascx.cs">
+      <DependentUpon>SCEViewStatementUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEViewStatement\SCEViewStatementUserControl.ascx.designer.cs">
+      <DependentUpon>SCEViewStatementUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCESearchSimilarRequests\SCESearchSimilarRequests.cs" />
+    <Compile Include="WebParts\SCESearchSimilarRequests\SCESearchSimilarRequestsUserControl.ascx.cs">
+      <DependentUpon>SCESearchSimilarRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCESearchSimilarRequests\SCESearchSimilarRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>SCESearchSimilarRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEViewSimilarRequests\SCEViewSimilarRequests.cs" />
+    <Compile Include="WebParts\SCEViewSimilarRequests\SCEViewSimilarRequestsUserControl.ascx.cs">
+      <DependentUpon>SCEViewSimilarRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEViewSimilarRequests\SCEViewSimilarRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>SCEViewSimilarRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\NewSCEBooksRequest\NewSCEBooksRequest.cs" />
+    <Compile Include="WebParts\NewSCEBooksRequest\NewSCEBooksRequestUserControl.ascx.cs">
+      <DependentUpon>NewSCEBooksRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\NewSCEBooksRequest\NewSCEBooksRequestUserControl.ascx.designer.cs">
+      <DependentUpon>NewSCEBooksRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEBooksRequests\SCEBooksRequests.cs" />
+    <Compile Include="WebParts\SCEBooksRequests\SCEBooksRequestsUserControl.ascx.cs">
+      <DependentUpon>SCEBooksRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEBooksRequests\SCEBooksRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>SCEBooksRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SCEReplyToBook\SCEReplyToBook.cs" />
+    <Compile Include="WebParts\SCEReplyToBook\SCEReplyToBookUserControl.ascx.cs">
+      <DependentUpon>SCEReplyToBookUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\SCEReplyToBook\SCEReplyToBookUserControl.ascx.designer.cs">
+      <DependentUpon>SCEReplyToBookUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ViewClarificationRequest\ViewClarificationRequest.cs" />
+    <Compile Include="WebParts\ViewClarificationRequest\ViewClarificationRequestUserControl.ascx.cs">
+      <DependentUpon>ViewClarificationRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\ViewClarificationRequest\ViewClarificationRequestUserControl.ascx.designer.cs">
+      <DependentUpon>ViewClarificationRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ViewContact\ViewContact.cs" />
+    <Compile Include="WebParts\ViewContact\ViewContactUserControl.ascx.cs">
+      <DependentUpon>ViewContactUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\ViewContact\ViewContactUserControl.ascx.designer.cs">
+      <DependentUpon>ViewContactUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ViewRequest\ViewRequest.cs" />
+    <Compile Include="WebParts\ViewRequest\ViewRequestUserControl.ascx.cs">
+      <DependentUpon>ViewRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\ViewRequest\ViewRequestUserControl.ascx.designer.cs">
+      <DependentUpon>ViewRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Applicant\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{707c4c30-0b5e-4b43-a4ac-ec7b7701f3f8}</SharePointProjectItemId>
+    </None>
+    <None Include="App_GlobalResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef141545-e9c1-4978-8c0a-bd32d39001af}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fd9d285e-1dc1-44e2-911f-5a161f86e325}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\AttachmentsCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6df78cd4-344b-4142-ab3d-9e8027e57a47}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\LookupsCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f34f487f-d311-4f7d-853c-9cc803fa1904}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9989c2d5-defb-4e8b-a7e9-69d15111c616}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Applicant\Applicant.feature">
+      <FeatureId>{2279ca6b-3e59-479a-86a9-b5841df3f88c}</FeatureId>
+    </None>
+    <None Include="Features\Common\Common.feature">
+      <FeatureId>{24e6c847-8a93-4fb7-8c26-f605ddf7273b}</FeatureId>
+    </None>
+    <None Include="Features\Reviewer\Reviewer.feature">
+      <FeatureId>{22d8a187-e982-4b5c-93a7-1a4ba89b9755}</FeatureId>
+    </None>
+    <None Include="Features\WebParts\WebParts.feature">
+      <FeatureId>{a4f8c6c5-72f7-4bc2-ad74-f5aa77355c4f}</FeatureId>
+    </None>
+    <None Include="Features\Web\Web.feature">
+      <FeatureId>{d6f9295f-891a-469a-944e-0b52527e0c66}</FeatureId>
+    </None>
+    <None Include="Features\Site\Site.feature">
+      <FeatureId>{0e3e55a5-9dae-42ec-a1a4-822e44a9f7b3}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\ITWORX.MOEHEWF.SCE\js\font\summernote.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.SCE\js\font\summernote.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.SCE\js\font\summernote.woff" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6ef495c3-f758-48ab-b70f-17c9dffd658c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\AttachmentsLookup\AttachmentsLookupInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a7c93850-b387-4ae2-a769-60eee699ef8d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\AttachmentsLookup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{96cc003d-1da8-49a6-9822-24a65dda2449}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CertificateAgency\CertificateAgencyInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b10214d5-5c0f-4cae-91d5-660e827994fc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CertificateAgency\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cc9b3c56-8a12-4930-bda3-ae0c758a24bd}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CertificateType\CertificateTypeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa432a55-a9bd-4542-a655-f6a167415fda}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CertificateType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{665407be-2251-4423-8577-fffd2d79d4ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ClarificationReasons\ClarificationReasonsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13cbe4da-fc67-420a-ac91-b45f06a56b22}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ClarificationReasons\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5d1aaabb-b93e-4ecd-b77f-3b515802e509}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\EquivalencyPurpose\EquivalencyPurposeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dcfa082d-91fe-416a-a52e-f3b4703877df}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\EquivalencyPurpose\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{360b0ee5-abdf-41b2-975c-dfed06ecd5d6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ExCommAgency\ExCommAgencyInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63b6c41f-1e2b-4acf-9f91-f460bc718956}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ExCommAgency\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e871a8a5-9c43-469d-a75b-b3097cccc0f9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FileName\FileNameInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4b7f29ab-eca1-4644-b59d-bff26e52e48d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\FileName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c0fd539d-014c-4aed-b83f-496c6b249f81}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IGDegree\IGDegreeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d1eec9fe-eeef-4300-b665-00a7d9df31f7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IGDegree\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad64a897-5d8c-4185-b45f-e286897fbe28}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Levels\LevelsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{49ac47de-6f6f-47b5-b487-99cf89b51f3e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Levels\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{39c4f375-6247-4653-acc9-d636593ab7b0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NotificationAudiance\NotificationAudianceInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7838561c-b4ee-41fd-b994-f337bc105a4d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NotificationAudiance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c5a4bc7f-f23d-4866-a8f7-25e0f1461e4a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Recommendations\RecommendationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6fed857f-b885-4b5b-837a-1e7c0dae9afd}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Recommendations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{12b64b65-d232-43e6-b488-a3c1e9c7dc59}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RejectionReasons\RejectionReasonsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{07808dee-ed7d-423b-9942-c2cf20200f36}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RejectionReasons\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4f6d8e64-2630-40a8-b4bc-2bf0c6974ce6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ReturnReasons\ReturnReasonsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f1abf602-e180-4200-a598-aca516cf3ffa}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ReturnReasons\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0ad237b-d234-416f-8bb4-f1be25a8f437}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEHMReturnRequests\SCEHMReturnRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{284e0c1b-4aa9-45a5-8810-ed616cfb8d3c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEHMReturnRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0697e8be-639d-424b-a9ba-c01c0ed259d3}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEHMDecision\SCEHMDecisionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11ef05df-15b7-4f5e-8edf-c6657dbd1c6d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEHMDecision\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0d077187-bcfb-467d-a3e6-743b0b93063c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEIB\SCEIBInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d71e072-bb57-4e96-9809-a93104d04009}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEIB\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{089e84eb-bcfa-41fe-aba7-a0afcbb6ebb8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEIGCSE\SCEIGCSEInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{18bbb850-5d3c-4d54-9bf6-b6026d437015}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEIGCSE\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68f1ef94-61e0-4466-8819-911fa80df365}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEEmployees\SCEEmployeesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ecf7caa0-d279-4c48-9e5e-4df1a0064c74}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEEmployees\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2a39365c-0a15-4b30-a554-3bee77030b70}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCENavigationLinks\SCENavigationLinksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{585f3299-f0e7-4735-a0bd-b27544ebc0a8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCENavigationLinks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7bd4c22e-6ce5-4ac4-9758-b0c3e6984b46}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCENotifications\SCENotifications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db8c77fb-54f4-4c7f-b709-4dc0f718ecb9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCENotifications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{46d9cd38-2501-4770-8a14-9d9a448df15a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEPMReturnRequests\SCEPMReturnRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6762d8f9-8d0a-4b67-8ebd-b0486d88e19d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEPMReturnRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{22519e8e-ee25-45a9-b48f-500a5b01d87a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEPMDecision\SCEPMDecisionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f9a64b93-2e7e-4bed-984a-a8dfa2b8384c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEPMDecision\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c5a48ab3-6203-4006-8f5c-0493fd5f30a1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestHistory\SCERequestHistory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a166e99-d4bc-4a69-a9d8-508768434593}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestHistory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e345d5ce-2971-4fea-ac9c-2a1c21193ad3}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestsAssignments\SCERequestsAssignmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8fef3d4d-0a0c-46eb-b53b-048427803534}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestsAssignments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c33edc4-33ba-410b-a7c8-cbd3c053791c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestsAttachments\SCERequestsAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9dc7db6b-c605-4779-8750-00545fefe1ef}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequestsAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a86e74bf-ddf2-4a47-8c5e-8ee19df93919}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchCritaria\SCESearchCritariaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ff4e120-240f-4267-bf56-f9a589a303e4}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchCritaria\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3326d24b-ecdb-4064-9834-15eb00666d51}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ScholasticLevel\ScholasticLevelInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f1c110de-4774-4100-a93e-cab925fc06c1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ScholasticLevel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{726a7355-c023-4c1c-b48f-ac33bdeb343d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SchoolSystem\SchoolSystemInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb6df01e-8709-40b2-b959-d61b95d957d4}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SchoolSystem\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c0139fcf-173f-4f62-b9f5-ce2d31c192ac}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SchoolType\SchoolTypeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a7fa2e3-0610-40d4-9050-eda866e291b8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SchoolType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f301f1c-5632-4601-8651-1296713c46a8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatementAgency\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ccccc576-6c83-4be7-b50a-85614ab15868}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatementAgency\StatementAgencyInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ea8f2bd3-96cb-443c-98d1-f95559e66f1f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEBookAttachments\SCEBookAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{530e8433-123f-48ed-9840-41fc7bbdbe3d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEBookAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{93c66a13-c0b8-4231-91ee-b07675174160}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEBooksRequests\SCEBooksRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{548cae3b-b313-4b40-bb34-bfb3e2696ece}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEBooksRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9363a91-b5e0-49fb-aeb6-e7a872209f94}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEClarificationsRequests\SCEClarificationsRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c201ebbe-898f-4809-ab4f-6ba5b8e2601e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEClarificationsRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f78b7bdb-461d-4d3b-b1e0-c6c23f84375a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequests\SCERequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aa03be55-f6b0-4c10-a225-ff08c8671796}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCERequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d59d31ab-a527-40c6-b90a-3cdc6b64d58d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchStatusRecommendationAttachments\SCESearchStatusRecommendationAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{82be0ab9-4f95-4053-bc8d-e8ad6732a584}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchStatusRecommendationAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fc20a175-0cfc-4564-b499-5beec6c20ca2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchStatusRecommendation\SCESearchStatusRecommendationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{439b631e-f19d-46e6-a6d8-eeb2a3fa1f67}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCESearchStatusRecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{57acba32-48da-4fd8-8c84-d7815a699cec}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEStatementsAttachments\SCEStatementsAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8710ccd1-46fe-4d25-8715-f309addc7c2a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEStatementsAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ce62113d-89a8-4fdd-a6ab-07416e5cb4c1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEStatementsRequests\SCEStatementsRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25934025-bfea-473e-bc21-42f4d280976d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEStatementsRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e8758778-f3f6-42db-9174-895444f1d14f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEUnauthorizedReason\SCEUnauthorizedReasonInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a4aade29-8269-434d-a396-3873aeef5b0e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\SCEUnauthorizedReason\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cfc917a5-d5fa-467f-97ac-79fc70f2697a}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{9fc92fa3-1590-4680-ac42-a7c15423c35f}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{93d585a9-4413-48b2-9943-284b39a48391}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEBookReply\SCEBookReply.webpart" />
+    <None Include="WebParts\SCEBookReply\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{882d328e-05ba-4e37-8e58-198302438c62}</SharePointProjectItemId>
+    </None>
+    <None Include="Reviewer\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e4838a8a-b0bc-42e4-9889-7a5228aa6ad9}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\MOEHECountryType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63858bd7-d145-4344-b5d1-7690e82a5b73}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\MOEHEDocumentGroup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f6398b3-fe8c-4912-8c97-74fd3e65b7c0}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\MOEHEDocumentStatus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6dc5f7db-e7e4-45e2-990f-f1439ba6940a}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\Status\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{12bc1481-913d-4e3d-8230-1ba87356d0a6}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\TitleAr\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{578dbbe7-0c6b-45c4-a090-b1bc63adabf4}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\AddSCEStatement\AddSCEStatement.webpart" />
+    <None Include="WebParts\AddSCEStatement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d519e797-d8ea-4ca9-ab35-0bb1623e0ccb}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ClarificationRequest\ClarificationRequest.webpart" />
+    <None Include="WebParts\ClarificationRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d40fd8b5-9a61-4ec0-b99f-261099cdcacb}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\EmployeeDashboard\EmployeeDashboard.webpart" />
+    <None Include="WebParts\EmployeeDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9ca3a2c4-00a9-4045-87f0-52d6f02b863a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\EmpReturnRequestWP\EmpReturnRequestWP.webpart" />
+    <None Include="WebParts\EmpReturnRequestWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f406470f-b107-4f42-8956-9a87ae71b827}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\NewClarificationRequest\NewClarificationRequest.webpart" />
+    <None Include="WebParts\NewClarificationRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c09d79b1-dac0-47ee-8043-439cb60d414c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\NewRequest\NewRequest.webpart" />
+    <None Include="WebParts\NewRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e332f558-6ca0-4b49-9d31-847c777a128b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PERecommendation\PERecommendation.webpart" />
+    <None Include="WebParts\PERecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0e1f6c4f-22cc-43c2-8b83-6787882d1658}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\Sample\Sample.webpart" />
+    <None Include="WebParts\Sample\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{002d98cc-4cb9-4813-9a84-460fb6705c7c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCENavigationLinks\SCENavigationLinks.webpart" />
+    <None Include="WebParts\SCENavigationLinks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ae23018-5a9d-439f-b3ef-8d28304678e1}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMDecisionSCE\PMDecisionSCE.webpart" />
+    <None Include="WebParts\PMDecisionSCE\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f8f84d81-4802-4c1d-80ab-f37daaf342f9}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMRejectRequestSCE\PMRejectRequestSCE.webpart" />
+    <None Include="WebParts\PMRejectRequestSCE\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25f9e0a0-96fc-4cd6-9ad5-a5178fc22b93}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCERequestHistroyWP\SCERequestHistroyWP.webpart" />
+    <None Include="WebParts\SCERequestHistroyWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{053cba52-4b8d-4407-9fb3-51f59ba26d54}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEStatementListing\SCEStatementListing.webpart" />
+    <None Include="WebParts\SCEStatementListing\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{550b8cea-5158-4e58-903a-e9d36e58006c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEStatementReply\SCEStatementReply.webpart" />
+    <None Include="WebParts\SCEStatementReply\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68b2ef2e-9a68-47dd-926f-997a40564da1}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEViewStatement\SCEViewStatement.webpart" />
+    <None Include="WebParts\SCEViewStatement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{24c24159-128c-4f7b-90c2-8b43e9c3f762}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCESearchSimilarRequests\SCESearchSimilarRequests.webpart" />
+    <None Include="WebParts\SCESearchSimilarRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{69d65d1d-8b1f-4e91-944a-a35ca46e2712}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEViewSimilarRequests\SCEViewSimilarRequests.webpart" />
+    <None Include="WebParts\SCEViewSimilarRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{155aed2e-2061-4ffd-b5ba-409d7198f7cf}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\NewSCEBooksRequest\NewSCEBooksRequest.webpart" />
+    <None Include="WebParts\NewSCEBooksRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3a24d617-bb96-4ae5-b673-4b06edbae8e8}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEBooksRequests\SCEBooksRequests.webpart" />
+    <None Include="WebParts\SCEBooksRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f8d87b2-421b-4aa3-9605-865f968dd687}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SCEReplyToBook\SCEReplyToBook.webpart" />
+    <None Include="WebParts\SCEReplyToBook\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3381602a-373e-4963-85d6-81aa7b1a347e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ViewClarificationRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dd64babc-32d2-4ac0-9f5b-f6da6a612d0b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ViewClarificationRequest\ViewClarificationRequest.webpart" />
+    <None Include="WebParts\EditRequest\EditRequest.webpart" />
+    <None Include="WebParts\EditRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{59099380-38c7-4399-a9d3-1d8f7ec3cd90}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ViewContact\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c4447dfe-c5d4-46c6-b7ea-4c138f0f3478}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ViewContact\ViewContact.webpart" />
+    <None Include="WebParts\ViewRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9de81b98-34e8-4c70-bc46-9af3cd2f8dab}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ViewRequest\ViewRequest.webpart" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Applicant\EditSCERequest.aspx" />
+    <Content Include="Applicant\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Applicant\NewSCERequest.aspx" />
+    <Content Include="Applicant\SCEClarificationRequestDetails.aspx" />
+    <Content Include="Applicant\SCEClarificationsListing.aspx" />
+    <Content Include="Applicant\SampleUpload.aspx" />
+    <Content Include="Applicant\SCERequestHistory.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\Certificates\ApplicantSchoolingEquivilance.html" />
+    <Content Include="Common\Elements.xml" />
+    <Content Include="Common\ViewContact.aspx" />
+    <Content Include="Common\ViewRequest.aspx" />
+    <Content Include="ContentTypes\LookupsCT\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ApprovedSimilarRequestsSCE.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ExceptionRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\LateRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReassignRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReturnedRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequestSCE.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NavigationLinksSCE.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewClarificationSCE.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchSimilarRequestsSCE.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ViewClarificationRequestSCE.ascx" />
+    <Content Include="Features\Applicant\Applicant.Template.xml">
+      <DependentUpon>Applicant.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Common\Common.Template.xml">
+      <DependentUpon>Common.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Reviewer\Reviewer.Template.xml">
+      <DependentUpon>Reviewer.feature</DependentUpon>
+    </Content>
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\DisplayRequestDetails.ascx" />
+    <Content Include="Features\WebParts\WebParts.Template.xml">
+      <DependentUpon>WebParts.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Web\Web.Template.xml">
+      <DependentUpon>Web.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Site\Site.Template.xml">
+      <DependentUpon>Site.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\Certificates\ElementryTemplate.html" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\Certificates\MinistryFooter.JPG" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\Certificates\MinistryLogo.JPG" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\ChangeFUProperties.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\GetMOIUserProfile.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\js\summernote-ar-AR.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\js\summernote.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\js\summernote.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.SCE\Timeout.aspx" />
+    <Content Include="Lists\AttachmentsLookup\AttachmentsLookupInstance\Elements.xml" />
+    <Content Include="Lists\AttachmentsLookup\Elements.xml" />
+    <Content Include="Lists\AttachmentsLookup\Schema.xml" />
+    <Content Include="Lists\CertificateAgency\CertificateAgencyInstance\Elements.xml" />
+    <Content Include="Lists\CertificateAgency\Elements.xml" />
+    <Content Include="Lists\CertificateAgency\Schema.xml" />
+    <Content Include="Lists\CertificateType\CertificateTypeInstance\Elements.xml" />
+    <Content Include="Lists\CertificateType\Elements.xml" />
+    <Content Include="Lists\CertificateType\Schema.xml" />
+    <Content Include="Lists\ClarificationReasons\ClarificationReasonsInstance\Elements.xml" />
+    <Content Include="Lists\ClarificationReasons\Elements.xml" />
+    <Content Include="Lists\ClarificationReasons\Schema.xml" />
+    <Content Include="Lists\EquivalencyPurpose\Elements.xml" />
+    <Content Include="Lists\EquivalencyPurpose\EquivalencyPurposeInstance\Elements.xml" />
+    <Content Include="Lists\EquivalencyPurpose\Schema.xml" />
+    <Content Include="Lists\ExCommAgency\Elements.xml" />
+    <Content Include="Lists\ExCommAgency\ExCommAgencyInstance\Elements.xml" />
+    <Content Include="Lists\ExCommAgency\Schema.xml" />
+    <Content Include="Lists\FileName\Elements.xml" />
+    <Content Include="Lists\FileName\FileNameInstance\Elements.xml" />
+    <Content Include="Lists\FileName\Schema.xml" />
+    <Content Include="Lists\IGDegree\Elements.xml" />
+    <Content Include="Lists\IGDegree\IGDegreeInstance\Elements.xml" />
+    <Content Include="Lists\IGDegree\Schema.xml" />
+    <Content Include="Lists\Levels\Elements.xml" />
+    <Content Include="Lists\Levels\LevelsInstance\Elements.xml" />
+    <Content Include="Lists\Levels\Schema.xml" />
+    <Content Include="Lists\NotificationAudiance\Elements.xml" />
+    <Content Include="Lists\NotificationAudiance\NotificationAudianceInstance\Elements.xml" />
+    <Content Include="Lists\NotificationAudiance\Schema.xml" />
+    <Content Include="Lists\Recommendations\Elements.xml" />
+    <Content Include="Lists\Recommendations\RecommendationsInstance\Elements.xml" />
+    <Content Include="Lists\Recommendations\Schema.xml" />
+    <Content Include="Lists\RejectionReasons\Elements.xml" />
+    <Content Include="Lists\RejectionReasons\RejectionReasonsInstance\Elements.xml" />
+    <Content Include="Lists\RejectionReasons\Schema.xml" />
+    <Content Include="Lists\ReturnReasons\Elements.xml" />
+    <Content Include="Lists\ReturnReasons\ReturnReasonsInstance\Elements.xml" />
+    <Content Include="Lists\ReturnReasons\Schema.xml" />
+    <Content Include="Lists\SCEHMReturnRequests\Elements.xml" />
+    <Content Include="Lists\SCEHMReturnRequests\SCEHMReturnRequests\Elements.xml" />
+    <Content Include="Lists\SCEHMReturnRequests\Schema.xml" />
+    <Content Include="Lists\SCEHMDecision\Elements.xml" />
+    <Content Include="Lists\SCEHMDecision\SCEHMDecisionInstance\Elements.xml" />
+    <Content Include="Lists\SCEHMDecision\Schema.xml" />
+    <Content Include="Lists\SCEIB\Elements.xml" />
+    <Content Include="Lists\SCEIB\SCEIBInstance\Elements.xml" />
+    <Content Include="Lists\SCEIB\Schema.xml" />
+    <Content Include="Lists\SCEIGCSE\Elements.xml" />
+    <Content Include="Lists\SCEIGCSE\SCEIGCSEInstance\Elements.xml" />
+    <Content Include="Lists\SCEIGCSE\Schema.xml" />
+    <Content Include="Lists\SCEEmployees\Elements.xml" />
+    <Content Include="Lists\SCEEmployees\SCEEmployeesInstance\Elements.xml" />
+    <Content Include="Lists\SCEEmployees\Schema.xml" />
+    <Content Include="Lists\SCENavigationLinks\Elements.xml" />
+    <Content Include="Lists\SCENavigationLinks\SCENavigationLinksInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\SCENavigationLinks\Schema.xml" />
+    <Content Include="Lists\SCENotifications\Elements.xml" />
+    <Content Include="Lists\SCENotifications\SCENotifications\Elements.xml" />
+    <Content Include="Lists\SCENotifications\Schema.xml" />
+    <Content Include="Lists\SCEPMReturnRequests\Elements.xml" />
+    <Content Include="Lists\SCEPMReturnRequests\SCEPMReturnRequests\Elements.xml" />
+    <Content Include="Lists\SCEPMReturnRequests\Schema.xml" />
+    <Content Include="Lists\SCEPMDecision\Elements.xml" />
+    <Content Include="Lists\SCEPMDecision\SCEPMDecisionInstance\Elements.xml" />
+    <Content Include="Lists\SCEPMDecision\Schema.xml" />
+    <Content Include="Lists\SCERequestHistory\Elements.xml" />
+    <Content Include="Lists\SCERequestHistory\SCERequestHistory\Elements.xml" />
+    <Content Include="Lists\SCERequestHistory\Schema.xml" />
+    <Content Include="Lists\SCERequestsAssignments\Elements.xml" />
+    <Content Include="Lists\SCERequestsAssignments\SCERequestsAssignmentsInstance\Elements.xml" />
+    <Content Include="Lists\SCERequestsAssignments\Schema.xml" />
+    <Content Include="Lists\SCERequestsAttachments\EditDlg.htm" />
+    <Content Include="Lists\SCERequestsAttachments\Elements.xml" />
+    <Content Include="Lists\SCERequestsAttachments\FileDlg.htm" />
+    <Content Include="Lists\SCERequestsAttachments\Repair.aspx" />
+    <Content Include="Lists\SCERequestsAttachments\SCERequestsAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\SCERequestsAttachments\Schema.xml" />
+    <Content Include="Lists\SCERequestsAttachments\Upload.aspx" />
+    <Content Include="Lists\SCESearchCritaria\Elements.xml" />
+    <Content Include="Lists\SCESearchCritaria\SCESearchCritariaInstance\Elements.xml" />
+    <Content Include="Lists\SCESearchCritaria\Schema.xml" />
+    <Content Include="Lists\ScholasticLevel\Elements.xml" />
+    <Content Include="Lists\ScholasticLevel\Schema.xml" />
+    <Content Include="Lists\ScholasticLevel\ScholasticLevelInstance\Elements.xml" />
+    <Content Include="Lists\SchoolSystem\Elements.xml" />
+    <Content Include="Lists\SchoolSystem\Schema.xml" />
+    <Content Include="Lists\SchoolSystem\SchoolSystemInstance\Elements.xml" />
+    <Content Include="Lists\SchoolType\Elements.xml" />
+    <Content Include="Lists\SchoolType\Schema.xml" />
+    <Content Include="Lists\SchoolType\SchoolTypeInstance\Elements.xml" />
+    <Content Include="Lists\StatementAgency\Elements.xml" />
+    <Content Include="Lists\StatementAgency\Schema.xml" />
+    <Content Include="Lists\StatementAgency\StatementAgencyInstance\Elements.xml" />
+    <Content Include="NewSCERequest.aspx" />
+    <Content Include="Reviewer\AddSCEStatement.aspx" />
+    <Content Include="Reviewer\EditSCERequest.aspx" />
+    <Content Include="Reviewer\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reviewer\Elements.xml" />
+    <Content Include="Reviewer\SCEDecisionPM.aspx" />
+    <Content Include="Reviewer\SCERReturnRequestEmp.aspx" />
+    <Content Include="Reviewer\SCERequestHistory.aspx" />
+    <Content Include="Reviewer\SCERejectRequestPM.aspx" />
+    <Content Include="Reviewer\SCEReplyToBookRequest.aspx" />
+    <Content Include="WebParts\SCEBookReply\Elements.xml" />
+    <Content Include="WebParts\SCEBookReply\SCEBookReplyUserControl.ascx" />
+    <Content Include="Reviewer\SCEBookRequests.aspx" />
+    <Content Include="Reviewer\SCEBookRequestDetails.aspx" />
+    <Content Include="Reviewer\NewSCERequest.aspx" />
+    <Content Include="Reviewer\SCEPERecommendation.aspx" />
+    <Content Include="Reviewer\SCEViewSimilarRequests.aspx" />
+    <Content Include="Reviewer\SCESearchSimilarRequests.aspx" />
+    <Content Include="Reviewer\SCEHigherEducationalInstitutionsDashboard.aspx" />
+    <Content Include="Reviewer\SCECulturalMissionDashboard.aspx" />
+    <Content Include="Reviewer\SCEDepartmentManagerDashboard.aspx" />
+    <Content Include="Reviewer\SCEClarificationsListing.aspx" />
+    <Content Include="Reviewer\SCEClarificationRequestDetails.aspx" />
+    <Content Include="Reviewer\SCENewClarificationReq.aspx" />
+    <Content Include="Reviewer\SCESectionManagerDashboard.aspx" />
+    <Content Include="Reviewer\SCEEquivalenceEmployeesDashboard.aspx" />
+    <Content Include="Reviewer\SCEStatementListing.aspx" />
+    <Content Include="Reviewer\SCEStatementReply.aspx" />
+    <Content Include="Reviewer\SCEViewStatement.aspx" />
+    <Content Include="SiteColumns\MOEHECountryType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteColumns\Status\Elements.xml" />
+    <Content Include="SiteColumns\TitleAr\Elements.xml" />
+    <Content Include="WebParts\AddSCEStatement\AddSCEStatementUserControl.ascx" />
+    <Content Include="WebParts\AddSCEStatement\Elements.xml" />
+    <Content Include="WebParts\ClarificationRequest\ClarificationRequestUserControl.ascx" />
+    <Content Include="WebParts\ClarificationRequest\Elements.xml" />
+    <Content Include="WebParts\EmpReturnRequestWP\Elements.xml" />
+    <Content Include="WebParts\EmpReturnRequestWP\EmpReturnRequestWPUserControl.ascx" />
+    <Content Include="WebParts\NewClarificationRequest\Elements.xml" />
+    <Content Include="WebParts\NewClarificationRequest\NewClarificationRequestUserControl.ascx" />
+    <Content Include="WebParts\EmployeeDashboard\Elements.xml" />
+    <Content Include="WebParts\EmployeeDashboard\EmployeeDashboardUserControl.ascx" />
+    <Content Include="WebParts\NewRequest\Elements.xml" />
+    <Content Include="WebParts\NewRequest\NewRequestUserControl.ascx" />
+    <Content Include="WebParts\PERecommendation\Elements.xml" />
+    <Content Include="WebParts\PERecommendation\PERecommendationUserControl.ascx" />
+    <Content Include="WebParts\Sample\Elements.xml" />
+    <Content Include="WebParts\Sample\SampleUserControl.ascx" />
+    <Content Include="WebParts\SCENavigationLinks\Elements.xml" />
+    <Content Include="WebParts\SCENavigationLinks\SCENavigationLinksUserControl.ascx" />
+    <Content Include="WebParts\PMDecisionSCE\Elements.xml" />
+    <Content Include="WebParts\PMDecisionSCE\PMDecisionSCEUserControl.ascx" />
+    <Content Include="WebParts\PMRejectRequestSCE\Elements.xml" />
+    <Content Include="WebParts\PMRejectRequestSCE\PMRejectRequestSCEUserControl.ascx" />
+    <Content Include="WebParts\SCERequestHistroyWP\Elements.xml" />
+    <Content Include="WebParts\SCERequestHistroyWP\SCERequestHistroyWPUserControl.ascx" />
+    <Content Include="WebParts\SCEStatementListing\Elements.xml" />
+    <Content Include="WebParts\SCEStatementListing\SCEStatementListingUserControl.ascx" />
+    <Content Include="WebParts\SCEStatementReply\Elements.xml" />
+    <Content Include="WebParts\SCEStatementReply\SCEStatementReplyUserControl.ascx" />
+    <Content Include="WebParts\SCEViewStatement\Elements.xml" />
+    <Content Include="WebParts\SCEViewStatement\SCEViewStatementUserControl.ascx" />
+    <Content Include="WebParts\SCESearchSimilarRequests\Elements.xml" />
+    <Content Include="WebParts\SCESearchSimilarRequests\SCESearchSimilarRequestsUserControl.ascx" />
+    <Content Include="WebParts\SCEViewSimilarRequests\Elements.xml" />
+    <Content Include="WebParts\SCEViewSimilarRequests\SCEViewSimilarRequestsUserControl.ascx" />
+    <Content Include="WebParts\NewSCEBooksRequest\Elements.xml" />
+    <Content Include="WebParts\NewSCEBooksRequest\NewSCEBooksRequestUserControl.ascx" />
+    <Content Include="WebParts\SCEBooksRequests\Elements.xml" />
+    <Content Include="WebParts\SCEBooksRequests\SCEBooksRequestsUserControl.ascx" />
+    <Content Include="WebParts\SCEReplyToBook\Elements.xml" />
+    <Content Include="WebParts\SCEReplyToBook\SCEReplyToBookUserControl.ascx" />
+    <Content Include="WebParts\ViewClarificationRequest\Elements.xml" />
+    <Content Include="WebParts\ViewClarificationRequest\ViewClarificationRequestUserControl.ascx" />
+    <Content Include="WebParts\EditRequest\EditRequestUserControl.ascx" />
+    <Content Include="WebParts\EditRequest\Elements.xml" />
+    <Content Include="WebParts\ViewContact\Elements.xml" />
+    <Content Include="WebParts\ViewContact\ViewContactUserControl.ascx" />
+    <Content Include="WebParts\ViewRequest\Elements.xml" />
+    <Content Include="WebParts\ViewRequest\ViewRequestUserControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContentTypes\AttachmentsCT\Elements.xml" />
+    <Content Include="Lists\SCEBookAttachments\EditDlg.htm" />
+    <Content Include="Lists\SCEBookAttachments\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\SCEBookAttachments\FileDlg.htm" />
+    <Content Include="Lists\SCEBookAttachments\Repair.aspx" />
+    <Content Include="Lists\SCEBookAttachments\SCEBookAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\SCEBookAttachments\Schema.xml" />
+    <Content Include="Lists\SCEBookAttachments\Upload.aspx" />
+    <Content Include="Lists\SCEBooksRequests\Elements.xml" />
+    <Content Include="Lists\SCEBooksRequests\SCEBooksRequestsInstance\Elements.xml" />
+    <Content Include="Lists\SCEBooksRequests\Schema.xml" />
+    <Content Include="Lists\SCEClarificationsRequests\Elements.xml" />
+    <Content Include="Lists\SCEClarificationsRequests\SCEClarificationsRequestsInstance\Elements.xml" />
+    <Content Include="Lists\SCEClarificationsRequests\Schema.xml" />
+    <Content Include="Lists\SCERequests\Elements.xml" />
+    <Content Include="Lists\SCERequests\Schema.xml" />
+    <Content Include="Lists\SCERequests\SCERequestsInstance\Elements.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\EditDlg.htm" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\Elements.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\FileDlg.htm" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\Repair.aspx" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\Schema.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\SCESearchStatusRecommendationAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendationAttachments\Upload.aspx" />
+    <Content Include="Lists\SCESearchStatusRecommendation\Elements.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendation\Schema.xml" />
+    <Content Include="Lists\SCESearchStatusRecommendation\SCESearchStatusRecommendationInstance\Elements.xml" />
+    <Content Include="Lists\SCEStatementsAttachments\EditDlg.htm" />
+    <Content Include="Lists\SCEStatementsAttachments\Elements.xml" />
+    <Content Include="Lists\SCEStatementsAttachments\FileDlg.htm" />
+    <Content Include="Lists\SCEStatementsAttachments\Repair.aspx" />
+    <Content Include="Lists\SCEStatementsAttachments\Schema.xml" />
+    <Content Include="Lists\SCEStatementsAttachments\SCEStatementsAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\SCEStatementsAttachments\Upload.aspx" />
+    <Content Include="Lists\SCEStatementsRequests\Elements.xml" />
+    <Content Include="Lists\SCEStatementsRequests\Schema.xml" />
+    <Content Include="Lists\SCEStatementsRequests\SCEStatementsRequestsInstance\Elements.xml" />
+    <Content Include="Lists\SCEUnauthorizedReason\Elements.xml" />
+    <Content Include="Lists\SCEUnauthorizedReason\Schema.xml" />
+    <Content Include="Lists\SCEUnauthorizedReason\SCEUnauthorizedReasonInstance\Elements.xml" />
+    <Content Include="SiteColumns\MOEHEDocumentGroup\Elements.xml" />
+    <Content Include="SiteColumns\MOEHEDocumentStatus\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX_MOEHEWF_SCE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ITWORX_MOEHEWF_SCE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX_MOEHEWF_SCE.ar-SA.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX_MOEHEWF_SCE.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_SCE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_SCE.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_SCE.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITWORX.MOEHEWF.Common\ITWORX.MOEHEWF.Common.csproj">
+      <Project>{ceaafa8d-f1f3-4e00-96a4-106fdd4fead8}</Project>
+      <Name>ITWORX.MOEHEWF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITWorx.MOEHEWF.Nintex\ITWorx.MOEHEWF.Nintex.csproj">
+      <Project>{034A2112-18FD-4020-9A7A-829043CB2CDB}</Project>
+      <Name>ITWorx.MOEHEWF.Nintex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>if "$(ConfigurationName)"=="Debug" (
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\gacutil.exe" -i $(TargetPath)
+"C:\Windows\System32\inetsrv\appcmd.exe" recycle apppool "SharePoint - 80")
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

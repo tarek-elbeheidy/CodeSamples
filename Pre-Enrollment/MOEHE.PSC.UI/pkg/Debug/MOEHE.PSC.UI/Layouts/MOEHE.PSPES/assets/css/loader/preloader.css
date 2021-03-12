@@ -1,0 +1,145 @@
+
+.preloader {
+    background: #f3f3f3;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10999441121;
+    width: 100%;
+    height: 100%;
+    direction: ltr
+}
+
+.preloader h1 {
+    color: #8f1838;
+    text-align: center;
+    font-family: 'HacenTunisiaLt';
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative
+}
+
+.preloader .loader {
+    margin: 20% auto 30px
+}
+
+.preloader .book {
+    border: 4px solid #8f1838;
+    width: 60px;
+   height: 45px;
+    position: relative;
+    perspective: 150px
+}
+
+.preloader .page {
+    display: block;
+    width: 30px;
+    height: 45px;
+    border: 4px solid #8f1838;
+    border-left: 1px solid #8f1838;
+    margin: 0;
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    overflow: hidden;
+    background: #f3f3f3;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: left center;
+    transform-origin: left center
+}
+
+.preloader .book .page:nth-child(1) {
+    -webkit-animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.6s infinite;
+    animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.6s infinite
+}
+
+.preloader .book .page:nth-child(2) {
+    -webkit-animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.45s infinite;
+    animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.45s infinite
+}
+
+.preloader .book .page:nth-child(3) {
+    -webkit-animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.2s infinite;
+    animation: pageTurn 1.2s cubic-bezier(0, 0.39, 1, 0.68) 1.2s infinite
+}
+
+@-webkit-keyframes pageTurn {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg)
+    }
+
+    20% {
+        background: #f3f3f3
+    }
+
+    40% {
+        background: #8f1838;
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg)
+    }
+
+    100% {
+        background: #8f1838;
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg)
+    }
+}
+
+@keyframes pageTurn {
+    0% {
+        transform: rotateY(0deg)
+    }
+
+    20% {
+        background: #f3f3f3
+    }
+
+    40% {
+        background: #8f1838;
+        transform: rotateY(-180deg)
+    }
+
+    100% {
+        background: #8f1838;
+        transform: rotateY(-180deg)
+    }
+}
+
+@-webkit-keyframes Dots {
+    0% {
+        content: ""
+    }
+
+    33% {
+        content: "."
+    }
+
+    66% {
+        content: ".."
+    }
+
+    100% {
+        content: "..."
+    }
+}
+
+@keyframes Dots {
+    0% {
+        content: ""
+    }
+
+    33% {
+        content: "."
+    }
+
+    66% {
+        content: ".."
+    }
+
+    100% {
+        content: "..."
+    }
+}

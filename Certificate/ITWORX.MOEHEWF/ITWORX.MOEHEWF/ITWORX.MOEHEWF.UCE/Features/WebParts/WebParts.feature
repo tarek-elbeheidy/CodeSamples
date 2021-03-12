@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="64f655e5-d3f8-4d5f-8307-398aa434945e" featureId="64f655e5-d3f8-4d5f-8307-398aa434945e" imageUrl="" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="ITWORX.MOEHEWF.UCE WebParts" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="8da9bdfc-6233-461d-a360-bd2a9ca475c0" />
+    <projectItemReference itemId="68ee0315-95a8-4a55-93f7-e95f0aaa29f0" />
+    <projectItemReference itemId="b3bee724-2aba-403d-90a9-00326f06dd43" />
+    <projectItemReference itemId="a1a48683-bb03-48aa-94ad-687233b0de33" />
+    <projectItemReference itemId="bda9a3ac-8600-4f26-afb9-27758ca7034f" />
+    <projectItemReference itemId="5728c86e-88dd-431d-a0f2-9706c38eda56" />
+    <projectItemReference itemId="eaf8d0c2-17d5-4c54-87f8-8db3c12926f7" />
+    <projectItemReference itemId="9293aee4-aa1d-4684-92fd-c44d74b7eb94" />
+    <projectItemReference itemId="36f6df1f-2419-468a-951b-d287cee6b035" />
+    <projectItemReference itemId="5da686fb-5dd8-4fa9-aa12-5f0265f6c017" />
+    <projectItemReference itemId="101cbd86-8af8-487e-9166-ec1a99d8c626" />
+    <projectItemReference itemId="f298cbb3-11e1-46d2-97be-f0df3de1104e" />
+    <projectItemReference itemId="b111bb1e-b184-4968-bfa9-9aece80083d2" />
+    <projectItemReference itemId="475e4971-e094-4d20-9c82-d45700bf6303" />
+    <projectItemReference itemId="88855f86-69b9-4dcf-acf0-abf222d10bf3" />
+    <projectItemReference itemId="8760ecbb-9700-4b5a-8a95-d89422a7c3bb" />
+    <projectItemReference itemId="c7db6b0a-c241-4631-9d81-cb8a1c8849e9" />
+    <projectItemReference itemId="d7904c30-3ef2-4c1d-9034-1af67c662add" />
+    <projectItemReference itemId="d48bab13-7215-49ba-bce1-dfbca53af289" />
+    <projectItemReference itemId="8585fe82-632f-4d1c-b20e-88f3c9e38fc4" />
+    <projectItemReference itemId="e706eaa7-5ba1-4aa7-8865-34998e95f42b" />
+    <projectItemReference itemId="96a5c576-2b76-4956-a81b-4d09424a5f12" />
+    <projectItemReference itemId="d9cd473f-d1f1-4d2c-9059-ad3c0a106e36" />
+    <projectItemReference itemId="79762fca-ba2e-40c1-8e0f-0105e28c338f" />
+    <projectItemReference itemId="5e289239-be59-4280-845e-393066f809de" />
+    <projectItemReference itemId="c2f78843-9f20-48fa-aab1-ad37a583174e" />
+    <projectItemReference itemId="4adb8325-e839-42d9-b7e7-380f31dd10d4" />
+    <projectItemReference itemId="7368a831-2509-48ca-bbde-6a0790a75e93" />
+    <projectItemReference itemId="2f230e16-5da1-42a4-8919-806b344a11aa" />
+    <projectItemReference itemId="1caf72cf-257d-4c65-8072-19a2726ab77b" />
+    <projectItemReference itemId="eb93f565-0a04-4543-b5ee-cc5ffda21bb5" />
+    <projectItemReference itemId="ab7f0073-ffca-4374-8dca-ecff8ec9d6df" />
+    <projectItemReference itemId="6f722d1c-a22b-4f71-9201-f91449d6dc63" />
+    <projectItemReference itemId="65e77cb9-e77a-477a-9bdb-8140236a6449" />
+    <projectItemReference itemId="c295377e-07ed-4334-85b1-fdbf7696a55f" />
+    <projectItemReference itemId="2965b1a5-6d68-4153-8183-3e24aa274988" />
+    <projectItemReference itemId="b549e293-619c-4aa8-b6a7-90fc86c76818" />
+    <projectItemReference itemId="ce066a88-5b12-4e81-a85d-a875478e1a07" />
+    <projectItemReference itemId="f3bc60cf-6ff1-430f-9b00-7d1566b41600" />
+    <projectItemReference itemId="486924ae-17b4-4239-b873-f6687bef3d31" />
+    <projectItemReference itemId="716d158a-5e31-4a4e-b5fc-dc1ddfa31d6e" />
+    <projectItemReference itemId="2e5538b6-5634-41df-9c92-d962ff61bf4a" />
+    <projectItemReference itemId="ea120571-8e60-4ecc-ae18-a47781d0a08f" />
+    <projectItemReference itemId="70118a00-8fe9-4ff8-8d73-fda9e7012aba" />
+    <projectItemReference itemId="b103f243-949d-4445-80db-8b25c4ef0af0" />
+    <projectItemReference itemId="2d902f1f-f8a1-4811-9735-e26492de71b7" />
+    <projectItemReference itemId="a4a08afd-8f33-49de-8a90-a02f57b4b59e" />
+  </projectItems>
+</feature>

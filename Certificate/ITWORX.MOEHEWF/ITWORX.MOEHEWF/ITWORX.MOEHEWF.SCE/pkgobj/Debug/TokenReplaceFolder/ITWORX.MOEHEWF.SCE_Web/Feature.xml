@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="eedbff9d-584b-438a-870a-9c5f177b2aa5" Scope="Web" Title="ITWORX.MOEHEWF.SCE Web">
+  <ElementManifests>
+    <ElementManifest Location="CertificateTypeInstance\Elements.xml" />
+    <ElementManifest Location="FileNameInstance\Elements.xml" />
+    <ElementManifest Location="ScholasticLevelInstance\Elements.xml" />
+    <ElementManifest Location="ClarificationReasonsInstance\Elements.xml" />
+    <ElementManifest Location="RejectionReasonsInstance\Elements.xml" />
+    <ElementManifest Location="ReturnReasonsInstance\Elements.xml" />
+    <ElementManifest Location="RecommendationsInstance\Elements.xml" />
+    <ElementManifest Location="SCESearchCritariaInstance\Elements.xml" />
+    <ElementManifest Location="LevelsInstance\Elements.xml" />
+    <ElementManifest Location="ExCommAgencyInstance\Elements.xml" />
+    <ElementManifest Location="CertificateAgencyInstance\Elements.xml" />
+    <ElementManifest Location="StatementAgencyInstance\Elements.xml" />
+    <ElementManifest Location="NotificationAudianceInstance\Elements.xml" />
+    <ElementManifest Location="SCEIGCSEInstance\Elements.xml" />
+    <ElementManifest Location="SCEIBInstance\Elements.xml" />
+    <ElementManifest Location="SCEPMClarificationInstance\Elements.xml" />
+    <ElementManifest Location="SCEHMDecisionInstance\Elements.xml" />
+    <ElementManifest Location="SCEHMClarificationInstance\Elements.xml" />
+    <ElementManifest Location="SCEPMDecisionInstance\Elements.xml" />
+    <ElementManifest Location="SchoolTypeInstance\Elements.xml" />
+    <ElementManifest Location="SCEStatementsRequestsInstance\Elements.xml" />
+    <ElementManifest Location="SCEUnauthorizedReasonInstance\Elements.xml" />
+    <ElementManifest Location="SCESearchStatusRecommendationAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="SCEStatementsAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="SCEBooksRequestsInstance\Elements.xml" />
+    <ElementManifest Location="SCEBookAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="SCEEmployeesInstance\Elements.xml" />
+    <ElementManifest Location="SCESearchStatusRecommendationInstance\Elements.xml" />
+    <ElementManifest Location="EquivalencyPurposeInstance\Elements.xml" />
+    <ElementManifest Location="SCERequestsInstance\Elements.xml" />
+    <ElementManifest Location="SchoolSystemInstance\Elements.xml" />
+    <ElementManifest Location="SCERequestsAssignmentsInstance\Elements.xml" />
+    <ElementManifest Location="SCEClarificationsRequestsInstance\Elements.xml" />
+  </ElementManifests>
+</Feature>

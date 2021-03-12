@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction 
+    Id="MyTopMenuLink"
+    GroupId="PersonalActions"
+    Location="Microsoft.SharePoint.StandardMenu" 
+    Sequence="0"
+    RequireSiteAdministrator="FALSE"
+    RootWebOnly="FALSE"
+    Title="$Resources:ITWORX.MOEHEWF.Common,ChangePassword;">
+    <!--<UrlAction Url="javascript:window.location=_spPageContextInfo.webAbsoluteUrl/_layouts/15/ITWORX.MOEHEWF.Common/ResetPassword.aspx"/>-->
+    <!--<UrlAction Url="javascript:window.location.href= '{SiteUrl}/_layouts/15/ITWORX.MOEHEWF.Common/ResetPassword.aspx'"/>-->
+    <UrlAction Url="~site/_layouts/15/ITWORX.MOEHEWF.Common/ResetPassword.aspx"/>
+  </CustomAction>
+</Elements>

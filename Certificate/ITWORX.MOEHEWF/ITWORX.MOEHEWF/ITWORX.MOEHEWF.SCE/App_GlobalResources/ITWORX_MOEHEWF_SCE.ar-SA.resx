@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="ClarificationReply" xml:space="preserve">
+    <value>رد مقدم الطلب</value>
+  </data>
+  <data name="ClarRequestedDate" xml:space="preserve">
+    <value>تاريخ ارسال طلب التوضيح</value>
+  </data>
+  <data name="ReplyDate" xml:space="preserve">
+    <value>تاريخ الرد</value>
+  </data>
+  <data name="RequestSender" xml:space="preserve">
+    <value>مرسل الطلب</value>
+  </data>
+  <data name="RequiredClarification" xml:space="preserve">
+    <value>التوضيح المطلوب</value>
+  </data>
+  <data name="NewClarRequest" xml:space="preserve">
+    <value>إضافة طلب توضيح جديد</value>
+  </data>
+  <data name="NoOfRequests" xml:space="preserve">
+    <value>عدد الطلبات :</value>
+  </data>
+  <data name="NeededReason" xml:space="preserve">
+    <value>التوضيح المطلوب</value>
+  </data>
+  <data name="RequestClarSender" xml:space="preserve">
+    <value>مرسل طلب التوضيح</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>تاريخ طلب التوضيح</value>
+  </data>
+  <data name="RequestReason" xml:space="preserve">
+    <value>سبب طلب التوضيح</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="SendRequest" xml:space="preserve">
+    <value>ارسل طلب التوضيح</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ApplicantReply" xml:space="preserve">
+    <value>رد مقدم الطلب</value>
+  </data>
+  <data name="ReplytoClarification" xml:space="preserve">
+    <value>الرد على طلب التوضيح</value>
+  </data>
+  <data name="SendReply" xml:space="preserve">
+    <value>إرسال الرد و الطلب</value>
+  </data>
+  <data name="ApplicantName" xml:space="preserve">
+    <value>اسم مقدم الطلب</value>
+  </data>
+  <data name="Certificate" xml:space="preserve">
+    <value>الشهادة</value>
+  </data>
+  <data name="ClarRequested" xml:space="preserve">
+    <value>التوضيح المطلوب</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="DelayedDays" xml:space="preserve">
+    <value>عدد أيام التأخير</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>الموظف</value>
+  </data>
+  <data name="EntityNeedsEquivalency" xml:space="preserve">
+    <value>الجهة الطالبة للمعادلة</value>
+  </data>
+  <data name="FacultyName" xml:space="preserve">
+    <value>الكلية</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="NationalityCategory" xml:space="preserve">
+    <value>فئة الجنسية</value>
+  </data>
+  <data name="NumbersaAndAlphaOnly" xml:space="preserve">
+    <value>يجب إدخال أرقام و حروف فقط</value>
+  </data>
+  <data name="NumbersOnly" xml:space="preserve">
+    <value>يرجى إدخال أرقام  باللغة الإنجليزية فقط</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="QatariID" xml:space="preserve">
+    <value>الرقم الشخصي لمقدم الطلب</value>
+  </data>
+  <data name="RequestID" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="responsibleOfficer" xml:space="preserve">
+    <value>الموظف المسئول</value>
+  </data>
+  <data name="ReturnDate" xml:space="preserve">
+    <value>تاريخ الارجاع</value>
+  </data>
+  <data name="ReturnedFrom" xml:space="preserve">
+    <value>راجع من</value>
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>سبب الارجاع</value>
+  </data>
+  <data name="SCEMyRequests" xml:space="preserve">
+    <value>مهامي</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>م</value>
+  </data>
+  <data name="Specialization" xml:space="preserve">
+    <value>التخصص</value>
+  </data>
+  <data name="SubmitDate" xml:space="preserve">
+    <value>تاريخ استلام الطلب</value>
+  </data>
+  <data name="SubmitDateFrom" xml:space="preserve">
+    <value>تاريخ استلام الطلب من</value>
+  </data>
+  <data name="SubmitDateTo" xml:space="preserve">
+    <value>تاريخ استلام الطلب إلى</value>
+  </data>
+  <data name="UniversityName" xml:space="preserve">
+    <value>الجامعة</value>
+  </data>
+  <data name="BackHome" xml:space="preserve">
+    <value>العودة إلى الصفحة الرئيسية</value>
+  </data>
+  <data name="EquivalenceEmployee" xml:space="preserve">
+    <value>موظف المعادلة</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>مصدر الشهادة</value>
+  </data>
+  <data name="ApplicantMobileNumber" xml:space="preserve">
+    <value>رقم هاتف مقدم الطلب</value>
+  </data>
+  <data name="ApplicantNameAccToCert" xml:space="preserve">
+    <value>اسم الطالب طبقا للشهادة</value>
+  </data>
+  <data name="CertificateHolderQatarID" xml:space="preserve">
+    <value>الرقم الشخصي لصاحب الشهادة</value>
+  </data>
+  <data name="CertificateSource" xml:space="preserve">
+    <value>مصدر الشهادة</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>اسم المدرسة</value>
+  </data>
+  <data name="ClarificationReason" xml:space="preserve">
+    <value>سبب طلب التوضيح</value>
+  </data>
+  <data name="SCEExceptionRequests" xml:space="preserve">
+    <value>طلبات الاستثناء</value>
+  </data>
+  <data name="ExcepApplicantName" xml:space="preserve">
+    <value>اسم الطالب</value>
+  </data>
+  <data name="ExcepPhoneNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="LastGrade" xml:space="preserve">
+    <value>اخر صف دراسي نجح فيه</value>
+  </data>
+  <data name="ExceptionRequestsMessage" xml:space="preserve">
+    <value>سجل الطلبات الخاص بالطلاب الغير حاملي رقم شخصي قطري</value>
+  </data>
+  <data name="NewRequest" xml:space="preserve">
+    <value>إنشاء طلب جديد</value>
+  </data>
+  <data name="RequestsListing" xml:space="preserve">
+    <value>سجل الطلبات</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="ChooseValue" xml:space="preserve">
+    <value>اختار</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>يرجى إدخال الحقل</value>
+  </data>
+  <data name="NeededReasonLength" xml:space="preserve">
+    <value>عذرا إدخال خاطيء، يرجى إدخال بيانات صحيحة</value>
+  </data>
+  <data name="ReturnComments" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="ReturnNote" xml:space="preserve">
+    <value>في حالة إرجاع الطلب سوف يتم تحويل الطلب لآخر موظف</value>
+  </data>
+  <data name="ReturnReasonPM" xml:space="preserve">
+    <value>سبب إرجاع الطلب</value>
+  </data>
+  <data name="ReturnRequest" xml:space="preserve">
+    <value>إرجاع الطلب</value>
+  </data>
+  <data name="ReturnValidation" xml:space="preserve">
+    <value>يرجى إدخال الحقل</value>
+  </data>
+  <data name="SCEDDMDecision" xml:space="preserve">
+    <value>قرار مدير الادارة</value>
+  </data>
+  <data name="SCEFinalConfirmNote" xml:space="preserve">
+    <value>في حالة اعتماد القرار سوف يتم تحويل الطلب إلى رئيس القسم</value>
+  </data>
+  <data name="SCEFinalDecision" xml:space="preserve">
+    <value>القرار النهائي والطباعة</value>
+  </data>
+  <data name="SCEFinalDecisionSubTitle" xml:space="preserve">
+    <value>القرار النهائي</value>
+  </data>
+  <data name="SCENoDecisionTaken" xml:space="preserve">
+    <value>لا يوجد توصية من مدير الادارة</value>
+  </data>
+  <data name="SCERejectionReason" xml:space="preserve">
+    <value>سبب الرفض</value>
+  </data>
+  <data name="SCESaveBtn" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SCESendSMSBtn" xml:space="preserve">
+    <value>إرسال رسالة نصية</value>
+  </data>
+  <data name="SCESendSMSNote" xml:space="preserve">
+    <value>إرسال رسالة نصية للمتعامل للحضور</value>
+  </data>
+  <data name="SCESMDecision" xml:space="preserve">
+    <value>القرار النهائي لرئيس القسم</value>
+  </data>
+  <data name="SCESubmitBtn" xml:space="preserve">
+    <value>اعتماد القرار النهائي</value>
+  </data>
+  <data name="SCEViewBtn" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>تاريخ الإجراء</value>
+  </data>
+  <data name="AuthorityTask" xml:space="preserve">
+    <value>الصلاحية أو المهمة</value>
+  </data>
+  <data name="ExecutedProcedure" xml:space="preserve">
+    <value>الإجراء المنفذة</value>
+  </data>
+  <data name="Executor" xml:space="preserve">
+    <value>القائم بالتنفيذ</value>
+  </data>
+  <data name="ProcComments" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="ActionNavigation" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="ViewNavigation" xml:space="preserve">
+    <value>الاطلاع على</value>
+  </data>
+  <data name="ClarifcationFirstMsg" xml:space="preserve">
+    <value>عزيزي الطالب, يرجى الانتقال إلى تفاصيل الطلب و تعديله حسب المطلوب و من ثم الرد على طلب التوضيح و إعادة إرسال الطلب لنتمكن من استكمال باقي الإجراءات</value>
+  </data>
+  <data name="ClarifcationSecondMsg" xml:space="preserve">
+    <value>يمكنك الرجوع الى تفاصيل الطلب إن لزم قبل إرسال الرد للتأكد من تنفيذ المطلوب في طلب التوضيح</value>
+  </data>
+  <data name="ReturnToRequestPage" xml:space="preserve">
+    <value>الانتقال الى تفاصيل الطلب</value>
+  </data>
+  <data name="ClarificationRequests" xml:space="preserve">
+    <value>طلبات التوضيح</value>
+  </data>
+  <data name="ReplyToClarRequest" xml:space="preserve">
+    <value>الرد على طلب التوضيح</value>
+  </data>
+  <data name="SendClarRequest" xml:space="preserve">
+    <value>إرسال طلب توضيح جديد</value>
+  </data>
+  <data name="RequestDetails" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
+  </data>
+  <data name="AcademicYear" xml:space="preserve">
+    <value>العام الدراسي</value>
+  </data>
+  <data name="CertificateOrigin" xml:space="preserve">
+    <value>مصدر الشهادة</value>
+  </data>
+  <data name="CertificateType" xml:space="preserve">
+    <value>نوع الشهادة</value>
+  </data>
+  <data name="PreferedGrade" xml:space="preserve">
+    <value>الصف المراد التسجيل فيه</value>
+  </data>
+  <data name="SchoolType" xml:space="preserve">
+    <value>نوع المدرسة</value>
+  </data>
+  <data name="SearchIn" xml:space="preserve">
+    <value>البحث في</value>
+  </data>
+  <data name="ClearSearch" xml:space="preserve">
+    <value>إلغاء معايير البحث</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>اسم الطالب</value>
+  </data>
+  <data name="StudentNumber" xml:space="preserve">
+    <value>رقم الطالب</value>
+  </data>
+  <data name="ChooseAsAttach" xml:space="preserve">
+    <value>اختر</value>
+  </data>
+  <data name="DecisionCopy" xml:space="preserve">
+    <value>نسخة القرار</value>
+  </data>
+  <data name="SaveAttachedReq" xml:space="preserve">
+    <value>اعتماد القرارت المختارة</value>
+  </data>
+  <data name="RemoveAttachReq" xml:space="preserve">
+    <value>حذف اعتماد القرارت المختارة</value>
+  </data>
+  <data name="EquationDate" xml:space="preserve">
+    <value>تاريخ المعادلة</value>
+  </data>
+  <data name="goToMenu" xml:space="preserve">
+    <value>قائمة الطلبات</value>
+  </data>
+  <data name="ReturnToRequestDetails" xml:space="preserve">
+    <value>العودة لتفاصيل الطلب</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>اختر</value>
+  </data>
+  <data name="RecievedDate" xml:space="preserve">
+    <value>تاريخ استلام الطلب</value>
+  </data>
+  <data name="RequiredValue" xml:space="preserve">
+    <value>من فضلك اختار موظف</value>
+  </data>
+  <data name="AssignedTolnk" xml:space="preserve">
+    <value>تخصيص</value>
+  </data>
+  <data name="AssignToEmpName" xml:space="preserve">
+    <value>تخصيص الطلبات المختارة للموظف :</value>
+  </data>
+  <data name="AssignedSuccessfully" xml:space="preserve">
+    <value>تم التخصيص بنجاح</value>
+  </data>
+  <data name="ChooseRequest" xml:space="preserve">
+    <value>يجب إختيار طلب</value>
+  </data>
+  <data name="SCEAuthority" xml:space="preserve">
+    <value>الجهة الموجه لها الكتاب</value>
+  </data>
+  <data name="SCEAuthorityAddress" xml:space="preserve">
+    <value>عنوان الجهة</value>
+  </data>
+  <data name="SCEAuthorityEmail" xml:space="preserve">
+    <value>البريد الالكتروني للجهة</value>
+  </data>
+  <data name="SCEBookBody" xml:space="preserve">
+    <value>نص الكتاب</value>
+  </data>
+  <data name="SCEBookDate" xml:space="preserve">
+    <value>تاريخ الكتاب</value>
+  </data>
+  <data name="SCEBookNumber" xml:space="preserve">
+    <value>رقم الكتاب</value>
+  </data>
+  <data name="SCEBookSender" xml:space="preserve">
+    <value>معد الكتاب</value>
+  </data>
+  <data name="SCEBookStatus" xml:space="preserve">
+    <value>حالة الكتاب</value>
+  </data>
+  <data name="SCEBookSubject" xml:space="preserve">
+    <value>عنوان الكتاب</value>
+  </data>
+  <data name="SCEReplyDate" xml:space="preserve">
+    <value>تاريخ الرد</value>
+  </data>
+  <data name="SCEReplyNumber" xml:space="preserve">
+    <value>رقم كتاب الرد</value>
+  </data>
+  <data name="SCEReplySummary" xml:space="preserve">
+    <value>ملخص رد الجهة أو التوصية</value>
+  </data>
+  <data name="AddReply" xml:space="preserve">
+    <value>إضافة رد الجهة</value>
+  </data>
+  <data name="ExceptionBooksRequestsMessage" xml:space="preserve">
+    <value>يوجد مشكلة في عرض كتابات الجهة الخارجية, الرجاء ابلاغ مسؤل البوابة.</value>
+  </data>
+  <data name="SCENewBookHeader" xml:space="preserve">
+    <value>إدخال كتاب جديد</value>
+  </data>
+  <data name="SCEFileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>إرسال بريد إلكترونى</value>
+  </data>
+  <data name="SCEAgencyRequired" xml:space="preserve">
+    <value>حقل الجهة الموجه لها الكتاب مطلوب.</value>
+  </data>
+  <data name="SCEEmailRequired" xml:space="preserve">
+    <value>حقل البريد الالكتروني للجهة مطلوب.</value>
+  </data>
+  <data name="SCELetterBodyRequired" xml:space="preserve">
+    <value>حقل نص الكتاب مطلوب.</value>
+  </data>
+  <data name="SCELetterNumberRequired" xml:space="preserve">
+    <value>حقل رقم الكتاب مطلوب.</value>
+  </data>
+  <data name="SCELetterSubjectRequired" xml:space="preserve">
+    <value>حقل عنوان الكتاب مطلوب.</value>
+  </data>
+  <data name="SCEEmailValidation" xml:space="preserve">
+    <value>البريد الالكتروني غير صحيح, من فضلك ادخل صيغة صحيحة للبريد الالكتروني</value>
+  </data>
+  <data name="SCEAuthorityReplyHeader" xml:space="preserve">
+    <value>رد الجهة</value>
+  </data>
+  <data name="SCEReplyHeader" xml:space="preserve">
+    <value>تفاصيل الكتاب المرسل</value>
+  </data>
+  <data name="SCEReplyNumberRequired" xml:space="preserve">
+    <value>حقل رقم كتاب الرد مطلوب</value>
+  </data>
+  <data name="SCEReplySummaryRequired" xml:space="preserve">
+    <value>حقل ملخص الرد مطلوب</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>تنبيه</value>
+  </data>
+  <data name="TimeoutMsg" xml:space="preserve">
+    <value>لقد انتهت صلاحية الصفحة برجاء العودة إلى الصفحة الرئيسية</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ExternalComm" xml:space="preserve">
+    <value>المخاطبات الخارجية</value>
+  </data>
+  <data name="CertificateHistoricalRecords" xml:space="preserve">
+    <value>السجل التاريخي للمعادلة</value>
+  </data>
+  <data name="SchoolCertificateToBeEquivalent" xml:space="preserve">
+    <value>الشهادة المدرسية المراد معادلتها</value>
+  </data>
+  <data name="SendDate" xml:space="preserve">
+    <value>تاريخ إرسال الطلب</value>
+  </data>
+  <data name="CertificateHolderQatarIDHist" xml:space="preserve">
+    <value>الرقم الشخصي لصاحب الشهادة :</value>
+  </data>
+  <data name="HolderStudentName" xml:space="preserve">
+    <value>اسم الطالب صاحب الشهادة</value>
+  </data>
+  <data name="OtherDocuments" xml:space="preserve">
+    <value>وثائق أخري</value>
+  </data>
+  <data name="FinaDecisionRequired" xml:space="preserve">
+    <value>القرار النهائي مطلوب</value>
+  </data>
+  <data name="RequiredNotes" xml:space="preserve">
+    <value>الملاحظات مطلوبة</value>
+  </data>
+  <data name="HighSchool" xml:space="preserve">
+    <value>ثانوي عام</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>خاصة</value>
+  </data>
+  <data name="CertificateCopyFromCountry" xml:space="preserve">
+    <value>صورة من معادلة الشهادة من الدولة مصدر الشهادة</value>
+  </data>
+  <data name="SCECommentsRequired" xml:space="preserve">
+    <value>الملاحظات مطلوبة</value>
+  </data>
+  <data name="SCERejectionReasonRequired" xml:space="preserve">
+    <value>سبب الرفض مطلوب</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="IBSubjectsValidation" xml:space="preserve">
+    <value>يجب عليك إدخال إما (4 مواد ل SL و 2 ل HL) أو (3 مواد ل SL و 3 مواد ل 3 HL)</value>
+  </data>
+  <data name="ResposibleEmployee" xml:space="preserve">
+    <value>مطلوب اجراء من</value>
+  </data>
+  <data name="RequiredFiles" xml:space="preserve">
+    <value>المرفقات الضرورية</value>
+  </data>
+</root>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AcademicDegree"
+                OnQuickLaunch="TRUE"
+                TemplateType="10012"
+                Url="Lists/AcademicDegree"
+                Description="My List Instance"  FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Diploma of Intermediate or Associate (two years)</Field>
+          <Field Name="TitleAr">دبلوم متوسط او مشارك (مدة الدراسة سنتان)</Field>
+          <Field Name="Certificates">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Diploma (three years)</Field>
+          <Field Name="TitleAr">دبلوم (ثلاث سنوات)</Field>
+          <Field Name="Certificates">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BA</Field>
+          <Field Name="TitleAr">بكالوريوس</Field>
+          <Field Name="Certificates">1;#;#4;#;#5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Diploma (at least one year after Bachelor's degree)</Field>
+          <Field Name="TitleAr">دبلوم عالي (سنه دراسية على الاقل بعد البكالوريوس)</Field>
+          <Field Name="Certificates">1;#;#3</Field>
+        </Row>
+        
+      
+        <Row>
+          <Field Name="Title">Ph.D.</Field>
+          <Field Name="TitleAr">دكتوراه</Field>
+          <Field Name="Certificates">1;#;#2;#;#3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Master</Field>
+          <Field Name="TitleAr">ماجستير</Field>
+          <Field Name="Certificates">1;#;#3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Executive\Professional Master</Field>
+          <Field Name="TitleAr">ماجستير تنفيذي\مهني</Field>
+          <Field Name="Certificates">1;#;#3</Field>
+        </Row>
+ 
+      </Rows>
+    </Data>
+  </ListInstance>
+  
+</Elements>

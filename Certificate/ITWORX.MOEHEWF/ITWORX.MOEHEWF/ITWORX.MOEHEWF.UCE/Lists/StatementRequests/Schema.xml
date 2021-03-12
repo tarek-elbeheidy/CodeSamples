@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="StatementRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/StatementRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010006efad1035e14c7c873dc73b63ddc2aa" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{d8653c66-e13d-4eca-bee4-640e6295dbd3}" Name="DirectedTo" /><FieldRef ID="{80117323-b929-403d-9157-8798882881b2}" Name="StatementCreatedBy" /><FieldRef ID="{9811e9bc-3812-4019-aa4f-531ba501dddd}" Name="StatementDate" /><FieldRef ID="{5b8cfb1d-4848-46ce-aaf2-eeea86866035}" Name="Reply" /><FieldRef ID="{c29211ab-5dc4-4d78-853a-8bbea959329d}" Name="ReplyDate" /><FieldRef ID="{2016a56f-87b2-47d2-b786-d87dba858ba0}" Name="Replyby" /><FieldRef ID="{5247bdbb-3e7b-4148-8067-5cc093ab7b1b}" Name="StatementRequested" /><FieldRef ID="{0ca3e58c-4426-45cc-ae71-e5ac565df6b4}" Name="StatementSubject" /><FieldRef ID="{e58eee36-3011-4982-8a71-19c3def292b6}" Name="RequestID" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="DirectedTo" ID="{d8653c66-e13d-4eca-bee4-640e6295dbd3}" DisplayName="DirectedTo" Type="Text" /><Field Name="StatementCreatedBy" ID="{80117323-b929-403d-9157-8798882881b2}" DisplayName="StatementCreatedBy" Type="Text" /><Field Name="StatementDate" ID="{9811e9bc-3812-4019-aa4f-531ba501dddd}" DisplayName="StatementDate" Type="DateTime" /><Field Name="Reply" ID="{5b8cfb1d-4848-46ce-aaf2-eeea86866035}" DisplayName="Reply" Type="Note" /><Field Name="ReplyDate" ID="{c29211ab-5dc4-4d78-853a-8bbea959329d}" DisplayName="ReplyDate" Type="DateTime" /><Field Name="Replyby" ID="{2016a56f-87b2-47d2-b786-d87dba858ba0}" DisplayName="Replyby" Type="Text" /><Field Name="StatementRequested" ID="{5247bdbb-3e7b-4148-8067-5cc093ab7b1b}" DisplayName="StatementRequested" Type="Note" /><Field Name="StatementSubject" ID="{0ca3e58c-4426-45cc-ae71-e5ac565df6b4}" DisplayName="StatementSubject" Type="Note" /><Field Name="RequestID" ID="{e58eee36-3011-4982-8a71-19c3def292b6}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DirectedTo" /><FieldRef Name="StatementCreatedBy" /><FieldRef Name="StatementDate" /><FieldRef Name="Reply" /><FieldRef Name="ReplyDate" /><FieldRef Name="Replyby" /><FieldRef Name="StatementRequested" /><FieldRef Name="StatementSubject" /><FieldRef Name="RequestID" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

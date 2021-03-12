@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="ProceduresReceptionist" List="113" Url="_catalogs/wp">
+    <File Path="ProceduresReceptionist\ProceduresReceptionist.webpart" Url="ITWORX.MOEHEWF.UCE_ProceduresReceptionist.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="UCE" />
+    </File>
+  </Module>
+</Elements>

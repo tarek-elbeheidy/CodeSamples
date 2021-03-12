@@ -1,0 +1,2139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RolesNavigationLinks"
+                OnQuickLaunch="TRUE"
+                TemplateType="10036"
+                Url="Lists/RolesNavigationLinks"
+                Description="My List Instance"
+                FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/TrackRequest.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/TrackRequest.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/ApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/ApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/RequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/RequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">  تفاصيل الطلب</Field>
+          <Field Name="PageTitleEN"> Request Details</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/ManageRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/ManageRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل طلبات التوضيح</Field>
+          <Field Name="PageTitleEN">Clarification Requests</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/applicant/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/applicant/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Applicants</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReceptionistDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReceptionistDashboard.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل طلبات التوضيح</Field>
+          <Field Name="PageTitleEN">Clarification Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Receptionists</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerDashboard.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل التوصيات</Field>
+          <Field Name="PageTitleEN">Recommendations Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerRecommendListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerRecommendListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+         <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ArabicAsianProgramEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ArabicAsianProgramEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">البحث عن قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Search for Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/SearchSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/SearchSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">المخاطبات الخارجية </Field>
+          <Field Name="PageTitleEN">External Communications</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بحث الحالة او التوصية </Field>
+          <Field Name="PageTitleEN">Search Status and Recommendation </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات التوضيح</Field>
+          <Field Name="PageTitleEN">Program Employee Clarification Requests </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramEmployeeClarificationReqs.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramEmployeeClarificationReqs.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+         <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+            <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Arabian and Asian Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">16</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/EuropeanProgramEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/EuropeanProgramEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">البحث عن قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Search for Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/SearchSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/SearchSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">المخاطبات الخارجية </Field>
+          <Field Name="PageTitleEN">External Communications</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بحث الحالة او التوصية </Field>
+          <Field Name="PageTitleEN">Search Status and Recommendation </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات التوضيح</Field>
+          <Field Name="PageTitleEN">Program Employee Clarification Requests </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramEmployeeClarificationReqs.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramEmployeeClarificationReqs.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">16</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">European Program Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">17</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HeadManagerDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HeadManagerDashboard.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قرار مدير الإدارة</Field>
+          <Field Name="PageTitleEN">Head Manager Decision </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HeadManagerViewDecision.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HeadManagerViewDecision.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+           <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+           <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قرارالوكيل المساعد </Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Decision </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/AssistantUnderSecretaryDecision.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/AssistantUnderSecretaryDecision.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Legal Affairs Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل الاجراءات</Field>
+          <Field Name="PageTitleEN">Procedures Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قراراللجنة الفنية </Field>
+          <Field Name="PageTitleEN">Technical Committe Decision </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/TechCommitteDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/TechCommitteDecisions.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+    <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <!--<Row>
+        <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+        <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+        <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+        <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Employees</Field>
+        <Field Name="Active">Yes</Field>
+        <Field Name="Order">12</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Jordan</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Britain</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Australia</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission France</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission USA</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/CulturalMissionEmployeeDashboard.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Cultural Mission Canada</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <!--Secretary-->
+        <Row>
+
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب </Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">المخاطبات الخارجية </Field>
+          <Field Name="PageTitleEN">External Communications</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ExternalCommunicationsListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بحث الحالة او التوصية </Field>
+          <Field Name="PageTitleEN">Search Status and Recommendation </Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/SearchStatusRecommendation.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+           <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">16</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Secretarial Employees</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">17</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">قائمة الطلبات</Field>
+          <Field Name="PageTitleEN">Dashboard</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HigherEducationalInstitutionsDashboard.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HigherEducationalInstitutionsDashboard.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">بيانات مقدم الطلب</Field>
+          <Field Name="PageTitleEN">Applicant Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayApplicantDetails.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">عرض تفاصيل الطلب</Field>
+          <Field Name="PageTitleEN">View Request Details</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">سجل المدفوعات</Field>
+          <Field Name="PageTitleEN">Payment Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/PaymentRecords.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">طلبات الإفادة للملحقية الثقافية</Field>
+          <Field Name="PageTitleEN">Statement Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/StatementRequestsListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">السجل التاريخي</Field>
+          <Field Name="PageTitleEN">Historical Records</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/HistoricalRecords.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">6</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير برنامج المعادلة</Field>
+          <Field Name="PageTitleEN">Program Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProgramManagerProcedureListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="PageTitleAR">اجراءات الأستقبال</Field>
+          <Field Name="PageTitleEN">Receptionist Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresReceptionistListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">7</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف المعادلة</Field>
+          <Field Name="PageTitleEN">Program Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresProgramEmployeeListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">8</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات الوكيل المساعد</Field>
+          <Field Name="PageTitleEN">Assistant UnderSecretary Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresAssistSecretaryListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">9</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">اجراءات موظف الشئون القانونية</Field>
+          <Field Name="PageTitleEN">Legal Affairs Employee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresLegalAffairsOpinion.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">10</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR">اجراءات مدير الأدارة</Field>
+          <Field Name="PageTitleEN">Department Manager Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresDeptManagerListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">11</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="PageTitleAR">اجراءات اللجنة</Field>
+          <Field Name="PageTitleEN">Technical Committee Procedures</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ProceduresTechCommitteListing.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">12</Field>
+        </Row>-->
+        <Row>
+          <Field Name="PageTitleAR"> قرارات مشابهه</Field>
+          <Field Name="PageTitleEN">Similar Requests</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ViewSimilarRequests.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">13</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">القرارات</Field>
+          <Field Name="PageTitleEN">All Decisions</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerDecisions.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">14</Field>
+        </Row>
+        <Row>
+          <Field Name="PageTitleAR">التوصيات</Field>
+          <Field Name="PageTitleEN">All Recommendations</Field>
+          <Field Name="PageLinkEN">/en/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="PageLinkAR">/ar/reviewer/Pages/ReviewerRecommendations.aspx</Field>
+          <Field Name="SPGroupName">Higher Educational Institutions</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="Order">15</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

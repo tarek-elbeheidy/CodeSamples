@@ -1,0 +1,874 @@
+﻿<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Office.Word.Server</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Office.Word.Server.AdminUI">
+            <summary>Provides types and members for the service application's administration UI.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.AdminUI.Create">
+            <summary>For internal use only. Provides types and members for the service application's creation UI.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.AdminUI.Manage">
+            <summary>For internal use only. Provides types and members for the service application's management UI.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.AdminUI.Properties">
+            <summary>For internal use only. Provides types and members for the service application's properties UI.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings">
+            <summary>Represents the collection of settings used for all conversions within a single conversion job.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.#ctor">
+            <summary>Initialize a new instance of the <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/> class, using the service's default settings.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.RevisionState">
+            <summary>Gets or sets a value that indicates the revision view state for converted documents.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.RevisionState"/> value.</value>
+            <remarks>The default value for this setting is <c>Final</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.MarkupView">
+            <summary>Gets or sets a value that indicates the markup visibility state for converted documents.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.MarkupTypes"/> value.</value>
+            <remarks>The default value for this setting is <c>Comments | Ink | Text | Formatting</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.UpdateFields">
+            <summary>Gets or sets a value that indicates whether fields in the document should be updated during conversion.</summary>
+            <value>If <c>true</c>, fields are automatically updated during conversion. Otherwise, fields are not automatically updated during conversion.</value>
+            <remarks>The default value for this setting is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.DefaultLanguage">
+            <summary>Gets or sets a value that indicates the language used when resolving any language-dependent content within the document.</summary>
+            <value>If this value is <c>null</c>, the default language of the site on which the document is stored is used.</value>
+            <remarks>The default value for this setting is <c>null</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.EmbedFonts">
+            <summary>Gets or sets a value that indicates if fonts used by the document are saved as part of the output file.</summary>
+            <value>If <c>true</c>, embeds fonts within the output file. Otherwise, fonts are not embedded.</value>
+            <remarks>The default value for this setting is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.SubsetEmbeddedFonts">
+            <summary>Gets or sets a value that indicates if only those characters required by the document are included in the embedded font. Ignored unless the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.EmbedFonts"/> property is <c>true</c>.</summary>
+            <value>If <c>true</c>, only characters required by the document are included in the embedded font. Otherwise, the entire font is embedded.</value>
+            <remarks>The default value for this setting is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.DoNotEmbedSystemFonts">
+            <summary>Gets or sets a value that indicates if common (web safe) fonts should be included in the output file. Ignored unless the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.EmbedFonts"/> property is <c>true</c>.</summary>
+            <value>If <c>true</c>, fonts considered common are not embedded in the file. Otherwise, all fonts used in the document, including common fonts, are embedded.</value>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.CompatibilityMode">
+            <summary>Gets or sets a value that indicates the compatibility mode for the output file.</summary>
+            <value>A <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.CompatibilityMode"/> value specifying the compatibility mode for the output file. Ignored if the output file type does not support the specified compatibility mode.</value>
+            <remarks>The default value for this setting is <c>MaintainCurrentSetting</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.AddThumbnail">
+            <summary>Gets or sets a value that indicates if the output document is saved with an preview thumbnail. Ignored if the output file type does not support thumbnails.</summary>
+            <value>If <c>true</c>, a thumbnail is added to the output file. Otherwise, no thumbnail is added.</value>
+            <remarks>The default value for this setting is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.FixedFormatSettings">
+            <summary>Gets the collection of settings that are specific to fixed format output. Ignored if the output file type is not a fixed file format.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings"/> object.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.OutputFormat">
+            <summary>Gets or sets a value that indicates the output file format for the conversion job.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.SaveFormat"/> value.</value>
+            <remarks>The default value for this setting is <c>Automatic</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.OutputSaveBehavior">
+            <summary>Gets or sets a value that indicates the behavior when the output file for a conversion already exists.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.SaveBehavior"/> value.</value>
+            <remarks>The default value for this setting is <c>AppendIfPossible</c>.</remarks>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.BalloonState">
+            <summary>Represents how revisions and markup in the output file can be displayed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.BalloonState.AlwaysUse">
+            <summary>Show all revisions in balloons.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.BalloonState.Inline">
+            <summary>Show all revisions inline with the document text.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.BalloonState.OnlyCommentsAndFormatting">
+            <summary>Show comments and formatting revision in balloons, all other revisions inline with the document text.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.CompatibilityMode">
+            <summary>Represents how the compatibility mode can be set for output files.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.CompatibilityMode.Word2003">
+            <summary>Use Word 97-2003 compatibility mode.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.CompatibilityMode.Word2007">
+            <summary>Use Word 2007 compatibility mode.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.CompatibilityMode.Word2010">
+            <summary>Use Word 2010 compatibility mode.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.CompatibilityMode.MaintainCurrentSetting">
+            <summary>Use the compatibility mode specified by the input file.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.CompatibilityMode.Current">
+            <summary>Use the most newest compatibility mode supported by the service.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.FixedFormatQuality">
+            <summary>Represents the output quality that can be used for fixed format output.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.FixedFormatQuality.Standard">
+            <summary>Optimize the output for printing.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.FixedFormatQuality.Minimum">
+            <summary>Optimize the output for online reading.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.FixedFormatBookmark">
+            <summary>Represents how bookmarks can be created in fixed format output.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.FixedFormatBookmark.None">
+            <summary>Do not generate bookmarks in the fixed format output.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.FixedFormatBookmark.Headings">
+            <summary>Convert Word headings into bookmarks in the fixed format output.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.FixedFormatBookmark.Bookmarks">
+            <summary>Convert Word bookmarks into bookmarks in the fixed format output.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.RevisionState">
+            <summary>Represents how revisions and comments can be displayed in the output file.</summary>
+            <remarks>This setting is ignored in non-fixed format output unless Word is configured to read this setting from the document.</remarks>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.RevisionState.Final">
+            <summary>Show the final view, as though revisions were accepted and comments removed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.RevisionState.FinalShowingMarkup">
+            <summary>Show the final view, including all revisions and comments.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.RevisionState.Original">
+            <summary>Show in original view, as though revisions were rejected and comments removed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.RevisionState.OriginalShowingMarkup">
+            <summary>Show the original view, including all revisions and comments.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.SaveFormat">
+            <summary>Represents the supported save formats for output files.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.Automatic">
+            <summary>Use the file extension of the output file to determine output format.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.Document">
+            <summary>Save output file as a Word Document (.docx).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.DocumentMacroEnabled">
+            <summary>Save output file as a Word Macro-Enabled Document (.docm).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.Document97">
+            <summary>Save output file as a Word 97-2003 Document (.doc).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.Template">
+            <summary>Save output file as a Word Template (.dotx).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.TemplateMacroEnabled">
+            <summary>Save output file as a Word Macro-Enabled Template (.dotm).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.Template97">
+            <summary>Save output file as a Word 97-2003 Template (.dot).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.MHTML">
+            <summary>Save output file as a Single File Web Page (.mht).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.PDF">
+            <summary>Save output file as a PDF (.pdf).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.RTF">
+             <summary>Save output file as a Rich Text Format document (.rtf).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.XML">
+            <summary>Save output file as a Word XML Document (.xml).</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveFormat.XPS">
+            <summary>Save output file as a XPS Document (.xps).</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.SaveBehavior">
+            <summary>Represents how the output file should be processed if it already exists at the output location.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveBehavior.AppendIfPossible">
+            <summary>Append the file as a new version to the existing document if versioning is turned on. If the output list doesn't have versioning turned on, overwrite the existing file.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveBehavior.AlwaysOverwrite">
+            <summary>Overwrite the existing file, even if versioning is turned on.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveBehavior.AppendOnly">
+            <summary>Append the file as a new version to the existing document if versioning is turned on. If the output list doesn't have versioning turned on, fail the conversion.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.SaveBehavior.NeverOverwrite">
+            <summary>Fail the conversion if the output file already exists.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.MarkupTypes">
+            <summary>Represents the types of markup that should be visible in the output document.</summary>
+            <remarks>This setting is ignored in non-fixed format output unless Word is configured to read this setting from the document.</remarks>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.MarkupTypes.Comments">
+            <summary>Show comments in the output document.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.MarkupTypes.Ink">
+            <summary>Show ink markup in the output document.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.MarkupTypes.Text">
+            <summary>Show revisions (insertions, deletions, etc.) in the output document.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.MarkupTypes.Formatting">
+            <summary>Show formatting revisions in the output document.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings">
+            <summary>Represents the collection of settings used for settings specific to fixed format output.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.OutputQuality">
+            <summary>Gets or sets a value that indicates the output quality.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.FixedFormatQuality"/> value.</value>
+            <remarks>The default value for this setting is <c>Standard</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.Bookmarks">
+            <summary>Gets or sets a value that indicates how bookmarks are saved into the output file.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.FixedFormatBookmark"/> value.</value>
+            <remarks>The default value for this setting is <c>None</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.IncludeDocumentProperties">
+            <summary>Gets or sets a value that indicates if document properties are saved to the output file.</summary>
+            <value>If <c>true</c>, document properties are saved to the output file. Otherwise, no document properties are saved to the output file.</value>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.IncludeDocumentStructure">
+            <summary>Gets or sets a value that indicates if document structure tags are saved to the output file.</summary>
+            <value>If <c>true</c>, document structure tags are saved to the output file. Otherwise, document structure tags are not saved to the output file.</value>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.UsePDFA">
+            <summary>Gets or sets a value that indicates if PDF output should use the PDF/A format.</summary>
+            <value>If <c>true</c>, PDF output uses the PDF/A format.</value>
+            <remarks>The default value for this setting is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.BitmapEmbeddedFonts">
+            <summary>Gets or sets a value that indicates if fonts are bitmapped and included in the output file when they cannot be embedded.</summary>
+            <value>If <c>true</c>, fonts are bitmapped and included in the output file when they cannot be embedded. Otherwise, fonts that cannot be embedded are not included in the output file.</value>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.BalloonState">
+            <summary>Gets or sets a value that indicates the visibility of markup balloons in the output file.</summary>
+            <value>A <see cref="P:Microsoft.Office.Word.Server.Conversions.FixedFormatSettings.BalloonState"/> value.</value>
+            <remarks>The default value for this setting is <c>OnlyCommentsAndFormatting</c>.</remarks>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo">
+            <summary>Represents details for a single conversion within a conversion job.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.ErrorMessage">
+            <summary>Gets a value that describes why the conversion failed.</summary>
+            <value>A string describing the error condition and possible remediation steps.</value>
+            <remarks>This property is empty if the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.Failed"/> property is <c>false</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.ConversionId">
+            <summary>Gets the conversion ID of this conversion.</summary>
+            <value>A integer specifying the order in which conversions within the parent conversion job are processed.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.InputFile">
+            <summary>Gets the path to the input file.</summary>
+            <value>A string specifying the full path to the input file.</value>
+            <remarks>If the conversion was added using the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddFolder(Microsoft.SharePoint.SPFolder,Microsoft.SharePoint.SPFolder,System.Boolean)"/> or <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddLibrary(Microsoft.SharePoint.SPList,Microsoft.SharePoint.SPList,System.Boolean)"/> methods, the path is constructed using the default access mapping.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.OutputFile">
+            <summary>Gets the path to the output file.</summary>
+            <value>A string specifying the full path to the output file.</value>
+            <remarks>If the conversion was added using the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddFolder(Microsoft.SharePoint.SPFolder,Microsoft.SharePoint.SPFolder,System.Boolean)"/> or <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddLibrary(Microsoft.SharePoint.SPList,Microsoft.SharePoint.SPList,System.Boolean)"/> methods, the path is constructed using the default access mapping.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.ErrorCode">
+            <summary>Gets a unique error code for a failed conversion.</summary>
+            <value>An integer specifying the unique error code.</value>
+            <remarks>This property should be ignored if the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.Failed"/> property is <c>false</c>.</remarks> 
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.Canceled">
+            <summary>Gets a value that indicates whether the conversion of this item was canceled.</summary>
+            <value>If <c>true</c>, the processing of this item was cancelled.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.NotStarted">
+            <summary>Gets a value that indicates whether the conversion of this item has started.</summary>
+            <value>If <c>true</c>, the processing of this item has not yet started (processing of the item is still pending).</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.InProgress">
+            <summary>Gets a value that indicates whether the conversion of this item is in progress.</summary>
+            <value>If <c>true</c>, the processing of this item is currently in progress.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.Succeeded">
+            <summary>Gets a value that indicates whether the conversion of this item has completed successfully.</summary>
+            <value>If <c>true</c>, the processing of this item has completed successfully.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.Failed">
+            <summary>Gets a value that indicates whether the conversion of this item has failed.</summary>
+            <value>If <c>true</c>, the processing of this item has failed.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.StartTime">
+            <summary>Gets a value that specifies when the processing of this item began.</summary>
+            <value>A <c>DateTime</c> value specifying the local date and time when conversion of this item began.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo.CompleteTime">
+            <summary>Gets a value that specifies when the processing of this item completed (whether the item was converted successfully or failed).</summary>
+            <value>A <c>DateTime</c> value specifying the local date and time when conversion of this item completed.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ConversionJob">
+            <summary>Represents a group of conversions tracked as a unit.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,Microsoft.Office.Word.Server.Conversions.ConversionJobSettings)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with the specified <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/>.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application used to run the job.</param>
+            <param name="settings">A <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/> specifying the default settings for the conversion job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with default settings.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application used to run the job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(System.String)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with default settings.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application used to run the job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(System.Guid)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with default settings.</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application used to run the job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(System.String,Microsoft.Office.Word.Server.Conversions.ConversionJobSettings)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with the specified <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/>.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application used to run the job.</param>
+            <param name="settings">A <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/> specifying the default settings for the conversion job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.#ctor(System.Guid,Microsoft.Office.Word.Server.Conversions.ConversionJobSettings)">
+            <summary>Creates a new <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJob"/> with the specified <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/>.</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application used to run the job.</param>
+            <param name="settings">A <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/> specifying the default settings for the conversion job.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddFile(System.String,System.String)">
+            <summary>Adds a file to the list of conversions performed when the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Start"/> method is called.</summary>
+            <param name="inputFile">A string specifying the location of the input file. This location must be within the SharePoint farm.</param>
+            <param name="outputFile">A string specifying the location where the output file will be saved. This location must be within the SharePoint farm.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddFolder(Microsoft.SharePoint.SPFolder,Microsoft.SharePoint.SPFolder,System.Boolean)">
+            <summary>Adds all Word documents in a folder to the list of conversions performed when the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Start"/> method is called.</summary>
+            <param name="inputFolder">An <c>SPFolder</c> specifying the folder from which input files are obtained.</param>
+            <param name="outputFolder">An <c>SPFolder</c> specifying the folder where output files are saved.</param>
+            <param name="recursion"><c>True</c> to search this folder and all subfolders. Otherwise, only the current folder is searched.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.AddLibrary(Microsoft.SharePoint.SPList,Microsoft.SharePoint.SPList)">
+            <summary>Adds all Word documents in a library to the list of conversions performed when the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Start"/> method is called.</summary>
+            <param name="inputList">An <c>SPList</c> specifying the library from which input files are obtained.</param>
+            <param name="outputList">An <c>SPList</c> specifying the library where output files are saved.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Start">
+            <summary>Start the processing of the conversion job.</summary>
+            <remarks>Until this method is called, none of the conversions in the conversion job are started.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Cancel">
+            <summary>Cancels the current conversion job.</summary>
+            <remarks>When canceled, items with status NotStarted are not processed. However, InProgress items continue executing, and completed conversions are not deleted.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.CancelJob(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,System.Guid,System.Nullable{System.Guid})">
+            <summary>Cancels the specified conversion job.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service running the job.</param>
+            <param name="jobId">A Guid specifying the JobId of the conversion job to be cancelled.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription of the job's creator. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <remarks>When canceled, items with status NotStarted are not processed. However, InProgress items continue executing, and completed conversions are not deleted.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.CancelJob(System.String,System.Guid,System.Nullable{System.Guid})">
+            <summary>Cancels the specified conversion job.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application running the job.</param>
+            <param name="jobId">A Guid specifying the JobId of the conversion job to be cancelled.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription of the job's creator. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.CancelJob(System.Guid,System.Guid,System.Nullable{System.Guid})">
+            <summary>Cancels the specified conversion job.</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application running the job.</param>
+            <param name="jobId">A Guid specifying the JobId of the conversion job to be cancelled.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription of the job's creator. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.JobId">
+            <summary>Gets a value that specifies the unique ID corresponding to the current conversion job.</summary>
+            <value>A Guid value specifying the unique ID for the job.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.Settings">
+            <summary>Gets a value that specifies the collection of settings used for all conversions within the job.</summary>
+            <value>A <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings"/> object.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.Name">
+            <summary>Gets or sets a value that specifies the friendly name for the current conversion job.</summary>
+            <value>A string value specifying the name for the job.</value>
+            <remarks>The default value is <c>null</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.Canceled">
+            <summary>Gets a value that indicates whether the conversion job was cancelled.</summary>
+            <value>If <c>true</c>, the processing of this job was cancelled.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.Started">
+            <summary>Gets a value that indicates whether this job has been started using the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJob.Start"/> method. Once started, additional files cannot be added to the conversion job.</summary>
+            <value>If <c>true</c>, the processing of this job has started.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.UserToken">
+            <summary>Gets or sets a value that specifies the user credentials used to retrieve input files and save output files for the conversion job.</summary>
+            <value>An SPUserToken value that specifies the user credentials.</value>
+            <remarks>The default value is <c>null</c>, which uses Anonymous access.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.SubscriptionId">
+            <summary>Gets or sets a value that specifies the site subscription of the conversion job.</summary>
+            <value>A Guid value that specifies the subscription ID for the user's site subscription.</value>
+            <remarks>The default value is <c>null</c>, which means that the SharePoint farm was not set up for multiple site subscriptions.</remarks>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo">
+            <summary>Represents details for a single conversion job.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.JobId">
+            <summary>Gets a value that specifies the unique ID corresponding to the current conversion job.</summary>
+            <value>A Guid value specifying the unique ID for the job.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.SubmittedTime">
+            <summary>Gets a value that specifies when the job was submitted.</summary>
+            <value>A DateTime value specifying the local date and time when the job was submitted.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.Canceled">
+            <summary>Gets a value that indicates whether the conversion job was cancelled.</summary>
+            <value>If <c>true</c>, the processing of this job was cancelled.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.CancelTime">
+            <summary>Gets a value that specifies when the job was cancelled.</summary>
+            <value>A DateTime value specifying the local date and time when the job was canceled. If it was not canceled, returns <c>null</c>.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.PartiallySubmitted">
+            <summary>Gets a value that specifies whether the job is partially submitted. Partially submitted conversion jobs are not processed until complete.</summary>
+            <value>If <c>true</c>, the job is currently being submitted, or encountered an error before it was fully submitted.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobInfo.Name">
+            <summary>Gets a value that specifies the friendly name for the current conversion job.</summary>
+            <value>A string value specifying the name for the job.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus">
+            <summary>Represents the state of an existing conversion job.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.#ctor(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,System.Guid,System.Nullable{System.Guid})">
+            <summary>Get the status for a single conversion job. A job can only be queried using the same credentials passed to the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.UserToken"/> property at creation time, or those of a farm administrator.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application being queried.</param>
+            <param name="jobId">A Guid specfifying the unique ID of the conversion job being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.#ctor(System.String,System.Guid,System.Nullable{System.Guid})">
+            <summary>Get the status for a single conversion job. A job can only be queried using the same credentials passed to the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.UserToken"/> property at creation time, or those of a farm administrator.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application being queried.</param>
+            <param name="jobId">A Guid specfifying the unique ID of the conversion job being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.#ctor(System.Guid,System.Guid,System.Nullable{System.Guid})">
+            <summary>Get the status for a single conversion job. A job can only be queried using the same credentials passed to the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJob.UserToken"/> property at creation time, or those of a farm administrator.</summary>>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application being queried.</param>
+            <param name="jobId">A Guid specfifying the unique ID of the conversion job being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetItems(Microsoft.Office.Word.Server.Conversions.ItemTypes)">
+            <summary>Get information about particular groups of items within the conversion job, based on their final status.</summary>
+            <param name="types">An <see cref="T:Microsoft.Office.Word.Server.Conversions.ItemTypes"/> value that specifies the type(s) of items to retrieve.</param>
+            <returns>A collection of <see cref="T:Microsoft.Office.Word.Server.Conversions.ConversionItemInfo"/> objects.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Refresh">
+            <summary>Refresh the status of the conversion job.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(System.String,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(System.String,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(System.Guid,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllActiveJobs(System.Guid,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs with one or more active items (items with a status of InProgress or NotStarted).</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for active conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>>
+            <returns>List of job ids.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="serviceApplicationProxy">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> used to communicate with the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for all conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(System.String,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <returns>A collection of ID values corresponding to the job ID values for all conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(System.String,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="name">A string specifying the name of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for all conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(System.Guid,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <returns>A collection of ID values corresponding to the job ID values for all conversion jobs.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetAllJobs(System.Guid,Microsoft.SharePoint.SPUserToken,System.Nullable{System.Guid})">
+            <summary>Get all conversion jobs.</summary>
+            <param name="id">A Guid specifying the ID of the Word Automation Services service application being queried.</param>
+            <param name="subscriptionId">A Guid specifying the ID for the site subscription used to filter the job list. If the SharePoint farm was not set up for multiple site subscriptions, this parameter can be <c>null</c>.</param>
+            <param name="user">An SPUserToken specifying the user credentials used to filter the job list.</param>
+            <returns>A collection of ID values corresponding to the job ID values for all conversion jobs.</returns>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Count">
+            <summary>Gets the total number of items in this job.</summary>
+            <value>An integer specifying the total number of conversion items in the job.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.NotStarted">
+            <summary>Gets the total number of items that have not yet been processed within this job.</summary>
+            <value>An integer specifying the total number of conversion items with a status of NotStarted.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.InProgress">
+            <summary>Gets the total number of items that are currently processing within this job.</summary>
+            <value>An integer specifying the total number of conversion items with a status of InProgress.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Succeeded">
+            <summary>Gets the total number of items that have completed successfully within this job.</summary>
+            <value>An integer specifying the total number of conversion items with a status of Succeeded.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Canceled">
+            <summary>Gets the total number of items that have been canceled within this job.</summary>
+            <value>An integer specifying the total number of conversion items with a status of Canceled.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Failed">
+            <summary>Gets the total number of items that have failed within this job.</summary>
+            <value>An integer specifying the total number of conversion items with a status of Failed.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.Name">
+            <summary>Gets a value that specifies the friendly name for the current conversion job.</summary>
+            <value>A string specifying the name for the job.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Conversions.ItemTypes">
+            <summary>Represents the categories of items that can be retrieved using the <see cref="M:Microsoft.Office.Word.Server.Conversions.ConversionJobStatus.GetItems(Microsoft.Office.Word.Server.Conversions.ItemTypes)"/> method.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.ItemTypes.Succeeded">
+            <summary>Represents items that have completed successfully.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.ItemTypes.InProgress">
+            <summary>Represents items that are currently being processed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.ItemTypes.NotStarted">
+            <summary>Represents items that have not yet been processed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.ItemTypes.Failed">
+            <summary>Represents items that have failed.</summary>
+        </member>
+        <member name="F:Microsoft.Office.Word.Server.Conversions.ItemTypes.Canceled">
+            <summary>Represents items that have been canceled.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.LoadBalancer">
+            <summary>For internal use only. Represents the load balancer used to distribute conversions between multiple back-end application servers.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.LoadBalancer.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.LoadBalancer.BeginOperation">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.QueueDatabase">
+            <summary>For internal use only. Represents the database used to store the queue of conversion items.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.QueueDatabase.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.QueueDatabase.Provision">
+            <summary>For internal use only. Provisions a new database for use by the service application.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.QueueDatabase.OnPostRestore(System.Object,Microsoft.SharePoint.Administration.Backup.SPRestoreInformation)">
+            <summary>For internal use only. Executes the actions necessary to restart the service after a backup is restored.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.QueueJob">
+            <summary>Represents the timer job used to process items in the queue.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.QueueJob.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.QueueJob.Execute(Microsoft.SharePoint.Administration.SPJobState)">
+            <summary>Executes the timer job which processes items in the queue.</summary>
+            <param name="jobState">Not used.</param>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.QueueJob.DisplayName">
+            <summary>Gets a value specifying the name of the timer job.</summary>
+            <value>A string specifying the name of the timer job, in the current display language.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.QueueJob.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceApplication">
+            <summary>Represents an instance of the Word Automation Services service application.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplication.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplication.Provision">
+            <summary>Provisions the service application.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplication.Unprovision(System.Boolean)">
+            <summary>Unprovisions the service application.</summary>
+            <param name="deleteData"><c>True</c> to delete any user data associated with the service application. Otherwise, user data is not deleted.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplication.Delete">
+            <summary>Deletes the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.Database">
+            <summary>Gets or sets the database used by the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.WordServiceFormats">
+            <summary>Gets or sets the enabled/disabled state for each file format supported by the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.ConversionsPerInstance">
+            <summary>Gets or sets the number of conversions assigned to a conversion process each time the timer job executes.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.ConversionTimeout">
+            <summary>Gets or sets a value that indicates the maximum length of time that a conversion can execute before it is aborted.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.TimerJobFrequency">
+            <summary>Gets a value that indicates the frequency with which documents in the queue are dispatched for conversion.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.KeepAliveTimeout">
+            <summary>Gets or sets a value that indicates the maximum length of time that the conversion can be non-responsive before it is aborted.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.MaximumConversionTime">
+            <summary>Gets or sets a value that indicates the length of time that a conversion can can execute before it is aborted.</summary>
+        </member> 
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.MaximumConversionAttempts">
+            <summary>Gets or sets a value that indicates the maximum number of times a conversion will be restarted upon failure before it is marked <c>Failed</c>.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.DisableEmbeddedFonts">
+            <summary>Gets or sets a value that indicates if font embedding can be performed. If this setting is <c>true</c>, the <see cref="P:Microsoft.Office.Word.Server.Conversions.ConversionJobSettings.EmbedFonts"/> property has no effect.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.DisableBinaryFileScan">
+            <summary>Gets or sets a value that indicates whether binary documents loaded by the service are subject to additional security validation.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.MaximumMemoryUsage">
+            <summary>Gets or sets a value that indicates the maximum percentage of memory that can be consumed by the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.RecycleProcessThreshold">
+            <summary>Gets or sets a value that indicates the number of Word documents converted before the conversion process is recycled.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.TotalActiveProcesses">
+            <summary>Gets or sets a value that indicates the number of conversion processes running per server running the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.ApplicationClassId">
+            <summary>Gets the class ID of the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.ApplicationVersion">
+            <summary>Gets the version of the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.ManageLink">
+            <summary>Gets the URL for the administrative UI used to manage the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.PropertiesLink">
+            <summary>Gets the URL for the properties UI used to manage the service application.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplication.Shared">
+            <summary>Gets a value indicating whether the service application is shared across multiple SharePoint farms.</summary>
+            <remarks>This value is always <c>false</c>.</remarks>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationBackupAttribute">
+            <summary>For internal use only. Represents backup and restore behavior for the service application.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplicationBackupAttribute.OnPrepareBackup(System.Object,Microsoft.SharePoint.Administration.Backup.SPBackupInformation)">
+            <summary>For internal use only. Executes actions necessary to prepare for a system backup.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplicationBackupAttribute.OnPostRestore(System.Object,Microsoft.SharePoint.Administration.Backup.SPRestoreInformation)">
+            <summary>For internal use only. Executes actions necessary after a backup is restored.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy">
+            <summary>Represents a proxy that can be used to communicate with a <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplication"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy.#ctor">
+            <summary>For internal use only.</summary>		
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy.Provision">
+            <summary>Provisions the service application proxy.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy.Unprovision(System.Boolean)">
+            <summary>Unprovisions the service application proxy.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy.MaximumGroupSize">
+            <summary>Gets or sets the maximum size of a single group of items (transferred in a single WCF call).</summary>
+            <value>An integer that represents the maximum size of a single WCF message, in bytes.</value>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxyBackupAttribute">
+            <summary>For internal use only. Represents backup and restore behavior for the service application proxy.</summary>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordService">
+            <summary>Represents the service as installed on the farm.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.#ctor(System.String,Microsoft.SharePoint.Administration.SPFarm)">
+            <summary>Creates a new instance of the <see cref="T:Microsoft.Office.Word.Server.Service.WordService"/> on a farm.</summary>
+            <param name="name">Not used.</param>
+            <param name="farm">An SPFarm representing the server farm on which the service is created.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.CreateApplication(System.String,System.Type,Microsoft.SharePoint.Administration.SPServiceProvisioningContext)">
+            <summary>Creates a new service application. If the service application already exists, the existing <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplication"/> will be returned.</summary>
+            <param name="name">A string representing the name of the new service application.</param>
+            <param name="serviceApplicationType">A <see cref="T:System.Type"/> representing the type of the new service application.</param>
+            <param name="provisioningContext">An <see cref="Microsoft.SharePoint.Administration.SPServiceProvisioningContext"/> representing default provisioning parameters for the new service application.</param>
+            <returns>A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplication"/>.</returns>
+            <remarks>This method returns an existing instance if one has already been created with the specified name.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.CreateProxy(System.String,Microsoft.SharePoint.Administration.SPServiceApplication,Microsoft.SharePoint.Administration.SPServiceProvisioningContext)">
+            <summary>Creates a new service application proxy. If the service application proxy already exists, the existing <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> will be returned.</summary>
+            <param name="name">A string representing the name of the new service application proxy.</param>
+            <param name="serviceApplication">A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplication"/> representing the service application to which the proxy is added.</param>
+            <param name="provisioningContext">An <see cref="Microsoft.SharePoint.Administration.SPServiceProvisioningContext"/> representing default provisioning parameters for the new service application proxy.</param>
+            <returns>A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/>.</returns>
+            <remarks>This method returns an existing instance if one has already been created with the specified name.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.GetApplicationTypeDescription(System.Type)">
+            <summary>Gets the description of the specified service application type.</summary>
+            <param name="serviceApplicationType">A <see cref="T:System.Type"/> representing the type of the service application.</param>
+            <returns>A <see cref="T:Microsoft.SharePoint.Administration.SPPersistedTypeDescription"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.GetApplicationTypes">
+            <summary>Gets the service application types supported by the service.</summary>
+            <returns>An array containing the <see cref="T:System.Type"/> values supported by <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplication"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordService.GetCreateApplicationLink(System.Type)">
+            <summary>Gets the URL for the administrative UI used to create a new service application.</summary>
+            <param name="serviceApplicationType">A <see cref="T:System.Type"/> representing the type of the service application.</param>
+            <returns>An <see cref="T:Microsoft.SharePoint.Administration.SPAdministrationLink"/> object.</returns>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordService.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceFormats">
+            <summary>Represents the enabled/disabled state for each file format supported by the service.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceFormats.DisableAll">
+            <summary>Disable all file formats.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceFormats.DisableFromExtensions(System.String[])">
+            <summary>Disable a specific list of file formats, based on file extensions.</summary>
+            <param name="disabledExtensions">A string representing the list of file extensions to disable. Possible values: docx, doc, mht, rtf, xml.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceFormats.EnableFromExtensions(System.String[])">
+            <summary>Enable a specific list of file formats, based on file extensions.</summary>
+            <param name="enabledExtensions">A string representing the list of file extensions to enable. Possible values: docx, doc, mht, rtf, xml.</param>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceFormats.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceFormats.OpenXmlDocument">
+            <summary>Gets or sets a value that indicates if the service application can read Open XML files (.docx, .docm, .dotx, .dotm, .xml).</summary>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceFormats.Word972003Document">
+            <summary>Gets or sets a value that indicates if the service application can read Word 97-2003 files (.doc, .dot).</summary>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceFormats.RichTextFormat">
+            <summary>Gets or sets a value that indicates if the service application can read Rich Text Format files (.rtf).</summary>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceFormats.WebPage">
+            <summary>Gets or sets a value that indicates if the service application can read Web Page files (.htm, .mht).</summary>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceFormats.Word2003Xml">
+            <summary>Gets or sets a value that indicates if the service application can read Word 2003 XML files (.xml).</summary>
+            <remarks>The default value for this setting is <c>true</c>.</remarks>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceInstance">
+            <summary>Represents a single instance of the service on a specific back-end application server.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceInstance.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceInstance.Delete">
+            <summary>Remove the service instance from the machine.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceInstance.Provision">
+            <summary>Start the service instance on the machine.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceInstance.Unprovision">
+            <summary>Stop the service instance on the machine.</summary>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceInstance.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+        <member name="T:Microsoft.Office.Word.Server.Service.WordServiceProxy">
+            <summary>Represents a proxy that can be used to communicate with the <see cref="T:Microsoft.Office.Word.Server.Service.WordService"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceProxy.#ctor">
+            <summary>For internal use only.</summary>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceProxy.CreateProxy(System.Type,System.String,System.Uri,Microsoft.SharePoint.Administration.SPServiceProvisioningContext)">
+            <summary>Creates a new service application proxy. If the service application proxy already exists, the existing <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/> will be returned.</summary>
+            <param name="serviceApplicationProxyType">A <see cref="T:System.Type"/> representing the type of the new service application proxy.</param>
+            <param name="name">A string representing the name of the new service application proxy.</param>
+            <param name="serviceApplicationUri">A <see cref="T:System.Uri"/> representing the address of the new service application proxy.</param>
+            <param name="provisioningContext">An <see cref="Microsoft.SharePoint.Administration.SPServiceProvisioningContext"/> representing default provisioning parameters for the new service application proxy.</param>
+            <returns>A <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/>.</returns>
+            <remarks>This method returns an existing instance if one has already been created with the specified name.</remarks>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceProxy.GetProxyTypeDescription(System.Type)">
+            <summary>Gets a description of the specified service application proxy type.</summary>
+            <param name="serviceApplicationProxyType">A <see cref="T:System.Type"/> representing the type of the new service application proxy.</param>
+            <returns>The <see cref="T:Microsoft.SharePoint.Administration.SPPersistedTypeDescription"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Office.Word.Server.Service.WordServiceProxy.GetProxyTypes">
+            <summary>Gets the service application proxy types supported by the service.</summary>
+            <returns>An Array containing the <see cref="T:System.Type"/> values supported by <see cref="T:Microsoft.Office.Word.Server.Service.WordServiceApplicationProxy"/>.</returns>
+        </member>
+        <member name="P:Microsoft.Office.Word.Server.Service.WordServiceProxy.TypeName">
+            <summary>Gets a value specifying the object's type name.</summary>
+            <value>A string specifying the type name for the object, used in Central Administration to show the object's type.</value>
+        </member>
+    </members>
+</doc>

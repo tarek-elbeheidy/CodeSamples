@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Specialization"
+                OnQuickLaunch="TRUE"
+                TemplateType="20038"
+                Url="Lists/Specialization"
+                Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">الفم وعلاج اللثة والأشعة</Field>
+          <Field Name="TitleAr"> الفم وعلاج اللثة والأشعة </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">االاستعاضة الصناعية</Field>
+          <Field Name="TitleAr"> االاستعاضة الصناعية </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلاج التحفظي</Field>
+          <Field Name="TitleAr"> العلاج التحفظي </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الإذاعة والتليفزيون</Field>
+          <Field Name="TitleAr"> الإذاعة والتليفزيون </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الصحافة</Field>
+          <Field Name="TitleAr"> الصحافة </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلاقات العامة والإعلان</Field>
+          <Field Name="TitleAr"> العلاقات العامة والإعلان </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اقتصاد وعلوم سياسية </Field>
+          <Field Name="TitleAr"> اقتصاد وعلوم سياسية </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلوم السياسية </Field>
+          <Field Name="TitleAr"> العلوم السياسية </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الإحصاء </Field>
+          <Field Name="TitleAr"> الإحصاء </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الفيزياء والرياضيات الهندسية </Field>
+          <Field Name="TitleAr"> الفيزياء والرياضيات الهندسية </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الهندسة الإنشائية </Field>
+          <Field Name="TitleAr"> الهندسة الإنشائية </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الري والهيدروليكا </Field>
+          <Field Name="TitleAr"> الري والهيدروليكا </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">المحاسبة  </Field>
+          <Field Name="TitleAr"> المحاسبة  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إدارة الأعمال  </Field>
+          <Field Name="TitleAr"> إدارة الأعمال  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الرياضة والتأمين  </Field>
+          <Field Name="TitleAr"> الرياضة والتأمين  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اخرى  </Field>
+          <Field Name="TitleAr"> اخرى  </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

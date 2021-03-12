@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x0101006900376DA88D4ACEA949C97178581142" Name="AttachmentsCT" Group="MOEHE" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{9711a4a7-8e82-4f6a-9ea6-02333ee83d06}" DisplayName="MOEHE Document Group" Required="FALSE" Name="MOEHEDocumentGroup" />
+      <FieldRef ID="{1392b117-1e7e-4d7a-a71b-8c3355b604ce}" DisplayName="MOEHE Document Status" Required="FALSE" Name="MOEHEDocumentStatus" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

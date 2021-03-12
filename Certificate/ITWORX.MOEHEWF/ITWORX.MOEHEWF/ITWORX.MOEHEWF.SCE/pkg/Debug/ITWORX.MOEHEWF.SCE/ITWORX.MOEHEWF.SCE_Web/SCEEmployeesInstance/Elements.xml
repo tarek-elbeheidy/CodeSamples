@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SCEEmployees"
+                OnQuickLaunch="TRUE"
+                TemplateType="10111"
+                Url="Lists/SCEEmployees"
+                Description="My List Instance"  FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Head Manager</Field>
+          <Field Name="TitleAr">رئيس قسم المعادلة</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Program Manager</Field>
+          <Field Name="TitleAr">مدير الإدارة</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

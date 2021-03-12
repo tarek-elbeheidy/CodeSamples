@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3f754476-d1b3-4676-8cf8-61e2ef18e83e" featureId="3f754476-d1b3-4676-8cf8-61e2ef18e83e" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="ITWORX.MOEHEWF.SCE Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

@@ -1,0 +1,1582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Specialization"
+                OnQuickLaunch="TRUE"
+                TemplateType="10038"
+                Url="Lists/Specialization"
+                Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+
+        <Row>
+          <Field Name="Title">medicine and surgery</Field>
+          <Field Name="TitleAr">طب بشري  و جراحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Physical Therapy</Field>
+          <Field Name="TitleAr">علاج طبيعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Clinical Labs</Field>
+          <Field Name="TitleAr">مختبرات إكلينيكية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nursing</Field>
+          <Field Name="TitleAr">تمريض</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nutrition</Field>
+          <Field Name="TitleAr">تغذية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dentistry</Field>
+          <Field Name="TitleAr">طب الأسنان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Pharmacy</Field>
+          <Field Name="TitleAr">صيدلة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Health management</Field>
+          <Field Name="TitleAr">إدارة صحية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Civil Engineering</Field>
+          <Field Name="TitleAr">هندسة مدنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Architecture</Field>
+          <Field Name="TitleAr">هندسة معمارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Surveying Engineering</Field>
+          <Field Name="TitleAr">هندسة المساحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mechanical Engineering</Field>
+          <Field Name="TitleAr">هندسة ميكانيكية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Occupational Safety and Health</Field>
+          <Field Name="TitleAr">السلامة والصحة المهنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electronic Engineering</Field>
+          <Field Name="TitleAr">هندسة إلكترونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communication Engineering</Field>
+          <Field Name="TitleAr">هندسة اتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nuclear Engineering</Field>
+          <Field Name="TitleAr">الهندسة النووية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Petroleum Engineering</Field>
+          <Field Name="TitleAr">هندسة البترول</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aviation Engineering</Field>
+          <Field Name="TitleAr">هندسة الطيران</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bio-medical Equipments Engineering</Field>
+          <Field Name="TitleAr">هندسة أجهزة طبية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Engineering</Field>
+          <Field Name="TitleAr">هندسة الحاسب الآلي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">System Control Engineering</Field>
+          <Field Name="TitleAr">هندسة أنظمة تحكم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Programming Engineering</Field>
+          <Field Name="TitleAr">هندسة برمجيات الحاسب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information technology</Field>
+          <Field Name="TitleAr">تقنية المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Chemical Engineering</Field>
+          <Field Name="TitleAr">هندسة كيميائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Industrial Engineering</Field>
+          <Field Name="TitleAr">هندسة صناعية (هندسة نظم)</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mechatronics Engineering</Field>
+          <Field Name="TitleAr">هندسة الميكاترونيكس</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mathematics</Field>
+          <Field Name="TitleAr">رياضيات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biology</Field>
+          <Field Name="TitleAr">أحياء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Physics</Field>
+          <Field Name="TitleAr">فيزياء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Chemistry</Field>
+          <Field Name="TitleAr">كيمياء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biochemistry</Field>
+          <Field Name="TitleAr">كيمياء حيوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">geophysics</Field>
+          <Field Name="TitleAr">فيزياء الأرض</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Geology</Field>
+          <Field Name="TitleAr">علوم الأرض (الجيولوجيا)</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Statics</Field>
+          <Field Name="TitleAr">إحصاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">marine sciences</Field>
+          <Field Name="TitleAr">علوم البحار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Microscopic obiology</Field>
+          <Field Name="TitleAr">علم الأحياء الدقيقة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Botany</Field>
+          <Field Name="TitleAr">نبات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Libraries</Field>
+          <Field Name="TitleAr">مكتبات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Psychology</Field>
+          <Field Name="TitleAr">علم النفس</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sociology</Field>
+          <Field Name="TitleAr">علم الاجتماع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Social worker</Field>
+          <Field Name="TitleAr">خدمة اجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Archeology and museums</Field>
+          <Field Name="TitleAr">آثار ومتاحف</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">History</Field>
+          <Field Name="TitleAr">تاريخ</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Geography</Field>
+          <Field Name="TitleAr">جغرافيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Politics</Field>
+          <Field Name="TitleAr">علوم سياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Law</Field>
+          <Field Name="TitleAr">قانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Anthropology</Field>
+          <Field Name="TitleAr">علم الإنسان - الأنثروبولوجيا - Anthropology</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International relations</Field>
+          <Field Name="TitleAr">علاقات دولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Economics</Field>
+          <Field Name="TitleAr">اقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business Adminstration</Field>
+          <Field Name="TitleAr">إدارة الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Marketing</Field>
+          <Field Name="TitleAr">تسويق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Human Resources</Field>
+          <Field Name="TitleAr">موارد بشرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality assurance</Field>
+          <Field Name="TitleAr">جودة نوعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Banking</Field>
+          <Field Name="TitleAr">مصرفية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic studies</Field>
+          <Field Name="TitleAr">العلوم الشرعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Education</Field>
+          <Field Name="TitleAr">تربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Physical training</Field>
+          <Field Name="TitleAr">تربية بدنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Fine Arts</Field>
+          <Field Name="TitleAr">تربية فنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Early Childhood</Field>
+          <Field Name="TitleAr">طفولة مبكرة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">English oliterature</Field>
+          <Field Name="TitleAr">آداب اللغة الانجليزية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arabic language and its literature</Field>
+          <Field Name="TitleAr">اللغة العربية وادابها</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic Arts</Field>
+          <Field Name="TitleAr">فنون إسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Decoration internal design</Field>
+          <Field Name="TitleAr">ديكور (تصميم داخلي)</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Graphic design</Field>
+          <Field Name="TitleAr">تصميم الجرافيك</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Drama</Field>
+          <Field Name="TitleAr">مسرح</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Journalism</Field>
+          <Field Name="TitleAr">صحافة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Media</Field>
+          <Field Name="TitleAr">إذاعة وتلفزيون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Agricultural Engineering</Field>
+          <Field Name="TitleAr">هندسة زراعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Metrology</Field>
+          <Field Name="TitleAr">أرصاد جوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Veterinary medicine</Field>
+          <Field Name="TitleAr">طب بيطري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environmental Sciences</Field>
+          <Field Name="TitleAr">علوم بيئية وصحة البيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">hostelry</Field>
+          <Field Name="TitleAr">فندقة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Criminology</Field>
+          <Field Name="TitleAr">علوم جنائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Geography and Urban initialization</Field>
+          <Field Name="TitleAr">الجغرافيا و التهىئة العمرانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Commercial Aviation Science</Field>
+          <Field Name="TitleAr">علوم الطيران التجاري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Business</Field>
+          <Field Name="TitleAr">اعمال عالمية - International Business</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Accounting</Field>
+          <Field Name="TitleAr">محاسبة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Project Management and Business Development</Field>
+          <Field Name="TitleAr">إدارة المشاريع وتطوير الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arts and Technology</Field>
+          <Field Name="TitleAr">فنون والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business Development</Field>
+          <Field Name="TitleAr">تطوير الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic studies</Field>
+          <Field Name="TitleAr">الدراسات الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic studies</Field>
+          <Field Name="TitleAr">الدراسات الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public international law</Field>
+          <Field Name="TitleAr">القانون الدولي العام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">fire scince administration</Field>
+          <Field Name="TitleAr">إدارة علوم الحرائق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environmental Sciences</Field>
+          <Field Name="TitleAr">علوم بيئية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">computer science</Field>
+          <Field Name="TitleAr">علوم حاسوب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical and Electronic Engineering</Field>
+          <Field Name="TitleAr">الهندسة الكهربائية والإلكترونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">management and economy</Field>
+          <Field Name="TitleAr">إدارة واقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Polizeiwissenschaft</Field>
+          <Field Name="TitleAr">علوم الشرطة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">computer science</Field>
+          <Field Name="TitleAr">علوم الكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Natural Resources Engineering</Field>
+          <Field Name="TitleAr">هندسة الموارد الطبيعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">marine engineering</Field>
+          <Field Name="TitleAr">هندسة بحرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technology in construction management</Field>
+          <Field Name="TitleAr">التكنولوجيا في إدارة الإنشاءات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Zoology study</Field>
+          <Field Name="TitleAr">علم دراسة الحيوان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">applied Sciences</Field>
+          <Field Name="TitleAr">علوم تطبيقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management</Field>
+          <Field Name="TitleAr">إدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environmental Management and Toxicology</Field>
+          <Field Name="TitleAr">الإدارة البيئية والسموم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Landscape Architecture</Field>
+          <Field Name="TitleAr">هندسة المناظر الطبيعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">media</Field>
+          <Field Name="TitleAr">الإعلام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Engineering</Field>
+          <Field Name="TitleAr">هندسة حاسبات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic finance</Field>
+          <Field Name="TitleAr">التمويل الإسلامي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">business adminstration human resource management</Field>
+          <Field Name="TitleAr">إدارة الأعمال وإدارة الموارد البشرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quantity Engineering</Field>
+          <Field Name="TitleAr">هندسة حساب كميات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sharia law</Field>
+          <Field Name="TitleAr">الشريعة والقانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Total Quality Management</Field>
+          <Field Name="TitleAr">إدارة الجودة الكلية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">international Business mangment</Field>
+          <Field Name="TitleAr">إدارة أعمال دولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Engineering</Field>
+          <Field Name="TitleAr">الهندسة الكهربائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Strategic Studies</Field>
+          <Field Name="TitleAr">الدراسات الاستراتيجية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sociology and social service</Field>
+          <Field Name="TitleAr">علم اجتماع وخدمة اجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public administration</Field>
+          <Field Name="TitleAr">إدارة عامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Finance and Accounting Department</Field>
+          <Field Name="TitleAr">الادارة المالية والمحاسبة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">computer</Field>
+          <Field Name="TitleAr">الحاسب الآلي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arts in International Business Administration</Field>
+          <Field Name="TitleAr">الفنون في ادارة الأعمال الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sciences</Field>
+          <Field Name="TitleAr">علوم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Business</Field>
+          <Field Name="TitleAr">أعمال عالمية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information Systems</Field>
+          <Field Name="TitleAr">نظم المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">computer support specialist program</Field>
+          <Field Name="TitleAr">برنامج متخصص دعم الكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">open education</Field>
+          <Field Name="TitleAr">تعليم مفتوح</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dar al-Hadith charity</Field>
+          <Field Name="TitleAr">دار الحديث الخيرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">the talk</Field>
+          <Field Name="TitleAr">الحديث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Hadith and its sciences</Field>
+          <Field Name="TitleAr">الحديث وعلومه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">financial markets</Field>
+          <Field Name="TitleAr">اسواق مالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Construction Law</Field>
+          <Field Name="TitleAr">قانون البناء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information Technology and Communications - the computerization of business</Field>
+          <Field Name="TitleAr">تقنية معلمومات وأتصالات - حوسبة أعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Technology</Field>
+          <Field Name="TitleAr">الهندسة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality Control Specialist</Field>
+          <Field Name="TitleAr">أخصائي ضبط الجودة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supply Chain Management Logistics</Field>
+          <Field Name="TitleAr">إدارة سلسلة التوريد والإمداد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Resources and logistics management</Field>
+          <Field Name="TitleAr">ادارة موارد و لوجستية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sharia</Field>
+          <Field Name="TitleAr">الشريعة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">elimination</Field>
+          <Field Name="TitleAr">القضاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Comparative Law</Field>
+          <Field Name="TitleAr">القانون المقارن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Media  Culture and Marketing Management</Field>
+          <Field Name="TitleAr">وسائل الإعلام والثقافة وإدارة التسويق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Science With Security and Forensics</Field>
+          <Field Name="TitleAr">علوم الكمبيوتر مع الأمن والطب الشرعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arabic music</Field>
+          <Field Name="TitleAr">الموسيقى العربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sports Science</Field>
+          <Field Name="TitleAr">العلوم الرياضية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">business management with marketing</Field>
+          <Field Name="TitleAr">إدارة الأعمال والتسويق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arts and Humanities</Field>
+          <Field Name="TitleAr">الآداب والعلوم الإنسانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public relations</Field>
+          <Field Name="TitleAr">العلاقات العامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">فقه</Field>
+          <Field Name="TitleAr">فقه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Accounting and Finance Political Science</Field>
+          <Field Name="TitleAr">المحاسبه والمالية لعلوم السياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Accounting and Economics</Field>
+          <Field Name="TitleAr">محاسبه وأقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Associate in Arts</Field>
+          <Field Name="TitleAr">Associate in Arts</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">INTERNATIONAL HOSPITALITY MANAGEMENT</Field>
+          <Field Name="TitleAr">إدارة الضيافة الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Sciences</Field>
+          <Field Name="TitleAr">العلوم الهندسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer and Network Engineering</Field>
+          <Field Name="TitleAr">هندسة الحاسب الالي و الشبكات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electronic engineering designs</Field>
+          <Field Name="TitleAr">هندسة التصاميم الاكترونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Strategic and Defense Studies</Field>
+          <Field Name="TitleAr">الدراسات الاستراتيجية والدفاع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biomedical sciences</Field>
+          <Field Name="TitleAr">علوم صناعه الأدويه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Geological Sciences</Field>
+          <Field Name="TitleAr">علوم الجيولوجية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic relics</Field>
+          <Field Name="TitleAr">الآثار الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management of transport logistics</Field>
+          <Field Name="TitleAr">ادارة لوجستيات النقل</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biomedical science</Field>
+          <Field Name="TitleAr">العلوم الطبية الحيوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">chemistry with chemical engineering</Field>
+          <Field Name="TitleAr">الكيمياء مع الهندسة الكيميائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Financial and banking management</Field>
+          <Field Name="TitleAr">الادارة المالية والمصرفية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Legal and Police Sciences</Field>
+          <Field Name="TitleAr">العلوم القانونية والشرطية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">aviation technology with pilot studies</Field>
+          <Field Name="TitleAr">تكنولوجيا الطيران مع الدراسات التجريبية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Media and public relations</Field>
+          <Field Name="TitleAr">اعلام وعلاقات عامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Health safety and environmental management</Field>
+          <Field Name="TitleAr">الصحة والسلامة وادارة البيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Eye surgery</Field>
+          <Field Name="TitleAr">جراحة العيون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mining Engineering</Field>
+          <Field Name="TitleAr">هندسة التعدين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Metals and mining engineering</Field>
+          <Field Name="TitleAr">هندسة مناجم ومعادن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Relations and Political Science</Field>
+          <Field Name="TitleAr">علاقات دولية وعلوم سياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Diagnostic Imaging studies</Field>
+          <Field Name="TitleAr">دراسات التصوير التشخيصية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">سكرتارية تنفيذية</Field>
+          <Field Name="TitleAr">سكرتارية تنفيذية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Telecommunications Engineering</Field>
+          <Field Name="TitleAr">هندسة الاتصالات السلكية واللاسلكية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Air Engineering Mechanic</Field>
+          <Field Name="TitleAr">هندسه طيران ميكانيكي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Accounting and Finance</Field>
+          <Field Name="TitleAr">محاسبة و مالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Management</Field>
+          <Field Name="TitleAr">الإدارة الهندسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Industrial Electronics and Control</Field>
+          <Field Name="TitleAr">الإلكترونيات الصناعية والتحكم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">business and finance</Field>
+          <Field Name="TitleAr">الأعمال التجارية والمالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arts in International Relations</Field>
+          <Field Name="TitleAr">الاداب في العلاقات الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Marketing and International Business</Field>
+          <Field Name="TitleAr">التسويق والاعمال الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Executive MBA</Field>
+          <Field Name="TitleAr">إدارة الأعمال التنفيذية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Financial</Field>
+          <Field Name="TitleAr">مالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">special breeding</Field>
+          <Field Name="TitleAr">تربية خاصة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Literature and marketing</Field>
+          <Field Name="TitleAr">اداب وتسويق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Protect networks</Field>
+          <Field Name="TitleAr">حماية شبكات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Accounting and Business Administration</Field>
+          <Field Name="TitleAr">محاسبه وادارة الاعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">In Business Administration and financing banks</Field>
+          <Field Name="TitleAr">ادارة اعمال- تمويل ومصارف</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Project management</Field>
+          <Field Name="TitleAr">إدارة المشاريع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sociology and Social Work</Field>
+          <Field Name="TitleAr">علم الاجتماع والخدمة الاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business with Business Communication</Field>
+          <Field Name="TitleAr">التعامل مع الاتصالات التجارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Fire safety and engineering</Field>
+          <Field Name="TitleAr">هندسة سلامه واطفاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management of airport operations</Field>
+          <Field Name="TitleAr">ادارة عمليات المطار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Readings</Field>
+          <Field Name="TitleAr">القراءات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Activities and events project management</Field>
+          <Field Name="TitleAr">إدارة مشاريع الفعاليات والأحداث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Project Management</Field>
+          <Field Name="TitleAr">إدارة المشاريع الهندسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management and leadership</Field>
+          <Field Name="TitleAr">إدارة وقيادة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technology Architecture</Field>
+          <Field Name="TitleAr">تكنولوجيا العمارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mechanical and Electrical Engineering</Field>
+          <Field Name="TitleAr">هندسة ميكانيكية وكهربائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Special education  autism spectrum disorders</Field>
+          <Field Name="TitleAr">التربية الخاصة اضطرابات طيف التوحد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Graphic arts</Field>
+          <Field Name="TitleAr">الفنون التصويرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Office Administration</Field>
+          <Field Name="TitleAr">إدارة مكتب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urban Design</Field>
+          <Field Name="TitleAr">تصميم عمراني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Affairs</Field>
+          <Field Name="TitleAr">الشؤون الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Chemical Processing Technology</Field>
+          <Field Name="TitleAr">تقنية المعالجة الكيميائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تجاري</Field>
+          <Field Name="TitleAr">تجاري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communication, Culture and Technology</Field>
+          <Field Name="TitleAr">الاتصالات والثقافة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Private breeding disorders - autism spectrum</Field>
+          <Field Name="TitleAr">تربية الخاصة إضطرابات - طيف التوحد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">communication media and cultuer</Field>
+          <Field Name="TitleAr">وسائل الاتصال والثقافة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">High school</Field>
+          <Field Name="TitleAr">المدرسة العليا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Instrumentation</Field>
+          <Field Name="TitleAr">الأجهزة الكهربائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">computer forensics</Field>
+          <Field Name="TitleAr">computer forensics</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aviation Business Administration, Sub-plan Major in Air Transportation</Field>
+          <Field Name="TitleAr">إدارة الأعمال والطيران، والخطة الفرعية الرئيسية في النقل الجوي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management information systems</Field>
+          <Field Name="TitleAr">نظم المعلومات الإدارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business and Human Resource Management</Field>
+          <Field Name="TitleAr">إدارة الأعمال والموارد البشرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International business and management</Field>
+          <Field Name="TitleAr">الأعمال الدولية وإدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Drawing</Field>
+          <Field Name="TitleAr">رسم هندسي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Drawing and set up an engineering</Field>
+          <Field Name="TitleAr">رسم وانشاء هندسي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administrative Services</Field>
+          <Field Name="TitleAr">خدمات ادارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Network Engineering</Field>
+          <Field Name="TitleAr">هندسة الشبكات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quantity survey</Field>
+          <Field Name="TitleAr">مسح الكميات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Logistics and supply chain management</Field>
+          <Field Name="TitleAr">إدارة العمليات اللوجستية و سلسلة الإمداد</Field>
+        </Row>     
+        <Row>
+          <Field Name="Title">bioinformatics</Field>
+          <Field Name="TitleAr">المعلوماتية الحيوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Criminal justice</Field>
+          <Field Name="TitleAr">العدالة الجنائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Kindergartens</Field>
+          <Field Name="TitleAr">رياض الاطفال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electromechanical engineering</Field>
+          <Field Name="TitleAr">هندسة كهروميكانيك</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">information and communication technology</Field>
+          <Field Name="TitleAr">نظم المعلومات والاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">applied computing</Field>
+          <Field Name="TitleAr">الحوسبة التطبيقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality and safety in health care</Field>
+          <Field Name="TitleAr">الجودة والسلامة في الرعاية الصحية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">real estate management</Field>
+          <Field Name="TitleAr">إدارة العقارات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Political Science and International Development Studies</Field>
+          <Field Name="TitleAr">العلوم السياسية ودرسات التنمية الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">hotel management</Field>
+          <Field Name="TitleAr">اداره فنادق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Science - Science and Education</Field>
+          <Field Name="TitleAr">علوم الحاسب - علوم وتربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Building Technology and Project Management</Field>
+          <Field Name="TitleAr">تكنولوجيا البناء وادارة المشروعات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic call</Field>
+          <Field Name="TitleAr">الدعوه الاسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">management and information technology</Field>
+          <Field Name="TitleAr">إدارة وتكنولوجيا المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">instructional science and technology</Field>
+          <Field Name="TitleAr">علوم وتكنولوجيا التعليم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">sea captain</Field>
+          <Field Name="TitleAr">sea captain</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Science and Computer Engineering</Field>
+          <Field Name="TitleAr">علوم الكمبيوتر وهندسة الكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technology and Education</Field>
+          <Field Name="TitleAr">التكنولوجيا والتربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arabic language and Islamic studies</Field>
+          <Field Name="TitleAr">لغة عربية و دراسات اسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environmental Engineering and Sustainable Development</Field>
+          <Field Name="TitleAr">الهندسة البيئية والتنمية المستدامة</Field>
+        </Row>     
+        <Row>
+          <Field Name="Title">Tourism Management</Field>
+          <Field Name="TitleAr">ادارة السياحه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Medical Statistics</Field>
+          <Field Name="TitleAr">الإحصاء الطبي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Professional Engineering</Field>
+          <Field Name="TitleAr">الهندسة المهنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sustainable Development Engineering</Field>
+          <Field Name="TitleAr">هندسة التنمية المستدامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Psychological counseling and educational</Field>
+          <Field Name="TitleAr">إرشاد نفسي وتربوي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Coaching psychological, educational</Field>
+          <Field Name="TitleAr">الارشاد النفسي والتربوي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International legal commercial transaction, logistics</Field>
+          <Field Name="TitleAr">المعاملات الدولية القانونية التجارية واللوجستيات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality and Safety in Healthcare Management</Field>
+          <Field Name="TitleAr">الجودة والسلامة في إدارة الرعاية الصحية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Science Advanced Engineering and Management</Field>
+          <Field Name="TitleAr">علوم الهندسة المتقدمة والإدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Petroleum Economics and Management</Field>
+          <Field Name="TitleAr">اقتصاد النفط وإدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality Management</Field>
+          <Field Name="TitleAr">ادارة الجودة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Financial management</Field>
+          <Field Name="TitleAr">ادارة مالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bsinesd Administrayion Tourism Management</Field>
+          <Field Name="TitleAr">Bsinesd Administrayion Tourism Management</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">دراسات إسلامية - اداب</Field>
+          <Field Name="TitleAr">دراسات إسلامية - اداب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Utilization and Conversion of Electrical Energy</Field>
+          <Field Name="TitleAr">استخدام وتحويل الطاقة الكهربائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">القانون وعلوم الشرطة</Field>
+          <Field Name="TitleAr">القانون وعلوم الشرطة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Construction Project Management</Field>
+          <Field Name="TitleAr">إدارة مشروع البناء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">information Science</Field>
+          <Field Name="TitleAr">علم المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Translation</Field>
+          <Field Name="TitleAr">ترجمة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Advanced Computer Science</Field>
+          <Field Name="TitleAr">علوم الحاسب المتقدمة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Year of modern science</Field>
+          <Field Name="TitleAr">السنة وعلوم الحديث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">private law</Field>
+          <Field Name="TitleAr">القانون الخاص</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environmental Engineering</Field>
+          <Field Name="TitleAr">الهندسة البيئية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Virology</Field>
+          <Field Name="TitleAr">علم الفيروسات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mechanical Engineering Computer Aided</Field>
+          <Field Name="TitleAr">هندسة ميكانيكية بمساعدة الكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Journalism in the field of sports</Field>
+          <Field Name="TitleAr">صحافة في مجال الرياضه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">finance</Field>
+          <Field Name="TitleAr">تمويل</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Air Sciences</Field>
+          <Field Name="TitleAr">علوم جوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Graphic communication Design</Field>
+          <Field Name="TitleAr">تصميم الاتصالات البيانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Trade Law</Field>
+          <Field Name="TitleAr">القانون التجاري الدولي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">the modern history</Field>
+          <Field Name="TitleAr">التاريخ الحديث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urban and Regional Planning</Field>
+          <Field Name="TitleAr">التخطيط العمراني والإقليمي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Science in Engineering Management</Field>
+          <Field Name="TitleAr">العلوم في إدارة الهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electronic communications</Field>
+          <Field Name="TitleAr">الكترونيك واتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Private International Law</Field>
+          <Field Name="TitleAr">القانون الدولي الخاص</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Associate in Arts</Field>
+          <Field Name="TitleAr">مشارك في الفنون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Islamic Jurisprudence</Field>
+          <Field Name="TitleAr">الفقه وأصولة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Finance and Invesment</Field>
+          <Field Name="TitleAr">للتمويل والاستثمار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management Basics</Field>
+          <Field Name="TitleAr">أساسيات إدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arts with a concentration in Business</Field>
+          <Field Name="TitleAr">Arts with a concentration in Business</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Finance and banking</Field>
+          <Field Name="TitleAr">التمويل و المصارف</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering rescue and firefighter</Field>
+          <Field Name="TitleAr">هندسة انقاذ و اطفاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Comparative Jurisprudence</Field>
+          <Field Name="TitleAr">الفقه المقارن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Of Electrical Engineering and Computer</Field>
+          <Field Name="TitleAr">الهندسه الكهربائيه والكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Special Education - the path of the difficulty of learning</Field>
+          <Field Name="TitleAr">التربية الخاصة - مسار صعوبة التعلم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biology</Field>
+          <Field Name="TitleAr">بيولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">GLOBAL MBA</Field>
+          <Field Name="TitleAr">GLOBAL MBA</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلوم الامنية</Field>
+          <Field Name="TitleAr">العلوم الامنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communication and Public Relations</Field>
+          <Field Name="TitleAr">Communication and Public Relations</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communication and Public Relations</Field>
+          <Field Name="TitleAr">Communication and Public Relations</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aviation Science</Field>
+          <Field Name="TitleAr">علوم طيران</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Interior Design</Field>
+          <Field Name="TitleAr">التصميم  الداخلي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Coach in sports</Field>
+          <Field Name="TitleAr">مدرب في الرياضة</Field>
+        </Row>
+
+        <!--<Row>
+          <Field Name="Title">الفم وعلاج اللثة والأشعة</Field>
+          <Field Name="TitleAr"> الفم وعلاج اللثة والأشعة </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">االاستعاضة الصناعية</Field>
+          <Field Name="TitleAr"> االاستعاضة الصناعية </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلاج التحفظي</Field>
+          <Field Name="TitleAr"> العلاج التحفظي </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الإذاعة والتليفزيون</Field>
+          <Field Name="TitleAr"> الإذاعة والتليفزيون </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الصحافة</Field>
+          <Field Name="TitleAr"> الصحافة </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلاقات العامة والإعلان</Field>
+          <Field Name="TitleAr"> العلاقات العامة والإعلان </Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اقتصاد وعلوم سياسية </Field>
+          <Field Name="TitleAr"> اقتصاد وعلوم سياسية </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">العلوم السياسية </Field>
+          <Field Name="TitleAr"> العلوم السياسية </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الإحصاء </Field>
+          <Field Name="TitleAr"> الإحصاء </Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الفيزياء والرياضيات الهندسية </Field>
+          <Field Name="TitleAr"> الفيزياء والرياضيات الهندسية </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الهندسة الإنشائية </Field>
+          <Field Name="TitleAr"> الهندسة الإنشائية </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الري والهيدروليكا </Field>
+          <Field Name="TitleAr"> الري والهيدروليكا </Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">المحاسبة  </Field>
+          <Field Name="TitleAr"> المحاسبة  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إدارة الأعمال  </Field>
+          <Field Name="TitleAr"> إدارة الأعمال  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">الرياضة والتأمين  </Field>
+          <Field Name="TitleAr"> الرياضة والتأمين  </Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اخرى  </Field>
+          <Field Name="TitleAr"> اخرى  </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>-->
+
+        <!--<Row>
+          <Field Name="Title">Business Management</Field>
+          <Field Name="TitleAr">إدارة الأعمال</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Business Adminstration</Field>
+          <Field Name="TitleAr">إدارة الاعمال الدولية </Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supply and processing management</Field>
+          <Field Name="TitleAr">إدارة الامداد والتجهيز</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Quality Management</Field>
+          <Field Name="TitleAr">إدارة الجودة</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tourism Management</Field>
+          <Field Name="TitleAr">إدارة السياحة</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Hospitality Management</Field>
+          <Field Name="TitleAr">إدارة الضيافة الدولية</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Project management</Field>
+          <Field Name="TitleAr">إدارة المشاريع</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Health information management</Field>
+          <Field Name="TitleAr">إدارة المعلومات الصحية</Field>
+          <Field Name="Faculty">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Event Management</Field>
+          <Field Name="TitleAr">إدارة المناسبات</Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Human Resource Management</Field>
+          <Field Name="TitleAr">إدارة الموارد البشرية</Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Corporate governance and business ethics</Field>
+          <Field Name="TitleAr">إدارة حوكمة الشركات واخلاقيات العمل</Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information Systems Management</Field>
+          <Field Name="TitleAr">إدارة نظم المعلومات</Field>
+          <Field Name="Faculty">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management and organization of offices</Field>
+          <Field Name="TitleAr">إدارة وتنظيم المكاتب</Field>
+          <Field Name="Faculty">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management of strategic business unit</Field>
+          <Field Name="TitleAr">إدارة وحدة الاعمال الاستراتيجية</Field>
+          <Field Name="Faculty">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Fire Department and Science</Field>
+          <Field Name="TitleAr">إدارة وعلوم الاطفاء</Field>
+          <Field Name="Faculty">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Media</Field>
+          <Field Name="TitleAr">إعلام</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Airport security</Field>
+          <Field Name="TitleAr">أمن المطارات</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Port Security</Field>
+          <Field Name="TitleAr">أمن الموانئ</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communication</Field>
+          <Field Name="TitleAr">اتصال</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ahsa non-Qatari boys</Field>
+          <Field Name="TitleAr">احساء غير قطري بنين</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biostatistics</Field>
+          <Field Name="TitleAr">احصاء حيوي</Field>
+          <Field Name="Faculty">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatari Revival for Boys</Field>
+          <Field Name="TitleAr">احياء قطري بنين</Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">English Literature</Field>
+          <Field Name="TitleAr">اداب انجليزي</Field>
+          <Field Name="Faculty">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment Management</Field>
+          <Field Name="TitleAr">ادارة البيئه</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Civil Aviation Administration</Field>
+          <Field Name="TitleAr">ادارة الطيران المدني</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Hospital Management</Field>
+          <Field Name="TitleAr">ادارة المستشفيات</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance of heritage resources</Field>
+          <Field Name="TitleAr">ادارة صيانة المصادر التراثية</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Purchasing Department</Field>
+          <Field Name="TitleAr">ادارة مشتريات</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Meteorology and climate</Field>
+          <Field Name="TitleAr">ارصاد جوية ومناخ</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Medical radiation</Field>
+          <Field Name="TitleAr">اشعة طبية</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Beautiful Avon</Field>
+          <Field Name="TitleAr">فنون الجميلة</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Economy</Field>
+          <Field Name="TitleAr">اقتصاد دولي</Field>
+          <Field Name="Faculty">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Statistics</Field>
+          <Field Name="TitleAr">الإحصاء</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public Administration</Field>
+          <Field Name="TitleAr">الإدارة العامة</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Financial Management</Field>
+          <Field Name="TitleAr">الإدارة المالية</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Statistics</Field>
+          <Field Name="TitleAr">الاحصاء</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Actuary Statistics</Field>
+          <Field Name="TitleAr">الاحصاء الاكتواري</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ambulance and emergency medical care</Field>
+          <Field Name="TitleAr">الاسعاف والرعاية الطبية الطارئة</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Diagnostic Radiology</Field>
+          <Field Name="TitleAr">الاشعة التشخيصية</Field>
+          <Field Name="Faculty">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Severe and severe disability - Qatari girls</Field>
+          <Field Name="TitleAr">الاعاقة الشديدة والحادة - قطري بنات</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Severe and acute disability - Qatari Boys</Field>
+          <Field Name="TitleAr">الاعاقة الشديدة والحادة - قطري بنين</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Film and Cinema studies</Field>
+          <Field Name="TitleAr">الافلام و الدراسات السينمائية</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Economy</Field>
+          <Field Name="TitleAr">الاقتصاد</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Optics</Field>
+          <Field Name="TitleAr">البصريات</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International History</Field>
+          <Field Name="TitleAr">التاريخ الدولي</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Special Education</Field>
+          <Field Name="TitleAr">التربية الخاصة</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Special Education / Schools</Field>
+          <Field Name="TitleAr">التربية الخاصة / مدارس</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Marketing</Field>
+          <Field Name="TitleAr">التسويق</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering Design</Field>
+          <Field Name="TitleAr">التصميم الهندسي</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nursing</Field>
+          <Field Name="TitleAr">التمريض</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Academic Bridge</Field>
+          <Field Name="TitleAr">الجسر الأكاديمي</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Services</Field>
+          <Field Name="TitleAr">الخدمات الدولية</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Associate Diploma Community College</Field>
+          <Field Name="TitleAr">الدبلوم المشارك  كلية المجتمع</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PhD in studies and research</Field>
+          <Field Name="TitleAr">الدكتوراة في الدراسات و البحوث</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PhD in the interpretation and science of the Quran</Field>
+          <Field Name="TitleAr">الدكتوراة في تفسير و علوم القران</Field>
+          <Field Name="Faculty">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Agriculture and forestry</Field>
+          <Field Name="TitleAr">الزراعة والغابات</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Executive secretary</Field>
+          <Field Name="TitleAr">السكرتارية التنفيذية</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maritime Safety</Field>
+          <Field Name="TitleAr">السلامة البحرية</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tourism and Hospitality</Field>
+          <Field Name="TitleAr">السياحة والضيافة</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Policies, planning and development</Field>
+          <Field Name="TitleAr">السياسات والتخطيط والتنمية</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Politics</Field>
+          <Field Name="TitleAr">السياسة</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Affairs</Field>
+          <Field Name="TitleAr">الشؤون الدولية</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Press and contact</Field>
+          <Field Name="TitleAr">الصحافة والاتصال</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Pharmacy</Field>
+          <Field Name="TitleAr">الصيدلة</Field>
+          <Field Name="Faculty">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Veterinary Medicine</Field>
+          <Field Name="TitleAr">الطب البيطري</Field>
+          <Field Name="Faculty"></Field>
+        </Row>
+       
+        <Row>
+          <Field Name="Title">Computer Engineering</Field>
+          <Field Name="TitleAr">هندسة الحاسب</Field>
+          <Field Name="Faculty"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Computer Engineering - Information Systems</Field>
+          <Field Name="TitleAr">هندسة الحاسب - نظم المعلومات</Field>
+          <Field Name="Faculty"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Safety Engineering</Field>
+          <Field Name="TitleAr">هندسة السلامة</Field>
+          <Field Name="Faculty"></Field>
+        </Row>-->
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

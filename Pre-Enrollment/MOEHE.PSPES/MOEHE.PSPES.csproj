@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E4089A0-B644-46E8-AE6C-51E2E618BA64}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOEHE.PSPES</RootNamespace>
+    <AssemblyName>MOEHE.PSPES</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.18.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NReco.PdfGenerator, Version=1.1.15.0, Culture=neutral, PublicKeyToken=231663d50a41b451, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NReco.PdfGenerator.1.1.15\lib\net20\NReco.PdfGenerator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\MOEHE.PSPES.LanguageSwitcher\MOEHE.PSPES.EventReceiver.cs">
+      <DependentUpon>MOEHE.PSPES.LanguageSwitcher.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MOEHE.PSPES.Main\MOEHE.PSPES.EventReceiver.cs">
+      <DependentUpon>MOEHE.PSPES.Main.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LangSwitcherPage\HTTPSwitcherModule.cs" />
+    <Compile Include="Models\AddedCapacityModel.cs" />
+    <Compile Include="Models\AddedGradeModel.cs" />
+    <Compile Include="Models\ApplicationDataModel.cs" />
+    <Compile Include="Models\DBOperationResult.cs" />
+    <Compile Include="Models\DocumentTypeList.cs" />
+    <Compile Include="Models\EnrollmentControllingModel.cs" />
+    <Compile Include="Models\Enrollment_Exception_Attachment_Model.cs" />
+    <Compile Include="Models\InterviewResultModel.cs" />
+    <Compile Include="Models\ListOfValues_Model.cs" />
+    <Compile Include="Models\MessageDetailsModel.cs" />
+    <Compile Include="Models\MessageTemplate.cs" />
+    <Compile Include="Models\MOE_AGE_VALIDATE_Model.cs" />
+    <Compile Include="Models\MOE_APPLICATION_DATA_Model.cs" />
+    <Compile Include="Models\MOE_APPL_ACAD_INFO_Model.cs" />
+    <Compile Include="Models\MOE_APPL_SUPPORT_DOCS_Model.cs" />
+    <Compile Include="Models\MOE_APPL_SUPPORT_DOCS_Model_Not_Serializable.cs" />
+    <Compile Include="Models\MOE_BIO_DATA_Model.cs" />
+    <Compile Include="Models\MOE_ENROLLMENT_EXCEPTION.cs" />
+    <Compile Include="Models\MOE_ENROLLMENT_EXCEPTION_Model.cs" />
+    <Compile Include="Models\MOE_Enrollment_Exception_Types.cs" />
+    <Compile Include="Models\MOE_GUARDIAN_DATA_Model.cs" />
+    <Compile Include="Models\MOE_GUARDIAN_DATA_Model_Not_Serializable.cs" />
+    <Compile Include="Models\MOE_HEALTH_DATA_Model.cs" />
+    <Compile Include="Models\MOE_PREENROLLMENT_REPORT_VIEW_Model.cs" />
+    <Compile Include="Models\MOE_SCHOOL_Model.cs" />
+    <Compile Include="Models\MOE_WITHDRAWAL_DATA_Model.cs" />
+    <Compile Include="Models\MOE_WITHDRAWAL_REASON_Model.cs" />
+    <Compile Include="Models\MOI_COUNTRY_MAP.cs" />
+    <Compile Include="Models\PSPESConstants.cs" />
+    <Compile Include="Models\SearchApplicationPageFilters.cs" />
+    <Compile Include="Models\SeatCapacityModel.cs" />
+    <Compile Include="Models\SeatReservationFeeModel.cs" />
+    <Compile Include="Models\SMSHistoryModel.cs" />
+    <Compile Include="Models\SupportingDocsModel.cs" />
+    <Compile Include="Models\TermModel.cs" />
+    <Compile Include="Models\TestingModel.cs" />
+    <Compile Include="Models\TestResultModel.cs" />
+    <Compile Include="Models\TransactionsLog.cs" />
+    <Compile Include="Models\V_Schools_Grades_Ages.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AddedCapacityRepository.cs" />
+    <Compile Include="Repository\AddedGradeRepository.cs" />
+    <Compile Include="Repository\ADutility.cs" />
+    <Compile Include="Repository\BindingUtility.cs" />
+    <Compile Include="Repository\CustomMessageBoxHelper.cs" />
+    <Compile Include="Repository\EnorllmentControllingRepository.cs" />
+    <Compile Include="Repository\ENROLLMENT_EXCEPTION_ATTACHMENT_Repository.cs" />
+    <Compile Include="Repository\InterviewResultRepository.cs" />
+    <Compile Include="Repository\ListOfValues_Repository.cs" />
+    <Compile Include="Repository\MessageTemplateRepository.cs" />
+    <Compile Include="Repository\MOE_AGE_VALIDATE_Repository.cs" />
+    <Compile Include="Repository\MOE_APPLICATION_DATA_Repository.cs" />
+    <Compile Include="Repository\MOE_APPL_ACAD_INFO_Repository.cs" />
+    <Compile Include="Repository\MOE_APPL_SUPPORT_DOCS_Repository.cs" />
+    <Compile Include="Repository\MOE_BIO_DATA_Repository.cs" />
+    <Compile Include="Repository\MOE_ENROLLMENT_EXCEPTION_Repository.cs" />
+    <Compile Include="Repository\MOE_ENROLLMENT_EXCEPTION_TYPES_Repository.cs" />
+    <Compile Include="Repository\MOE_GUARDIAN_DATA_Repository.cs" />
+    <Compile Include="Repository\MOE_HEALTH_DATA_Repository.cs" />
+    <Compile Include="Repository\MOE_PREENROLLMENT_REPORT_VIEW_Repository.cs" />
+    <Compile Include="Repository\MOE_SCHOOL_Repository.cs" />
+    <Compile Include="Repository\MOE_WITHDRAWAL_DATA_Repository.cs" />
+    <Compile Include="Repository\MOE_WITHDRAWAL_REASON_Repository.cs" />
+    <Compile Include="Repository\MOI_COUNTRY_MAP_Repository.cs" />
+    <Compile Include="Repository\SeatCapacityRepository.cs" />
+    <Compile Include="Repository\SeatReservationFeeRepository.cs" />
+    <Compile Include="Repository\SendSMS.cs" />
+    <Compile Include="Repository\SharePointUtilityRepository.cs" />
+    <Compile Include="Repository\SMSHistoryRepository.cs" />
+    <Compile Include="Repository\SupportingDocsRepository.cs" />
+    <Compile Include="Repository\TermRepository.cs" />
+    <Compile Include="Repository\TestingRepository.cs" />
+    <Compile Include="Repository\TestResultRepository.cs" />
+    <Compile Include="Repository\TransactionLogsRepository.cs" />
+    <Compile Include="Repository\Utility.cs" />
+    <Compile Include="Repository\V_Schools_Grades_Ages_Repository.cs" />
+    <Compile Include="Resources\MOEHE.PSPES\MOEHE.PSPES.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MOEHE.PSPES.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\AllinoneReport\AllinoneReport.cs" />
+    <Compile Include="Webparts\AllinoneReport\AllinoneReportUserControl.ascx.cs">
+      <DependentUpon>AllinoneReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\AllinoneReport\AllinoneReportUserControl.ascx.designer.cs">
+      <DependentUpon>AllinoneReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\BreadCrumb\BreadCrumb.cs" />
+    <Compile Include="Webparts\BreadCrumb\BreadCrumbUserControl.ascx.cs">
+      <DependentUpon>BreadCrumbUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\BreadCrumb\BreadCrumbUserControl.ascx.designer.cs">
+      <DependentUpon>BreadCrumbUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\EditApplication\EditApplication.cs" />
+    <Compile Include="Webparts\EditApplication\EditApplicationUserControl.ascx.cs">
+      <DependentUpon>EditApplicationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\EditApplication\EditApplicationUserControl.ascx.designer.cs">
+      <DependentUpon>EditApplicationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\AddApplication\AddApplication.cs" />
+    <Compile Include="Webparts\AddApplication\AddApplicationUserControl.ascx.cs">
+      <DependentUpon>AddApplicationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\AddApplication\AddApplicationUserControl.ascx.designer.cs">
+      <DependentUpon>AddApplicationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWP.cs" />
+    <Compile Include="Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWPUserControl.ascx.cs">
+      <DependentUpon>ApplicationCompleteProcessWPUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWPUserControl.ascx.designer.cs">
+      <DependentUpon>ApplicationCompleteProcessWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\EnrollmentControlling\EnrollmentControlling.cs" />
+    <Compile Include="Webparts\EnrollmentControlling\EnrollmentControllingUserControl.ascx.cs">
+      <DependentUpon>EnrollmentControllingUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\EnrollmentControlling\EnrollmentControllingUserControl.ascx.designer.cs">
+      <DependentUpon>EnrollmentControllingUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\Exceptions\Exceptions.cs" />
+    <Compile Include="Webparts\Exceptions\ExceptionsUserControl.ascx.cs">
+      <DependentUpon>ExceptionsUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\Exceptions\ExceptionsUserControl.ascx.designer.cs">
+      <DependentUpon>ExceptionsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\ChangeLanguage.cs" />
+    <Compile Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\ChangeLanguageUserControl.ascx.cs">
+      <DependentUpon>ChangeLanguageUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\ChangeLanguageUserControl.ascx.designer.cs">
+      <DependentUpon>ChangeLanguageUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\NavigationMenu\NavigationMenu.cs" />
+    <Compile Include="Webparts\NavigationMenu\NavigationMenuUserControl.ascx.cs">
+      <DependentUpon>NavigationMenuUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\NavigationMenu\NavigationMenuUserControl.ascx.designer.cs">
+      <DependentUpon>NavigationMenuUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\ScheduleWindow\ScheduleWindow.cs" />
+    <Compile Include="Webparts\ScheduleWindow\ScheduleWindowUserControl.ascx.cs">
+      <DependentUpon>ScheduleWindowUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\ScheduleWindow\ScheduleWindowUserControl.ascx.designer.cs">
+      <DependentUpon>ScheduleWindowUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\Search\SearchApplications\SearchApplications.cs" />
+    <Compile Include="Webparts\Search\SearchApplications\SearchApplicationsUserControl.ascx.cs">
+      <DependentUpon>SearchApplicationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\Search\SearchApplications\SearchApplicationsUserControl.ascx.designer.cs">
+      <DependentUpon>SearchApplicationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\SeatCapacityAllocate\SeatCapacityAllocate.cs" />
+    <Compile Include="Webparts\SeatCapacityAllocate\SeatCapacityAllocateUserControl.ascx.cs">
+      <DependentUpon>SeatCapacityAllocateUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\SeatCapacityAllocate\SeatCapacityAllocateUserControl.ascx.designer.cs">
+      <DependentUpon>SeatCapacityAllocateUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\SeatAvailabilityReport\SeatAvailabilityReport.cs" />
+    <Compile Include="Webparts\SeatAvailabilityReport\SeatAvailabilityReportUserControl.ascx.cs">
+      <DependentUpon>SeatAvailabilityReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\SeatAvailabilityReport\SeatAvailabilityReportUserControl.ascx.designer.cs">
+      <DependentUpon>SeatAvailabilityReportUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\SetupSupport\SetupSupportingDocs\SetupSupportingDocs.cs" />
+    <Compile Include="Webparts\SetupSupport\SetupSupportingDocs\SetupSupportingDocsUserControl.ascx.cs">
+      <DependentUpon>SetupSupportingDocsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\SetupSupport\SetupSupportingDocs\SetupSupportingDocsUserControl.ascx.designer.cs">
+      <DependentUpon>SetupSupportingDocsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\WithdrawApplication\WithdrawApplication.cs" />
+    <Compile Include="Webparts\WithdrawApplication\WithdrawApplicationUserControl.ascx.cs">
+      <DependentUpon>WithdrawApplicationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webparts\WithdrawApplication\WithdrawApplicationUserControl.ascx.designer.cs">
+      <DependentUpon>WithdrawApplicationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="App_GlobalResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3efc6243-0900-417d-9f23-1bf087a84d76}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\MOEHE.PSPES.LanguageSwitcher\MOEHE.PSPES.LanguageSwitcher.feature">
+      <FeatureId>{0298f67f-9bab-4b48-b976-3835a275296b}</FeatureId>
+    </None>
+    <None Include="Features\MOEHE.PSPES.Main\MOEHE.PSPES.Main.feature">
+      <FeatureId>{5b0a717a-4725-44d3-8d97-ab53b99e3fde}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{78abb78a-f637-450c-aa4e-9882186fdfba}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{39c2f735-f8de-4c16-acf4-a943b422f482}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{216b3c28-659d-40c3-a42e-1f0f843d1062}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\AllinoneReport\AllinoneReport.webpart" />
+    <None Include="Webparts\AllinoneReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2c40b65d-2833-4e3d-b4f8-589c3259e6d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\BreadCrumb\BreadCrumb.webpart" />
+    <None Include="Webparts\BreadCrumb\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2002c055-b85b-450e-968c-88a5422548b1}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\EditApplication\EditApplication.webpart" />
+    <None Include="Webparts\EditApplication\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7828549c-11da-41b9-9e18-559d5fb0aa44}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\AddApplication\AddApplication.webpart" />
+    <None Include="Webparts\AddApplication\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8ec28289-088a-4978-ba03-112f5481bb9d}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWP.webpart" />
+    <None Include="Webparts\ApplicationCompleteProcessWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{75055cf0-cbd9-41e3-8165-8824bfdf6d24}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\EnrollmentControlling\EnrollmentControlling.webpart" />
+    <None Include="Webparts\EnrollmentControlling\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{29f42ec3-9208-444f-8f43-0f3348df2fbf}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\Exceptions\Exceptions.webpart" />
+    <None Include="Webparts\Exceptions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f541c600-b81b-4c8e-b551-e395388fd6f4}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\ChangeLanguage.webpart" />
+    <None Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{370c2cc7-13a7-4168-ad23-af4d739e8eca}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\NavigationMenu\NavigationMenu.webpart" />
+    <None Include="Webparts\NavigationMenu\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0747f686-4661-4ac6-8cd4-e22c63e0c1d6}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\ScheduleWindow\ScheduleWindow.webpart" />
+    <None Include="Webparts\ScheduleWindow\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ae1ad1b2-bab6-424a-be59-261e2392ff9e}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\Search\SearchApplications\SearchApplications.webpart" />
+    <None Include="Webparts\Search\SearchApplications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b3cd4a05-d37e-4c02-b9ec-244f816e9d5f}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\SeatCapacityAllocate\SeatCapacityAllocate.webpart" />
+    <None Include="Webparts\SeatCapacityAllocate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b420ca89-b4b1-46cb-8311-d32155f8d4f2}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\SeatAvailabilityReport\SeatAvailabilityReport.webpart" />
+    <None Include="Webparts\SeatAvailabilityReport\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d2c35162-6f03-44b7-996d-1f5684bd4dba}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\SetupSupport\SetupSupportingDocs\SetupSupportingDocs.webpart" />
+    <None Include="Webparts\SetupSupport\SetupSupportingDocs\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fe2073bf-1fd3-40f9-a870-cf1b423306b8}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\WithdrawApplication\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c302bc84-46d5-4a22-b69a-8a194f520239}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\WithdrawApplication\WithdrawApplication.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalDLLs\NReco.PdfGenerator.dll" />
+    <Content Include="Features\MOEHE.PSPES.LanguageSwitcher\MOEHE.PSPES.LanguageSwitcher.Template.xml">
+      <DependentUpon>MOEHE.PSPES.LanguageSwitcher.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\PS_SignOut.aspx" />
+    <Content Include="Resources\MOEHE.PSPES\MOEHE.PSPES.ar-sa.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Webparts\AllinoneReport\AllinoneReportUserControl.ascx" />
+    <Content Include="Webparts\AllinoneReport\Elements.xml" />
+    <Content Include="Webparts\BreadCrumb\BreadCrumbUserControl.ascx" />
+    <Content Include="Webparts\BreadCrumb\Elements.xml" />
+    <Content Include="Webparts\ScheduleWindow\Elements.xml" />
+    <Content Include="Webparts\ScheduleWindow\ScheduleWindowUserControl.ascx" />
+    <Content Include="Webparts\SeatAvailabilityReport\Elements.xml" />
+    <Content Include="Webparts\SeatAvailabilityReport\SeatAvailabilityReportUserControl.ascx" />
+    <Content Include="Webparts\WithdrawApplication\Elements.xml" />
+    <Content Include="Webparts\WithdrawApplication\WithdrawApplicationUserControl.ascx" />
+    <EmbeddedResource Include="Resources\MOEHE.PSPES\MOEHE.PSPES.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MOEHE.PSPES.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Webparts\EditApplication\EditApplicationUserControl.ascx" />
+    <Content Include="Webparts\EditApplication\Elements.xml" />
+    <Content Include="Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWPUserControl.ascx" />
+    <Content Include="Webparts\ApplicationCompleteProcessWP\Elements.xml" />
+    <Content Include="Webparts\EnrollmentControlling\Elements.xml" />
+    <Content Include="Webparts\EnrollmentControlling\EnrollmentControllingUserControl.ascx" />
+    <Content Include="Webparts\Exceptions\Elements.xml" />
+    <Content Include="Webparts\Exceptions\ExceptionsUserControl.ascx" />
+    <Content Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\ChangeLanguageUserControl.ascx" />
+    <Content Include="Webparts\MultiLanguageSwitcher\ChangeLanguage\Elements.xml" />
+    <Content Include="Webparts\NavigationMenu\Elements.xml" />
+    <Content Include="Webparts\NavigationMenu\NavigationMenuUserControl.ascx" />
+    <Content Include="Webparts\Search\SearchApplications\Elements.xml" />
+    <Content Include="Webparts\Search\SearchApplications\SearchApplicationsUserControl.ascx" />
+    <Content Include="Webparts\SeatCapacityAllocate\Elements.xml" />
+    <Content Include="Webparts\SeatCapacityAllocate\SeatCapacityAllocateUserControl.ascx" />
+    <Content Include="Webparts\SetupSupport\SetupSupportingDocs\Elements.xml" />
+    <Content Include="Webparts\SetupSupport\SetupSupportingDocs\SetupSupportingDocsUserControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Elements.xml" />
+    <Content Include="Features\MOEHE.PSPES.Main\MOEHE.PSPES.Main.Template.xml">
+      <DependentUpon>MOEHE.PSPES.Main.feature</DependentUpon>
+    </Content>
+    <Content Include="Webparts\AddApplication\AddApplicationUserControl.ascx" />
+    <Content Include="Webparts\AddApplication\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPI\MOEHE.PSPES.WebAPI.csproj">
+      <Project>{1b765711-472a-4549-a2da-d5fa6089434b}</Project>
+      <Name>MOEHE.PSPES.WebAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="..\packages\Microsoft.VCLibs.110.Redist.x86.1.0.0-alpha\build\Microsoft.VCLibs.110.Redist.x86.targets" Condition="Exists('..\packages\Microsoft.VCLibs.110.Redist.x86.1.0.0-alpha\build\Microsoft.VCLibs.110.Redist.x86.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.VCLibs.110.Redist.x86.1.0.0-alpha\build\Microsoft.VCLibs.110.Redist.x86.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VCLibs.110.Redist.x86.1.0.0-alpha\build\Microsoft.VCLibs.110.Redist.x86.targets'))" />
+  </Target>
+</Project>

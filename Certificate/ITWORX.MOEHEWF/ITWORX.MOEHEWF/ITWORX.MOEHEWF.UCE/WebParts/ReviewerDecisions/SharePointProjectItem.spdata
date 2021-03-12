@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="ReviewerDecisionsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ReviewerDecisions\" Type="ElementManifest" />
+    <ProjectItemFile Source="ReviewerDecisions.webpart" Target="ReviewerDecisions\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerDecisionsUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ReviewerDecisions\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ReviewerDecisions" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

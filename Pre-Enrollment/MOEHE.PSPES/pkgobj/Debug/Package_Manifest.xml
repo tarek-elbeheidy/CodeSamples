@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="39c2f735-f8de-4c16-acf4-a943b422f482" ResetWebServer="TRUE" SharePointProductVersion="16.0">
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="MOEHE.PSPES\MOEHE.PSPES.en-US.resx" />
+    <App_GlobalResourceFile Location="MOEHE.PSPES\MOEHE.PSPES.ar-sa.resx" />
+  </ApplicationResourceFiles>
+  <Assemblies>
+    <Assembly Location="AjaxControlToolkit.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="MOEHE.PSPES.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.AddApplication" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.SetupSupport.SetupSupportingDocs" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.SeatCapacityAllocate" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.MultiLanguageSwitcher.ChangeLanguage" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.NavigationMenu" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.ApplicationCompleteProcessWP" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.Search.SearchApplications" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.EditApplication" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.EnrollmentControlling" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.Exceptions" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.WithdrawApplication" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.AllinoneReport" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.ScheduleWindow" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.BreadCrumb" TypeName="*" />
+        <SafeControl Assembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" Namespace="MOEHE.PSPES.Webparts.SeatCapacity_Availability_Report" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\MOEHE.PSPES\MOEHE.PSPES.ar-sa.resx" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\AddApplication\AddApplicationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts.SetupSupport\SetupSupportingDocs\SetupSupportingDocsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\SeatCapacityAllocate\SeatCapacityAllocateUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts.MultiLanguageSwitcher\ChangeLanguage\ChangeLanguageUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\NavigationMenu\NavigationMenuUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\ApplicationCompleteProcessWP\ApplicationCompleteProcessWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts.Search\SearchApplications\SearchApplicationsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\EditApplication\EditApplicationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\EnrollmentControlling\EnrollmentControllingUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\Exceptions\ExceptionsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\WithdrawApplication\WithdrawApplicationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\AllinoneReport\AllinoneReportUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\ScheduleWindow\ScheduleWindowUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\BreadCrumb\BreadCrumbUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\SeatCapacity_Availability_Report\SeatAvailabilityReportUserControl.ascx" />
+    <TemplateFile Location="Layouts\PS_SignOut.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="MOEHE.PSPES_MOEHE.PSPES.Main\Feature.xml" />
+    <FeatureManifest Location="MOEHE.PSPES_MOEHE.PSPES.LanguageSwitcher\Feature.xml" />
+  </FeatureManifests>
+</Solution>

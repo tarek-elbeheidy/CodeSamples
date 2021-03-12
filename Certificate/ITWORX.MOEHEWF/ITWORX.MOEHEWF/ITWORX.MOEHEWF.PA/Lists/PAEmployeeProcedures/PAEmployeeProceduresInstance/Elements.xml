@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="PAEmployeeProcedures" OnQuickLaunch="TRUE" TemplateType="20054" Url="Lists/PAEmployeeProcedures" Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <!--HeadManager-->
+        <Row>
+          <Field Name="Title">Return to Program Manager</Field>
+          <Field Name="TitleAr"> إرجاع الطلب لرئيس البرنامج </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Approved</Field>
+          <Field Name="TitleAr"> بالموافقة</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejected</Field>
+          <Field Name="TitleAr"> بالرفض </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="Title">Return to Assist UnderSecretary</Field>
+          <Field Name="TitleAr"> إرجاع الطلب للوكيل المساعد </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Consultation Committee</Field>
+          <Field Name="TitleAr"> تحويل الطلب للجنة الاستشارية  </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Legal Affairs</Field>
+          <Field Name="TitleAr"> التحويل للشؤون القانونية  </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>-->
+
+        <!--ProgramManager-->
+        <Row>
+          <Field Name="Title">Returen the Request to the Employee</Field>
+          <Field Name="TitleAr"> ارجاع الطلب لموظف وحدة الموافقة المسبقة </Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+        </Row> 
+        <Row>
+          <Field Name="Title">Approve the Request</Field>
+          <Field Name="TitleAr">الموافقة على الطلب</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+        </Row>
+
+        <!--AssistSecretary-->
+        <!--<Row>
+          <Field Name="Title">Return the request to Department Manager</Field>
+          <Field Name="TitleAr"> إرجاع الطلب لمدير الإدارة </Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Consultation Committee</Field>
+          <Field Name="TitleAr"> تحويل الطلب للجنة الاستشارية</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+        </Row> -->
+
+        <!--Technical Committee -->
+        <!-- <Row>
+          <Field Name="Title">Return to Department Manager</Field>
+          <Field Name="TitleAr">إرجاع الطلب لمدير الادارة</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Return to Assist UnderSecretary</Field>
+          <Field Name="TitleAr"> إرجاع الطلب للوكيل المساعد</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+        </Row> -->
+
+
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

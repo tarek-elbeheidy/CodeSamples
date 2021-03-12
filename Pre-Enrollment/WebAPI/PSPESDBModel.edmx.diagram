@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="041a320485c04c0f80fdd7b9f889271c" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.AddedGrade" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.EnrollementControlling" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.Enrollment_Exception_Attachment" Width="1.5" PointX="8" PointY="6.875" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.InterviewResult" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MessageTemplate" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_ADDED_CAPACITY" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE_Temp" Width="1.5" PointX="4.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_ACAD_INFO" Width="1.5" PointX="6.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_SUPPORT_DOCS" Width="1.5" PointX="8.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_BIO_DATA" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_CURRICULUM_LOOKUP" Width="1.5" PointX="9.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_DOUBLE_CURRICULUM_MAPPING" Width="1.5" PointX="10.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION" Width="1.5" PointX="10.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION_AUDIT" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_Enrollment_Exception_Types" Width="1.5" PointX="5.75" PointY="6.875" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_GUARDIAN_DATA" Width="1.5" PointX="12.75" PointY="5.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_HEALTH_DATA" Width="1.5" PointX="12.75" PointY="11.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_MARITAL_STATUS" Width="1.5" PointX="13.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_MARITIALSTATUS_LOOKUP" Width="1.5" PointX="6.75" PointY="13.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP" Width="1.5" PointX="14.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP_LOOKUP" Width="1.5" PointX="14.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_SCHOOL" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_SEAT_CAPACITY" Width="1.5" PointX="8.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_TERM" Width="1.5" PointX="14.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_REASON" Width="1.5" PointX="15.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOI_Country_Map" Width="1.5" PointX="0.75" PointY="15.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.NotificationAction" Width="1.5" PointX="2.75" PointY="15.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SeatReservationFee" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SMSHistory" Width="1.5" PointX="16.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SupportingDocumentSetup" Width="1.5" PointX="4.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.sysdiagram" Width="1.5" PointX="16.75" PointY="7.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.TestResult" Width="1.5" PointX="16.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.TransactionsLog" Width="1.5" PointX="10.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.BuildingCapacity" Width="1.5" PointX="16.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE" Width="1.5" PointX="12.75" PointY="17.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_DATA" Width="1.5" PointX="17.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_TYPE" Width="1.5" PointX="14.75" PointY="17.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_GRADE" Width="1.5" PointX="16.75" PointY="17.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.Testing" Width="1.5" PointX="0.75" PointY="18.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_PREENROLLMENT_REPORT_VIEW" Width="1.5" PointX="18.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.V_Schools_Grades_Ages" Width="1.5" PointX="6.75" PointY="18.75" />
+        <AssociationConnector Association="PrivateScoolsPreEnrollmentModel.FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types" />
+        <AssociationConnector Association="PrivateScoolsPreEnrollmentModel.FK_MOE_Application_DATA_MOE_SCHOOL" />
+        <AssociationConnector Association="PrivateScoolsPreEnrollmentModel.FK_SeatReservationFee_MOE_Application_DATA" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_DATA" Width="1.5" PointX="9.375" PointY="20.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

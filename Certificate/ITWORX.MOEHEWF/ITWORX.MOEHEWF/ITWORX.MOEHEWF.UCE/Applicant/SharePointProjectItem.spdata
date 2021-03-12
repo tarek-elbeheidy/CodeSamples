@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Applicant\" Type="ElementManifest" />
+    <ProjectItemFile Source="ManageRequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="NewRequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="TrackRequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="DisplayRequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="ApplicantDetails.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="RequestDetails.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageRequestDetails.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="ClarificationRequestsListing.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="HistoricalRecords.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="PaymentRecords.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="ClarificationReqDetails.aspx" Target="Applicant\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Levels"
+                OnQuickLaunch="TRUE"
+                TemplateType="10208"
+                Url="Lists/Levels"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">HL</Field>
+          <Field Name="TitleAr">HL</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SL</Field>
+          <Field Name="TitleAr">SL</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

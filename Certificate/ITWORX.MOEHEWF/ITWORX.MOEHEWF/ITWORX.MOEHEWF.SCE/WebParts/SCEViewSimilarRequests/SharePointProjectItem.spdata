@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="SCEViewSimilarRequestsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SCEViewSimilarRequests\" Type="ElementManifest" />
+    <ProjectItemFile Source="SCEViewSimilarRequests.webpart" Target="SCEViewSimilarRequests\" Type="ElementFile" />
+    <ProjectItemFile Source="SCEViewSimilarRequestsUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\SCEViewSimilarRequests\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.SCE.WebParts.SCEViewSimilarRequests" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

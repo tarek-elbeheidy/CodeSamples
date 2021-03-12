@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="PAProcedures_TechCommitteeListing" List="113" Url="_catalogs/wp">
+    <File Path="PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListing.webpart" Url="ITWORX.MOEHEWF.PA_PAProcedures_TechCommitteeListing.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PA" />
+    </File>
+  </Module>
+</Elements>

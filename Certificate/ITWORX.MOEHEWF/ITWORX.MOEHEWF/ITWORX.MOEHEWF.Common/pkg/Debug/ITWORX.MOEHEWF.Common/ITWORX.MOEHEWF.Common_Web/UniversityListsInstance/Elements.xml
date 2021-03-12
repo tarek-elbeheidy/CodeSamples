@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UniversityLists"
+                OnQuickLaunch="TRUE"
+                TemplateType="10011"
+                Url="Lists/UniversityLists"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">2015 List</Field>
+          <Field Name="TitleAr">قائمة 2015 </Field>
+          <Field Name="Year">2015</Field>
+          <Field Name="University">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">2016 List</Field>
+          <Field Name="TitleAr">قائمة 2016 </Field>
+          <Field Name="Year">2015</Field>
+          <Field Name="University">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">2017 List</Field>
+          <Field Name="TitleAr">قائمة 2017 </Field>
+          <Field Name="Year">2018</Field>
+          <Field Name="University">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"></Field>
+          <Field Name="TitleAr"></Field>
+          <Field Name="Year">2014</Field>
+          <Field Name="University">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"></Field>
+          <Field Name="TitleAr"></Field>
+          <Field Name="Year">2015</Field>
+          <Field Name="University">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"></Field>
+          <Field Name="TitleAr"></Field>
+          <Field Name="Year">2016</Field>
+          <Field Name="University">6</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

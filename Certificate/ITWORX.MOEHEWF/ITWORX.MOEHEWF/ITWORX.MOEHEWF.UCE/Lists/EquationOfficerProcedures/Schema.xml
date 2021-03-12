@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="EquationOfficerProcedures" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/EquationOfficerProcedures" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+
+      
+      
+      
+    <ContentType ID="0x0100a532c0443f4048ebb18569fee9f6fc0a" Name="ListFieldsContentType">
+        <FieldRefs>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{0721a9a0-038c-4187-9fb1-9fa000aedadb}" Name="InitialOpinion" /><FieldRef ID="{4d300eeb-a88f-47d9-aadd-add73a4507f3}" Name="Procedure" /><FieldRef ID="{14e95389-42bc-406f-959f-6606cc4e02ea}" Name="RecommendationStatus" /><FieldRef ID="{965e0744-6e1c-4591-8a24-5f65a39935f6}" Name="RequestID" /><FieldRef ID="{9fe6b402-1110-49b8-80da-322bdf2bba43}" Name="ProcedureCreatedDate" /><FieldRef ID="{24461280-5f80-470f-a097-fd3f898954c1}" Name="ProcedureDate" /><FieldRef ID="{548094a7-1f7f-40b6-a58b-4126e61f5b5d}" Name="DecisionForPrint" /><FieldRef ID="{b53c4e8a-3f6b-4f6b-8ae1-7c7fe422a2f5}" Name="NumberOfHoursGained" /><FieldRef ID="{acaaf353-7b56-47ac-a858-feb705593bae}" Name="NumberOfOnlineHours" /><FieldRef ID="{93c5bef3-696a-4094-83b3-6c027752aa36}" Name="PercentageOfOnlineHours" /><FieldRef ID="{ceb4b42e-308a-435e-a8ab-33b011d01944}" Name="OrdinaryOrOwners" /><FieldRef ID="{638fea71-cbae-44ae-a46b-539881f19b5e}" Name="HavePA" /><FieldRef ID="{c2318d6e-8688-402c-855c-954cd824fb25}" Name="TypeUniversity" /><FieldRef ID="{b3f81010-9b55-4141-b815-00ac5795c169}" Name="OccupationName" /><FieldRef ID="{f3dd3ea8-862a-4b48-9ebb-8f4631275631}" Name="bookNum" /><FieldRef ID="{40f9cdb5-6d48-4dbb-ba80-cfc8db6fc8e0}" Name="bookDate" /><FieldRef ID="{9b7ba503-ee99-4363-9626-36e1f757d024}" Name="HeadManagerName" /><FieldRef ID="{086a94d9-938e-42c4-99af-9d3f4042a6cc}" Name="HasException" /><FieldRef ID="{fd5bac7a-8425-4b53-be56-0a95fa33aa52}" Name="ExceptionFrom" /><FieldRef ID="{3c3f8820-f182-4111-9f1c-4d4b263fbbea}" Name="SirValue" /><FieldRef ID="{47690697-5e94-446a-b1e5-909c7d161f04}" Name="RespectedValue" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field Name="InitialOpinion" ID="{0721a9a0-038c-4187-9fb1-9fa000aedadb}" DisplayName="InitialOpinion" Type="Note" /><Field Name="Procedure" ID="{4d300eeb-a88f-47d9-aadd-add73a4507f3}" DisplayName="Procedure" Type="Note" /><Field Name="RecommendationStatus" ID="{14e95389-42bc-406f-959f-6606cc4e02ea}" DisplayName="RecommendationStatus" Type="Text" /><Field Name="RequestID" ID="{965e0744-6e1c-4591-8a24-5f65a39935f6}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /><Field Name="ProcedureCreatedDate" ID="{9fe6b402-1110-49b8-80da-322bdf2bba43}" DisplayName="ProcedureCreatedBy" Type="Text" /><Field Name="ProcedureDate" ID="{24461280-5f80-470f-a097-fd3f898954c1}" DisplayName="ProcedureDate" Type="DateTime" /><Field Name="DecisionForPrint" ID="{548094a7-1f7f-40b6-a58b-4126e61f5b5d}" DisplayName="DecisionForPrint" Type="Note" RichText="TRUE" RichTextMode="FullHtml" /><Field Name="NumberOfHoursGained" ID="{b53c4e8a-3f6b-4f6b-8ae1-7c7fe422a2f5}" DisplayName="NumberOfHoursGained" Type="Number" /><Field Name="NumberOfOnlineHours" ID="{acaaf353-7b56-47ac-a858-feb705593bae}" DisplayName="NumberOfOnlineHours" Type="Number" /><Field Name="PercentageOfOnlineHours" ID="{93c5bef3-696a-4094-83b3-6c027752aa36}" DisplayName="PercentageOfOnlineHours" Type="Text" /><Field Name="OrdinaryOrOwners" ID="{ceb4b42e-308a-435e-a8ab-33b011d01944}" DisplayName="OrdinaryOrOwners" Type="Text">
+       
+      </Field><Field Name="HavePA" ID="{638fea71-cbae-44ae-a46b-539881f19b5e}" DisplayName="HavePA" Type="Boolean" /><Field Name="TypeUniversity" ID="{c2318d6e-8688-402c-855c-954cd824fb25}" DisplayName="TypeUniversity" Type="Text">
+       
+      </Field><Field Name="OccupationName" ID="{b3f81010-9b55-4141-b815-00ac5795c169}" DisplayName="OccupationName" Type="Note" /><Field Name="bookNum" ID="{f3dd3ea8-862a-4b48-9ebb-8f4631275631}" DisplayName="bookNum" Type="Text" /><Field Name="bookDate" ID="{40f9cdb5-6d48-4dbb-ba80-cfc8db6fc8e0}" DisplayName="bookDate" Type="DateTime" /><Field Name="HeadManagerName" ID="{9b7ba503-ee99-4363-9626-36e1f757d024}" DisplayName="HeadManagerName" Type="Text" /><Field Name="HasException" ID="{086a94d9-938e-42c4-99af-9d3f4042a6cc}" DisplayName="HasException" Type="Boolean" /><Field Name="ExceptionFrom" ID="{fd5bac7a-8425-4b53-be56-0a95fa33aa52}" DisplayName="ExceptionFrom" Type="Text" /><Field Name="SirValue" ID="{3c3f8820-f182-4111-9f1c-4d4b263fbbea}" DisplayName="SirValue" Type="Text" /><Field Name="RespectedValue" ID="{47690697-5e94-446a-b1e5-909c7d161f04}" DisplayName="RespectedValue" Type="Text" /></Fields>
+    <Views>
+
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="InitialOpinion" /><FieldRef Name="Procedure" /><FieldRef Name="RecommendationStatus" /><FieldRef Name="RequestID" /><FieldRef Name="ProcedureCreatedDate" /><FieldRef Name="ProcedureDate" /><FieldRef Name="DecisionForPrint" /><FieldRef Name="NumberOfHoursGained" /><FieldRef Name="NumberOfOnlineHours" /><FieldRef Name="PercentageOfOnlineHours" /><FieldRef Name="OrdinaryOrOwners" /><FieldRef Name="HavePA" /><FieldRef Name="TypeUniversity" /><FieldRef Name="OccupationName" /><FieldRef Name="bookNum" /><FieldRef Name="bookDate" /><FieldRef Name="HeadManagerName" /><FieldRef Name="HasException" /><FieldRef Name="ExceptionFrom" /><FieldRef Name="SirValue" /><FieldRef Name="RespectedValue" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

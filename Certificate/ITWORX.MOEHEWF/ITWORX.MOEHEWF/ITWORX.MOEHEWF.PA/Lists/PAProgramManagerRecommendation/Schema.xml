@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="PAProgramManagerRecommendation" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/PAProgramManagerRecommendation" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x010089a23ce3f778431b9c7c325e5ebe572e" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{d3962280-4797-4b20-a318-a4c1de7a4da6}" Name="Recommendation1" />
+          <FieldRef ID="{5b4e7977-c853-4655-948e-e05ce118e960}" Name="ProcedureDate" />
+          <FieldRef ID="{eda63df8-e0fe-47a8-9b0f-30b2047481bf}" Name="ProcedureCreatedBy" />
+          <FieldRef ID="{5a58bd01-5085-4c5a-bd0c-266cf10ee33b}" Name="ProcedureComments" />
+          <FieldRef ID="{a87e440a-53a1-485f-b5b7-ab869cfe39fb}" Name="RequestID" />
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+      <Field Name="Recommendation1" ID="{d3962280-4797-4b20-a318-a4c1de7a4da6}" DisplayName="Recommendation" Type="Text" />
+      <Field Name="ProcedureDate" ID="{5b4e7977-c853-4655-948e-e05ce118e960}" DisplayName="RecommendationDate" Type="DateTime" />
+      <Field Name="ProcedureCreatedBy" ID="{eda63df8-e0fe-47a8-9b0f-30b2047481bf}" DisplayName="RecommendationCreatedBy" Type="Text" />
+      <Field Name="ProcedureComments" ID="{5a58bd01-5085-4c5a-bd0c-266cf10ee33b}" DisplayName="RecommendationComments" Type="Note" />
+      <Field Name="RequestID" ID="{a87e440a-53a1-485f-b5b7-ab869cfe39fb}" DisplayName="RequestID" Type="Lookup" List="Lists/PARequests" ShowField="ID" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="Recommendation1" />
+          <FieldRef Name="ProcedureDate" />
+          <FieldRef Name="ProcedureCreatedBy" />
+          <FieldRef Name="ProcedureComments" />
+          <FieldRef Name="RequestID" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

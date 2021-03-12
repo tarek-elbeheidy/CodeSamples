@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7a6b46bf-9b02-4841-857a-4f6595600662" SharePointProductVersion="16.0">
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.ar-SA.resx" />
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.en-US.resx" />
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.resx" />
+  </ApplicationResourceFiles>
+  <Assemblies>
+    <Assembly Location="dotnet.highcharts.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="AjaxControlToolkit.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="AjaxControlToolkit" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="itextsharp" Namespace="itextsharp" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="ClosedXML.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ClosedXML" Namespace="ClosedXML" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="FastMember.Signed.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="FastMember.Signed" Namespace="FastMember.Signed" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="DocumentFormat.OpenXml.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="DocumentFormat.OpenXml" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="EPPlus.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="EPPlus" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="ITWORX.MOEHEWF.UCE.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.EquationOfficerProceduresWP" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.DisplayRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.MyRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.TestWebPart" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.NewRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.EmployeeDashboard" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.RequestDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ApplicantDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.PaymentRecords" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ManageRequestDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ClarificationRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.StatementRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.HistoricalRecords" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.StatementRequestDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ExternalCommunicationDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ExternalCommunications" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ProgramManagerProcedures" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ProceduresReceptionist" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedures_DeptManagerListing" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedure_DeptManagerDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ProgManagerProcedureDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedure_TechCommitteeDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ProcedureReceptionistDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedures_AssistSecretaryListing" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedure_AssistSecretaryDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.SecretarySearch" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ReviewerDisplayRequestDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedures_TechCommitteeListing" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ClarificationRequestDetails" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Recommendations" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.TechCommitteeDecision" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.AssistantUnderSecretaryDecisions" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedures_LegalAffairsInitOpinion" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.HeadManagerDecision" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.SearchStatusRecommendation" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ProgramEmpClarifications" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.SrchSimilarRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ViewStatusAndRecommendation" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ReviewerRecommendations" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ReviewerDecisions" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ViewFinalDecisions" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.ViewSimilarRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.AddNewBook" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" Namespace="ITWORX.MOEHEWF.UCE.WebParts.PaymentRequests" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\ITWORX_MOEHEWF_UCE.ar-SA.resx" />
+    <RootFile Location="Resources\ITWORX_MOEHEWF_UCE.en-US.resx" />
+    <RootFile Location="Resources\ITWORX_MOEHEWF_UCE.resx" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\EquationOfficerProceduresWP\EquationOfficerProceduresWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\DisplayRequest\DisplayRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\MyRequests\MyRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\TestWebPart\TestWebPartUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\NewRequest\NewRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\EmployeeDashboard\EmployeeDashboardUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\RequestDetails\RequestDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ApplicantDetails\ApplicantDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\PaymentRecords\PaymentRecordsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ManageRequestDetails\ManageRequestDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ClarificationRequests\ClarificationRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\StatementRequests\StatementRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\HistoricalRecords\HistoricalRecordsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\StatementRequestDetails\StatementRequestDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ExternalCommunicationDetails\ExternalCommunicationDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ExternalCommunications\ExternalCommunicationsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ProgramManagerProcedures\ProgramManagerProceduresUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ProceduresReceptionist\ProceduresReceptionistUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedures_DeptManagerListing\Procedures_DeptManagerListingUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedure_DeptManagerDetails\Procedure_DeptManagerDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ProgManagerProcedureDetails\ProgManagerProcedureDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedure_TechCommitteeDetails\Procedure_TechCommitteeDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ProcedureReceptionistDetails\ProcedureReceptionistDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedures_AssistSecretaryListing\Procedures_AssistSecretaryListingUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedure_AssistSecretaryDetails\Procedure_AssistSecretaryDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\SecretarySearch\SecretarySearchUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ReviewerDisplayRequestDetails\ReviewerDisplayRequestDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedures_TechCommitteeListing\Procedures_TechCommitteeListingUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ClarificationRequestDetails\ClarificationRequestDetailsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Recommendations\RecommendationsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\TechCommitteeDecision\TechCommitteeDecisionUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\AssistantUnderSecretaryDecisions\AssistantUnderSecretaryDecisionsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedures_LegalAffairsInitOpinion\Procedures_LegalAffairsInitOpinionUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\HeadManagerDecision\HeadManagerDecisionUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\SearchStatusRecommendation\SearchStatusRecommendationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ProgramEmpClarifications\ProgramEmpClarificationsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\SrchSimilarRequests\SrchSimilarRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ViewStatusAndRecommendation\ViewStatusAndRecommendationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ReviewerRecommendations\ReviewerRecommendationsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ReviewerDecisions\ReviewerDecisionsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ViewFinalDecisions\ViewFinalDecisionsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\ViewSimilarRequests\ViewSimilarRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\AddNewBook\AddNewBookUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\PaymentRequests\PaymentRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_Clarification.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_DepartmentManagerProc.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_NewRecommendation.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_TechCommitteeProcedure.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\AssistantUnderSecretaryDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ClarificationReqDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\DepartmentManagerDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\DisplaySimilarRequestDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ExternalCommDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_FinalDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_LegalAffairsProcOpinion.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_NewBook.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_NewStatement.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_ProcedureReceptionist.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_ProcedureProgramManager.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Add_AssistSecretaryProc.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ApplicantDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\CheckUniversity.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ClarificationRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ClarRequestsListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\DisplayApplicantDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\DisplayCheckUniversity.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\DisplayRequestDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ExternalCommListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\HistoricalRecords.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\LateRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\NewRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\PaymentRecords.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_AssistSecretaryDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_AssistSecretaryListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_DeptManagerDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_LegalAffairsDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_LegalAffairsViewOpinion.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_ReceptionistDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedures_LegalAffairsListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedures_ProgramManager.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedures_Receptionist.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedures_DeptManagerListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_TechCommitteDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Procedure_TechCommitteListing.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ProgramManagerProcedureDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ProgramManagerRecommendation.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\RequestDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\RequestsChart.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ReturnedRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ReviewerDisplayApplicantDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ReviewerDisplayRequestDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\RolesNavigationLinks.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\PaymentRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\SearchRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\SearchStatusRecommendationUC.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\Secretary_Search.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\SimilarRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\StatementDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\StatementRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\TechCommitteeViewDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\UploadUC.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ViewAssistantUnderSecDec_AllDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ViewDeptManagerDec_AllDecision.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ViewSimilarRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ViewStatusandRecommendation.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE\ViewTechCommitteeDec_AllDecision.ascx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\Applicant.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\ApplicationPage1.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\AssistantUndersecretary.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\CascadingDropdowns.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\DepartmentManager.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\LegalAffairs.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\PrimaryAndSecondaryEmployee.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\PrimaryEmployee.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\ProgramEmployee.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\ProgramManager.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\Receptionist.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\TechnicalCommitte.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.UCE\TechnicalCommitteUnderSec.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ITWORX.MOEHEWF.UCE_Site\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.UCE_WebParts\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.UCE_Web\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.UCE_Applicant\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.UCE_Reviewer\Feature.xml" />
+  </FeatureManifests>
+</Solution>

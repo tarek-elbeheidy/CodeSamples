@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="NintexConfiguredOutcomes" OnQuickLaunch="TRUE" TemplateType="10057" Url="Lists/NintexConfiguredOutcomes" Description="My List Instance"  FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">تحويل الي رئيس البرنامج</Field>
+          <Field Name="Key">UCEProgramManagerReview</Field>
+          <Field Name="Value">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال طلب توضيح</Field>
+          <Field Name="Key">UCEReceptionistNeedsClarification</Field>
+          <Field Name="Value">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرسال الطلب لموظف الأستقبال</Field>
+          <Field Name="Key">UCReceptionistClarificationReply</Field>
+          <Field Name="Value">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرسال إلى موظف برنامج معادلة الشهادات</Field>
+          <Field Name="Key">UCProgramEmployeeClarificationReply</Field>
+          <Field Name="Value">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب لموظف الاستقبال</Field>
+          <Field Name="Key">UCEReceptionistMissingInformation</Field>
+          <Field Name="Value">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال الطلب لموظف معادلة الشهادات- البرنامج الرئيسي</Field>
+          <Field Name="Key">UCEProgramEmployeeReview</Field>
+          <Field Name="Value">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال الطلب لموظف معادلة الشهادات- البرنامج الرئيسي والبرنامج الثانوي</Field>
+          <Field Name="Key">UCEAsianAndEuropianEmployeeReview</Field>
+          <Field Name="Value">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الطلب لرئيس برنامج معادلة الشهادات من موظف البرنامج الرئيسى</Field>
+          <Field Name="Key">UCEProgramManagerReviewRecommendation</Field>
+          <Field Name="Value">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرجاع الطلب إلى مقدم الطلب من موظف البرنامج الرئيسى</Field>
+          <Field Name="Key">UCEProgramEmployeeNeedsClarification</Field>
+          <Field Name="Value">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب لموظف معادلة الشهادات- البرنامج الرئيسي</Field>
+          <Field Name="Key">UCEProgramEmployeeMissingInformation</Field>
+          <Field Name="Value">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب لموظف معادلة الشهادات- البرنامج الرئيسي والبرنامج الثانوي</Field>
+          <Field Name="Key">UCEAsianAndEuropianEmployeeMissingInformation</Field>
+          <Field Name="Value">11</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الطلب من مدير البرنامج لمدير الادارة</Field>
+          <Field Name="Key">UCEHeadManagerReviewRecommendation</Field>
+          <Field Name="Value">12</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الطلب لرئيس برنامج معادلة الشهادات من موظف البرنامج الرئيسى-دول</Field>
+          <Field Name="Key">UCEProgramManagerReviewRecommendation-Primary</Field>
+          <Field Name="Value">13</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرجاع الطلب إلى مقدم الطلب من موظف البرنامج الرئيسى-دول</Field>
+          <Field Name="Key">UCEProgramEmployeeNeedsClarification-Primary</Field>
+          <Field Name="Value">14</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الطلب لرئيس برنامج معادلة الشهادات من موظف البرنامج الثانوى</Field>
+          <Field Name="Key">UCEProgramManagerReviewRecommendation-Secondary</Field>
+          <Field Name="Value">15</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرجاع الطلب إلى مقدم الطلب من موظف البرنامج الثانوى</Field>
+          <Field Name="Key">UCEProgramEmployeeNeedsClarification-Secondary</Field>
+          <Field Name="Value">16</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TimeOut</Field>
+          <Field Name="Key">TimeOut</Field>
+          <Field Name="Value">17</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب لرئيس برنامج معادلة الشهادات</Field>
+          <Field Name="Key">UCEProgramManagerMissingRecommendationFromHeadManager</Field>
+          <Field Name="Value">18</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الي الوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryReviewRecommendation</Field>
+          <Field Name="Value">19</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل لموظف الشئون القانونية</Field>
+          <Field Name="Key">UCELegalEmployeePendingReview</Field>
+          <Field Name="Value">20</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">قبول - مدير الإدارة</Field>
+          <Field Name="Key">UCEHeadManagerAccepted</Field>
+          <Field Name="Value">21</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">رفض - مدير الإدارة</Field>
+          <Field Name="Key">UCEHeadManagerRejected</Field>
+          <Field Name="Value">22</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل من مدير الإدارة الي اللجنة الفنية</Field>
+          <Field Name="Key">UCETechnicalCommitteeReviewRecommendationFromHeadManager</Field>
+          <Field Name="Value">23</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">قبول - الوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryAccepted</Field>
+          <Field Name="Value">24</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">رفض - الوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryRejected</Field>
+          <Field Name="Value">25</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل من الوكيل المساعد الي اللجنة الفنية</Field>
+          <Field Name="Key">UCETechnicalCommitteeReviewRecommendationAssistantUndersecretary</Field>
+          <Field Name="Value">26</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب من الوكيل المساعد لمدير ادارة معادلة الشهادات</Field>
+          <Field Name="Key">UCEProgramManagerMissingRecommendationFromAssistantUndersecretary</Field>
+          <Field Name="Value">27</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب للوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryMissingInformation</Field>
+          <Field Name="Value">28</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال قرار بالموافقة للوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryAcceptDecisionTechnicalCommittee</Field>
+          <Field Name="Value">29</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال قرار بالرفض للوكيل المساعد</Field>
+          <Field Name="Key">UCEAssistantUndersecretaryRejectDecisionTechnicalCommittee</Field>
+          <Field Name="Value">30</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الطلب من موظف الشئون القانونية لمدير الادارة</Field>
+          <Field Name="Key">UCELegalEmployeeSendNotes</Field>
+          <Field Name="Value">31</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب من موظف الشئون القانونية لمدير ادارة معادلة الشهادات</Field>
+          <Field Name="Key">UCELegalEmployeeMissingInformation</Field>
+          <Field Name="Value">32</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال قرار بالموافقة لمدير ادارة معادلة الشهادات</Field>
+          <Field Name="Key">UCEHeadManagereAcceptDecisionTechnicalCommitte</Field>
+          <Field Name="Value">33</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارسال قرار بالرفض لمدير ادارة معادلة الشهادات</Field>
+          <Field Name="Key">UCEHeadManagerRejectDecisionTechnicalCommittee</Field>
+          <Field Name="Value">34</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ارجاع الطلب من اللجنة الفنية لمدير ادارة معادلة الشهادات</Field>
+          <Field Name="Key">UCEHeadManagerMissingInformationTechnicalCommittee</Field>
+          <Field Name="Value">35</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">تحويل الي مدير برنامج المعادلة والموافقة المسبقة</Field>
+          <Field Name="Key">PAProgramManagerReview</Field>
+          <Field Name="Value">36</Field>
+        </Row> 
+      <Row>
+        <Field Name="Title">ارسال طلب توضيح لمقدم الطلب - الموافقة المسبقة</Field>
+        <Field Name="Key">PAReceptionistNeedsClarification</Field>
+        <Field Name="Value">37</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">Reject</Field>
+        <Field Name="Key">Reject</Field>
+        <Field Name="Value">38</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">إرسال الطلب إلى موظف وحدة الموافقة المسبقة</Field>
+        <Field Name="Key">PAEmployeeClarificationReplay</Field>
+        <Field Name="Value">39</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">ارجاع الطلب لموظف وحدة الموافقة المسبقة</Field>
+        <Field Name="Key">PAProgramEmployeeMissingInformation</Field>
+        <Field Name="Value">40</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">ارسال الطلب لمدير وحدة الموافقة السبقة</Field>
+        <Field Name="Key">PAHeadManagerReviewRecommendation</Field>
+        <Field Name="Value">41</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">الموافقة على الطلب</Field>
+        <Field Name="Key">PAHeadManagerAccepted</Field>
+        <Field Name="Value">42</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">رفض الطلب</Field>
+        <Field Name="Key">PAHeadManagerRejected</Field>
+        <Field Name="Value">43</Field>
+      </Row> 
+      <Row>
+        <Field Name="Title">ارجاع الطلب لمدير برنامج المعادلة والموافقة المسبقة</Field>
+        <Field Name="Key">PAHeadEmployeeMissingInformation</Field>
+        <Field Name="Value">44</Field>
+      </Row>
+        <Row>
+          <Field Name="Title">موافقة مدير البرنامج- الموافقة المسبقة</Field>
+          <Field Name="Key">PAProgramManagerAcceptance</Field>
+          <Field Name="Value">45</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">رفض مدير البرنامج- الموافقة المسبقة</Field>
+          <Field Name="Key">PAProgramManagerReject</Field>
+          <Field Name="Value">46</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرسال طلب إفادة إلى الملحقية الثقافية</Field>
+          <Field Name="Key">SCECulturalMissionNeedsStatement</Field>
+          <Field Name="Value">1001</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرسال طلب توضيح إلى مقدم الطلب</Field>
+          <Field Name="Key">SCEEmployeeNeedsClarification</Field>
+          <Field Name="Value">1002</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعداد بحث الحالة و إدخال التوصية بالموافقة لرئيس القسم</Field>
+          <Field Name="Key">SCEAcceptedRecommendation</Field>
+          <Field Name="Value">1003</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعداد بحث الحالة و إدخال التوصية بالرفض لدير الإدارة</Field>
+          <Field Name="Key">SCERejectedRecommendationDepartmentManager</Field>
+          <Field Name="Value">1004</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعداد بحث الحالة و إدخال التوصية بالرفض لرئيس القسم</Field>
+          <Field Name="Key">SCERejectedRecommendationSectionManager</Field>
+          <Field Name="Value">1005</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعادة إرسال الطلب للموظف - الرد على طلب التوضيج</Field>
+          <Field Name="Key">SCEEmployeeClarificationReply</Field>
+          <Field Name="Value">1007</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرسال الرد على طلب الإفادة</Field>
+          <Field Name="Key">SCECulturalMissionStatementReply</Field>
+          <Field Name="Value">1008</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرجاع الطلب لموظف البرنامج</Field>
+          <Field Name="Key">SCEDepartmentManagerMissingRecommendation</Field>
+          <Field Name="Value">1009</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إجالة الطلب بالموافقة لرئيس القسم</Field>
+          <Field Name="Key">SCEDepartmentManagerAcceptDecision</Field>
+          <Field Name="Value">1010</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إجالة الطلب بالرفض لرئيس القسم</Field>
+          <Field Name="Key">SCEDepartmentManagerRejectDecision</Field>
+          <Field Name="Value">1011</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إرجاع الطلب لوظف المعادلة</Field>
+          <Field Name="Key">SCESectionManagerMissingInformation</Field>
+          <Field Name="Value">1012</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إغلاق بالموافقة</Field>
+          <Field Name="Key">SCESectionManagerAccepted</Field>
+          <Field Name="Value">1013</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إغلاق بالرفض</Field>
+          <Field Name="Key">SCESectionManagerRejected</Field>
+          <Field Name="Value">1014</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

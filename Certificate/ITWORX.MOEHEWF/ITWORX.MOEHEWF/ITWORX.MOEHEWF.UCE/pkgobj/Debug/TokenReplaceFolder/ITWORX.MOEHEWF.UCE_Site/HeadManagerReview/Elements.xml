@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Nintex Workflow Multi Outcome Task (0x0108010064E42B14ADA442C78E98D686760A8493) -->
+  <ContentType ID="0x0108010064E42B14ADA442C78E98D686760A8493002735187F67534CF2AA8A1CEEE51FFC5C"
+               Name="MOEHE CE Department Manager Task"
+               Group="MOEHE Nintex Workflows"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url" >
+          <Display>/_layouts/15/ITWORX.MOEHEWF.UCE/DepartmentManager.aspx</Display>
+          <Edit>/_layouts/15/ITWORX.MOEHEWF.UCE/DepartmentManager.aspx</Edit>
+          <New>/_layouts/15/ITWORX.MOEHEWF.UCE/DepartmentManager.aspx</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

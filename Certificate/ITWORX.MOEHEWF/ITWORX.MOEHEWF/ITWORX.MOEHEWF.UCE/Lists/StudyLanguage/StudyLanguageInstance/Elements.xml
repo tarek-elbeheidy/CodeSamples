@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StudyLanguage" OnQuickLaunch="TRUE" TemplateType="10040" Url="Lists/StudyLanguage" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <!--<Row>
+          <Field Name="Title">English</Field>
+          <Field Name="TitleAr">الإنجليزية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Arabic</Field>
+          <Field Name="TitleAr">العربية</Field>
+        </Row>-->
+        <Row>
+          <Field Name="Title">Arabic</Field>
+          <Field Name="TitleAr">العربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">English</Field>
+          <Field Name="TitleAr">الانجليزية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Spanish</Field>
+          <Field Name="TitleAr">الإسبانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Indian</Field>
+          <Field Name="TitleAr">الهندية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Portuguese</Field>
+          <Field Name="TitleAr">البرتغالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Russian</Field>
+          <Field Name="TitleAr">الروسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Japanese</Field>
+          <Field Name="TitleAr">اليابانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">German</Field>
+          <Field Name="TitleAr">الألمانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">French</Field>
+          <Field Name="TitleAr">الفرنسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Turkish</Field>
+          <Field Name="TitleAr">التركية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Italian</Field>
+          <Field Name="TitleAr">الإيطالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Iranian</Field>
+          <Field Name="TitleAr">ايراني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Korean</Field>
+          <Field Name="TitleAr">الكورية</Field>
+        </Row>
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

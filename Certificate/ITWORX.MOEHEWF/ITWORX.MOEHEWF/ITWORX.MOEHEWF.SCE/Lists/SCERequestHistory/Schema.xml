@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCERequestHistory" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCERequestHistory" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100217fd6f38d66463d9e901f2873e294f0" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{d5513420-17f0-4a98-8d2e-283f43e19411}" Name="ExcutedAction" /><FieldRef ID="{a5d2f62d-5e7b-4cc4-8f15-fe8ceeae6997}" Name="ActionDate" /><FieldRef ID="{86f08f3d-4045-473b-859b-a5091c8a0273}" Name="RequestID" /><FieldRef ID="{f589999f-6b09-4be3-8443-262967cfc820}" Name="Executor" /><FieldRef ID="{fd62bb5e-762d-43fc-855b-27a396386348}" Name="AuthorityTask" /><FieldRef ID="{bdb5002f-d147-429a-97e6-0b146ff91c27}" Name="HistoryComments" /><FieldRef ID="{cf4c4502-f23b-4272-90fe-7709dec649b0}" Name="ExecutedActionAr" /><FieldRef ID="{9e187dc9-dde1-4534-8c1a-f2906a53e6fb}" Name="ApplicantCanView" /><FieldRef ID="{18245859-90d4-40d1-b23e-c23848cf6e75}" Name="AutorityTaskAr" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="ExcutedAction" ID="{d5513420-17f0-4a98-8d2e-283f43e19411}" DisplayName="ExecutedAction" Type="Lookup" List="Lists/RequestStatus" ShowField="HistoryDescriptionEn" /><Field Name="ActionDate" ID="{a5d2f62d-5e7b-4cc4-8f15-fe8ceeae6997}" DisplayName="ActionDate" Type="DateTime" /><Field Name="RequestID" ID="{86f08f3d-4045-473b-859b-a5091c8a0273}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="Executor" ID="{f589999f-6b09-4be3-8443-262967cfc820}" DisplayName="Executor" Type="Text" /><Field Name="AuthorityTask" ID="{fd62bb5e-762d-43fc-855b-27a396386348}" DisplayName="AuthorityTask" Type="Lookup" List="Lists/RequestStatus" ShowField="ActionByEn" /><Field Name="HistoryComments" ID="{bdb5002f-d147-429a-97e6-0b146ff91c27}" DisplayName="HistoryComments" Type="Note" /><Field Name="ExecutedActionAr" ID="{cf4c4502-f23b-4272-90fe-7709dec649b0}" DisplayName="ExecutedActionAr" Type="Lookup" List="Lists/RequestStatus" ShowField="HistoryDescriptionAr" /><Field Name="ApplicantCanView" ID="{9e187dc9-dde1-4534-8c1a-f2906a53e6fb}" DisplayName="ApplicantCanView" Type="Choice"><CHOICES><CHOICE>Yes</CHOICE><CHOICE>No</CHOICE></CHOICES></Field><Field Name="AutorityTaskAr" ID="{18245859-90d4-40d1-b23e-c23848cf6e75}" DisplayName="AuthorityTaskAr" Type="Lookup" List="Lists/RequestStatus" ShowField="ActionByAr" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="ExcutedAction" /><FieldRef Name="ActionDate" /><FieldRef Name="RequestID" /><FieldRef Name="Executor" /><FieldRef Name="AuthorityTask" /><FieldRef Name="HistoryComments" /><FieldRef Name="ExecutedActionAr" /><FieldRef Name="ApplicantCanView" /><FieldRef Name="AutorityTaskAr" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

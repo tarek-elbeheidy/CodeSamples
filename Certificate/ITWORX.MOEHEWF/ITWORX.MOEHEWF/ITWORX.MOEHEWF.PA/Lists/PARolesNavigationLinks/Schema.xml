@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="PARolesNavigationLinks" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/PARolesNavigationLinks" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100705f5b2d546c4167b136ce8198605200" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{8fb81263-a0b1-4e3b-a99a-0d3c52cea873}" Name="PageTitleAR" />
+          <FieldRef ID="{7f449522-1eb6-490a-9058-136c1980ee4c}" Name="PageTitleEN" />
+          <FieldRef ID="{cb2e439f-1935-43d0-b881-dcff6295b7b9}" Name="PageLinkAR" />
+          <FieldRef ID="{70b89bb5-81e9-4315-8e82-50b60454cf61}" Name="PageLinkEN" />
+          <FieldRef ID="{411d8849-eba0-4a52-bb23-b2bdab5b0169}" Name="Active" />
+          <FieldRef ID="{b4d387f8-4c1a-4330-ac7a-a35c4b8aca0a}" Name="Order" />
+          <FieldRef ID="{36dc6c48-bf73-49a4-8066-217756c23f50}" Name="SPGroupName" />
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+      <Field Name="PageTitleAR" ID="{8fb81263-a0b1-4e3b-a99a-0d3c52cea873}" DisplayName="PageTitleAR" Type="Text" Required="TRUE" />
+      <Field Name="PageTitleEN" ID="{7f449522-1eb6-490a-9058-136c1980ee4c}" DisplayName="PageTitleEN" Type="Text" Required="TRUE" />
+      <Field Name="PageLinkAR" ID="{cb2e439f-1935-43d0-b881-dcff6295b7b9}" DisplayName="PageLinkAR" Type="Text" Required="TRUE" />
+      <Field Name="PageLinkEN" ID="{70b89bb5-81e9-4315-8e82-50b60454cf61}" DisplayName="PageLinkEN" Type="Text" Required="TRUE" />
+      <Field ID="{411d8849-eba0-4a52-bb23-b2bdab5b0169}" Name="Active" DisplayName="Active" Type="Choice" Required="TRUE" Group="MOEHEWFColumns">
+        <CHOICES>
+          <CHOICE>Yes</CHOICE>
+          <CHOICE>No</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field Name="Order" ID="{b4d387f8-4c1a-4330-ac7a-a35c4b8aca0a}" DisplayName="Order" Type="Text" Required="TRUE" />
+      <Field Name="SPGroupName" ID="{36dc6c48-bf73-49a4-8066-217756c23f50}" DisplayName="SPGroupName" Type="Text" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="PageTitleAR" />
+          <FieldRef Name="PageTitleEN" />
+          <FieldRef Name="PageLinkAR" />
+          <FieldRef Name="PageLinkEN" />
+          <FieldRef Name="Active" />
+          <FieldRef Name="Order" />
+          <FieldRef Name="SPGroupName" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

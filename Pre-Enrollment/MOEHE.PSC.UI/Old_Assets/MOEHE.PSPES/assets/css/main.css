@@ -1,0 +1,5 @@
+
+.alert-pastel-info{display: inline-block;margin: 0px auto;position: fixed;transition: all 0.5s ease-in-out;z-index: 1031;top: 0 !important;right: 0 !important;height: 70px !important;border-radius: 0;color: #fff;background-color: #d9534f}
+.data-notify-title{text-align: right;font-size: 16px;float: right;width: 100%}
+.data-notify-message{text-align: right; width: 100%;float: right}
+.closeNotify{left:10px;color: #fff}

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="NationalityCategory"
+                OnQuickLaunch="TRUE"
+                TemplateType="10007"
+                Url="Lists/NationalityCategory"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Qatari</Field>
+          <Field Name="TitleAr">قطري </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatari children</Field>
+          <Field Name="TitleAr">أبناء قطريات</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Holders of national documents</Field>
+          <Field Name="TitleAr">حاملي الوثائق القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Born in Qatar</Field>
+          <Field Name="TitleAr">مواليد قطر</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Gulf Cooperation Council</Field>
+          <Field Name="TitleAr">أبناء مجلس التعاون الخليجي </Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Non-Qatari</Field>
+          <Field Name="TitleAr">غير القطريين </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

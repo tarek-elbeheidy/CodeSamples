@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Reviewer\" Type="ElementManifest" />
+    <ProjectItemFile Source="ReceptionistDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReceptionistReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramManagerDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramManagerReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ArabicAsianProgramEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramEmployeeRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AsianAndEuropianEmployeeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="HeadManagerDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="HeadManagerReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AssistantUnderSecretoryDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AssistantUnderSecretoryReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="TechnicalCommitteeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="TechnicalCommitteeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="LegalEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="LegalEmployeeReviewRequest.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PaymentRecords.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ClarificationRequestsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="SearchSimilarRequests.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="StatementRequestsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="EmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="HistoricalRecords.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="StatementRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ExternalCommunicationsListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ExternalCommDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresReceptionistListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProcedureReceptionistDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProcedureAssistSecretaryDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProcedureDepartManagerDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresAssistSecretaryListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresDeptManagerListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresTechCommitteListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProcedureTechCommitteeDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresProgramEmployeeDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresProgramEmployeeListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="SecretaryDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerDisplayApplicantDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerDisplayRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ClarificationReqDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="TechCommitteDecisions.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="EuropeanProgramEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramManagerProcedureListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramManagerRecommendListing.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramManagerProcDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProceduresLegalAffairsOpinion.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AssistantUnderSecretaryDecision.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="HeadManagerViewDecision.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="SearchStatusRecommendation.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ProgramEmployeeClarificationReqs.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerDecisions.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewFinalDecision.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerRecommendations.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewSimilarRequests.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="CulturalMissionEmployeeDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="ReviewerDisplaySimilarRequestDetails.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="HigherEducationalInstitutionsDashboard.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AddNewBook.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="PaymentRequests.aspx" Target="Reviewer\" Type="ElementFile" />
+    <ProjectItemFile Source="AddEmployeeNote.aspx" Target="Reviewer\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

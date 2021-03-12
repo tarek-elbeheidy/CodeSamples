@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="27ae7c8d-6de9-4528-87da-6fda0b30673b" alwaysForceInstall="true" featureId="27ae7c8d-6de9-4528-87da-6fda0b30673b" imageUrl="" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="ITWORX.MOEHEWF.PA WebParts" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="7836c309-04eb-4227-b527-62c5b25f9674" />
+    <projectItemReference itemId="47ca2d9f-c81e-4d15-bdca-725c03564540" />
+    <projectItemReference itemId="73aed7db-a5f9-4f0d-964e-b2cf9f8387b6" />
+    <projectItemReference itemId="03c66c15-7b06-44ec-b7c0-25ebecaf4876" />
+    <projectItemReference itemId="175b0ff4-84b3-47de-8c24-e4eb51cc5f8f" />
+    <projectItemReference itemId="a5bb3c60-f568-497b-b678-3d0794847256" />
+    <projectItemReference itemId="3ad48831-6ce4-4bf1-b938-aa3592859f2e" />
+    <projectItemReference itemId="8a77578d-d2c2-4146-9f65-d583b207c88a" />
+    <projectItemReference itemId="6c9b43e3-bba0-4da8-ac95-b25f929e7a8f" />
+    <projectItemReference itemId="c37b13c2-d317-407c-9e0a-d92be00c929e" />
+    <projectItemReference itemId="eae26cf2-6611-4d8b-b7cc-a51faf6e871d" />
+    <projectItemReference itemId="8d4e6c4b-c548-4717-9cae-01ec85d70ab9" />
+    <projectItemReference itemId="f01cb87f-9da2-4757-9583-745ddb1f5f40" />
+    <projectItemReference itemId="cc7f76fd-0841-4785-8c25-3007523613be" />
+    <projectItemReference itemId="4a1b011a-864b-4478-ae5b-b73280bd9e3e" />
+    <projectItemReference itemId="5ca00588-bffb-4853-9486-6b0c9c7f494b" />
+    <projectItemReference itemId="8dd6f9e8-57d4-4078-9526-faadf25504a7" />
+    <projectItemReference itemId="b096287e-3b7f-4dbe-aacc-b02a524c6cf0" />
+    <projectItemReference itemId="0de76264-36a3-400c-b38a-5f9ab5b74033" />
+    <projectItemReference itemId="ee1c61c6-c160-4c67-9ed1-70acc20ad941" />
+    <projectItemReference itemId="e5b2755b-02fd-4df5-952b-0cdad41554be" />
+    <projectItemReference itemId="b984d750-cb81-4b22-ab18-f03f8ecc3487" />
+    <projectItemReference itemId="a88b03ca-4491-4c78-8a28-c39e7fd86fd3" />
+    <projectItemReference itemId="230b1214-9bfa-4459-9762-2f24bad1ebe6" />
+    <projectItemReference itemId="09d7b2a7-bd42-4a64-a5e4-76c57e52c4fb" />
+    <projectItemReference itemId="52575ce6-ec8c-44ab-9c50-ff7297adef92" />
+    <projectItemReference itemId="1cd77243-c076-46a8-a9f0-2007bf2d819b" />
+    <projectItemReference itemId="397bff36-9710-46c5-9a3a-a429bbee00f2" />
+    <projectItemReference itemId="7c04bebe-4a57-4a5a-ae3a-78a9890a870e" />
+    <projectItemReference itemId="3bd792e2-6731-44f7-83e0-59adc9da3576" />
+    <projectItemReference itemId="507732dc-d557-4735-b945-01b484da6dca" />
+    <projectItemReference itemId="e5f101b8-b8cd-40f3-a70e-c8d59dfca5cc" />
+    <projectItemReference itemId="f457ba85-a6ea-4f24-96f8-62c703cfded1" />
+    <projectItemReference itemId="18f5e317-48fc-4d0a-98e9-59685fe535bd" />
+    <projectItemReference itemId="3c9479f4-80d2-4955-aece-d747d126e47b" />
+    <projectItemReference itemId="236a5567-e1ac-4019-865f-00a5f1dc8c78" />
+    <projectItemReference itemId="52135fd1-d1b4-4abb-84e8-46fcf3d1e7e8" />
+    <projectItemReference itemId="30397ea2-1e22-496a-9711-e1ea87aa361a" />
+    <projectItemReference itemId="e0b9c903-0e8b-4573-9bfa-cbadf3f22671" />
+    <projectItemReference itemId="63d60483-8c91-47e7-95b5-783d204cf623" />
+    <projectItemReference itemId="1bd8dc1e-a4d1-470c-b7e2-79eac60136fd" />
+    <projectItemReference itemId="b4190b61-f924-49e9-be14-98c71be428a6" />
+    <projectItemReference itemId="122e9344-a237-44e3-8b63-d173d9684d12" />
+    <projectItemReference itemId="425fb492-95b5-4ccb-84a7-aab7ec1a01dc" />
+    <projectItemReference itemId="73415a53-d57c-497a-8c28-85bed9fb8e2a" />
+    <projectItemReference itemId="526d0d3a-f469-415f-b1c2-0e7cd693ed3a" />
+  </projectItems>
+</feature>

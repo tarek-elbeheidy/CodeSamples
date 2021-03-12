@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Applicant\" Type="ElementManifest" />
+    <ProjectItemFile Source="SampleUpload.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="SCEClarificationsListing.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="SCEClarificationRequestDetails.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="NewSCERequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="EditSCERequest.aspx" Target="Applicant\" Type="ElementFile" />
+    <ProjectItemFile Source="SCERequestHistory.aspx" Target="Applicant\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

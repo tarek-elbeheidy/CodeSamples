@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="49268629-b1cc-49c4-93f2-06d7baf4f46b" Scope="Web" Title="ITWORX.MOEHEWF.UCE Web">
+  <ElementManifests>
+    <ElementManifest Location="CertificatesInstance\Elements.xml" />
+    <ElementManifest Location="AcademicDegreeInstance\Elements.xml" />
+    <ElementManifest Location="EntityNeedsEquivalencyInstance\Elements.xml" />
+    <ElementManifest Location="EntityProvidingStudyInstance\Elements.xml" />
+    <ElementManifest Location="EntityWorkingForInstance\Elements.xml" />
+    <ElementManifest Location="FacultyInstance\Elements.xml" />
+    <ElementManifest Location="OccupationInstance\Elements.xml" />
+    <ElementManifest Location="SpecializationInstance\Elements.xml" />
+    <ElementManifest Location="StudyLanguageInstance\Elements.xml" />
+    <ElementManifest Location="StudySystemInstance\Elements.xml" />
+    <ElementManifest Location="StudyTypeInstance\Elements.xml" />
+    <ElementManifest Location="UniversityMainCountryInstance\Elements.xml" />
+    <ElementManifest Location="RolesNavigationLinksInstance\Elements.xml" />
+    <ElementManifest Location="RequestsInstance\Elements.xml" />
+    <ElementManifest Location="ClarificationsRequestsInstance\Elements.xml" />
+    <ElementManifest Location="TechCommitteeProceduresInstance\Elements.xml" />
+    <ElementManifest Location="DecisionsInstance\Elements.xml" />
+    <ElementManifest Location="ReceptionProceduresInstance\Elements.xml" />
+    <ElementManifest Location="ProgramManagerProceduresInstance\Elements.xml" />
+    <ElementManifest Location="LegalOfficerProceduresInstance\Elements.xml" />
+    <ElementManifest Location="EquationOfficerProceduresInstance\Elements.xml" />
+    <ElementManifest Location="AssistSecretaryProceduresInstance\Elements.xml" />
+    <ElementManifest Location="DepartmentManagerInstance\Elements.xml" />
+    <ElementManifest Location="ExternalCommunicationsInstance\Elements.xml" />
+    <ElementManifest Location="PaymentRecordsInstance\Elements.xml" />
+    <ElementManifest Location="ProgramManagerRecommendationInstance\Elements.xml" />
+    <ElementManifest Location="RequestsHistoryInstance\Elements.xml" />
+    <ElementManifest Location="SimilarRequestsInstance\Elements.xml" />
+    <ElementManifest Location="StatementRequestsInstance\Elements.xml" />
+    <ElementManifest Location="LegalAffairsAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="ProgEmpStatusandRecomAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="StatementReqReplyAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="UCEEmployeeProceduresInstance\Elements.xml" />
+    <ElementManifest Location="UCEEmployeeDecisionsInstance\Elements.xml" />
+    <ElementManifest Location="StudyAttachmentTypesInstance\Elements.xml" />
+    <ElementManifest Location="TechCommitteeAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="ExternalCommTemplatesInstance\Elements.xml" />
+    <ElementManifest Location="ExternalCommunicationAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="BookOrgTemplatesInstance\Elements.xml" />
+    <ElementManifest Location="DelegationTemplateInstance\Elements.xml" />
+    <ElementManifest Location="DelegationDocumentsInstance\Elements.xml" />
+    <ElementManifest Location="CalculatedDetailsForCertificateInstance\Elements.xml" />
+    <ElementManifest Location="CalculatedDetailsForCertificateAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="OrganizationlLettersAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="CertificatesAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="ApplicantsAttachmentsInstance\Elements.xml" />
+    <ElementManifest Location="ProcedureProgramManagerAttachementsInstance\Elements.xml" />
+    <ElementManifest Location="ProgramManagerRecommendationAttachementsInstance\Elements.xml" />
+  </ElementManifests>
+</Feature>

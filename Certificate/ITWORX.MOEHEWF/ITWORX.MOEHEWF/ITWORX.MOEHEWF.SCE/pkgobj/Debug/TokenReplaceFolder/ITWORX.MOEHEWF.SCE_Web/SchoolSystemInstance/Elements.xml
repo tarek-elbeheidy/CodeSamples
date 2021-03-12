@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SchoolSystem"
+                OnQuickLaunch="TRUE"
+                TemplateType="10219"
+                Url="Lists/SchoolSystem"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Full Time</Field>
+          <Field Name="TitleAr">انتظام</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Part Time</Field>
+          <Field Name="TitleAr">حضور جزئي</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Remotely</Field>
+          <Field Name="TitleAr">عن بعد</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

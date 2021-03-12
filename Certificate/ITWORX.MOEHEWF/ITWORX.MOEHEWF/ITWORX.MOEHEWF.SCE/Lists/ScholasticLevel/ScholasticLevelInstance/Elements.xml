@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ScholasticLevel"
+                OnQuickLaunch="TRUE"
+                TemplateType="10206"
+                Url="Lists/ScholasticLevel"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Grade 1</Field>
+          <Field Name="TitleAr">الصف الأول</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 2</Field>
+          <Field Name="TitleAr">الصف الثاني</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 3</Field>
+          <Field Name="TitleAr">الصف الثالث</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 4</Field>
+          <Field Name="TitleAr">الصف الرابع</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 5</Field>
+          <Field Name="TitleAr">الصف الخامس</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 6</Field>
+          <Field Name="TitleAr">الصف السادس</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 7</Field>
+          <Field Name="TitleAr">الصف السابع</Field>
+          <Field Name="Status">Active</Field>
+        </Row> 
+        <Row>
+          <Field Name="Title">Grade 8</Field>
+          <Field Name="TitleAr">الصف الثامن</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 9</Field>
+          <Field Name="TitleAr">الصف التاسع</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 10</Field>
+          <Field Name="TitleAr">الصف العاشر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 11</Field>
+          <Field Name="TitleAr">الصف الحادي عشر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 12</Field>
+          <Field Name="TitleAr">الصف الثاني عشر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Grade 13</Field>
+          <Field Name="TitleAr">الصف الثالث عشر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Not available</Field>
+          <Field Name="TitleAr">لا يوجد</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

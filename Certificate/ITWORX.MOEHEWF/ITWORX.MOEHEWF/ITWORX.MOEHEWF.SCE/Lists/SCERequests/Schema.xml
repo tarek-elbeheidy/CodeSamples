@@ -1,0 +1,2164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCERequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCERequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+
+
+
+
+
+
+
+
+
+      
+      
+      
+    <ContentType ID="0x0100acce96077048482483733d3abc3766e1" Name="ListFieldsContentType">
+        <FieldRefs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+        <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{05b067b8-29be-4801-a814-b7d6bd9f191b}" Name="RequestNumber" /><FieldRef ID="{05170470-204F-418A-A9B7-7593001FAEC1}" Name="CreateDate" /><FieldRef ID="{bb5b0cc2-9674-4060-83e8-ee378520afb9}" Name="SubmitDate" /><FieldRef ID="{913852de-d92c-4ac9-9b2a-a2dc6c4df8ae}" Name="CertificateResource" /><FieldRef ID="{8f9d8168-fbe9-49a3-8d81-ab68223896ec}" Name="StudentPrintName" /><FieldRef ID="{be03bb2d-238c-4c3f-8147-ba41168d1204}" Name="OtherCertificateResource" /><FieldRef ID="{4d1c1805-e50d-4c17-a7af-ccc485114868}" Name="SchoolType" /><FieldRef ID="{190b8bf5-011a-4283-aee1-83f1ac6657d4}" Name="OtherSchoolType" /><FieldRef ID="{8a650d1d-aad7-4c04-b7b3-4153254bd970}" Name="PrevSchool" /><FieldRef ID="{7b2ae5df-ac41-4025-8f8c-5499775091f0}" Name="LastAcademicYear" /><FieldRef ID="{3f70cce6-5a60-4661-b0f0-35ac0292fcba}" Name="LastScholasticLevel" /><FieldRef ID="{55c4c08b-d6af-4df5-90a6-e128687ee0d4}" Name="RegisteredScholasticLevel" /><FieldRef ID="{c1165103-60b1-4a18-b1fe-1bf73960e1c4}" Name="CertificateType" /><FieldRef ID="{5513b6ae-a6cf-44d7-9c35-d824ac8bbc85}" Name="RequestStatus" /><FieldRef ID="{96b4d65b-b48c-4f00-869d-96957fbcae61}" Name="RequestStatusAr" /><FieldRef ID="{5be56228-97bd-4889-b1a1-37a87b0a20b7}" Name="RequestStatusId" /><FieldRef ID="{1ce28587-e224-456f-b6a1-6753deb6b217}" Name="RequestType" /><FieldRef ID="{3afca3c5-3c99-4735-88d6-5c45318eae33}" Name="RequestTypeAr" /><FieldRef ID="{d50decbb-d3be-4f7d-a164-720fd058229c}" Name="LoginName" /><FieldRef ID="{4359e2d4-d342-4669-bd98-c1e65901d8ab}" Name="CertificateTypeAr" /><FieldRef ID="{039372fa-bbda-40da-bd50-264230277f6c}" Name="OtherCertificateType" /><FieldRef ID="{07f00091-f39a-4cc8-8d76-a7a1ba5cbc14}" Name="ApplicantID" /><FieldRef ID="{7e7cd33d-72fa-4a18-a31b-102a554e57ec}" Name="StdQatarID" /><FieldRef ID="{6f801c81-cf08-450f-91fd-f347f958c58c}" Name="StdPassportNum" /><FieldRef ID="{37def8a4-c06d-4a12-927d-74bafb4ab174}" Name="StdBirthDate" /><FieldRef ID="{e66b85e6-a72a-4366-8cfe-bc7f352333b4}" Name="StdName" /><FieldRef ID="{7c5db485-346e-4749-84b1-c4ac0408a8a1}" Name="StdNationality" /><FieldRef ID="{7d957d3b-ca76-4539-ab52-3b2e29c1500b}" Name="StdNationalityCat" /><FieldRef ID="{23767ea6-c6e8-4adb-8119-279f4a46f7c0}" Name="StdGender" /><FieldRef ID="{4983a525-9a68-4b89-b1cc-439f0936c467}" Name="StdPrintedName" /><FieldRef ID="{48135325-ABD7-40CC-B532-FFF3C788700A}" Name="EquivalencyPurpose" /><FieldRef ID="{95832004-7765-4CCF-A6F0-3B0F35D730FB}" Name="EquivalencyPurposeAr" /><FieldRef ID="{AA32498D-6216-447A-864F-68DF83608B8B}" Name="SchoolSystem" /><FieldRef ID="{2C8E54CB-2E70-4E66-A614-4186564FB127}" Name="SchoolSystemAr" /><FieldRef ID="{D7628D2F-C87F-4C09-A2EF-9C86D3E64094}" Name="MobileNumber" /><FieldRef ID="{A4DFD2C2-973C-4597-9E85-C5F8CE3CD638}" Name="Email" /><FieldRef ID="{7F94913E-1379-4946-A684-CBF54311FA51}" Name="ApplicantOfficialName" /><FieldRef ID="{C3170B91-6E3D-424B-99EA-FCCC92D83747}" Name="IsEmployee" /><FieldRef ID="{d1357661-ea35-46a8-8a08-99b8584316aa}" Name="EmployeeAssignedTo" /><FieldRef ID="{280651d8-c396-4535-8d01-e7774fa670ae}" Name="TotalPassedYears" /><FieldRef ID="{44af1c64-e775-4a43-9be7-7fff9681d180}" Name="DelayedDays" /><FieldRef ID="{becc9339-e05a-4e3c-94ad-cde04cb71152}" Name="RelatedRequests" /><FieldRef ID="{2f8db599-73e6-43fa-801b-c05ce3bb39e9}" Name="DecisionDate" /><FieldRef ID="{9f46fe12-4774-490a-8020-67c3cebfdd5f}" Name="RecievedDate" /><FieldRef ID="{edb3c33e-1d29-459f-9229-5151cdd0c782}" Name="ManagerReturnReason" /><FieldRef ID="{3ecb63f2-b002-433c-b7ef-df4708790913}" Name="ReturnReason" /><FieldRef ID="{54e49a70-b1a8-451f-aae6-afa5a408630c}" Name="ReturnDate" /><FieldRef ID="{8775d3ac-92f2-47f7-adba-53fcc1eda4ac}" Name="ReturnedBy" /><FieldRef ID="{bce9ac1e-0686-4c29-b5ea-9edfa498a1ee}" Name="WizardActiveStep" /><FieldRef ID="{7546a94d-a0a1-4091-aa78-01fd7faacabd}" Name="OtherSchoolSystem" /><FieldRef ID="{5bd8a3de-bb44-4f84-a6a9-44b8e27643c9}" Name="EmployeeForCultural" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="RequestNumber" ID="{05b067b8-29be-4801-a814-b7d6bd9f191b}" DisplayName="RequestNumber" Type="Text" /><Field Name="CreateDate" ID="{05170470-204F-418A-A9B7-7593001FAEC1}" DisplayName="CreateDate" Type="DateTime" /><Field Name="SubmitDate" ID="{bb5b0cc2-9674-4060-83e8-ee378520afb9}" DisplayName="SubmitDate" Type="DateTime" /><Field Name="CertificateResource" ID="{913852de-d92c-4ac9-9b2a-a2dc6c4df8ae}" DisplayName="CertificateResource" Type="Lookup" List="Lists/CountryOfStudy" ShowField="ID" /><Field Name="StudentPrintName" ID="{8f9d8168-fbe9-49a3-8d81-ab68223896ec}" DisplayName="StudentPrintName" Type="Text" /><Field Name="OtherCertificateResource" ID="{be03bb2d-238c-4c3f-8147-ba41168d1204}" DisplayName="OtherCertificateResource" Type="Text" /><Field Name="SchoolType" ID="{4d1c1805-e50d-4c17-a7af-ccc485114868}" DisplayName="SchoolType" Type="Lookup" List="Lists/SchoolType" ShowField="Title" /><Field Name="OtherSchoolType" ID="{190b8bf5-011a-4283-aee1-83f1ac6657d4}" DisplayName="OtherSchoolType" Type="Text" /><Field Name="PrevSchool" ID="{8a650d1d-aad7-4c04-b7b3-4153254bd970}" DisplayName="PrevSchool" Type="Text" /><Field Name="LastAcademicYear" ID="{7b2ae5df-ac41-4025-8f8c-5499775091f0}" DisplayName="LastAcademicYear" Type="Text" /><Field Name="LastScholasticLevel" ID="{3f70cce6-5a60-4661-b0f0-35ac0292fcba}" DisplayName="LastScholasticLevel" Type="Lookup" List="Lists/ScholasticLevel" ShowField="Title" /><Field Name="RegisteredScholasticLevel" ID="{55c4c08b-d6af-4df5-90a6-e128687ee0d4}" DisplayName="RegisteredScholasticLevel" Type="Lookup" List="Lists/ScholasticLevel" ShowField="Title" /><Field Name="CertificateType" ID="{c1165103-60b1-4a18-b1fe-1bf73960e1c4}" DisplayName="CertificateType" Type="Lookup" List="Lists/CertificateType" ShowField="Title" /><Field Name="RequestStatus" ID="{5513b6ae-a6cf-44d7-9c35-d824ac8bbc85}" DisplayName="RequestStatus" Type="Lookup" List="Lists/RequestStatus" ShowField="ApplicantDescriptionEn" /><Field Name="RequestStatusAr" ID="{96b4d65b-b48c-4f00-869d-96957fbcae61}" DisplayName="RequestStatusAr" Type="Lookup" List="Lists/RequestStatus" ShowField="ApplicantDescriptionAr" FieldRef="{5513b6ae-a6cf-44d7-9c35-d824ac8bbc85}" /><Field Name="RequestStatusId" ID="{5be56228-97bd-4889-b1a1-37a87b0a20b7}" DisplayName="RequestStatusId" Type="Lookup" List="Lists/RequestStatus" ShowField="ID" FieldRef="{5513b6ae-a6cf-44d7-9c35-d824ac8bbc85}" /><Field Name="RequestType" ID="{1ce28587-e224-456f-b6a1-6753deb6b217}" DisplayName="RequestType" Type="Lookup" List="Lists/RequestTypes" ShowField="Title" /><Field Name="RequestTypeAr" ID="{3afca3c5-3c99-4735-88d6-5c45318eae33}" DisplayName="RequestTypeAr" Type="Lookup" List="Lists/RequestTypes" ShowField="TitleAr" FieldRef="{1ce28587-e224-456f-b6a1-6753deb6b217}" /><Field Name="LoginName" ID="{d50decbb-d3be-4f7d-a164-720fd058229c}" DisplayName="LoginName" Type="Text" /><Field Name="CertificateTypeAr" ID="{4359e2d4-d342-4669-bd98-c1e65901d8ab}" DisplayName="CertificateTypeAr" Type="Lookup" List="Lists/CertificateType" ShowField="TitleAr" FieldRef="{c1165103-60b1-4a18-b1fe-1bf73960e1c4}" /><Field Name="OtherCertificateType" ID="{039372fa-bbda-40da-bd50-264230277f6c}" DisplayName="OtherCertificateType" Type="Text" /><Field Name="ApplicantID" ID="{07f00091-f39a-4cc8-8d76-a7a1ba5cbc14}" DisplayName="ApplicantID" Type="Lookup" List="Lists/Applicants" ShowField="ID" /><Field Name="StdQatarID" ID="{7e7cd33d-72fa-4a18-a31b-102a554e57ec}" DisplayName="StdQatarID" Type="Text" /><Field Name="StdPassportNum" ID="{6f801c81-cf08-450f-91fd-f347f958c58c}" DisplayName="StdPassportNum" Type="Text" /><Field Name="StdBirthDate" ID="{37def8a4-c06d-4a12-927d-74bafb4ab174}" DisplayName="StdBirthDate" Type="Text" /><Field Name="StdName" ID="{e66b85e6-a72a-4366-8cfe-bc7f352333b4}" DisplayName="StdName" Type="Text" /><Field Name="StdNationality" ID="{7c5db485-346e-4749-84b1-c4ac0408a8a1}" DisplayName="StdNationality" Type="Lookup" List="Lists/Nationality" ShowField="Title" /><Field Name="StdNationalityCat" ID="{7d957d3b-ca76-4539-ab52-3b2e29c1500b}" DisplayName="StdNationalityCat" Type="Lookup" List="Lists/NationalityCategory" ShowField="Title" /><Field Name="StdGender" ID="{23767ea6-c6e8-4adb-8119-279f4a46f7c0}" DisplayName="StdGender" Type="Text" /><Field Name="StdPrintedName" ID="{4983a525-9a68-4b89-b1cc-439f0936c467}" DisplayName="StdPrintedName" Type="Text" /><Field Name="EquivalencyPurpose" ID="{48135325-ABD7-40CC-B532-FFF3C788700A}" DisplayName="EquivalencyPurpose" Type="Lookup" List="Lists/EquivalencyPurpose" ShowField="Title" /><Field Name="EquivalencyPurposeAr" ID="{95832004-7765-4CCF-A6F0-3B0F35D730FB}" DisplayName="EquivalencyPurposeAr" Type="Lookup" List="Lists/EquivalencyPurpose" ShowField="TitleAr" /><Field Name="SchoolSystem" ID="{AA32498D-6216-447A-864F-68DF83608B8B}" DisplayName="SchoolSystem" Type="Lookup" List="Lists/SchoolSystem" ShowField="Title" /><Field Name="SchoolSystemAr" ID="{2C8E54CB-2E70-4E66-A614-4186564FB127}" DisplayName="SchoolSystemAr" Type="Lookup" List="Lists/SchoolSystem" ShowField="TitleAr" /><Field Name="MobileNumber" ID="{D7628D2F-C87F-4C09-A2EF-9C86D3E64094}" DisplayName="MobileNumber" Type="Text" /><Field Name="Email" ID="{A4DFD2C2-973C-4597-9E85-C5F8CE3CD638}" DisplayName="Email" Type="Text" /><Field Name="ApplicantOfficialName" ID="{7F94913E-1379-4946-A684-CBF54311FA51}" DisplayName="ApplicantOfficialName" Type="Text" /><Field Name="IsEmployee" ID="{C3170B91-6E3D-424B-99EA-FCCC92D83747}" DisplayName="IsEmployee" Type="Choice">
+        <CHOICES>
+
+
+
+
+          
+          
+        <CHOICE>Yes</CHOICE><CHOICE>No</CHOICE></CHOICES>
+      </Field><Field Name="EmployeeAssignedTo" ID="{d1357661-ea35-46a8-8a08-99b8584316aa}" DisplayName="EmployeeAssignedTo" Type="Text" /><Field Name="TotalPassedYears" ID="{280651d8-c396-4535-8d01-e7774fa670ae}" DisplayName="TotalPassedYears" Type="Text" /><Field Name="DelayedDays" ID="{44af1c64-e775-4a43-9be7-7fff9681d180}" DisplayName="DelayedDays" Type="Number" /><Field Name="RelatedRequests" ID="{becc9339-e05a-4e3c-94ad-cde04cb71152}" DisplayName="RelatedRequests" Type="Text" /><Field Name="DecisionDate" ID="{2f8db599-73e6-43fa-801b-c05ce3bb39e9}" DisplayName="DecisionDate" Type="DateTime" /><Field Name="RecievedDate" ID="{9f46fe12-4774-490a-8020-67c3cebfdd5f}" DisplayName="RecievedDate" Type="DateTime" /><Field Name="ManagerReturnReason" ID="{edb3c33e-1d29-459f-9229-5151cdd0c782}" DisplayName="ManagerReturnReason" Type="Lookup" List="Lists/ReturnReasons" ShowField="ID" /><Field Name="ReturnReason" ID="{3ecb63f2-b002-433c-b7ef-df4708790913}" DisplayName="ReturnReason" Type="Text" /><Field Name="ReturnDate" ID="{54e49a70-b1a8-451f-aae6-afa5a408630c}" DisplayName="ReturnDate" Type="DateTime" /><Field Name="ReturnedBy" ID="{8775d3ac-92f2-47f7-adba-53fcc1eda4ac}" DisplayName="ReturnedBy" Type="Text" /><Field Name="WizardActiveStep" ID="{bce9ac1e-0686-4c29-b5ea-9edfa498a1ee}" DisplayName="WizardActiveStep" Type="Text" /><Field Name="OtherSchoolSystem" ID="{7546a94d-a0a1-4091-aa78-01fd7faacabd}" DisplayName="OtherSchoolSystem" Type="Text" /><Field Name="EmployeeForCultural" ID="{5bd8a3de-bb44-4f84-a6a9-44b8e27643c9}" DisplayName="EmployeeForCultural" Type="Text" /></Fields>
+    <Views>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="CreateDate" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /><FieldRef Name="OtherCertificateType" /><FieldRef Name="ApplicantID" /><FieldRef Name="StdQatarID" /><FieldRef Name="StdPassportNum" /><FieldRef Name="StdBirthDate" /><FieldRef Name="StdName" /><FieldRef Name="StdNationality" /><FieldRef Name="StdNationalityCat" /><FieldRef Name="StdGender" /><FieldRef Name="StdPrintedName" /><FieldRef Name="SchoolSystem" /><FieldRef Name="SchoolSystemAr" /><FieldRef Name="EquivalencyPurpose" /><FieldRef Name="EquivalencyPurposeAr" /><FieldRef Name="MobileNumber" /><FieldRef Name="Email" /><FieldRef Name="ApplicantOfficialName" /><FieldRef Name="IsEmployee" /><FieldRef Name="EmployeeAssignedTo" /><FieldRef Name="TotalPassedYears" /><FieldRef Name="DelayedDays" /><FieldRef Name="RelatedRequests" /><FieldRef Name="DecisionDate" /><FieldRef Name="RecievedDate" /><FieldRef Name="ManagerReturnReason" /><FieldRef Name="ReturnReason" /><FieldRef Name="ReturnDate" /><FieldRef Name="ReturnedBy" /><FieldRef Name="WizardActiveStep" /><FieldRef Name="OtherSchoolSystem" /><FieldRef Name="EmployeeForCultural" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantInProgress" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantInProgress.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+             <Or>
+              <Or>
+                <Or>
+                  <Or>
+                    <Or>
+                      <Or>
+                        <Or>
+                          <Or>
+                            <Or>
+                              <Or>
+                                <Or>
+                                  <Eq>
+                                    <FieldRef Name="RequestStatusId" />
+                                    <Value Type="Text">73</Value>
+                                  </Eq>
+                                  <Eq>
+                                    <FieldRef Name="RequestStatusId" />
+                                    <Value Type="Text">75</Value>
+                                  </Eq>
+                                </Or>
+                                <Eq>
+                                  <FieldRef Name="RequestStatusId" />
+                                  <Value Type="Text">76</Value>
+                                </Eq>
+                              </Or>
+                              <Eq>
+                                <FieldRef Name="RequestStatusId" />
+                                <Value Type="Text">77</Value>
+                              </Eq>
+                            </Or>
+                            <Eq>
+                              <FieldRef Name="RequestStatusId" />
+                              <Value Type="Text">78</Value>
+                            </Eq>
+                          </Or>
+                          <Eq>
+                            <FieldRef Name="RequestStatusId" />
+                            <Value Type="Text">79</Value>
+                          </Eq>
+                        </Or>
+                        <Eq>
+                          <FieldRef Name="RequestStatusId" />
+                          <Value Type="Text">80</Value>
+                        </Eq>
+                      </Or>
+                      <Eq>
+                        <FieldRef Name="RequestStatusId" />
+                        <Value Type="Text">81</Value>
+                      </Eq>
+                    </Or>
+                    <Eq>
+                      <FieldRef Name="RequestStatusId" />
+                      <Value Type="Text">84</Value>
+                    </Eq>
+
+                  </Or>
+                  <Eq>
+                    <FieldRef Name="RequestStatusId" />
+                    <Value Type="Text">85</Value>
+                  </Eq>
+
+                </Or>
+                <Eq>
+                  <FieldRef Name="RequestStatusId" />
+                  <Value Type="Text">86</Value>
+                </Eq>
+
+              </Or>
+              <Eq>
+                <FieldRef Name="RequestStatusId" />
+                <Value Type="Text">87</Value>
+              </Eq>
+            </Or>
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantAccepted" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantAccepted.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+             <!--<Where>
+            <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">85</Value>
+            </Eq>
+          </Where>-->
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="4" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantRejected" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantRejected.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+           <!--<Where>
+            <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">86</Value>
+            </Eq>
+          </Where>-->
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="5" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantNeedsClarification" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantNeedsClarification.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+              <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">72</Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="6" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantCurrentRequest" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantCurrentRequest.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+          <Or>
+              <Or>
+                <Eq>
+                  <FieldRef Name="RequestStatusId" />
+                  <Value Type="Text">69</Value>
+                </Eq>
+                <Eq>
+                  <FieldRef Name="RequestStatusId" />
+                  <Value Type="Text">70</Value>
+                </Eq>
+              </Or>
+              <Eq>
+                <FieldRef Name="RequestStatusId" />
+                <Value Type="Text">71</Value>
+              </Eq>
+            </Or>
+
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="7" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantDraft" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantDraft.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+             <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">68</Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="8" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantPendingForReview" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantPendingForReview.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+           <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">74</Value>
+            </Eq>
+
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="9" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantClosedByAccepted" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantClosedByAccepted.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+           <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">82</Value>
+            </Eq>
+
+
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="10" Type="HTML" WebPartZoneID="Main" DisplayName="ApplicantClosedByRejected" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApplicantClosedByRejected.aspx" Scope="Recursive">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestNumber" /><FieldRef Name="SubmitDate" /><FieldRef Name="CertificateResource" /><FieldRef Name="StudentPrintName" /><FieldRef Name="OtherCertificateResource" /><FieldRef Name="SchoolType" /><FieldRef Name="OtherSchoolType" /><FieldRef Name="PrevSchool" /><FieldRef Name="LastAcademicYear" /><FieldRef Name="LastScholasticLevel" /><FieldRef Name="RegisteredScholasticLevel" /><FieldRef Name="CertificateType" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestStatusAr" /><FieldRef Name="RequestStatusId" /><FieldRef Name="RequestType" /><FieldRef Name="RequestTypeAr" /><FieldRef Name="LoginName" /><FieldRef Name="CertificateTypeAr" /><FieldRef Name="Attachments" /></ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+
+
+
+
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+          <Where>
+           <Eq>
+              <FieldRef Name="RequestStatusId" />
+              <Value Type="Text">83</Value>
+            </Eq>
+
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="SCEStatementListingUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SCEStatementListing\" Type="ElementManifest" />
+    <ProjectItemFile Source="SCEStatementListing.webpart" Target="SCEStatementListing\" Type="ElementFile" />
+    <ProjectItemFile Source="SCEStatementListingUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\SCEStatementListing\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.SCE.WebParts.SCEStatementListing" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

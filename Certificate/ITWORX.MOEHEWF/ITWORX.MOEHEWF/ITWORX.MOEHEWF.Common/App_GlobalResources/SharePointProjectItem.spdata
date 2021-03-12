@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="ITWORX.MOEHEWF.Common.ar-SA.resx" Type="AppGlobalResource" />
+    <ProjectItemFile Source="ITWORX.MOEHEWF.Common.en-US.resx" Type="AppGlobalResource" />
+    <ProjectItemFile Source="ITWORX.MOEHEWF.Common.resx" Type="AppGlobalResource" />
+  </Files>
+</ProjectItem>

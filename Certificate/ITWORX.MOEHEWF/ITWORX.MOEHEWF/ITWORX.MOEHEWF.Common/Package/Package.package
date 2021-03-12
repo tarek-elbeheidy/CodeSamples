@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0f3e972a-265c-4d00-a51f-520f25a618c9" solutionId="0f3e972a-265c-4d00-a51f-520f25a618c9" resetWebServer="true" sharePointProductVersion="16.0" name="ITWORX.MOEHEWF.Common" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\itextsharp.dll">
+      <safeControls>
+        <safeControl assemblyName="itextsharp" namespaceName="itextsharp" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+    <customAssembly location="BarcodeLib.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\BarcodeLib.dll">
+      <safeControls>
+        <safeControl assemblyName="BarcodeLib" namespaceName="BarcodeLib" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="dec95036-6235-4338-b468-7c88559b2d01" />
+    <featureReference itemId="a8efc75a-16fa-4493-9dfd-45e7c82870f2" />
+    <featureReference itemId="ed3a3fc2-ea52-435c-aa6b-bc57108005a4" />
+    <featureReference itemId="33d17c28-7541-409a-a716-ba7dd3f5fcdb" />
+    <featureReference itemId="2247ec38-eaac-449d-a301-f0f57ab5ffa1" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="ebcc0f91-9cc1-463a-9410-adb6a0d4a575" />
+    <projectItemReference itemId="506174d2-208c-4dd5-8967-f754343bb26f" />
+    <projectItemReference itemId="15ed7d5e-25d4-400e-ab29-ae1b7c12c509" />
+  </projectItems>
+</package>

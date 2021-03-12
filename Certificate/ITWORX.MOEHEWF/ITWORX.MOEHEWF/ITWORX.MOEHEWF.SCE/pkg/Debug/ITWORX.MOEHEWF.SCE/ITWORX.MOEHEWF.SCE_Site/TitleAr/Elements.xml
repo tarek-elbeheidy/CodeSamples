@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c411deea-afc9-49ed-8211-7724970c7537}"
+       Name="TitleAr"
+       DisplayName="Title Ar"
+       Type="Text"
+       Required="FALSE"
+       Group="MOEHE">
+  </Field>
+</Elements>

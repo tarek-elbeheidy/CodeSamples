@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCEClarificationsRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCEClarificationsRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100a2fe9a24a3654693b8aac366b37451c8" Name="ListFieldsContentType">
+      <FieldRefs>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{b34e7335-3c5b-4612-b5e2-37f9169a0aa6}" Name="ClarificationDate" /><FieldRef ID="{7c220724-69f9-41e8-ae9b-fda641e43049}" Name="Sender" /><FieldRef ID="{398e5207-5ad4-4e34-8e55-235eb63c39c6}" Name="RequiredClarification" /><FieldRef ID="{a56a896a-7601-4e74-9ec5-51bbc5aac84e}" Name="ClarificationReply" /><FieldRef ID="{15E801CE-78F6-45BD-AED0-C66913AE6EEE}" Name="ReplyDate" /><FieldRef ID="{d5a760ee-2e5c-4af1-b308-0b6d733f2264}" Name="RequestID" /><FieldRef ID="{8e4ffe92-548f-4257-af7a-7bc7e5ca3717}" Name="ClarificationReason" /><FieldRef ID="{fb4a3973-578f-4d7f-84fd-5e2872580130}" Name="ClarificationReasonAr" /><FieldRef ID="{a92ac6d6-9b8b-41a9-a904-54dc0cfe693d}" Name="OtherClarificationReason" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+     
+      
+      
+      
+      
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="ClarificationDate" ID="{b34e7335-3c5b-4612-b5e2-37f9169a0aa6}" DisplayName="ClarificationDate" Type="DateTime" /><Field Name="Sender" ID="{7c220724-69f9-41e8-ae9b-fda641e43049}" DisplayName="Sender" Type="User" List="UserInfo" /><Field Name="RequiredClarification" ID="{398e5207-5ad4-4e34-8e55-235eb63c39c6}" DisplayName="RequiredClarification" Type="Note" /><Field Name="ClarificationReply" ID="{a56a896a-7601-4e74-9ec5-51bbc5aac84e}" DisplayName="ClarificationReply" Type="Note" /><Field Name="ReplyDate" ID="{15E801CE-78F6-45BD-AED0-C66913AE6EEE}" DisplayName="ReplyDate" Type="DateTime" /><Field Name="RequestID" ID="{d5a760ee-2e5c-4af1-b308-0b6d733f2264}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="ClarificationReason" ID="{8e4ffe92-548f-4257-af7a-7bc7e5ca3717}" DisplayName="ClarificationReason" Type="Lookup" List="Lists/ClarificationReasons" ShowField="Title" /><Field Name="ClarificationReasonAr" ID="{fb4a3973-578f-4d7f-84fd-5e2872580130}" DisplayName="ClarificationReasonAr" Type="Lookup" List="Lists/ClarificationReasons" ShowField="TitleAr" FieldRef="{8e4ffe92-548f-4257-af7a-7bc7e5ca3717}" /><Field Name="OtherClarificationReason" ID="{a92ac6d6-9b8b-41a9-a904-54dc0cfe693d}" DisplayName="OtherClarificationReason " Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        
+          <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="ClarificationDate" /><FieldRef Name="Sender" /><FieldRef Name="RequiredClarification" /><FieldRef Name="ClarificationReply" /><FieldRef Name="ReplyDate" /><FieldRef Name="RequestID" /><FieldRef Name="ClarificationReason" /><FieldRef Name="ClarificationReasonAr" /><FieldRef Name="OtherClarificationReason" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

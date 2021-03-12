@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="OrganizationlLettersAttachments" OnQuickLaunch="TRUE" TemplateType="10029" Url="Lists/OrganizationlLettersAttachments" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560"></ListInstance>
+</Elements>

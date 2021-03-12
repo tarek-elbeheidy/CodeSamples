@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCESearchStatusRecommendation" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCESearchStatusRecommendation" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01008d9f06ba1adc44b7b22541fbb005379b" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{0b47521d-e46e-48eb-ba25-9d5e50e6a314}" Name="SearchStatus" /><FieldRef ID="{92fde95b-709f-4106-93de-1b54c10074ae}" Name="DecisionText" /><FieldRef ID="{c7525d29-deaf-47bf-ac98-a9fdec1c13ad}" Name="RequestID" /><FieldRef ID="{60b4d6dc-beab-4e98-9ba2-17b2987a1ec7}" Name="SendRequestTo" /><FieldRef ID="{e166c80a-6d0a-4d7b-9ef0-9cf4a73d81dc}" Name="SendRequestToAr" /><FieldRef ID="{31b684c9-1c18-430f-888b-7c1787935ddd}" Name="ClassRoom" /><FieldRef ID="{2745f298-d7ba-4d72-a280-16cd3f8bc7ef}" Name="ClassRoomAr" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="SearchStatus" ID="{0b47521d-e46e-48eb-ba25-9d5e50e6a314}" DisplayName="SearchStatus" Type="Note" /><Field Name="DecisionText" ID="{92fde95b-709f-4106-93de-1b54c10074ae}" DisplayName="DecisionText" Type="Note" /><Field Name="RequestID" ID="{c7525d29-deaf-47bf-ac98-a9fdec1c13ad}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="SendRequestTo" ID="{60b4d6dc-beab-4e98-9ba2-17b2987a1ec7}" DisplayName="SendRequestTo" Type="Lookup" List="Lists/SCEEmployees" ShowField="Title" /><Field Name="SendRequestToAr" ID="{e166c80a-6d0a-4d7b-9ef0-9cf4a73d81dc}" DisplayName="SendRequestToAr" Type="Lookup" List="Lists/SCEEmployees" ShowField="TitleAr" FieldRef="{60b4d6dc-beab-4e98-9ba2-17b2987a1ec7}" /><Field Name="ClassRoom" ID="{31b684c9-1c18-430f-888b-7c1787935ddd}" DisplayName="ClassRoom" Type="Lookup" List="Lists/ScholasticLevel" ShowField="Title" /><Field Name="ClassRoomAr" ID="{2745f298-d7ba-4d72-a280-16cd3f8bc7ef}" DisplayName="ClassRoomAr" Type="Lookup" List="Lists/ScholasticLevel" ShowField="TitleAr" FieldRef="{31b684c9-1c18-430f-888b-7c1787935ddd}" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="SearchStatus" /><FieldRef Name="DecisionText" /><FieldRef Name="RequestID" /><FieldRef Name="SendRequestTo" /><FieldRef Name="SendRequestToAr" /><FieldRef Name="ClassRoom" /><FieldRef Name="ClassRoomAr" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="BreadCrumbUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="BreadCrumb\" Type="ElementManifest" />
+    <ProjectItemFile Source="BreadCrumb.webpart" Target="BreadCrumb\" Type="ElementFile" />
+    <ProjectItemFile Source="BreadCrumbUserControl.ascx" Target="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\BreadCrumb\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="MOEHE.PSPES.Webparts.BreadCrumb" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

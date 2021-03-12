@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SCEStatementsRequests"
+                OnQuickLaunch="TRUE"
+                TemplateType="10105"
+                Url="Lists/SCEStatementsRequests"
+                Description="My List Instance" FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+  </ListInstance>
+</Elements>

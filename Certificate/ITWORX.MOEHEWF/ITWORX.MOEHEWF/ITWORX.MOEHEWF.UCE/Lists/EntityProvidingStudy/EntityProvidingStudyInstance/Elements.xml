@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EntityProvidingStudy"
+                OnQuickLaunch="TRUE"
+                TemplateType="10022"
+                Url="Lists/EntityProvidingStudy"
+                Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Uganda</Field>
+          <Field Name="TitleAr">أوغندا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">USA</Field>
+          <Field Name="TitleAr">أمريكا</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Canda</Field>
+          <Field Name="TitleAr">كندا</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

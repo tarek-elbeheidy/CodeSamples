@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SCENotifications"
+                OnQuickLaunch="TRUE"
+                TemplateType="10701"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f"
+                Url="Lists/SCENotifications"
+                Description="My List Instance">
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">إرسال رسالة نصية للمتعامل للحضور  </Field>
+          <Field Name="Subject">إرسال رسالة نصية للمتعامل للحضور  </Field>
+          <Field Name="Body">
+            يرجى الحضور لمقر معادلة الشهادات المدرسية بوزارة التعليم والتعليم العالي وإحضار الشهادات الأصلية الخاصة بطلب معادلة الشهادة المدرسية للصف {0}
+            Appreciate if you can come to the equivalence of school certificates at the Ministry of Education and Higher Education and bring the original certificates for the request for equivalency of the school certificate for Grade {1}
+          </Field>
+          <Field Name="Type">SMS</Field>
+          <Field Name="RequestStatusId">89</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Title">مقدم الطلب	عند إرسال مقدم الطلب طلب معادلة جديد </Field>
+          <Field Name="Subject">استلام طلب جديد  </Field>
+          <Field Name="Body">
+            عزيزي المتعامل نعلمكم أنه تم استلام طلبكم رقم {0} والخاص بمعادلة شهادة المدرسية وجاري فحص الطلب،  وسنعلمك بأي جديد يطرا على الطلب من خلال موقع وزارة التعليم العالي والرسائل النصية وبريدكم الإلكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع الوزارة
+            Dear Applicant, we would like to inform you that your application for School certificate equivalency {1} has been received. It’s status is in progress. We will inform you with any change on the request through ministry of education portal, SMS, and registered email. Appreciate your frequent review of its status on the portal.
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">69</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">مقدم الطلب	عند إرسال مقدم الطلب طلب معادلة جديد </Field>
+          <Field Name="Subject">استلام طلب جديد  </Field>
+          <Field Name="Body">
+            عزيزي المتعامل نعلمكم أنه تم استلام طلبكم رقم {0} والخاص بمعادلة شهادة المدرسية وجاري فحص الطلب،  وسنعلمك بأي جديد يطرا على الطلب من خلال موقع وزارة التعليم العالي والرسائل النصية وبريدكم الإلكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع الوزارة
+            Dear Applicant, we would like to inform you that your application for School certificate equivalency {1} has been received. It’s status is in progress. We will inform you with any change on the request through ministry of education portal, SMS, and registered email. Appreciate your frequent review of its status on the portal.
+          </Field>
+          <Field Name="Type">SMS</Field>
+          <Field Name="RequestStatusId">69</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title"> تخصيص طلب لموظف المعادلة </Field>
+          <Field Name="Subject">تخصيص طلب جديد  </Field>
+          <Field Name="Body">
+            نعلمكم أنه تم تخصيص لكم طلب رقم {0} والخاص بمعادلة شهادة {1}
+            You have been assigned the request number {3} related to school certificate  equivalency {4}
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">69</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title"> الموظف طلب توضيح </Field>
+          <Field Name="Subject">الموظف طلب توضيح  </Field>
+          <Field Name="Body">
+            عزيزي المتعامل تم إرسال طلب توضيح لكم لطلبكم رقم {0} والخاص بمعادلة شهادة المدرسية  ، يرجى الدخول على طلبكم  في النظام الإلكتروني لمعادلة الشهادات المدرسية وموافتنا بالمطلوب لنتمكن من استكمال طلبكم
+            Dear Applicant we have sent you a clarification request related to your request number {1}. Please login to the portal and provide us with the requested details so we can proceed with the request.
+
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">72</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"> الموظف طلب توضيح </Field>
+          <Field Name="Subject">الموظف طلب توضيح  </Field>
+          <Field Name="Body">
+            عزيزي المتعامل تم إرسال طلب توضيح لكم لطلبكم رقم {0} والخاص بمعادلة شهادة المدرسية  ، يرجى الدخول على طلبكم  في النظام الإلكتروني لمعادلة الشهادات المدرسية وموافتنا بالمطلوب لنتمكن من استكمال طلبكم
+            Dear Applicant we have sent you a clarification request related to your request number {1}. Please login to the portal and provide us with the requested details so we can proceed with the request.
+          </Field>
+          <Field Name="Type">SMS</Field>
+          <Field Name="RequestStatusId">72</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title"> رد مقدم الطلب على طلب توضيح </Field>
+          <Field Name="Subject">رد مقدم الطلب على طلب توضيح  </Field>
+          <Field Name="Body">
+            نعلمكم أن المتعامل {0} قام بالرد على طلب التوضيح المرسل له بخصوص الطلب رقم {1} والخاص بمعادلة شهادة {2}
+            Please be notified that the applicant successfully replied back on the clarification request related to request {3} for equivilancy certificate {4}
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">73</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">  اعتماد القرار النهائي  </Field>
+          <Field Name="Subject"> اعتماد القرار النهائي   </Field>
+          <Field Name="Body">
+            نعلمكم أنه تم اعتماد القرار النهائي من مدير الإدارة و إرسال الطلب لرئيس القسم بخصوص الطلب رقم {0} والخاص بمعادلة شهادة {1}
+            Please be informed that your request {2} for equivalency of school certificate {3} was approved by the department head. It is now sent to the Manager for review
+          </Field>
+          
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">86</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title"> الملحقية  على طلب الافاده رد   </Field>
+          <Field Name="Subject">الملحقية  على طلب الافاده رد   </Field>
+          <Field Name="Body">
+            نعلمكم أن الملحقية الثقافية قامت بالرد على طلب الافاده المرسل لهم بخصوص الطلب رقم {0} والخاص بمعادلة شهادة {1}
+            Please be informed that the culture attache has responded to the request sent to them regarding Request {2} for school certificate equivalency {3}
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">75</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Title"> اعتماد طباعة المعادلة من رئيس القسم   </Field>
+          <Field Name="Subject">اعتماد طباعة المعادلة من رئيس القسم   </Field>
+          <Field Name="Body">
+            عزيزي المتعامل نعلمكم أنه تمت معادلة شهادة {0} لطلبكم رقم {1}،  وتم إرسال نسخة المعادلة لبريدكم الإلكتروني المسجل لدينا
+            Dear Applicant please be informed that your request {2} was approved and the certificate is now ready. We have sent a copy of the certificate to your registered e-mail
+          </Field>
+          <Field Name="Type">SMS</Field>
+          <Field Name="RequestStatusId">82</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title"> اعتماد طباعة المعادلة من رئيس القسم   </Field>
+          <Field Name="Subject">اعتماد طباعة المعادلة من رئيس القسم   </Field>
+          <Field Name="Body">
+            عزيزي المتعامل نعلمكم أنه تمت معادلة شهادة {0} لطلبكم رقم {1}،  و مرفق لكم نسخة المعادلة
+            Dear Applicant please be informed that your request {2} for {3} was approved. The certificate is attached to this mail.
+          </Field>
+          <Field Name="Type">Email</Field>
+          <Field Name="RequestStatusId">82</Field>
+        </Row>
+        
+
+      </Rows>
+    </Data>
+    
+  </ListInstance>
+  
+</Elements>

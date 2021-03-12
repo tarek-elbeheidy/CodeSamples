@@ -1,0 +1,14 @@
+﻿<%@ Assembly Name="ITWORX.MOEHEWF.UCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=883afb4c05a35fe5" %>
+<%@ Assembly Name="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> 
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> 
+<%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Register Tagprefix="asp" Namespace="System.Web.UI" Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" %>
+<%@ Import Namespace="Microsoft.SharePoint" %> 
+<%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Register Src="~/_controltemplates/15/ITWORX.MOEHEWF.UCE/Procedure_ReceptionistDetails.ascx" TagPrefix="uc1" TagName="Procedure_ReceptionistDetails" %>
+
+
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProcedureReceptionistDetailsUserControl.ascx.cs" Inherits="ITWORX.MOEHEWF.UCE.WebParts.ProcedureReceptionistDetails.ProcedureReceptionistDetailsUserControl" %>
+<div>
+    <uc1:Procedure_ReceptionistDetails runat="server" id="Procedure_ReceptionistDetails" />
+</div>

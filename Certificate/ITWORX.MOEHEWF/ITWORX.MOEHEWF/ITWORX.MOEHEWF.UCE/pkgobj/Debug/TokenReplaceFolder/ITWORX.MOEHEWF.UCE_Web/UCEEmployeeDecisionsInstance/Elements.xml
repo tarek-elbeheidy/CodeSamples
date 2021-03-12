@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UCEEmployeeDecisions"
+                OnQuickLaunch="TRUE"
+                TemplateType="10055"
+                Url="Lists/UCEEmployeeDecisions"
+                Description="My List Instance"
+                FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+
+    <Data>
+      <Rows>
+        <!--HeadManager-->
+        <Row>
+          <Field Name="Title">Approved</Field>
+          <Field Name="TitleAr"> بالموافقة</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejected</Field>
+          <Field Name="TitleAr"> بالرفض </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+        </Row>
+
+        <!--AssistSecretary-->
+        <!--<Row>
+          <Field Name="Title">Approved</Field>
+          <Field Name="TitleAr"> بالموافقة</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejected</Field>
+          <Field Name="TitleAr"> بالرفض </Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+        </Row>-->
+
+        <!--Technical Committee -->
+        <!--<Row>
+          <Field Name="Title">Approved</Field>
+          <Field Name="TitleAr"> بالموافقة</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejected</Field>
+          <Field Name="TitleAr"> بالرفض</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+        </Row>-->
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

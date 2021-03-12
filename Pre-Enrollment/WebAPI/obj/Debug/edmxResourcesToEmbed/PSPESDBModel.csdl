@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrivateScoolsPreEnrollmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PrivateScoolsPreEnrollmentEntities222" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AddedGrades" EntityType="PrivateScoolsPreEnrollmentModel.AddedGrade" />
+    <EntitySet Name="EnrollementControllings" EntityType="PrivateScoolsPreEnrollmentModel.EnrollementControlling" />
+    <EntitySet Name="Enrollment_Exception_Attachment" EntityType="PrivateScoolsPreEnrollmentModel.Enrollment_Exception_Attachment" />
+    <EntitySet Name="InterviewResults" EntityType="PrivateScoolsPreEnrollmentModel.InterviewResult" />
+    <EntitySet Name="MessageTemplates" EntityType="PrivateScoolsPreEnrollmentModel.MessageTemplate" />
+    <EntitySet Name="MOE_ADDED_CAPACITY" EntityType="PrivateScoolsPreEnrollmentModel.MOE_ADDED_CAPACITY" />
+    <EntitySet Name="MOE_AGE_VALIDATE_Temp" EntityType="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE_Temp" />
+    <EntitySet Name="MOE_APPL_ACAD_INFO" EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_ACAD_INFO" />
+    <EntitySet Name="MOE_APPL_SUPPORT_DOCS" EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_SUPPORT_DOCS" />
+    <EntitySet Name="MOE_Application_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA" />
+    <EntitySet Name="MOE_BIO_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_BIO_DATA" />
+    <EntitySet Name="MOE_CURRICULUM_LOOKUP" EntityType="PrivateScoolsPreEnrollmentModel.MOE_CURRICULUM_LOOKUP" />
+    <EntitySet Name="MOE_DOUBLE_CURRICULUM_MAPPING" EntityType="PrivateScoolsPreEnrollmentModel.MOE_DOUBLE_CURRICULUM_MAPPING" />
+    <EntitySet Name="MOE_ENROLLMENT_EXCEPTION" EntityType="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION" />
+    <EntitySet Name="MOE_ENROLLMENT_EXCEPTION_AUDIT" EntityType="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION_AUDIT" />
+    <EntitySet Name="MOE_Enrollment_Exception_Types" EntityType="PrivateScoolsPreEnrollmentModel.MOE_Enrollment_Exception_Types" />
+    <EntitySet Name="MOE_GUARDIAN_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_GUARDIAN_DATA" />
+    <EntitySet Name="MOE_HEALTH_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_HEALTH_DATA" />
+    <EntitySet Name="MOE_MARITAL_STATUS" EntityType="PrivateScoolsPreEnrollmentModel.MOE_MARITAL_STATUS" />
+    <EntitySet Name="MOE_MARITIALSTATUS_LOOKUP" EntityType="PrivateScoolsPreEnrollmentModel.MOE_MARITIALSTATUS_LOOKUP" />
+    <EntitySet Name="MOE_RELATIONSHIP" EntityType="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP" />
+    <EntitySet Name="MOE_RELATIONSHIP_LOOKUP" EntityType="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP_LOOKUP" />
+    <EntitySet Name="MOE_SCHOOL" EntityType="PrivateScoolsPreEnrollmentModel.MOE_SCHOOL" />
+    <EntitySet Name="MOE_SEAT_CAPACITY" EntityType="PrivateScoolsPreEnrollmentModel.MOE_SEAT_CAPACITY" />
+    <EntitySet Name="MOE_TERM" EntityType="PrivateScoolsPreEnrollmentModel.MOE_TERM" />
+    <EntitySet Name="MOE_WITHDRAWAL_REASON" EntityType="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_REASON" />
+    <EntitySet Name="MOI_Country_Map" EntityType="PrivateScoolsPreEnrollmentModel.MOI_Country_Map" />
+    <EntitySet Name="NotificationActions" EntityType="PrivateScoolsPreEnrollmentModel.NotificationAction" />
+    <EntitySet Name="SeatReservationFees" EntityType="PrivateScoolsPreEnrollmentModel.SeatReservationFee" />
+    <EntitySet Name="SMSHistories" EntityType="PrivateScoolsPreEnrollmentModel.SMSHistory" />
+    <EntitySet Name="SupportingDocumentSetups" EntityType="PrivateScoolsPreEnrollmentModel.SupportingDocumentSetup" />
+    <EntitySet Name="sysdiagrams" EntityType="PrivateScoolsPreEnrollmentModel.sysdiagram" />
+    <EntitySet Name="TestResults" EntityType="PrivateScoolsPreEnrollmentModel.TestResult" />
+    <EntitySet Name="TransactionsLogs" EntityType="PrivateScoolsPreEnrollmentModel.TransactionsLog" />
+    <EntitySet Name="BuildingCapacities" EntityType="PrivateScoolsPreEnrollmentModel.BuildingCapacity" />
+    <EntitySet Name="MOE_AGE_VALIDATE" EntityType="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE" />
+    <EntitySet Name="MOE_EMPLOYER_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_DATA" />
+    <EntitySet Name="MOE_EMPLOYER_TYPE" EntityType="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_TYPE" />
+    <EntitySet Name="MOE_GRADE" EntityType="PrivateScoolsPreEnrollmentModel.MOE_GRADE" />
+    <EntitySet Name="Testings" EntityType="PrivateScoolsPreEnrollmentModel.Testing" />
+    <EntitySet Name="MOE_PREENROLLMENT_REPORT_VIEW" EntityType="PrivateScoolsPreEnrollmentModel.MOE_PREENROLLMENT_REPORT_VIEW" />
+    <EntitySet Name="V_Schools_Grades_Ages" EntityType="PrivateScoolsPreEnrollmentModel.V_Schools_Grades_Ages" />
+    <AssociationSet Name="FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types" Association="PrivateScoolsPreEnrollmentModel.FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types">
+      <End Role="MOE_Enrollment_Exception_Types" EntitySet="MOE_Enrollment_Exception_Types" />
+      <End Role="Enrollment_Exception_Attachment" EntitySet="Enrollment_Exception_Attachment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MOE_Application_DATA_MOE_SCHOOL" Association="PrivateScoolsPreEnrollmentModel.FK_MOE_Application_DATA_MOE_SCHOOL">
+      <End Role="MOE_SCHOOL" EntitySet="MOE_SCHOOL" />
+      <End Role="MOE_Application_DATA" EntitySet="MOE_Application_DATA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SeatReservationFee_MOE_Application_DATA" Association="PrivateScoolsPreEnrollmentModel.FK_SeatReservationFee_MOE_Application_DATA">
+      <End Role="MOE_Application_DATA" EntitySet="MOE_Application_DATA" />
+      <End Role="SeatReservationFee" EntitySet="SeatReservationFees" />
+    </AssociationSet>
+    <EntitySet Name="MOE_WITHDRAWAL_DATA" EntityType="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_DATA" />
+  </EntityContainer>
+  <EntityType Name="AddedGrade">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_SCHOOL_YEAR" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ADDED_NUMBER_OF_GRADES" Type="Int32" />
+    <Property Name="USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DTTM" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="EnrollementControlling">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CountryCodes" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="GradeCodes" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="FromDate" Type="DateTime" Precision="3" />
+    <Property Name="ToDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Enrollment_Exception_Attachment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Enrollment_Exception_ID" Type="Int32" Nullable="false" />
+    <Property Name="Enrollment_Exception_Type_ID" Type="Int32" Nullable="false" />
+    <Property Name="DOCUMENT_LOCATION" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MOE_Enrollment_Exception_Types" Relationship="PrivateScoolsPreEnrollmentModel.FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types" FromRole="Enrollment_Exception_Attachment" ToRole="MOE_Enrollment_Exception_Types" />
+  </EntityType>
+  <EntityType Name="InterviewResult">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_APPL_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DTTM" Type="DateTime" Precision="3" />
+    <Property Name="USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="InterviewResult1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MessageTemplate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TemplateTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ArabicMessage" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="EnglishMessage" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="MOE_ADDED_CAPACITY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_SCHOOL_YEAR" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_ADDED_CAPACITY1" Type="Int32" />
+    <Property Name="USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DTTM" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="MOE_AGE_VALIDATE_Temp">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_TERM" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CALCULATE_AGE_ASOF_DT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MIN_AGE" Type="Int32" />
+    <Property Name="MOE_MAX_AGE" Type="Int32" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="Int32" />
+    <Property Name="MOE_MIN_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MAX_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Comments" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_APPL_ACAD_INFO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_ACAD_INFO_ID" Type="Int32" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_APPL_REF_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_STU_RSLT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="MOE_APPL_SUPPORT_DOCS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_APPL_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_DOCUMENT_TYPE_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_DOCUMENT_LOCATION" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="MOE_Application_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_APPL_NBR" Type="Int32" />
+    <Property Name="MOE_APPL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_APPL_REF_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_APPL_INCR_ID" Type="Int32" />
+    <Property Name="MOE_APPL_YEAR" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_APPLIED_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RESIDENTIAL_AREA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_AVAIL_TRANSPORT" Type="Boolean" />
+    <Property Name="MOE_WAITLIST_NUMBER" Type="Int32" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsApplicationFinalized" Type="Boolean" />
+    <Property Name="MOE_STUDENT_NAME_ENG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_STUDENT_NAME_ARA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="MOE_SCHOOL" Relationship="PrivateScoolsPreEnrollmentModel.FK_MOE_Application_DATA_MOE_SCHOOL" FromRole="MOE_Application_DATA" ToRole="MOE_SCHOOL" />
+    <NavigationProperty Name="SeatReservationFees" Relationship="PrivateScoolsPreEnrollmentModel.FK_SeatReservationFee_MOE_Application_DATA" FromRole="MOE_Application_DATA" ToRole="SeatReservationFee" />
+  </EntityType>
+  <EntityType Name="MOE_BIO_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_ENGLISH_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_ARABIC_NAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_DOB" Type="DateTime" Precision="0" />
+    <Property Name="MOE_GENDER" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COUNTRY_ENGLISH_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COUNTRY_ARABIC_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COUNTRY_CODE" Type="Int32" />
+    <Property Name="MOE_STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_STATUS_DATE" Type="DateTime" Precision="0" />
+    <Property Name="MOE_LAST_UPDATED_DATE" Type="DateTime" Precision="0" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_CURRICULUM_LOOKUP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_CURRICULUM_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_DOUBLE_CURRICULUM_MAPPING">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DOUBLE_CURRICULUM_ID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DOUBLE_CURRICULUM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CURRICULUM_ID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CURRICULUM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_ENROLLMENT_EXCEPTION">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="National_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EXCEPTION_EXPIRY" Type="DateTime" Precision="3" />
+    <Property Name="AGE_EXCEPTION" Type="Boolean" />
+    <Property Name="REPEAT_YEAR_EXCEPTION" Type="Boolean" />
+    <Property Name="NATIONALITY_EXCEPTION" Type="Boolean" />
+    <Property Name="CURRICULUM_EXCEPTION" Type="Boolean" />
+    <Property Name="GENDER_EXCEPTION" Type="Boolean" />
+    <Property Name="ENROLLMENT_WHILE_CLOSED_EXCEPTION" Type="Boolean" />
+    <Property Name="MOE_CREATED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="EXCEPTION_AUDIT_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MOE_ENROLLMENT_EXCEPTION_AUDIT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ENROLLMENT_EXCEPTION_ID" Type="Int32" />
+    <Property Name="National_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EXCEPTION_EXPIRY" Type="DateTime" Precision="3" />
+    <Property Name="AGE_EXCEPTION" Type="Boolean" />
+    <Property Name="REPEAT_YEAR_EXCEPTION" Type="Boolean" />
+    <Property Name="NATIONALITY_EXCEPTION" Type="Boolean" />
+    <Property Name="CURRICULUM_EXCEPTION" Type="Boolean" />
+    <Property Name="GENDER_EXCEPTION" Type="Boolean" />
+    <Property Name="ENROLLMENT_WHILE_CLOSED_EXCEPTION" Type="Boolean" />
+    <Property Name="MOE_UPDATED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_UPDATED_ON" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="MOE_Enrollment_Exception_Types">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExceptionTypeName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ExceptionTypeNameAR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AttachmentRequired" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Enrollment_Exception_Attachment" Relationship="PrivateScoolsPreEnrollmentModel.FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types" FromRole="MOE_Enrollment_Exception_Types" ToRole="Enrollment_Exception_Attachment" />
+  </EntityType>
+  <EntityType Name="MOE_GUARDIAN_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_APPL_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATED_QID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_RELATIONSHIP_TYPE_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_ISGUARDIAN" Type="Boolean" />
+    <Property Name="MOE_MARITAL_STATUS_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_HOME_CONTACT_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_WORK_CONTACT_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MOBILE_CONTACT_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_FAX_CONTACT_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_TYPE_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MOE_GUARDIAN_NAME_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GUARDIAN_NAME_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_HEALTH_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_HEALTH_DATA_ID" Type="Int32" />
+    <Property Name="NATIONAL_ID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_APPL_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_HLTH_CARD_NBR" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_HLTH_CTR_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_FIT_FOR_SCHOOLING" Type="Boolean" />
+    <Property Name="MOE_HLTH_PROBLEMS" Type="Boolean" />
+    <Property Name="MOE_HLTH_PROBLEMS_DETAILS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SPL_NEEDS" Type="Boolean" />
+    <Property Name="MOE_LEARNING_DIFFICULTIES" Type="Boolean" />
+    <Property Name="MOE_SPECIAL_NEEDS_DETAILS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="MOE_MARITAL_STATUS">
+    <Key>
+      <PropertyRef Name="MOE_MARITAL_STATUS_ID" />
+    </Key>
+    <Property Name="MOE_MARITAL_STATUS_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_MARITAL_STATUS_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITAL_STATUS_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_MARITIALSTATUS_LOOKUP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_MARITIALSTATUS_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITIALSTATUS_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITIALSTATUS_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_RELATIONSHIP">
+    <Key>
+      <PropertyRef Name="MOE_RELATIONSHIP_TYPE_ID" />
+    </Key>
+    <Property Name="MOE_RELATIONSHIP_TYPE_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_RELATIONSHIP_NAME_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_NAME_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_RELATIONSHIP_LOOKUP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_RELATIONSHIP_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_SCHOOL">
+    <Key>
+      <PropertyRef Name="MOE_SCHOOL_CODE" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_NAME_ENG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_NAME_ARA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EFFECTIVE_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_EFF_STATUS" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_LOCATION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_ADDRESS1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_ADDRESS2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CITY" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MOE_SCHOOL_STAGES" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_GENDER" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_OWN_NID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="MOE_CONTACT_NBR" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_PRN_CONTACT_NBR" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_PRN_EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_WEBSITE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CLOSE_DATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="MOE_Application_DATA" Relationship="PrivateScoolsPreEnrollmentModel.FK_MOE_Application_DATA_MOE_SCHOOL" FromRole="MOE_SCHOOL" ToRole="MOE_Application_DATA" />
+  </EntityType>
+  <EntityType Name="MOE_SEAT_CAPACITY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SEAT_DISTRIBUTION" Type="Int32" />
+    <Property Name="MOE_TRANSACTION_DTMM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_PREENROL_SEATS" Type="Int32" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRENT_ENROLLED" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MOE_TERM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_TERM_CODE" Type="Int32" Nullable="false" />
+    <Property Name="MOE_TERM_DESCRIPTION_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM_DESCRIPTION_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM_BEGIN_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_TERM_ENDING_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_EFFECTIVE_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_EFF_STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_ISOPEN_ENROLLMENT" Type="Boolean" />
+    <Property Name="MOE_ACADEMIC_YEAR_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM1" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MOE_WITHDRAWAL_REASON">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_NAME_ENGLISH" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_NAME_ARABIC" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOI_Country_Map">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="COUNTRY" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COUNTRY_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NSIS_COUNTRY_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SMS_COUNTRY_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MOI_COUNTRY_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="NotificationAction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ArabicName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EnglishName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParentNotificationType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SeatReservationFee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NationalID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="ApplicantReferenceNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ReservationFeesAmount" Type="Int64" />
+    <Property Name="FeesPaidDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ApplicationDataID" Type="Int32" />
+    <Property Name="Comments" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MOE_Application_DATA" Relationship="PrivateScoolsPreEnrollmentModel.FK_SeatReservationFee_MOE_Application_DATA" FromRole="SeatReservationFee" ToRole="MOE_Application_DATA" />
+  </EntityType>
+  <EntityType Name="SMSHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_APPL_REF_NBR" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MsgType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MsgTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MsgText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MsgTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MsgStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MsgSender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SupportingDocumentSetup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Term" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SchoolCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentTypeID" Type="Int32" />
+    <Property Name="CurriculumID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsRequiredForPSO" Type="Boolean" />
+    <Property Name="IsRequiredForSchool" Type="Boolean" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TestResult">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NATIONAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_APPL_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ResultDocLocation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DTTM" Type="DateTime" Precision="3" />
+    <Property Name="USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TestResult1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TransactionsLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ActionCode" Type="Int32" />
+    <Property Name="TableName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ItemID" Type="Int64" />
+    <Property Name="ShortDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="BuildingCapacity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BuildingCapacity1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Comments" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_AGE_VALIDATE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_TERM" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CALCULATE_AGE_ASOF_DT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MIN_AGE" Type="Int32" />
+    <Property Name="MOE_MAX_AGE" Type="Int32" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="Int32" />
+    <Property Name="MOE_MIN_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MAX_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Comments" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_EMPLOYER_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="MOE_EMPLOYER_SECTOR_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_EMPLOYER_TYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="MOE_EMPLOYER_TYPE_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="MOE_EMPLOYER_TYPE_ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_TYPE_NAME_ENG" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EMPLOYER_TYPE_NAME_ARA" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_GRADE">
+    <Key>
+      <PropertyRef Name="MOE_TERM" />
+    </Key>
+    <Property Name="MOE_TERM" Type="Int32" Nullable="false" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_DESCRIPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_EFFECTIVE_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_EFF_STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Testing">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TestName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MOE_PREENROLLMENT_REPORT_VIEW">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="FIT_TO_STUDY" />
+      <PropertyRef Name="MOE_LEARNING_DIFFICULTIES" />
+      <PropertyRef Name="MOE_SPL_NEEDS" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="STUDENT_QID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="STUDENT_NAME_EN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="STUDENT_NAME_AR" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COUNTRY_CODE" Type="Int32" />
+    <Property Name="MOE_COUNTRY_ENGLISH_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COUNTRY_ARABIC_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_APPL_REF_NBR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="APPLICATION_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_RESIDENTIAL_AREA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_DOB" Type="DateTime" Precision="0" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_GENDER" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_NAME_ENG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_NAME_ARA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_APPLIED_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_AVAIL_TRANSPORT" Type="Boolean" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsApplicationFinalized" Type="Boolean" />
+    <Property Name="MOE_TRANSACTION_DTTM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_GENDER" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_YEAR_TERM" Type="Int32" />
+    <Property Name="CURRENT_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_CURRICULUM_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_CURRICULUM_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_YEAR_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRENT_SCHOOLNAME_ENG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRENT_SCHOOLNAME_ARA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_YEAR_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CURRENT_YEAR_RESULT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_YEAR_TERM" Type="Int32" />
+    <Property Name="PREVIOUS_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_CURRICULUM_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_CURRICULUM_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_YEAR_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_PREVIOUS_SCHOOLNAME_ENG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_PREVIOUS_SCHOOLNAME_ARA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_YEAR_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PREVIOUS_YEAR_RESULT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATED_QID" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="GUARDIAN_NAME_EN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_NAME_AR" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_NATIONALITY_AR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_NATIONALITY_EN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_GENDER" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_TYPE_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_TYPE_NAME_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_TYPE_NAME_AR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_NAME_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMPLOYER_NAME_AR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_MOBILE_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_HOME_PHONE_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_WORK_PHONE_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GUARDIAN_FAX_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RELATIONSHIP_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITIALSTATUS_ID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITIALSTATUS_NAMEEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MARITIALSTATUS_NAMEAR" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="HEALTH_CARD_NUMBER" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="HEALTH_CENTER_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FIT_TO_STUDY" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="HEALTH_PROBLEMS_DETAILS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_LEARNING_DIFFICULTIES" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="MOE_SPL_NEEDS" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="MOE_DOCUMENT_LOCATION" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_RESULTS_LOCATION" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TEST_RESULTS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TEST_DATETIME" Type="DateTime" Precision="3" />
+    <Property Name="MOE_INTERVIEW_RESULTS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="INTERVIEW_DATETIME" Type="DateTime" Precision="3" />
+    <Property Name="MOE_FEES_PAID_DATE" Type="DateTime" Precision="3" />
+    <Property Name="RESERVE_FEE" Type="Int64" />
+  </EntityType>
+  <EntityType Name="V_Schools_Grades_Ages">
+    <Key>
+      <PropertyRef Name="RN" />
+    </Key>
+    <Property Name="RN" Type="Int64" Nullable="false" />
+    <Property Name="MOE_TERM" Type="Int32" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SCHOOL_GRADE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_SEAT_DISTRIBUTION" Type="Int32" />
+    <Property Name="MOE_TRANSACTION_DTMM" Type="DateTime" Precision="3" />
+    <Property Name="MOE_PREENROL_SEATS" Type="Int32" />
+    <Property Name="MOE_USERID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRENT_ENROLLED" Type="Int32" />
+    <Property Name="MOE_CURRICULUM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CURRICULUM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ARA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_GRADE_DESC_ENG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MIN_AGE" Type="Int32" />
+    <Property Name="MOE_MIN_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_MAX_AGE" Type="Int32" />
+    <Property Name="MOE_MAX_AGE_STRING" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_CALCULATE_AGE_ASOF_DT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="Int32" />
+    <Property Name="GradeValue" Type="String" MaxLength="101" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Enrollment_Exception_Attachment_MOE_Enrollment_Exception_Types">
+    <End Type="PrivateScoolsPreEnrollmentModel.MOE_Enrollment_Exception_Types" Role="MOE_Enrollment_Exception_Types" Multiplicity="1" />
+    <End Type="PrivateScoolsPreEnrollmentModel.Enrollment_Exception_Attachment" Role="Enrollment_Exception_Attachment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MOE_Enrollment_Exception_Types">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Enrollment_Exception_Attachment">
+        <PropertyRef Name="Enrollment_Exception_Type_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MOE_Application_DATA_MOE_SCHOOL">
+    <End Type="PrivateScoolsPreEnrollmentModel.MOE_SCHOOL" Role="MOE_SCHOOL" Multiplicity="0..1" />
+    <End Type="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA" Role="MOE_Application_DATA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MOE_SCHOOL">
+        <PropertyRef Name="MOE_SCHOOL_CODE" />
+      </Principal>
+      <Dependent Role="MOE_Application_DATA">
+        <PropertyRef Name="MOE_SCHOOL_CODE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SeatReservationFee_MOE_Application_DATA">
+    <End Type="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA" Role="MOE_Application_DATA" Multiplicity="0..1" />
+    <End Type="PrivateScoolsPreEnrollmentModel.SeatReservationFee" Role="SeatReservationFee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MOE_Application_DATA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SeatReservationFee">
+        <PropertyRef Name="ApplicationDataID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="MOE_WITHDRAWAL_DATA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MOE_SCHOOL_CODE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_NATIONAL_ID" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_REFERENCE_ID" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_WITHDRAWAL_REQUESTDATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_WITHDRAWAL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_WITHDRAWAL_REASONID" Type="Int32" />
+    <Property Name="MOE_ATTACHMENT" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_ACTION_DATE" Type="DateTime" Precision="3" />
+    <Property Name="MOE_LOGIN_ID" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_COMMENTS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MOE_TERM" Type="Int32" />
+  </EntityType>
+</Schema>

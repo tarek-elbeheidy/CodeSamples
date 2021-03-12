@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RequestTypes"
+                OnQuickLaunch="TRUE"
+                TemplateType="10009"
+                Url="Lists/RequestTypes"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Certificate Equivalence Service</Field>
+          <Field Name="TitleAr">خدمة معادلة الشهادات الجامعية</Field>
+          <Field Name="PageLink">/Pages/NewRequest.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Prior Approval Service</Field>
+          <Field Name="TitleAr">خدمة الموافقة المسبقة</Field>
+          <Field Name="PageLink">/Pages/NewPARequest.aspx</Field>
+          <Field Name="NationalityCategory">1;#;#2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Schooling Certificate Equivalence Service</Field>
+          <Field Name="TitleAr"> خدمة معادلة الشهادات المدرسية</Field>
+          <Field Name="PageLink">/Pages/NewSCERequest.aspx</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

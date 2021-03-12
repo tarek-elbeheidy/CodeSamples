@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CertificateAgency"
+                OnQuickLaunch="TRUE"
+                TemplateType="10210"
+                Url="Lists/CertificateAgency"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Arab governments</Field>
+          <Field Name="TitleAr">حكومات الدول العربية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">The Ministry of Education and Higher Education</Field>
+          <Field Name="TitleAr">وزارة التعليم والتعليم العالي</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">مدرسة التجارة بقطر</Field>
+          <Field Name="TitleAr">مدرسة التجارة بقطر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of Industry in Qatar</Field>
+          <Field Name="TitleAr">مدرسة الصناعة بقطر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

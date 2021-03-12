@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    @Scripts.Render("~/bundles/modernizr")
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var tkntyp = readCookie('SpaceTV-api-tkntyp');
+            var tknval = readCookie('SpaceTV-api-tknval');
+            $('#display_Authoriation').text(tkntyp + ' ' + tknval);
+        });
+        function loguserin() {
+            $("#userloginform").submit(function (e) {
+                $('#frmlgn').addClass('hide');
+                $('#frmloading').removeClass('hide');
+                var postData = $(this).serializeArray();
+                var formURL = $(this).attr("action");
+                jQuery.support.cors = true;
+                $.ajax(
+                {
+                    url: formURL,
+                    type: "POST",
+                    contentType: 'application/json;charset=UTF-8',
+                    data: postData,
+                    success: function (data, textStatus, jqXHR) {
+                        var tkn = data.access_token;
+                        var typ = data.token_type;
+                        eraseCookie('SpaceTV-api-tkntyp')
+                        createCookie('SpaceTV-api-tkntyp', typ, 1);
+                        eraseCookie('SpaceTV-api-tknval')
+                        createCookie('SpaceTV-api-tknval', tkn, 1);
+                        document.location = "/";
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        $('#frmlgn').removeClass('hide');
+                        $('#frmloading').addClass('hide');
+                        $('#loginerror').text(jqXHR.responseJSON.error_description);
+                        $('#errormessage').addClass('alert alert-danger');
+                    }
+                });
+                //e.preventDefault(); //STOP default action
+                e.unbind(); //unbind. to stop multiple form submit.
+            });
+            $("#userloginform").submit();
+        }
+        function loguserout() {
+            var tkntyp = readCookie('SpaceTV-api-tkntyp');
+            var tknval = readCookie('SpaceTV-api-tknval');
+            var Ath = tkntyp + ' ' + tknval;
+
+            jQuery.support.cors = true;
+            $.ajax(
+            {
+                url: '/api/Account/Logout',
+                type: 'POST',
+                headers: {
+                    'Authorization': Ath,
+                },
+                success: function (data, textStatus, jqXHR) {
+                    eraseCookie('SpaceTV-api-tkntyp')
+                    eraseCookie('SpaceTV-api-tknval')
+                    document.location = "/";
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                }
+            });
+        }
+        function createCookie(name, value, days) {
+            var expires;
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + ";";
+        }
+        function readCookie(name) {
+            var nameEQ = encodeURIComponent(name) + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            try {
+                createCookie(name, "", -1);
+            } catch (e) {
+            }
+        }
+
+    </script>
+    <style>
+        .fa-2 {
+            font-size: 2em;
+        }
+
+        .fa-3 {
+            font-size: 4em;
+        }
+
+        .fa-4 {
+            font-size: 7em;
+        }
+
+        .fa-5 {
+            font-size: 12em;
+        }
+
+        .fa-6 {
+            font-size: 20em;
+        }
+
+        .fa-1, .fa-2, .fa-3, .fa-4, .fa-5, .fa-6 {
+            margin-right: 0.07142857em;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><i class="fa fa-cogs"></i>SpaceTV API</a>
+                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Show Authentication Token">Hello, @User.Identity.Name !</a>
+                            <div class="dropdown-menu">
+                                <form>
+                                    <textarea id="display_Authoriation" class="form-control"></textarea>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a class="lnk-logout" href="javascript: loguserout();">Log off</a></li>
+                    }
+                    else
+                    {
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">login</a>
+                            <div class="dropdown-menu">
+                                <form name="userloginform" id="userloginform" action="/Token" method="POST">
+                                    <div id="frmlgn">
+                                        <input type="text" class="hide" id="grant_type" name="grant_type" value="password">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                    <input type="text" class="form-control" placeholder="Username" id="username" name="username">
+                                                </div>
+                                            </div>
+                                            <br />
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                                    <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                                                </div>
+                                            </div>
+                                            <br />
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <a href="javascript: loguserin();" class="btn btn-info">login</a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12" id="errormessage">
+                                                <span id="loginerror"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="frmloading" class="hide">
+                                        <i class="fa fa-spinner fa-4 fa-spin"></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

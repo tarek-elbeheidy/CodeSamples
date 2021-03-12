@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PATechCommitteeDecisionUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PATechCommitteeDecision\" Type="ElementManifest" />
+    <ProjectItemFile Source="PATechCommitteeDecision.webpart" Target="PATechCommitteeDecision\" Type="ElementFile" />
+    <ProjectItemFile Source="PATechCommitteeDecisionUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA.WebParts\PATechCommitteeDecision\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.PA.WebParts.PATechCommitteeDecision" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

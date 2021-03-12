@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="9fc92fa3-1590-4680-ac42-a7c15423c35f" SharePointProductVersion="16.0">
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.ar-SA.resx" />
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.en-US.resx" />
+    <App_GlobalResourceFile Location="ITWORX_MOEHEWF_UCE.resx" />
+  </ApplicationResourceFiles>
+  <Assemblies>
+    <Assembly Location="Newtonsoft.Json.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="EPPlus.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="ITWORX.MOEHEWF.SCE.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.ClarificationRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.NewClarificationRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.ViewClarificationRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.EditRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.EmployeeDashboard" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.NewRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.SCEBooksRequests" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.NewSCEBooksRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.SCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c6ec0a86ef11fff" Namespace="ITWORX.MOEHEWF.SCE.WebParts.SCEReplyToBook" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="ITWORX.MOEHEWF.UCE.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\ITWORX_MOEHEWF_SCE.resx" />
+    <RootFile Location="Resources\ITWORX_MOEHEWF_SCE.ar-SA.resx" />
+    <RootFile Location="Resources\ITWORX_MOEHEWF_SCE.en-US.resx" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\ClarificationRequest\ClarificationRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\NewClarificationRequest\NewClarificationRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\ViewClarificationRequest\ViewClarificationRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\EditRequest\EditRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\EmployeeDashboard\EmployeeDashboardUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\NewRequest\NewRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\SCEBooksRequests\SCEBooksRequestsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\NewSCEBooksRequest\NewSCEBooksRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\SCEReplyToBook\SCEReplyToBookUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ExceptionRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\LateRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ReturnedRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\SearchRequests.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ClarificationRequestSCE.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\NewClarificationSCE.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\ViewClarificationRequestSCE.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE\DisplayRequestDetails.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ITWORX.MOEHEWF.SCE_Site\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.SCE_Web\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.SCE_Applicant\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.SCE_Reviewer\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.SCE_WebParts\Feature.xml" />
+  </FeatureManifests>
+</Solution>

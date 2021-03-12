@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Applicants" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Applicants" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010057fe8fa342d446a2880014d647f4f769" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{1acaf130-92ce-4a0f-9cc8-d3cfec92e73b}" Name="BirthDate" /><FieldRef ID="{c027d2c7-7baf-4423-9cc0-f0f9330058f8}" Name="ApplicantName" /><FieldRef ID="{487258fb-8245-4e91-8596-14cb9dea54f4}" Name="Nationality" /><FieldRef ID="{cfc38258-1936-4542-94e2-94d8f39a4e8c}" Name="NationalityCategory" /><FieldRef ID="{9401005c-1cbf-4fd4-a3b5-a8fb025db89d}" Name="MobileNumber" /><FieldRef ID="{ec41cb51-10dc-4f74-a2aa-956b26dfc1c1}" Name="ApplicantEmail" /><FieldRef ID="{481df8a7-8d35-4fc4-b5dd-862ae9a18c98}" Name="Region" /><FieldRef ID="{2d53c328-e58d-45c4-ba6f-a474e1dbc1d0}" Name="Street" /><FieldRef ID="{79f5d288-2801-48b7-8fb0-56e88bcc46cc}" Name="BuildingNo" /><FieldRef ID="{919a3258-f779-4cdb-84a3-b85f086d046c}" Name="ApartmentNo" /><FieldRef ID="{ea255c78-938e-4acc-905f-76b16919918c}" Name="DetailedAddress" /><FieldRef ID="{df9602f8-d47f-45ec-9247-8ef78fb710f0}" Name="PersonalID" /><FieldRef ID="{6b8d5be1-2b85-49ff-a3d4-f69f15c066f5}" Name="NationalityAr" /><FieldRef ID="{e2ba42d5-04c0-433d-ba05-d70c6be91477}" Name="NationalityCategoryAr" /><FieldRef ID="{0293c245-18d9-42e7-bc53-ee321eaca6f5}" Name="ApplicantGender" /><FieldRef ID="{81d3563f-5389-4b52-a5ba-fa8977480239}" Name="PostalNumber" /><FieldRef ID="{1bda0145-7ea8-40c3-9d82-ea608af72e76}" Name="ArabicName" /><FieldRef ID="{25b514ce-4e9c-4311-8c25-c3a1fd16553d}" Name="EnglishName" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="BirthDate" ID="{1acaf130-92ce-4a0f-9cc8-d3cfec92e73b}" DisplayName="BirthDate" Type="DateTime" Format="DateTime" /><Field Name="ApplicantName" ID="{c027d2c7-7baf-4423-9cc0-f0f9330058f8}" DisplayName="ApplicantName" Type="Text" /><Field Name="Nationality" ID="{487258fb-8245-4e91-8596-14cb9dea54f4}" DisplayName="Nationality" Type="Lookup" List="Lists/Nationality" ShowField="Title" /><Field Name="NationalityCategory" ID="{cfc38258-1936-4542-94e2-94d8f39a4e8c}" DisplayName="NationalityCategory" Type="Lookup" List="Lists/NationalityCategory" ShowField="Title" /><Field Name="MobileNumber" ID="{9401005c-1cbf-4fd4-a3b5-a8fb025db89d}" DisplayName="MobileNumber" Type="Text" /><Field Name="ApplicantEmail" ID="{ec41cb51-10dc-4f74-a2aa-956b26dfc1c1}" DisplayName="ApplicantEmail" Type="Text" /><Field Name="Region" ID="{481df8a7-8d35-4fc4-b5dd-862ae9a18c98}" DisplayName="Region" Type="Number" /><Field Name="Street" ID="{2d53c328-e58d-45c4-ba6f-a474e1dbc1d0}" DisplayName="Street" Type="Number" /><Field Name="BuildingNo" ID="{79f5d288-2801-48b7-8fb0-56e88bcc46cc}" DisplayName="BuildingNo" Type="Number" /><Field Name="ApartmentNo" ID="{919a3258-f779-4cdb-84a3-b85f086d046c}" DisplayName="ApartmentNo" Type="Number" /><Field Name="DetailedAddress" ID="{ea255c78-938e-4acc-905f-76b16919918c}" DisplayName="DetailedAddress" Type="Text" /><Field Name="PersonalID" ID="{df9602f8-d47f-45ec-9247-8ef78fb710f0}" DisplayName="PersonalID" Type="Text" /><Field Name="NationalityAr" ID="{6b8d5be1-2b85-49ff-a3d4-f69f15c066f5}" DisplayName="NationalityAr" Type="Lookup" List="Lists/Nationality" ShowField="TitleAr" FieldRef="{487258fb-8245-4e91-8596-14cb9dea54f4}" /><Field Name="NationalityCategoryAr" ID="{e2ba42d5-04c0-433d-ba05-d70c6be91477}" DisplayName="NationalityCategoryAr" Type="Lookup" List="Lists/NationalityCategory" ShowField="TitleAr" FieldRef="{cfc38258-1936-4542-94e2-94d8f39a4e8c}" /><Field Name="ApplicantGender" ID="{0293c245-18d9-42e7-bc53-ee321eaca6f5}" DisplayName="ApplicantGender" Type="Boolean" /><Field Name="PostalNumber" ID="{81d3563f-5389-4b52-a5ba-fa8977480239}" DisplayName="PostalNumber" Type="Number" /><Field Name="ArabicName" ID="{1bda0145-7ea8-40c3-9d82-ea608af72e76}" DisplayName="ArabicName" Type="Text" /><Field Name="EnglishName" ID="{25b514ce-4e9c-4311-8c25-c3a1fd16553d}" DisplayName="EnglishName" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="BirthDate" /><FieldRef Name="ApplicantName" /><FieldRef Name="Nationality" /><FieldRef Name="NationalityCategory" /><FieldRef Name="MobileNumber" /><FieldRef Name="ApplicantEmail" /><FieldRef Name="Region" /><FieldRef Name="Street" /><FieldRef Name="BuildingNo" /><FieldRef Name="ApartmentNo" /><FieldRef Name="DetailedAddress" /><FieldRef Name="PersonalID" /><FieldRef Name="NationalityAr" /><FieldRef Name="NationalityCategoryAr" /><FieldRef Name="ApplicantGender" /><FieldRef Name="PostalNumber" /><FieldRef Name="ArabicName" /><FieldRef Name="EnglishName" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

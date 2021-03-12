@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="ViewClarificationRequestUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ViewClarificationRequest\" Type="ElementManifest" />
+    <ProjectItemFile Source="ViewClarificationRequest.webpart" Target="ViewClarificationRequest\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewClarificationRequestUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.SCE.WebParts\ViewClarificationRequest\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.SCE.WebParts.ViewClarificationRequest" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

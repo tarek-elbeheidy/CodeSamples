@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="d55935c6-f110-4fae-b919-0621426772cf" Scope="Web" Title="ITWORX.MOEHEWF.UCE Applicant">
+  <ElementManifests>
+    <ElementManifest Location="Applicant\Elements.xml" />
+    <ElementFile Location="Applicant\ManageRequest.aspx" />
+    <ElementFile Location="Applicant\NewRequest.aspx" />
+    <ElementFile Location="Applicant\TrackRequest.aspx" />
+    <ElementFile Location="Applicant\DisplayRequest.aspx" />
+    <ElementFile Location="Applicant\ApplicantDetails.aspx" />
+    <ElementFile Location="Applicant\RequestDetails.aspx" />
+    <ElementFile Location="Applicant\ManageRequestDetails.aspx" />
+    <ElementFile Location="Applicant\ClarificationRequestsListing.aspx" />
+    <ElementFile Location="Applicant\HistoricalRecords.aspx" />
+    <ElementFile Location="Applicant\PaymentRecords.aspx" />
+    <ElementFile Location="Applicant\ClarificationReqDetails.aspx" />
+  </ElementManifests>
+</Feature>

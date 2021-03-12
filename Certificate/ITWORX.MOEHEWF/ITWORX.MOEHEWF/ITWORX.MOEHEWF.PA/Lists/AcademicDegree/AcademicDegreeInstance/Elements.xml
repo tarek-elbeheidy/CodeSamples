@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AcademicDegree"
+                OnQuickLaunch="TRUE"
+                TemplateType="20012"
+                Url="Lists/AcademicDegree"
+                Description="My List Instance"  FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Doctorate</Field>
+          <Field Name="TitleAr">دكتوراة</Field>
+          <Field Name="Certificates">2;#;#3;#;#4</Field>
+          
+
+
+        </Row>
+        <Row>
+          <Field Name="Title">Master's</Field>
+          <Field Name="TitleAr">ماجستير</Field>
+          <Field Name="Certificates">3;#;#4</Field>
+       
+        </Row>
+        <Row>
+          <Field Name ="Title">Bachelor's</Field>
+          <Field Name="TitleAr">بكالوريوس</Field>
+          <Field Name="Certificates">4</Field>
+       
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+  
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PAProcedure_AssistSecretaryDetailsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PAProcedure_AssistSecretaryDetails\" Type="ElementManifest" />
+    <ProjectItemFile Source="PAProcedure_AssistSecretaryDetails.webpart" Target="PAProcedure_AssistSecretaryDetails\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedure_AssistSecretaryDetailsUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA.WebParts\PAProcedure_AssistSecretaryDetails\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.PA.WebParts.PAProcedure_AssistSecretaryDetails" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

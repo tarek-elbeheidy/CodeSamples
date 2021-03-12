@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementManifest" />
+    <ProjectItemFile Source="Schema.xml" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementFile" />
+    <ProjectItemFile Source="EditDlg.htm" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementFile" />
+    <ProjectItemFile Source="FileDlg.htm" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementFile" />
+    <ProjectItemFile Source="Repair.aspx" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementFile" />
+    <ProjectItemFile Source="Upload.aspx" Target="PACalculatedDetailsForCertificateAttachments\" Type="ElementFile" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x010100936ed4ff3df248648b0bf16edc3cbb86" />
+  </ExtensionData>
+</ProjectItem>

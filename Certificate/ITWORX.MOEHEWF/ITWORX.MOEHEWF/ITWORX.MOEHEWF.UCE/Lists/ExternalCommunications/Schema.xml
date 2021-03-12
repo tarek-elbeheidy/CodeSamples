@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="ExternalCommunications" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ExternalCommunications" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010038394c94bb47454680f009ba32bac831" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{e12708b2-a6b4-4dcf-9796-81526782b293}" Name="RequestID" /><FieldRef ID="{0b2dfb76-d5d1-47e2-b495-ac789613300a}" Name="BookAuthor" /><FieldRef ID="{57a1273d-eefd-419e-b8e3-78a7af337cd2}" Name="BookDate" /><FieldRef ID="{bf217b2b-51d3-4d6d-847e-a6ded8aca5b1}" Name="BookID" /><FieldRef ID="{7daafc2c-372a-4124-958d-14690a57f1f7}" Name="BookSubject" /><FieldRef ID="{8080bfc6-1d75-45b8-9534-9dd02176c474}" Name="BookText" /><FieldRef ID="{e4867d7b-b9b4-4239-8ccf-c0b0735841a9}" Name="OrgBookNo" /><FieldRef ID="{57fe6a88-b699-4ebc-8524-edcc720e20b0}" Name="OrgBookSubject" /><FieldRef ID="{2137cab7-3343-430f-8a69-f34c8396d38d}" Name="OrgAddress" /><FieldRef ID="{2b075e57-5ead-4d25-9fd9-e400ef396c98}" Name="OrgReplyDate" /><FieldRef ID="{12f10d39-3912-47c8-ac96-168139d995c5}" Name="OrgReplyby1" /><FieldRef ID="{146c229e-f326-4b9d-ad73-4d210cabe540}" Name="DirectedTo" /><FieldRef ID="{2b4bf97a-53cc-4a4b-8551-9a46a5931b2b}" Name="OrgReply" /><FieldRef ID="{1bbe4fe3-554a-4cef-a0a0-0796308eb925}" Name="OrgEmail" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="RequestID" ID="{e12708b2-a6b4-4dcf-9796-81526782b293}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /><Field Name="BookAuthor" ID="{0b2dfb76-d5d1-47e2-b495-ac789613300a}" DisplayName="BookAuthor" Type="Text" /><Field Name="BookDate" ID="{57a1273d-eefd-419e-b8e3-78a7af337cd2}" DisplayName="BookDate" Type="DateTime" /><Field Name="BookID" ID="{bf217b2b-51d3-4d6d-847e-a6ded8aca5b1}" DisplayName="BookID" Type="Text" /><Field Name="BookSubject" ID="{7daafc2c-372a-4124-958d-14690a57f1f7}" DisplayName="BookSubject" Type="Text" /><Field Name="BookText" ID="{8080bfc6-1d75-45b8-9534-9dd02176c474}" DisplayName="BookText" Type="Note" RichText="TRUE" RichTextMode="FullHtml" /><Field Name="OrgBookNo" ID="{e4867d7b-b9b4-4239-8ccf-c0b0735841a9}" DisplayName="OrgReplyBookNo" Type="Text" /><Field Name="OrgBookSubject" ID="{57fe6a88-b699-4ebc-8524-edcc720e20b0}" DisplayName="OrgReplyBookSubject" Type="Note" /><Field Name="OrgAddress" ID="{2137cab7-3343-430f-8a69-f34c8396d38d}" DisplayName="OrgReplyAddress" Type="Text" /><Field Name="OrgReplyDate" ID="{2b075e57-5ead-4d25-9fd9-e400ef396c98}" DisplayName="OrgReplyDate" Type="DateTime" /><Field Name="OrgReplyby1" ID="{12f10d39-3912-47c8-ac96-168139d995c5}" DisplayName="OrgReplyby" Type="Text" /><Field Name="DirectedTo" ID="{146c229e-f326-4b9d-ad73-4d210cabe540}" DisplayName="DirectedTo" Type="Text" /><Field Name="OrgReply" ID="{2b4bf97a-53cc-4a4b-8551-9a46a5931b2b}" DisplayName="OrgReply" Type="Note" /><Field Name="OrgEmail" ID="{1bbe4fe3-554a-4cef-a0a0-0796308eb925}" DisplayName="OrgEmail" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestID" /><FieldRef Name="BookAuthor" /><FieldRef Name="BookDate" /><FieldRef Name="BookID" /><FieldRef Name="BookSubject" /><FieldRef Name="BookText" /><FieldRef Name="OrgBookNo" /><FieldRef Name="OrgBookSubject" /><FieldRef Name="OrgAddress" /><FieldRef Name="DirectedTo" /><FieldRef Name="OrgReply" /><FieldRef Name="OrgEmail" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

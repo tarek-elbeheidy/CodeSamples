@@ -1,0 +1,1978 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2A8C375-070D-4FB1-B42E-4C5C68A0D93B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITWORX.MOEHEWF.PA</RootNamespace>
+    <AssemblyName>ITWORX.MOEHEWF.PA</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.94.2.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Integration.SMS">
+      <HintPath>..\References\ITWORX.MOEHE.Integration.SMS.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=942948f6a64aa526, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ITWORX.MOEHE.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Reference Assemblies\Microsoft\Windows Identity Foundation\v3.5\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Nintex.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=913f6bae0ca5ae12, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Nintex Installation\Exported\NintexForSharePoint2016\Binaries\Nintex.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\AcademicDegree.cs" />
+    <Compile Include="BL\AllProcedures.cs" />
+    <Compile Include="BL\CalculatedDetailsForCertificate.cs" />
+    <Compile Include="BL\Certificates.cs" />
+    <Compile Include="BL\ClarificationRequests.cs" />
+    <Compile Include="BL\Decisions.cs" />
+    <Compile Include="BL\DelegationDocuments.cs" />
+    <Compile Include="BL\DelegationTemplate.cs" />
+    <Compile Include="BL\EntityNeedsEquivalency.cs" />
+    <Compile Include="BL\EntityProvidingStudy.cs" />
+    <Compile Include="BL\EntityWorkingFor.cs" />
+    <Compile Include="BL\ExternalCommunications.cs" />
+    <Compile Include="BL\Faculty.cs" />
+    <Compile Include="BL\HistoricalRecords.cs" />
+    <Compile Include="BL\LateRequests.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BL\Nationality.cs" />
+    <Compile Include="BL\NationalityCategory.cs" />
+    <Compile Include="BL\NavigationLinks.cs" />
+    <Compile Include="BL\NewRequests.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BL\Occupation.cs" />
+    <Compile Include="BL\OrganizationlLettersAttachments.cs" />
+    <Compile Include="BL\PAProgEmpStatusandRecomAttachements.cs" />
+    <Compile Include="BL\PARequestsAttachments.cs" />
+    <Compile Include="BL\PaymentRecords.cs" />
+    <Compile Include="BL\Recommendations.cs" />
+    <Compile Include="BL\Request.cs" />
+    <Compile Include="BL\RequestsForStatements.cs" />
+    <Compile Include="BL\ReturnedRequests.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BL\Schools.cs" />
+    <Compile Include="BL\SearchSimilarRequests.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BL\Specialization.cs" />
+    <Compile Include="BL\StudyAttachmentTypes.cs" />
+    <Compile Include="BL\StudyLanguage.cs" />
+    <Compile Include="BL\StudySystem.cs" />
+    <Compile Include="BL\StudyType.cs" />
+    <Compile Include="BL\PAEmployeeDecisions.cs" />
+    <Compile Include="BL\PAEmployeeProcedures.cs" />
+    <Compile Include="BL\UniversityMainCountry.cs" />
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\ApplicantRequestsClosed.ascx.cs">
+      <DependentUpon>ApplicantRequestsClosed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\ApplicantRequestsClosed.ascx.designer.cs">
+      <DependentUpon>ApplicantRequestsClosed.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AcademicDegree.cs" />
+    <Compile Include="Entities\CalculatedDetailsForCertificate.cs" />
+    <Compile Include="Entities\CalculatedDetailsForCertificateAttachments.cs" />
+    <Compile Include="Entities\Certificates.cs" />
+    <Compile Include="Entities\CertificatesAttachments.cs" />
+    <Compile Include="Entities\ClarificationReqs.cs" />
+    <Compile Include="Entities\Decisions.cs" />
+    <Compile Include="Entities\DelegationDocuments.cs" />
+    <Compile Include="Entities\DelegationTemplate.cs" />
+    <Compile Include="Entities\EntityNeedsEquivalency.cs" />
+    <Compile Include="Entities\EntityProvidingStudy.cs" />
+    <Compile Include="Entities\EntityWorkingFor.cs" />
+    <Compile Include="Entities\ExternalComms.cs" />
+    <Compile Include="Entities\Faculty.cs" />
+    <Compile Include="Entities\HistoricalRecord.cs" />
+    <Compile Include="Entities\Nationality.cs" />
+    <Compile Include="Entities\NationalityCategory.cs" />
+    <Compile Include="Entities\Occupation.cs" />
+    <Compile Include="Entities\OrganizationlLettersAttachments.cs" />
+    <Compile Include="Entities\PAProgEmpStatusandRecomAttachements.cs" />
+    <Compile Include="Entities\Payments.cs" />
+    <Compile Include="Entities\Procedures.cs" />
+    <Compile Include="Entities\Recomendations.cs" />
+    <Compile Include="Entities\PARequest.cs" />
+    <Compile Include="Entities\RequestHistory.cs" />
+    <Compile Include="Entities\RequestsForStatement.cs" />
+    <Compile Include="Entities\RolesNavLinks.cs" />
+    <Compile Include="Entities\Schools.cs" />
+    <Compile Include="Entities\SimilarRequest.cs" />
+    <Compile Include="Entities\Specialization.cs" />
+    <Compile Include="Entities\StudyAttachmentTypes.cs" />
+    <Compile Include="Entities\StudyLanguage.cs" />
+    <Compile Include="Entities\StudySystem.cs" />
+    <Compile Include="Entities\StudyType.cs" />
+    <Compile Include="Entities\PAEmployeeDecisions.cs" />
+    <Compile Include="Entities\PAEmployeeProcedures.cs" />
+    <Compile Include="Entities\UniversityMainCountry.cs" />
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_AssistSecretaryProc.ascx.cs">
+      <DependentUpon>PAAdd_AssistSecretaryProc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_AssistSecretaryProc.ascx.designer.cs">
+      <DependentUpon>PAAdd_AssistSecretaryProc.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_Clarification.ascx.cs">
+      <DependentUpon>PAAdd_Clarification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_Clarification.ascx.designer.cs">
+      <DependentUpon>PAAdd_Clarification.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_DepartmentManagerProc.ascx.cs">
+      <DependentUpon>PAAdd_DepartmentManagerProc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_DepartmentManagerProc.ascx.designer.cs">
+      <DependentUpon>PAAdd_DepartmentManagerProc.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_FinalDecision.ascx.cs">
+      <DependentUpon>PAAdd_FinalDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_FinalDecision.ascx.designer.cs">
+      <DependentUpon>PAAdd_FinalDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_LegalAffairsProcOpinion.ascx.cs">
+      <DependentUpon>PAAdd_LegalAffairsProcOpinion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_LegalAffairsProcOpinion.ascx.designer.cs">
+      <DependentUpon>PAAdd_LegalAffairsProcOpinion.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewBook.ascx.cs">
+      <DependentUpon>PAAdd_NewBook.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewBook.ascx.designer.cs">
+      <DependentUpon>PAAdd_NewBook.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewRecommendation.ascx.cs">
+      <DependentUpon>PAAdd_NewRecommendation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewRecommendation.ascx.designer.cs">
+      <DependentUpon>PAAdd_NewRecommendation.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewStatement.ascx.cs">
+      <DependentUpon>PAAdd_NewStatement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewStatement.ascx.designer.cs">
+      <DependentUpon>PAAdd_NewStatement.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureProgramManager.ascx.cs">
+      <DependentUpon>PAAdd_ProcedureProgramManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureProgramManager.ascx.designer.cs">
+      <DependentUpon>PAAdd_ProcedureProgramManager.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureReceptionist.ascx.cs">
+      <DependentUpon>PAAdd_ProcedureReceptionist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureReceptionist.ascx.designer.cs">
+      <DependentUpon>PAAdd_ProcedureReceptionist.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_TechCommitteeProcedure.ascx.cs">
+      <DependentUpon>PAAdd_TechCommitteeProcedure.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_TechCommitteeProcedure.ascx.designer.cs">
+      <DependentUpon>PAAdd_TechCommitteeProcedure.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PACheckUniversity.ascx.cs">
+      <DependentUpon>PACheckUniversity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PACheckUniversity.ascx.designer.cs">
+      <DependentUpon>PACheckUniversity.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationReqDetails.ascx.cs">
+      <DependentUpon>PAClarificationReqDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationReqDetails.ascx.designer.cs">
+      <DependentUpon>PAClarificationReqDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationRequests.ascx.cs">
+      <DependentUpon>PAClarificationRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationRequests.ascx.designer.cs">
+      <DependentUpon>PAClarificationRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarRequestsListing.ascx.cs">
+      <DependentUpon>PAClarRequestsListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarRequestsListing.ascx.designer.cs">
+      <DependentUpon>PAClarRequestsListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADepartmentManagerDecision.ascx.cs">
+      <DependentUpon>PADepartmentManagerDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADepartmentManagerDecision.ascx.designer.cs">
+      <DependentUpon>PADepartmentManagerDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayApplicantDetails.ascx.cs">
+      <DependentUpon>PADisplayApplicantDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayApplicantDetails.ascx.designer.cs">
+      <DependentUpon>PADisplayApplicantDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayCheckUniversity.ascx.cs">
+      <DependentUpon>PADisplayCheckUniversity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayCheckUniversity.ascx.designer.cs">
+      <DependentUpon>PADisplayCheckUniversity.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayRequestDetails.ascx.cs">
+      <DependentUpon>PADisplayRequestDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayRequestDetails.ascx.designer.cs">
+      <DependentUpon>PADisplayRequestDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplaySimilarRequestDetails.ascx.cs">
+      <DependentUpon>PADisplaySimilarRequestDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplaySimilarRequestDetails.ascx.designer.cs">
+      <DependentUpon>PADisplaySimilarRequestDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommDetails.ascx.cs">
+      <DependentUpon>PAExternalCommDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommDetails.ascx.designer.cs">
+      <DependentUpon>PAExternalCommDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommListing.ascx.cs">
+      <DependentUpon>PAExternalCommListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommListing.ascx.designer.cs">
+      <DependentUpon>PAExternalCommListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAHistoricalRecords.ascx.cs">
+      <DependentUpon>PAHistoricalRecords.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAHistoricalRecords.ascx.designer.cs">
+      <DependentUpon>PAHistoricalRecords.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PALateRequests.ascx.cs">
+      <DependentUpon>PALateRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PALateRequests.ascx.designer.cs">
+      <DependentUpon>PALateRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PANewRequests.ascx.cs">
+      <DependentUpon>PANewRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PANewRequests.ascx.designer.cs">
+      <DependentUpon>PANewRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAPaymentRecords.ascx.cs">
+      <DependentUpon>PAPaymentRecords.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAPaymentRecords.ascx.designer.cs">
+      <DependentUpon>PAPaymentRecords.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_DeptManagerListing.ascx.cs">
+      <DependentUpon>PAProcedures_DeptManagerListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_DeptManagerListing.ascx.designer.cs">
+      <DependentUpon>PAProcedures_DeptManagerListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_LegalAffairsListing.ascx.cs">
+      <DependentUpon>PAProcedures_LegalAffairsListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_LegalAffairsListing.ascx.designer.cs">
+      <DependentUpon>PAProcedures_LegalAffairsListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_ProgramManager.ascx.cs">
+      <DependentUpon>PAProcedures_ProgramManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_ProgramManager.ascx.designer.cs">
+      <DependentUpon>PAProcedures_ProgramManager.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_Receptionist.ascx.cs">
+      <DependentUpon>PAProcedures_Receptionist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_Receptionist.ascx.designer.cs">
+      <DependentUpon>PAProcedures_Receptionist.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryDetails.ascx.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryDetails.ascx.designer.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryListing.ascx.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryListing.ascx.designer.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_DeptManagerDetails.ascx.cs">
+      <DependentUpon>PAProcedure_DeptManagerDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_DeptManagerDetails.ascx.designer.cs">
+      <DependentUpon>PAProcedure_DeptManagerDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsDetails.ascx.cs">
+      <DependentUpon>PAProcedure_LegalAffairsDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsDetails.ascx.designer.cs">
+      <DependentUpon>PAProcedure_LegalAffairsDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsViewOpinion.ascx.cs">
+      <DependentUpon>PAProcedure_LegalAffairsViewOpinion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsViewOpinion.ascx.designer.cs">
+      <DependentUpon>PAProcedure_LegalAffairsViewOpinion.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_ReceptionistDetails.ascx.cs">
+      <DependentUpon>PAProcedure_ReceptionistDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_ReceptionistDetails.ascx.designer.cs">
+      <DependentUpon>PAProcedure_ReceptionistDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteDetails.ascx.cs">
+      <DependentUpon>PAProcedure_TechCommitteDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteDetails.ascx.designer.cs">
+      <DependentUpon>PAProcedure_TechCommitteDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteListing.ascx.cs">
+      <DependentUpon>PAProcedure_TechCommitteListing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteListing.ascx.designer.cs">
+      <DependentUpon>PAProcedure_TechCommitteListing.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerProcedureDetails.ascx.cs">
+      <DependentUpon>PAProgramManagerProcedureDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerProcedureDetails.ascx.designer.cs">
+      <DependentUpon>PAProgramManagerProcedureDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerRecommendation.ascx.cs">
+      <DependentUpon>PAProgramManagerRecommendation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerRecommendation.ascx.designer.cs">
+      <DependentUpon>PAProgramManagerRecommendation.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestDetails.ascx.cs">
+      <DependentUpon>PARequestDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestDetails.ascx.designer.cs">
+      <DependentUpon>PARequestDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestsChart.ascx.cs">
+      <DependentUpon>PARequestsChart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestsChart.ascx.designer.cs">
+      <DependentUpon>PARequestsChart.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReturnedRequests.ascx.cs">
+      <DependentUpon>PAReturnedRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReturnedRequests.ascx.designer.cs">
+      <DependentUpon>PAReturnedRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayApplicantDetails.ascx.cs">
+      <DependentUpon>PAReviewerDisplayApplicantDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayApplicantDetails.ascx.designer.cs">
+      <DependentUpon>PAReviewerDisplayApplicantDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayRequestDetails.ascx.cs">
+      <DependentUpon>PAReviewerDisplayRequestDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayRequestDetails.ascx.designer.cs">
+      <DependentUpon>PAReviewerDisplayRequestDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARolesNavigationLinks.ascx.cs">
+      <DependentUpon>PARolesNavigationLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARolesNavigationLinks.ascx.designer.cs">
+      <DependentUpon>PARolesNavigationLinks.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchRequests.ascx.cs">
+      <DependentUpon>PASearchRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchRequests.ascx.designer.cs">
+      <DependentUpon>PASearchRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchStatusRecommendationUC.ascx.cs">
+      <DependentUpon>PASearchStatusRecommendationUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchStatusRecommendationUC.ascx.designer.cs">
+      <DependentUpon>PASearchStatusRecommendationUC.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASecretary_Search.ascx.cs">
+      <DependentUpon>PASecretary_Search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASecretary_Search.ascx.designer.cs">
+      <DependentUpon>PASecretary_Search.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASimilarRequests.ascx.cs">
+      <DependentUpon>PASimilarRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASimilarRequests.ascx.designer.cs">
+      <DependentUpon>PASimilarRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementDetails.ascx.cs">
+      <DependentUpon>PAStatementDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementDetails.ascx.designer.cs">
+      <DependentUpon>PAStatementDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementRequests.ascx.cs">
+      <DependentUpon>PAStatementRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementRequests.ascx.designer.cs">
+      <DependentUpon>PAStatementRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PATechCommitteeViewDecision.ascx.cs">
+      <DependentUpon>PATechCommitteeViewDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PATechCommitteeViewDecision.ascx.designer.cs">
+      <DependentUpon>PATechCommitteeViewDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAUploadUC.ascx.cs">
+      <DependentUpon>PAUploadUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAUploadUC.ascx.designer.cs">
+      <DependentUpon>PAUploadUC.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewAssistantUnderSecDec_AllDecision.ascx.cs">
+      <DependentUpon>PAViewAssistantUnderSecDec_AllDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewAssistantUnderSecDec_AllDecision.ascx.designer.cs">
+      <DependentUpon>PAViewAssistantUnderSecDec_AllDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewDeptManagerDec_AllDecision.ascx.cs">
+      <DependentUpon>PAViewDeptManagerDec_AllDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewDeptManagerDec_AllDecision.ascx.designer.cs">
+      <DependentUpon>PAViewDeptManagerDec_AllDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewSimilarRequests.ascx.cs">
+      <DependentUpon>PAViewSimilarRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewSimilarRequests.ascx.designer.cs">
+      <DependentUpon>PAViewSimilarRequests.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewStatusandRecommendation.ascx.cs">
+      <DependentUpon>PAViewStatusandRecommendation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewStatusandRecommendation.ascx.designer.cs">
+      <DependentUpon>PAViewStatusandRecommendation.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewTechCommitteeDec_AllDecision.ascx.cs">
+      <DependentUpon>PAViewTechCommitteeDec_AllDecision.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewTechCommitteeDec_AllDecision.ascx.designer.cs">
+      <DependentUpon>PAViewTechCommitteeDec_AllDecision.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\Applicant.aspx.cs">
+      <DependentUpon>Applicant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\Applicant.aspx.designer.cs">
+      <DependentUpon>Applicant.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ApplicationPage1.aspx.cs">
+      <DependentUpon>ApplicationPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ApplicationPage1.aspx.designer.cs">
+      <DependentUpon>ApplicationPage1.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\AssistantUndersecretary.aspx.cs">
+      <DependentUpon>AssistantUndersecretary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\AssistantUndersecretary.aspx.designer.cs">
+      <DependentUpon>AssistantUndersecretary.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\CascadingDropdowns.aspx.cs">
+      <DependentUpon>CascadingDropdowns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\CascadingDropdowns.aspx.designer.cs">
+      <DependentUpon>CascadingDropdowns.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\DepartmentManager.aspx.cs">
+      <DependentUpon>DepartmentManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\DepartmentManager.aspx.designer.cs">
+      <DependentUpon>DepartmentManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\LegalAffairs.aspx.cs">
+      <DependentUpon>LegalAffairs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\LegalAffairs.aspx.designer.cs">
+      <DependentUpon>LegalAffairs.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryAndSecondaryEmployee.aspx.cs">
+      <DependentUpon>PrimaryAndSecondaryEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryAndSecondaryEmployee.aspx.designer.cs">
+      <DependentUpon>PrimaryAndSecondaryEmployee.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryEmployee.aspx.cs">
+      <DependentUpon>PrimaryEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryEmployee.aspx.designer.cs">
+      <DependentUpon>PrimaryEmployee.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ProgramEmployee.aspx.cs">
+      <DependentUpon>ProgramEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ProgramEmployee.aspx.designer.cs">
+      <DependentUpon>ProgramEmployee.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ProgramManager.aspx.cs">
+      <DependentUpon>ProgramManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\ProgramManager.aspx.designer.cs">
+      <DependentUpon>ProgramManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\Receptionist.aspx.cs">
+      <DependentUpon>Receptionist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\Receptionist.aspx.designer.cs">
+      <DependentUpon>Receptionist.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitte.aspx.cs">
+      <DependentUpon>TechnicalCommitte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitte.aspx.designer.cs">
+      <DependentUpon>TechnicalCommitte.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitteUnderSec.aspx.cs">
+      <DependentUpon>TechnicalCommitteUnderSec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitteUnderSec.aspx.designer.cs">
+      <DependentUpon>TechnicalCommitteUnderSec.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ITWORX_MOEHEWF_PA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ITWORX_MOEHEWF_PA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\BusinessHelper.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\ControlBase.cs" />
+    <Compile Include="WebParts\ApplicantRequestsClosed\ApplicantRequestsClosed.cs" />
+    <Compile Include="WebParts\ApplicantRequestsClosed\ApplicantRequestsClosedUserControl.ascx.cs">
+      <DependentUpon>ApplicantRequestsClosedUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\ApplicantRequestsClosed\ApplicantRequestsClosedUserControl.ascx.designer.cs">
+      <DependentUpon>ApplicantRequestsClosedUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAApplicantDetails\PAApplicantDetails.cs" />
+    <Compile Include="WebParts\PAApplicantDetails\PAApplicantDetailsUserControl.ascx.cs">
+      <DependentUpon>PAApplicantDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAApplicantDetails\PAApplicantDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAApplicantDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAClarificationRequestDetails\PAClarificationRequestDetails.cs" />
+    <Compile Include="WebParts\PAClarificationRequestDetails\PAClarificationRequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PAClarificationRequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAClarificationRequestDetails\PAClarificationRequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAClarificationRequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAClarificationRequests\PAClarificationRequests.cs" />
+    <Compile Include="WebParts\PAClarificationRequests\PAClarificationRequestsUserControl.ascx.cs">
+      <DependentUpon>PAClarificationRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAClarificationRequests\PAClarificationRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>PAClarificationRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PADisplayRequest\PADisplayRequest.cs" />
+    <Compile Include="WebParts\PADisplayRequest\PADisplayRequestUserControl.ascx.cs">
+      <DependentUpon>PADisplayRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PADisplayRequest\PADisplayRequestUserControl.ascx.designer.cs">
+      <DependentUpon>PADisplayRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAEmployeeDashboard\PAEmployeeDashboard.cs" />
+    <Compile Include="WebParts\PAEmployeeDashboard\PAEmployeeDashboardUserControl.ascx.cs">
+      <DependentUpon>PAEmployeeDashboardUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAEmployeeDashboard\PAEmployeeDashboardUserControl.ascx.designer.cs">
+      <DependentUpon>PAEmployeeDashboardUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAEquationOfficerProceduresWP\PAEquationOfficerProceduresWP.cs" />
+    <Compile Include="WebParts\PAEquationOfficerProceduresWP\PAEquationOfficerProceduresWPUserControl.ascx.cs">
+      <DependentUpon>PAEquationOfficerProceduresWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAEquationOfficerProceduresWP\PAEquationOfficerProceduresWPUserControl.ascx.designer.cs">
+      <DependentUpon>PAEquationOfficerProceduresWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAExternalCommunicationDetails\PAExternalCommunicationDetails.cs" />
+    <Compile Include="WebParts\PAExternalCommunicationDetails\PAExternalCommunicationDetailsUserControl.ascx.cs">
+      <DependentUpon>PAExternalCommunicationDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAExternalCommunicationDetails\PAExternalCommunicationDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAExternalCommunicationDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAExternalCommunications\PAExternalCommunications.cs" />
+    <Compile Include="WebParts\PAExternalCommunications\PAExternalCommunicationsUserControl.ascx.cs">
+      <DependentUpon>PAExternalCommunicationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAExternalCommunications\PAExternalCommunicationsUserControl.ascx.designer.cs">
+      <DependentUpon>PAExternalCommunicationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAHeadManagerDecision\PAHeadManagerDecision.cs" />
+    <Compile Include="WebParts\PAHeadManagerDecision\PAHeadManagerDecisionUserControl.ascx.cs">
+      <DependentUpon>PAHeadManagerDecisionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAHeadManagerDecision\PAHeadManagerDecisionUserControl.ascx.designer.cs">
+      <DependentUpon>PAHeadManagerDecisionUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAHistoricalRecords\PAHistoricalRecords.cs" />
+    <Compile Include="WebParts\PAHistoricalRecords\PAHistoricalRecordsUserControl.ascx.cs">
+      <DependentUpon>PAHistoricalRecordsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAHistoricalRecords\PAHistoricalRecordsUserControl.ascx.designer.cs">
+      <DependentUpon>PAHistoricalRecordsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAManageRequestDetails\PAManageRequestDetails.cs" />
+    <Compile Include="WebParts\PAManageRequestDetails\PAManageRequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PAManageRequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAManageRequestDetails\PAManageRequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAManageRequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAMyRequests\PAMyRequests.cs" />
+    <Compile Include="WebParts\PAMyRequests\PAMyRequestsUserControl.ascx.cs">
+      <DependentUpon>PAMyRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAMyRequests\PAMyRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>PAMyRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PANewRequest\PANewRequest.cs" />
+    <Compile Include="WebParts\PANewRequest\PANewRequestUserControl.ascx.cs">
+      <DependentUpon>PANewRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PANewRequest\PANewRequestUserControl.ascx.designer.cs">
+      <DependentUpon>PANewRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAPaymentRecords\PAPaymentRecords.cs" />
+    <Compile Include="WebParts\PAPaymentRecords\PAPaymentRecordsUserControl.ascx.cs">
+      <DependentUpon>PAPaymentRecordsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAPaymentRecords\PAPaymentRecordsUserControl.ascx.designer.cs">
+      <DependentUpon>PAPaymentRecordsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedureReceptionistDetails\PAProcedureReceptionistDetails.cs" />
+    <Compile Include="WebParts\PAProcedureReceptionistDetails\PAProcedureReceptionistDetailsUserControl.ascx.cs">
+      <DependentUpon>PAProcedureReceptionistDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedureReceptionistDetails\PAProcedureReceptionistDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedureReceptionistDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProceduresReceptionist\PAProceduresReceptionist.cs" />
+    <Compile Include="WebParts\PAProceduresReceptionist\PAProceduresReceptionistUserControl.ascx.cs">
+      <DependentUpon>PAProceduresReceptionistUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProceduresReceptionist\PAProceduresReceptionistUserControl.ascx.designer.cs">
+      <DependentUpon>PAProceduresReceptionistUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_AssistSecretaryListing\PAProcedures_AssistSecretaryListing.cs" />
+    <Compile Include="WebParts\PAProcedures_AssistSecretaryListing\PAProcedures_AssistSecretaryListingUserControl.ascx.cs">
+      <DependentUpon>PAProcedures_AssistSecretaryListingUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_AssistSecretaryListing\PAProcedures_AssistSecretaryListingUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedures_AssistSecretaryListingUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_DeptManagerListing\PAProcedures_DeptManagerListing.cs" />
+    <Compile Include="WebParts\PAProcedures_DeptManagerListing\PAProcedures_DeptManagerListingUserControl.ascx.cs">
+      <DependentUpon>PAProcedures_DeptManagerListingUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_DeptManagerListing\PAProcedures_DeptManagerListingUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedures_DeptManagerListingUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_LegalAffairsInitOpinion\PAProcedures_LegalAffairsInitOpinion.cs" />
+    <Compile Include="WebParts\PAProcedures_LegalAffairsInitOpinion\PAProcedures_LegalAffairsInitOpinionUserControl.ascx.cs">
+      <DependentUpon>PAProcedures_LegalAffairsInitOpinionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_LegalAffairsInitOpinion\PAProcedures_LegalAffairsInitOpinionUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedures_LegalAffairsInitOpinionUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListing.cs" />
+    <Compile Include="WebParts\PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListingUserControl.ascx.cs">
+      <DependentUpon>PAProcedures_TechCommitteeListingUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListingUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedures_TechCommitteeListingUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_AssistSecretaryDetails\PAProcedure_AssistSecretaryDetails.cs" />
+    <Compile Include="WebParts\PAProcedure_AssistSecretaryDetails\PAProcedure_AssistSecretaryDetailsUserControl.ascx.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_AssistSecretaryDetails\PAProcedure_AssistSecretaryDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedure_AssistSecretaryDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_DeptManagerDetails\PAProcedure_DeptManagerDetails.cs" />
+    <Compile Include="WebParts\PAProcedure_DeptManagerDetails\PAProcedure_DeptManagerDetailsUserControl.ascx.cs">
+      <DependentUpon>PAProcedure_DeptManagerDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_DeptManagerDetails\PAProcedure_DeptManagerDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedure_DeptManagerDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_TechCommitteeDetails\PAProcedure_TechCommitteeDetails.cs" />
+    <Compile Include="WebParts\PAProcedure_TechCommitteeDetails\PAProcedure_TechCommitteeDetailsUserControl.ascx.cs">
+      <DependentUpon>PAProcedure_TechCommitteeDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProcedure_TechCommitteeDetails\PAProcedure_TechCommitteeDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProcedure_TechCommitteeDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProgManagerProcedureDetails\PAProgManagerProcedureDetails.cs" />
+    <Compile Include="WebParts\PAProgManagerProcedureDetails\PAProgManagerProcedureDetailsUserControl.ascx.cs">
+      <DependentUpon>PAProgManagerProcedureDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProgManagerProcedureDetails\PAProgManagerProcedureDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProgManagerProcedureDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProgramEmpClarifications\PAProgramEmpClarifications.cs" />
+    <Compile Include="WebParts\PAProgramEmpClarifications\PAProgramEmpClarificationsUserControl.ascx.cs">
+      <DependentUpon>PAProgramEmpClarificationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProgramEmpClarifications\PAProgramEmpClarificationsUserControl.ascx.designer.cs">
+      <DependentUpon>PAProgramEmpClarificationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAProgramManagerProcedures\PAProgramManagerProcedures.cs" />
+    <Compile Include="WebParts\PAProgramManagerProcedures\PAProgramManagerProceduresUserControl.ascx.cs">
+      <DependentUpon>PAProgramManagerProceduresUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAProgramManagerProcedures\PAProgramManagerProceduresUserControl.ascx.designer.cs">
+      <DependentUpon>PAProgramManagerProceduresUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PARecommendations\PAcommendations.cs" />
+    <Compile Include="WebParts\PARecommendations\PARecommendationsUserControl.ascx.cs">
+      <DependentUpon>PARecommendationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PARecommendations\PARecommendationsUserControl.ascx.designer.cs">
+      <DependentUpon>PARecommendationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PARequestDetails\PARequestDetails.cs" />
+    <Compile Include="WebParts\PARequestDetails\PARequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PARequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PARequestDetails\PARequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PARequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDecisions\PAReviewerDecisions.cs" />
+    <Compile Include="WebParts\PAReviewerDecisions\PAReviewerDecisionsUserControl.ascx.cs">
+      <DependentUpon>PAReviewerDecisionsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDecisions\PAReviewerDecisionsUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewerDecisionsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplayApplicantDetails\PAReviewerDisplayApplicantDetails.cs" />
+    <Compile Include="WebParts\PAReviewerDisplayApplicantDetails\PAReviewerDisplayApplicantDetailsUserControl.ascx.cs">
+      <DependentUpon>PAReviewerDisplayApplicantDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplayApplicantDetails\PAReviewerDisplayApplicantDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewerDisplayApplicantDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplayRequestDetails\PAReviewerDisplayRequestDetails.cs" />
+    <Compile Include="WebParts\PAReviewerDisplayRequestDetails\PAReviewerDisplayRequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PAReviewerDisplayRequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplayRequestDetails\PAReviewerDisplayRequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewerDisplayRequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplaySimilarRequestDetails\PAReviewerDisplaySimilarRequestDetails.cs" />
+    <Compile Include="WebParts\PAReviewerDisplaySimilarRequestDetails\PAReviewerDisplaySimilarRequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PAReviewerDisplaySimilarRequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerDisplaySimilarRequestDetails\PAReviewerDisplaySimilarRequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewerDisplaySimilarRequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerRecommendations\PAReviewerRecommendations.cs" />
+    <Compile Include="WebParts\PAReviewerRecommendations\PAReviewerRecommendationsUserControl.ascx.cs">
+      <DependentUpon>PAReviewerRecommendationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewerRecommendations\PAReviewerRecommendationsUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewerRecommendationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAReviewRequest\PAReviewRequest.cs" />
+    <Compile Include="WebParts\PAReviewRequest\PAReviewRequestUserControl.ascx.cs">
+      <DependentUpon>PAReviewRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAReviewRequest\PAReviewRequestUserControl.ascx.designer.cs">
+      <DependentUpon>PAReviewRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PASearchStatusRecommendation\PASearchStatusRecommendation.cs" />
+    <Compile Include="WebParts\PASearchStatusRecommendation\PASearchStatusRecommendationUserControl.ascx.cs">
+      <DependentUpon>PASearchStatusRecommendationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PASearchStatusRecommendation\PASearchStatusRecommendationUserControl.ascx.designer.cs">
+      <DependentUpon>PASearchStatusRecommendationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PASecretarySearch\PASecretarySearch.cs" />
+    <Compile Include="WebParts\PASecretarySearch\PASecretarySearchUserControl.ascx.cs">
+      <DependentUpon>PASecretarySearchUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PASecretarySearch\PASecretarySearchUserControl.ascx.designer.cs">
+      <DependentUpon>PASecretarySearchUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PASrchSimilarRequests\PASrchSimilarRequests.cs" />
+    <Compile Include="WebParts\PASrchSimilarRequests\PASrchSimilarRequestsUserControl.ascx.cs">
+      <DependentUpon>PASrchSimilarRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PASrchSimilarRequests\PASrchSimilarRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>PASrchSimilarRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAStatementRequestDetails\PAStatementRequestDetails.cs" />
+    <Compile Include="WebParts\PAStatementRequestDetails\PAStatementRequestDetailsUserControl.ascx.cs">
+      <DependentUpon>PAStatementRequestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAStatementRequestDetails\PAStatementRequestDetailsUserControl.ascx.designer.cs">
+      <DependentUpon>PAStatementRequestDetailsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAStatementRequests\PAStatementRequests.cs" />
+    <Compile Include="WebParts\PAStatementRequests\PAStatementRequestsUserControl.ascx.cs">
+      <DependentUpon>PAStatementRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAStatementRequests\PAStatementRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>PAStatementRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PATechCommitteeDecision\PATechCommitteeDecision.cs" />
+    <Compile Include="WebParts\PATechCommitteeDecision\PATechCommitteeDecisionUserControl.ascx.cs">
+      <DependentUpon>PATechCommitteeDecisionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PATechCommitteeDecision\PATechCommitteeDecisionUserControl.ascx.designer.cs">
+      <DependentUpon>PATechCommitteeDecisionUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAViewFinalDecisions\PAViewFinalDecisions.cs" />
+    <Compile Include="WebParts\PAViewFinalDecisions\PAViewFinalDecisionsUserControl.ascx.cs">
+      <DependentUpon>PAViewFinalDecisionsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAViewFinalDecisions\PAViewFinalDecisionsUserControl.ascx.designer.cs">
+      <DependentUpon>PAViewFinalDecisionsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAViewSimilarRequests\PAViewSimilarRequests.cs" />
+    <Compile Include="WebParts\PAViewSimilarRequests\PaViewSimilarRequestsUserControl.ascx.cs">
+      <DependentUpon>PaViewSimilarRequestsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAViewSimilarRequests\PaViewSimilarRequestsUserControl.ascx.designer.cs">
+      <DependentUpon>PaViewSimilarRequestsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PAViewStatusAndRecommendation\PAViewStatusAndRecommendation.cs" />
+    <Compile Include="WebParts\PAViewStatusAndRecommendation\PAViewStatusAndRecommendationUserControl.ascx.cs">
+      <DependentUpon>PAViewStatusAndRecommendationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\PAViewStatusAndRecommendation\PAViewStatusAndRecommendationUserControl.ascx.designer.cs">
+      <DependentUpon>PAViewStatusAndRecommendationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\Sample\Sample.cs" />
+    <Compile Include="WebParts\Sample\SampleUserControl.ascx.cs">
+      <DependentUpon>SampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\Sample\SampleUserControl.ascx.designer.cs">
+      <DependentUpon>SampleUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\TestWebPart\TestWebPart.cs" />
+    <Compile Include="WebParts\TestWebPart\TestWebPartUserControl.ascx.cs">
+      <DependentUpon>TestWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\TestWebPart\TestWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>TestWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Applicant\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b3efc10-f186-439e-a79e-62dfd6bd0bb0}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c8c6913-b4c8-40bd-84f8-605831757a87}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ApplicantClarificationReplyPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{182dcc0d-a39c-49ce-aa08-a01601cf8d1d}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\AssistantUndersecretaryReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11120fef-d2cb-4702-940e-b650d8739999}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\HeadManagerReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55562e4a-ff64-4a9c-9a09-7c1461598085}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\LegalEmpReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{33d007d4-788c-4e01-8223-daf70af7376e}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ProgramEmployeeDecisionPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a9ef372-d52f-4b93-a6ba-13402b451291}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ProgramEmployeeReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e360e7b7-f9a9-452c-aa57-8c765e8f902f}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ProgramManagerReviewRecPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aae88828-f2b4-42df-add5-2b776ffb8771}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ProgramManagerReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e1e15cd-10b4-4ea0-8fe2-0e3a1cba6ae9}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\ReceptionistReviewPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{66c2db2a-918b-43a1-be76-196ecd5f1d9b}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\TechCommitteeReviewFromAssistPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a90afa87-fcee-4eaf-9ffc-8c0600c0a33a}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\TechCommitteeReviewFromHeadMgrPA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2df706d5-6289-46d0-ad95-70d6297a2a53}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{76f47155-73a4-4cbe-8fb0-e1cccde6475e}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Applicant\Applicant.feature">
+      <FeatureId>{e29d6484-6bc4-4987-abf4-6006e41acca7}</FeatureId>
+    </None>
+    <None Include="Features\WebParts\WebParts.feature">
+      <FeatureId>{4907fb6d-4b98-42bf-8de1-04164da7784c}</FeatureId>
+    </None>
+    <None Include="Features\Site\Site.feature">
+      <FeatureId>{821a0727-1274-4afb-95d6-c44441df3a90}</FeatureId>
+    </None>
+    <None Include="Features\Reviewer\Reviewer.feature">
+      <FeatureId>{d3bb0bfc-82f8-4665-8ff4-d75f144b94d7}</FeatureId>
+    </None>
+    <None Include="Features\Web\Web.feature">
+      <FeatureId>{cc0359f3-1778-4f35-916b-2cbb3fe3a5df}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{412b9abc-8ddb-43a5-936b-b9a8524057b9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAAssistSecretaryProcedures\PAAssistSecretaryProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{de6dfba8-19f8-4e17-af85-b8252c6ef44d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAAssistSecretaryProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52423d10-3b7c-479b-b93f-1300451b0fd6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACalculatedDetailsForCertificateAttachments\PACalculatedDetailsForCertificateAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd0e8f73-6587-4ac8-a0dd-6b39aace6b8e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACalculatedDetailsForCertificateAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{321dc395-e4a6-424e-b104-f1a865966196}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACalculatedDetailsForCertificate\PACalculatedDetailsForCertificateInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{264ca719-45f1-48e0-b920-91c20aec5ac0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACalculatedDetailsForCertificate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{745ec7fa-6cbb-4597-820e-1483dcba9a36}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACertificatesAttachments\PACertificatesAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{81233bc5-c4c1-4bf0-8a38-bda9b25c18f4}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PACertificatesAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa1b3afd-2b18-41d8-a8b2-306c24416e31}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAClarificationsRequests\PAClarificationsRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef0a9923-4660-449e-bb50-b37da6e1085d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAClarificationsRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e7837006-a2a7-481d-8e1c-41c7caf47e6e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADecisions\PADecisionsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ac417453-4140-489a-a18a-7f2169d29b43}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADecisions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55d8c112-7e73-4e6f-93b7-1a2fbbaf8682}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADelegationDocuments\PADelegationDocumentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f29dabc-65fe-4d17-8adb-3e97b633092d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADelegationDocuments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{084eae43-a4bb-4740-a4d2-168539cbc384}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADepartmentManagerProcedures\PADepartmentManagerInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f5ceee38-77b2-4a97-aeb5-8bf76054ccaa}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PADepartmentManagerProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a2ecc797-dcea-42f0-b12a-75f85b78d727}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEquationOfficerProcedures\PAEquationOfficerProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{01b12f4d-f7e5-4a80-95e1-3b5db2701571}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEquationOfficerProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{868e1f8b-135a-4662-b911-b29f14719a8c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommTemplates\PAExternalCommTemplatesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e265891c-c341-42e8-a3da-24672f9ce975}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{325fa4b4-b31e-4361-8d25-18285350e55c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommunicationAttachements\PAExternalCommunicationAttachementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{40c0beba-18d2-4467-85cc-e7cf9c266825}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommunicationAttachements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99c88186-ac99-4bab-b6af-1d920ad33abe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommunications\PAExternalCommunicationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9389a3d4-5307-4ffd-9345-8f792b6b04c0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAExternalCommunications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68408be8-b35b-4543-a6ee-9cdf25657e5b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PALegalAffairsAttachements\PALegalAffairsAttachementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec7543b4-da26-4c42-a3a7-dadc8c8df06f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PALegalAffairsAttachements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4d340604-7c2d-4243-a6d4-a04760b75811}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PALegalOfficerProcedures\PALegalOfficerProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d053d2d1-cd3d-4ff2-9099-7fe222d5e025}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PALegalOfficerProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bf28eabe-08bd-4d5f-ac22-be3825a1b384}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequestsAttachments\PARequestsAttachmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{595fbc4a-cce0-48dc-9815-20c13ab6c419}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequestsAttachments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{41a62bd0-4c8a-45d3-8e96-d3dbb984f6e0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAPaymentRecords\PAPaymentRecordsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bc32410a-9576-4372-9fce-6c3c1c9c6d1a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAPaymentRecords\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c5f0c9e1-4188-4be7-b93d-4237d46bddbc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgEmpStatusandRecomAttachements\PAProgEmpStatusandRecomAttachementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{84ba6ad6-7886-4365-9145-3915fd288ad8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgEmpStatusandRecomAttachements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{995672eb-8b91-42eb-bd9f-4f753e5b0237}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgramManagerProcedures\PAProgramManagerProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2ca8b0c-a40b-4f48-bb2d-a3d7cefe50ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgramManagerProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d79ae309-d727-45a4-a516-ec5b66ebde78}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgramManagerRecommendation\PAProgramManagerRecommendationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54dabdc5-4535-45d4-a9f0-379e21e1ac98}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAProgramManagerRecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b37287d3-919a-44e1-a9b8-cf4107fe0b7b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAReceptionProcedures\PAReceptionProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{563f05ac-74b5-4769-9930-4f642debf2ad}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAReceptionProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1252d71-65a8-4b69-835a-fb0433a3d91a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequestsHistory\PARequestsHistoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6fc3e346-6184-4ab8-886e-28dd6a5ebea4}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequestsHistory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e8aaa5e0-be33-4963-9831-1568b40cf21a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequests\PARequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1712005c-fe77-4d36-9aed-8854ab95de51}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef350902-96b4-4021-b0af-e8d0eea910df}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARolesNavigationLinks\PARolesNavigationLinksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e08937df-7f0e-4a0d-91ef-fb0bd38a1bb9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PARolesNavigationLinks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{76567daf-dd1c-4aba-bb40-484ffc7aa3c6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PASchools\PASchoolsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6bdbbe49-82f4-4913-ae35-0df5dce5e529}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PASchools\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f7bb772-5052-4f80-81a2-c15cd9650f2b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PASimilarRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{acc0bd77-d792-498f-9aaa-38e288918518}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PASimilarRequests\PASimilarRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3db4073-fb83-45b5-93de-af464dd3da95}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAStatementReqReplyAttachements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{23753533-9ab5-4c55-8add-452a6add8e77}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAStatementReqReplyAttachements\PAStatementReqReplyAttachementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8c55aa6b-61b1-4e9a-886f-97df1124ff29}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAStatementRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11fd0f36-0534-4311-b0f4-f59dfe7077c6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAStatementRequests\PAStatementRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{08f91457-6764-4aad-ba60-c718d5c43101}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PATechCommitteeAttachements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{045867e9-62a5-4e6f-a420-27af09348884}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PATechCommitteeAttachements\PATechCommitteeAttachementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5317bf7b-b18f-4632-9498-a48672dee0b5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PATechCommitteeProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb96c598-9c9a-4b16-b027-a25c721486af}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PATechCommitteeProcedures\PATechCommitteeProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a3989eff-5af3-46ca-a8ba-7c439776b78c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEmployeeDecisions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{095bf2d4-31d8-4226-a24d-fa483aad89fa}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEmployeeDecisions\PAEmployeeDecisionsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3d51ca13-2393-4425-86c5-4e53ad0f7391}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEmployeeProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c7aa7112-11e3-4d4c-8cb4-1b5693fd1d2a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PAEmployeeProcedures\PAEmployeeProceduresInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{96b5603d-0412-42af-9e09-2040b8beedc6}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{b423fbba-8a69-4d62-b8cb-88512c03d15f}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bef848ab-47b4-491d-b1d5-151a6d6a0b86}</SharePointProjectItemId>
+    </None>
+    <None Include="Reviewer\SharePointProjectItem.spdata">
+      <SubType>Designer</SubType>
+      <SharePointProjectItemId>{9be142f3-edcb-4b79-bbfb-ad240106ec2c}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\nintex.contenttype.bat" />
+    <None Include="WebParts\ApplicantRequestsClosed\ApplicantRequestsClosed.webpart" />
+    <None Include="WebParts\ApplicantRequestsClosed\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{526d0d3a-f469-415f-b1c2-0e7cd693ed3a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAApplicantDetails\PAApplicantDetails.webpart" />
+    <None Include="WebParts\PAApplicantDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73415a53-d57c-497a-8c28-85bed9fb8e2a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAClarificationRequestDetails\PAClarificationRequestDetails.webpart" />
+    <None Include="WebParts\PAClarificationRequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{425fb492-95b5-4ccb-84a7-aab7ec1a01dc}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAClarificationRequests\PAClarificationRequests.webpart" />
+    <None Include="WebParts\PAClarificationRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{122e9344-a237-44e3-8b63-d173d9684d12}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PADisplayRequest\PADisplayRequest.webpart" />
+    <None Include="WebParts\PADisplayRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b4190b61-f924-49e9-be14-98c71be428a6}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAEmployeeDashboard\PAEmployeeDashboard.webpart" />
+    <None Include="WebParts\PAEmployeeDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1bd8dc1e-a4d1-470c-b7e2-79eac60136fd}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAEquationOfficerProceduresWP\PAEquationOfficerProceduresWP.webpart" />
+    <None Include="WebParts\PAEquationOfficerProceduresWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63d60483-8c91-47e7-95b5-783d204cf623}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAExternalCommunicationDetails\PAExternalCommunicationDetails.webpart" />
+    <None Include="WebParts\PAExternalCommunicationDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7836c309-04eb-4227-b527-62c5b25f9674}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAExternalCommunications\PAExternalCommunications.webpart" />
+    <None Include="WebParts\PAExternalCommunications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47ca2d9f-c81e-4d15-bdca-725c03564540}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAHeadManagerDecision\PAHeadManagerDecision.webpart" />
+    <None Include="WebParts\PAHeadManagerDecision\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73aed7db-a5f9-4f0d-964e-b2cf9f8387b6}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAHistoricalRecords\PAHistoricalRecords.webpart" />
+    <None Include="WebParts\PAHistoricalRecords\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{03c66c15-7b06-44ec-b7c0-25ebecaf4876}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAManageRequestDetails\PAManageRequestDetails.webpart" />
+    <None Include="WebParts\PAManageRequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{175b0ff4-84b3-47de-8c24-e4eb51cc5f8f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAMyRequests\PAMyRequests.webpart" />
+    <None Include="WebParts\PAMyRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a5bb3c60-f568-497b-b678-3d0794847256}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PANewRequest\PANewRequest.webpart" />
+    <None Include="WebParts\PANewRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3ad48831-6ce4-4bf1-b938-aa3592859f2e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAPaymentRecords\PAPaymentRecords.webpart" />
+    <None Include="WebParts\PAPaymentRecords\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a77578d-d2c2-4146-9f65-d583b207c88a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedureReceptionistDetails\PAProcedureReceptionistDetails.webpart" />
+    <None Include="WebParts\PAProcedureReceptionistDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d4e6c4b-c548-4717-9cae-01ec85d70ab9}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProceduresReceptionist\PAProceduresReceptionist.webpart" />
+    <None Include="WebParts\PAProceduresReceptionist\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8dd6f9e8-57d4-4078-9526-faadf25504a7}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedures_AssistSecretaryListing\PAProcedures_AssistSecretaryListing.webpart" />
+    <None Include="WebParts\PAProcedures_AssistSecretaryListing\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f01cb87f-9da2-4757-9583-745ddb1f5f40}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedures_DeptManagerListing\PaProcedures_DeptManagerListing.webpart" />
+    <None Include="WebParts\PAProcedures_DeptManagerListing\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cc7f76fd-0841-4785-8c25-3007523613be}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedures_LegalAffairsInitOpinion\PAProcedures_LegalAffairsInitOpinion.webpart" />
+    <None Include="WebParts\PAProcedures_LegalAffairsInitOpinion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a1b011a-864b-4478-ae5b-b73280bd9e3e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListing.webpart" />
+    <None Include="WebParts\PAProcedures_TechCommitteeListing\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ca00588-bffb-4853-9486-6b0c9c7f494b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedure_AssistSecretaryDetails\PAProcedure_AssistSecretaryDetails.webpart" />
+    <None Include="WebParts\PAProcedure_AssistSecretaryDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c9b43e3-bba0-4da8-ac95-b25f929e7a8f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedure_DeptManagerDetails\PAProcedure_DeptManagerDetails.webpart" />
+    <None Include="WebParts\PAProcedure_DeptManagerDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c37b13c2-d317-407c-9e0a-d92be00c929e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProcedure_TechCommitteeDetails\PAProcedure_TechCommitteeDetails.webpart" />
+    <None Include="WebParts\PAProcedure_TechCommitteeDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eae26cf2-6611-4d8b-b7cc-a51faf6e871d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProgManagerProcedureDetails\PaProgManagerProcedureDetails.webpart" />
+    <None Include="WebParts\PAProgManagerProcedureDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b096287e-3b7f-4dbe-aacc-b02a524c6cf0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProgramEmpClarifications\PAProgramEmpClarifications.webpart" />
+    <None Include="WebParts\PAProgramEmpClarifications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0de76264-36a3-400c-b38a-5f9ab5b74033}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAProgramManagerProcedures\PAProgramManagerProcedures.webpart" />
+    <None Include="WebParts\PAProgramManagerProcedures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ee1c61c6-c160-4c67-9ed1-70acc20ad941}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PARecommendations\PARecommendations.webpart" />
+    <None Include="WebParts\PARecommendations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e5b2755b-02fd-4df5-952b-0cdad41554be}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PARequestDetails\PARequestDetails.webpart" />
+    <None Include="WebParts\PARequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b984d750-cb81-4b22-ab18-f03f8ecc3487}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewerDecisions\PAReviewerDecisions.webpart" />
+    <None Include="WebParts\PAReviewerDecisions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a88b03ca-4491-4c78-8a28-c39e7fd86fd3}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewerDisplayApplicantDetails\PAReviewerDisplayApplicantDetails.webpart" />
+    <None Include="WebParts\PAReviewerDisplayApplicantDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{230b1214-9bfa-4459-9762-2f24bad1ebe6}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewerDisplayRequestDetails\PAReviewerDisplayRequestDetails.webpart" />
+    <None Include="WebParts\PAReviewerDisplayRequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{09d7b2a7-bd42-4a64-a5e4-76c57e52c4fb}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewerDisplaySimilarRequestDetails\PAReviewerDisplaySimilarRequestDetails.webpart" />
+    <None Include="WebParts\PAReviewerDisplaySimilarRequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52575ce6-ec8c-44ab-9c50-ff7297adef92}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewerRecommendations\PAReviewerRecommendations.webpart" />
+    <None Include="WebParts\PAReviewerRecommendations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1cd77243-c076-46a8-a9f0-2007bf2d819b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAReviewRequest\PAReviewRequest.webpart" />
+    <None Include="WebParts\PAReviewRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{397bff36-9710-46c5-9a3a-a429bbee00f2}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PASearchStatusRecommendation\PASearchStatusRecommendation.webpart" />
+    <None Include="WebParts\PASearchStatusRecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7c04bebe-4a57-4a5a-ae3a-78a9890a870e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PASecretarySearch\PASecretarySearch.webpart" />
+    <None Include="WebParts\PASecretarySearch\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3bd792e2-6731-44f7-83e0-59adc9da3576}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PASrchSimilarRequests\PASrchSimilarRequests.webpart" />
+    <None Include="WebParts\PASrchSimilarRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{507732dc-d557-4735-b945-01b484da6dca}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAStatementRequestDetails\PAStatementRequestDetails.webpart" />
+    <None Include="WebParts\PAStatementRequestDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e5f101b8-b8cd-40f3-a70e-c8d59dfca5cc}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAStatementRequests\PAStatementRequests.webpart" />
+    <None Include="WebParts\PAStatementRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f457ba85-a6ea-4f24-96f8-62c703cfded1}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PATechCommitteeDecision\PATechCommitteeDecision.webpart" />
+    <None Include="WebParts\PATechCommitteeDecision\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{18f5e317-48fc-4d0a-98e9-59685fe535bd}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAViewFinalDecisions\PAViewFinalDecisions.webpart" />
+    <None Include="WebParts\PAViewFinalDecisions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c9479f4-80d2-4955-aece-d747d126e47b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAViewSimilarRequests\PAViewSimilarRequests.webpart" />
+    <None Include="WebParts\PAViewSimilarRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{236a5567-e1ac-4019-865f-00a5f1dc8c78}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PAViewStatusAndRecommendation\PAViewStatusAndRecommendation.webpart" />
+    <None Include="WebParts\PAViewStatusAndRecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52135fd1-d1b4-4abb-84e8-46fcf3d1e7e8}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\Sample\Sample.webpart" />
+    <None Include="WebParts\Sample\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e0b9c903-0e8b-4573-9bfa-cbadf3f22671}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TestWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{30397ea2-1e22-496a-9711-e1ea87aa361a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TestWebPart\TestWebPart.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Applicant\PAApplicantDetails.aspx" />
+    <Content Include="Applicant\Elements.xml" />
+    <Content Include="Applicant\ManagePARequestDetails.aspx" />
+    <Content Include="Applicant\ManagePARequest.aspx" />
+    <Content Include="Applicant\NewPARequest.aspx" />
+    <Content Include="Applicant\DisplayPARequest.aspx" />
+    <Content Include="Applicant\PAClarificationReqDetails.aspx" />
+    <Content Include="Applicant\PAClarificationRequestsListing.aspx" />
+    <Content Include="Applicant\PAHistoricalRecords.aspx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\ApplicantRequestsClosed.ascx" />
+    <Content Include="Features\Applicant\Applicant.Template.xml">
+      <DependentUpon>Applicant.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\WebParts\WebParts.Template.xml">
+      <DependentUpon>WebParts.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Site\Site.Template.xml">
+      <DependentUpon>Site.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Reviewer\Reviewer.Template.xml">
+      <DependentUpon>Reviewer.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Web\Web.Template.xml">
+      <DependentUpon>Web.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\Applicant.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\ApplicationPage1.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\AssistantUndersecretary.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\CascadingDropdowns.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\DepartmentManager.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\LegalAffairs.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryAndSecondaryEmployee.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\PrimaryEmployee.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\ProgramEmployee.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\ProgramManager.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\Receptionist.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitte.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.PA\TechnicalCommitteUnderSec.aspx" />
+    <Content Include="Lists\PASchools\Elements.xml" />
+    <Content Include="Lists\PASchools\PASchoolsInstance\Elements.xml" />
+    <Content Include="Lists\PASchools\Schema.xml" />
+    <Content Include="Reviewer\PAApplicantRequestsClosed.aspx" />
+    <Content Include="Reviewer\PAArabicAsianProgramEmployeeDashboard.aspx" />
+    <Content Include="Reviewer\PAAsianAndEuropianEmployeeReviewRequest.aspx" />
+    <Content Include="Reviewer\PAClarificationReqDetails.aspx" />
+    <Content Include="Reviewer\PAClarificationRequestsListing.aspx" />
+    <Content Include="Reviewer\PACulturalMissionEmployeeDashboard.aspx" />
+    <Content Include="Reviewer\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reviewer\PAEmployeeDashboard.aspx" />
+    <Content Include="Reviewer\PAEuropeanProgramEmployeeDashboard.aspx" />
+    <Content Include="Reviewer\PAExternalCommDetails.aspx" />
+    <Content Include="Reviewer\PAExternalCommunicationsListing.aspx" />
+    <Content Include="Reviewer\PAHeadManagerDashboard.aspx" />
+    <Content Include="Reviewer\PAHeadManagerReviewRequest.aspx" />
+    <Content Include="Reviewer\PAHeadManagerViewDecision.aspx" />
+    <Content Include="Reviewer\PAHigherEducationalInstitutionsDashboard.aspx" />
+    <Content Include="Reviewer\PAHistoricalRecords.aspx" />
+    <Content Include="Reviewer\PALegalEmployeeDashboard.aspx" />
+    <Content Include="Reviewer\PALegalEmployeeReviewRequest.aspx" />
+    <Content Include="Reviewer\PAPaymentRecords.aspx" />
+    <Content Include="Reviewer\PAProcedureAssistSecretaryDetails.aspx" />
+    <Content Include="Reviewer\PAProcedureDepartManagerDetails.aspx" />
+    <Content Include="Reviewer\PAProcedureReceptionistDetails.aspx" />
+    <Content Include="Reviewer\PAProceduresAssistSecretaryListing.aspx" />
+    <Content Include="Reviewer\PAProceduresDeptManagerListing.aspx" />
+    <Content Include="Reviewer\PAProceduresLegalAffairsOpinion.aspx" />
+    <Content Include="Reviewer\PAProceduresProgramEmployeeDetails.aspx" />
+    <Content Include="Reviewer\PAProceduresProgramEmployeeListing.aspx" />
+    <Content Include="Reviewer\PAProceduresReceptionistListing.aspx" />
+    <Content Include="Reviewer\PAProceduresTechCommitteListing.aspx" />
+    <Content Include="Reviewer\PAProcedureTechCommitteeDetails.aspx" />
+    <Content Include="Reviewer\PAProgramEmployeeClarificationReqs.aspx" />
+    <Content Include="Reviewer\PAProgramEmployeeRequest.aspx" />
+    <Content Include="Reviewer\PAProgramManagerDashboard.aspx" />
+    <Content Include="Reviewer\PAProgramManagerProcDetails.aspx" />
+    <Content Include="Reviewer\PAProgramManagerProcedureListing.aspx" />
+    <Content Include="Reviewer\PAProgramManagerRecommendListing.aspx" />
+    <Content Include="Reviewer\PAProgramManagerReviewRequest.aspx" />
+    <Content Include="Reviewer\PAReceptionistDashboard.aspx" />
+    <Content Include="Reviewer\PAReceptionistReviewRequest.aspx" />
+    <Content Include="Reviewer\PAReviewerDecisions.aspx" />
+    <Content Include="Reviewer\PAReviewerDisplayApplicantDetails.aspx" />
+    <Content Include="Reviewer\PAReviewerDisplayRequestDetails.aspx" />
+    <Content Include="Reviewer\PAReviewerDisplaySimilarRequestDetails.aspx" />
+    <Content Include="Reviewer\PAReviewerRecommendations.aspx" />
+    <Content Include="Reviewer\PASearchSimilarRequests.aspx" />
+    <Content Include="Reviewer\PASearchStatusRecommendation.aspx" />
+    <Content Include="Reviewer\PASecretaryDashboard.aspx" />
+    <Content Include="Reviewer\PAStatementRequestDetails.aspx" />
+    <Content Include="Reviewer\PAStatementRequestsListing.aspx" />
+    <Content Include="Reviewer\PATechCommitteDecisions.aspx" />
+    <Content Include="Reviewer\PATechnicalCommitteeDashboard.aspx" />
+    <Content Include="Reviewer\PATechnicalCommitteeReviewRequest.aspx" />
+    <Content Include="Reviewer\PAViewFinalDecision.aspx" />
+    <Content Include="Reviewer\PAViewSimilarRequests.aspx" />
+    <Content Include="WebParts\ApplicantRequestsClosed\ApplicantRequestsClosedUserControl.ascx" />
+    <Content Include="WebParts\ApplicantRequestsClosed\Elements.xml" />
+    <Content Include="WebParts\PAApplicantDetails\Elements.xml" />
+    <Content Include="WebParts\PAApplicantDetails\PAApplicantDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAClarificationRequestDetails\Elements.xml" />
+    <Content Include="WebParts\PAClarificationRequestDetails\PAClarificationRequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAClarificationRequests\Elements.xml" />
+    <Content Include="WebParts\PAClarificationRequests\PAClarificationRequestsUserControl.ascx" />
+    <Content Include="WebParts\PADisplayRequest\Elements.xml" />
+    <Content Include="WebParts\PADisplayRequest\PADisplayRequestUserControl.ascx" />
+    <Content Include="WebParts\PAEmployeeDashboard\Elements.xml" />
+    <Content Include="WebParts\PAEmployeeDashboard\PAEmployeeDashboardUserControl.ascx" />
+    <Content Include="WebParts\PAEquationOfficerProceduresWP\Elements.xml" />
+    <Content Include="WebParts\PAEquationOfficerProceduresWP\PAEquationOfficerProceduresWPUserControl.ascx" />
+    <Content Include="WebParts\PAExternalCommunicationDetails\Elements.xml" />
+    <Content Include="WebParts\PAExternalCommunicationDetails\PAExternalCommunicationDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAExternalCommunications\Elements.xml" />
+    <Content Include="WebParts\PAExternalCommunications\PAExternalCommunicationsUserControl.ascx" />
+    <Content Include="WebParts\PAHeadManagerDecision\Elements.xml" />
+    <Content Include="WebParts\PAHeadManagerDecision\PAHeadManagerDecisionUserControl.ascx" />
+    <Content Include="WebParts\PAHistoricalRecords\Elements.xml" />
+    <Content Include="WebParts\PAHistoricalRecords\PAHistoricalRecordsUserControl.ascx" />
+    <Content Include="WebParts\PAManageRequestDetails\Elements.xml" />
+    <Content Include="WebParts\PAManageRequestDetails\PAManageRequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAMyRequests\Elements.xml" />
+    <Content Include="WebParts\PAMyRequests\PAMyRequestsUserControl.ascx" />
+    <Content Include="WebParts\PANewRequest\Elements.xml" />
+    <Content Include="WebParts\PANewRequest\PANewRequestUserControl.ascx" />
+    <Content Include="WebParts\PAPaymentRecords\Elements.xml" />
+    <Content Include="WebParts\PAPaymentRecords\PAPaymentRecordsUserControl.ascx" />
+    <Content Include="WebParts\PAProcedureReceptionistDetails\Elements.xml" />
+    <Content Include="WebParts\PAProcedureReceptionistDetails\PAProcedureReceptionistDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAProceduresReceptionist\Elements.xml" />
+    <Content Include="WebParts\PAProceduresReceptionist\PAProceduresReceptionistUserControl.ascx" />
+    <Content Include="WebParts\PAProcedures_AssistSecretaryListing\Elements.xml" />
+    <Content Include="WebParts\PAProcedures_AssistSecretaryListing\PAProcedures_AssistSecretaryListingUserControl.ascx" />
+    <Content Include="WebParts\PAProcedures_DeptManagerListing\Elements.xml" />
+    <Content Include="WebParts\PAProcedures_DeptManagerListing\PAProcedures_DeptManagerListingUserControl.ascx" />
+    <Content Include="WebParts\PAProcedures_LegalAffairsInitOpinion\Elements.xml" />
+    <Content Include="WebParts\PAProcedures_LegalAffairsInitOpinion\PAProcedures_LegalAffairsInitOpinionUserControl.ascx" />
+    <Content Include="WebParts\PAProcedures_TechCommitteeListing\Elements.xml" />
+    <Content Include="WebParts\PAProcedures_TechCommitteeListing\PAProcedures_TechCommitteeListingUserControl.ascx" />
+    <Content Include="WebParts\PAProcedure_AssistSecretaryDetails\Elements.xml" />
+    <Content Include="WebParts\PAProcedure_AssistSecretaryDetails\PAProcedure_AssistSecretaryDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAProcedure_DeptManagerDetails\Elements.xml" />
+    <Content Include="WebParts\PAProcedure_DeptManagerDetails\PAProcedure_DeptManagerDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAProcedure_TechCommitteeDetails\Elements.xml" />
+    <Content Include="WebParts\PAProcedure_TechCommitteeDetails\PAProcedure_TechCommitteeDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAProgManagerProcedureDetails\Elements.xml" />
+    <Content Include="WebParts\PAProgManagerProcedureDetails\PAProgManagerProcedureDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAProgramEmpClarifications\Elements.xml" />
+    <Content Include="WebParts\PAProgramEmpClarifications\PAProgramEmpClarificationsUserControl.ascx" />
+    <Content Include="WebParts\PAProgramManagerProcedures\Elements.xml" />
+    <Content Include="WebParts\PAProgramManagerProcedures\PAProgramManagerProceduresUserControl.ascx" />
+    <Content Include="WebParts\PARecommendations\Elements.xml" />
+    <Content Include="WebParts\PARecommendations\PARecommendationsUserControl.ascx" />
+    <Content Include="WebParts\PARequestDetails\Elements.xml" />
+    <Content Include="WebParts\PARequestDetails\PARequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewerDecisions\Elements.xml" />
+    <Content Include="WebParts\PAReviewerDecisions\PAReviewerDecisionsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewerDisplayApplicantDetails\Elements.xml" />
+    <Content Include="WebParts\PAReviewerDisplayApplicantDetails\PAReviewerDisplayApplicantDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewerDisplayRequestDetails\Elements.xml" />
+    <Content Include="WebParts\PAReviewerDisplayRequestDetails\PAReviewerDisplayRequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewerDisplaySimilarRequestDetails\Elements.xml" />
+    <Content Include="WebParts\PAReviewerDisplaySimilarRequestDetails\PAReviewerDisplaySimilarRequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewerRecommendations\Elements.xml" />
+    <Content Include="WebParts\PAReviewerRecommendations\PAReviewerRecommendationsUserControl.ascx" />
+    <Content Include="WebParts\PAReviewRequest\Elements.xml" />
+    <Content Include="WebParts\PAReviewRequest\PAReviewRequestUserControl.ascx" />
+    <Content Include="WebParts\PASearchStatusRecommendation\Elements.xml" />
+    <Content Include="WebParts\PASearchStatusRecommendation\PASearchStatusRecommendationUserControl.ascx" />
+    <Content Include="WebParts\PASecretarySearch\Elements.xml" />
+    <Content Include="WebParts\PASecretarySearch\PASecretarySearchUserControl.ascx" />
+    <Content Include="WebParts\PASrchSimilarRequests\Elements.xml" />
+    <Content Include="WebParts\PASrchSimilarRequests\PASrchSimilarRequestsUserControl.ascx" />
+    <Content Include="WebParts\PAStatementRequestDetails\Elements.xml" />
+    <Content Include="WebParts\PAStatementRequestDetails\PAStatementRequestDetailsUserControl.ascx" />
+    <Content Include="WebParts\PAStatementRequests\Elements.xml" />
+    <Content Include="WebParts\PAStatementRequests\PAStatementRequestsUserControl.ascx" />
+    <Content Include="WebParts\PATechCommitteeDecision\Elements.xml" />
+    <Content Include="WebParts\PATechCommitteeDecision\PATechCommitteeDecisionUserControl.ascx" />
+    <Content Include="WebParts\PAViewFinalDecisions\Elements.xml" />
+    <Content Include="WebParts\PAViewFinalDecisions\PAViewFinalDecisionsUserControl.ascx" />
+    <Content Include="WebParts\PAViewSimilarRequests\Elements.xml" />
+    <Content Include="WebParts\PAViewSimilarRequests\PaViewSimilarRequestsUserControl.ascx" />
+    <Content Include="WebParts\PAViewStatusAndRecommendation\Elements.xml" />
+    <Content Include="WebParts\PAViewStatusAndRecommendation\PAViewStatusAndRecommendationUserControl.ascx" />
+    <Content Include="WebParts\Sample\Elements.xml" />
+    <Content Include="WebParts\Sample\SampleUserControl.ascx" />
+    <Content Include="WebParts\TestWebPart\Elements.xml" />
+    <Content Include="WebParts\TestWebPart\TestWebPartUserControl.ascx" />
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_PA.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_PA.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX_MOEHEWF_PA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Resources\ITWORX_MOEHEWF_PA.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\ITWORX_MOEHEWF_PA.en-US.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\ITWORX_MOEHEWF_PA.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ITWORX_MOEHEWF_PA.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContentTypes\ApplicantClarificationReplyPA\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ContentTypes\AssistantUndersecretaryReviewPA\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ContentTypes\HeadManagerReviewPA\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ContentTypes\LegalEmpReviewPA\Elements.xml" />
+    <Content Include="ContentTypes\ProgramEmployeeDecisionPA\Elements.xml" />
+    <Content Include="ContentTypes\ProgramEmployeeReviewPA\Elements.xml" />
+    <Content Include="ContentTypes\ProgramManagerReviewRecPA\Elements.xml" />
+    <Content Include="ContentTypes\ProgramManagerReviewPA\Elements.xml" />
+    <Content Include="ContentTypes\ReceptionistReviewPA\Elements.xml" />
+    <Content Include="ContentTypes\TechCommitteeReviewFromAssistPA\Elements.xml" />
+    <Content Include="ContentTypes\TechCommitteeReviewFromHeadMgrPA\Elements.xml" />
+    <Content Include="DatePicker\CSS\images\ui-icons_444444_256x240.png" />
+    <Content Include="DatePicker\CSS\images\ui-icons_555555_256x240.png" />
+    <Content Include="DatePicker\CSS\jquery-ui.css" />
+    <Content Include="DatePicker\Scripts\jquery-1.12.4.js" />
+    <Content Include="DatePicker\Scripts\jquery-ui.js" />
+    <Content Include="DatePicker\Scripts\jquery.min.js" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_AssistSecretaryProc.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_Clarification.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_DepartmentManagerProc.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_FinalDecision.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_LegalAffairsProcOpinion.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewBook.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewRecommendation.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_NewStatement.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureProgramManager.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_ProcedureReceptionist.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAAdd_TechCommitteeProcedure.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PACheckUniversity.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationReqDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarificationRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAClarRequestsListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADepartmentManagerDecision.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayApplicantDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayCheckUniversity.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplayRequestDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PADisplaySimilarRequestDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAExternalCommListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAHistoricalRecords.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PALateRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PANewRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAPaymentRecords.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_DeptManagerListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_LegalAffairsListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_ProgramManager.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedures_Receptionist.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_AssistSecretaryListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_DeptManagerDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_LegalAffairsViewOpinion.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_ReceptionistDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProcedure_TechCommitteListing.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerProcedureDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAProgramManagerRecommendation.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARequestsChart.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReturnedRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayApplicantDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAReviewerDisplayRequestDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PARolesNavigationLinks.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASearchStatusRecommendationUC.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASecretary_Search.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PASimilarRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAStatementRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PATechCommitteeViewDecision.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAUploadUC.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewAssistantUnderSecDec_AllDecision.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewDeptManagerDec_AllDecision.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewSimilarRequests.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewStatusandRecommendation.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA\PAViewTechCommitteeDec_AllDecision.ascx" />
+    <Content Include="Lists\PAAssistSecretaryProcedures\PAAssistSecretaryProceduresInstance\Elements.xml" />
+    <Content Include="Lists\PAAssistSecretaryProcedures\Elements.xml" />
+    <Content Include="Lists\PAAssistSecretaryProcedures\Schema.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\PACalculatedDetailsForCertificateAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\EditDlg.htm" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\Elements.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\FileDlg.htm" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\Repair.aspx" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\Schema.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificateAttachments\Upload.aspx" />
+    <Content Include="Lists\PACalculatedDetailsForCertificate\PACalculatedDetailsForCertificateInstance\Elements.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificate\Elements.xml" />
+    <Content Include="Lists\PACalculatedDetailsForCertificate\Schema.xml" />
+    <Content Include="Lists\PACertificatesAttachments\PACertificatesAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\PACertificatesAttachments\EditDlg.htm" />
+    <Content Include="Lists\PACertificatesAttachments\Elements.xml" />
+    <Content Include="Lists\PACertificatesAttachments\FileDlg.htm" />
+    <Content Include="Lists\PACertificatesAttachments\Repair.aspx" />
+    <Content Include="Lists\PACertificatesAttachments\Schema.xml" />
+    <Content Include="Lists\PACertificatesAttachments\Upload.aspx" />
+    <Content Include="Lists\PAClarificationsRequests\PAClarificationsRequestsInstance\Elements.xml" />
+    <Content Include="Lists\PAClarificationsRequests\Elements.xml" />
+    <Content Include="Lists\PAClarificationsRequests\Schema.xml" />
+    <Content Include="Lists\PADecisions\PADecisionsInstance\Elements.xml" />
+    <Content Include="Lists\PADecisions\Elements.xml" />
+    <Content Include="Lists\PADecisions\Schema.xml" />
+    <Content Include="Lists\PADelegationDocuments\PADelegationDocumentsInstance\Elements.xml" />
+    <Content Include="Lists\PADelegationDocuments\EditDlg.htm" />
+    <Content Include="Lists\PADelegationDocuments\Elements.xml" />
+    <Content Include="Lists\PADelegationDocuments\FileDlg.htm" />
+    <Content Include="Lists\PADelegationDocuments\Repair.aspx" />
+    <Content Include="Lists\PADelegationDocuments\Schema.xml" />
+    <Content Include="Lists\PADelegationDocuments\Upload.aspx" />
+    <Content Include="Lists\PADepartmentManagerProcedures\PADepartmentManagerInstance\Elements.xml" />
+    <Content Include="Lists\PADepartmentManagerProcedures\Elements.xml" />
+    <Content Include="Lists\PADepartmentManagerProcedures\Schema.xml" />
+    <Content Include="Lists\PAEquationOfficerProcedures\Elements.xml" />
+    <Content Include="Lists\PAEquationOfficerProcedures\PAEquationOfficerProceduresInstance\Elements.xml" />
+    <Content Include="Lists\PAEquationOfficerProcedures\Schema.xml" />
+    <Content Include="Lists\PAExternalCommTemplates\EditDlg.htm" />
+    <Content Include="Lists\PAExternalCommTemplates\Elements.xml" />
+    <Content Include="Lists\PAExternalCommTemplates\PAExternalCommTemplatesInstance\Elements.xml" />
+    <Content Include="Lists\PAExternalCommTemplates\FileDlg.htm" />
+    <Content Include="Lists\PAExternalCommTemplates\Repair.aspx" />
+    <Content Include="Lists\PAExternalCommTemplates\Schema.xml" />
+    <Content Include="Lists\PAExternalCommTemplates\Upload.aspx" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\EditDlg.htm" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\Elements.xml" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\PAExternalCommunicationAttachementsInstance\Elements.xml" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\FileDlg.htm" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\Repair.aspx" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\Schema.xml" />
+    <Content Include="Lists\PAExternalCommunicationAttachements\Upload.aspx" />
+    <Content Include="Lists\PAExternalCommunications\Elements.xml" />
+    <Content Include="Lists\PAExternalCommunications\PAExternalCommunicationsInstance\Elements.xml" />
+    <Content Include="Lists\PAExternalCommunications\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\PALegalAffairsAttachements\EditDlg.htm" />
+    <Content Include="Lists\PALegalAffairsAttachements\Elements.xml" />
+    <Content Include="Lists\PALegalAffairsAttachements\FileDlg.htm" />
+    <Content Include="Lists\PALegalAffairsAttachements\PALegalAffairsAttachementsInstance\Elements.xml" />
+    <Content Include="Lists\PALegalAffairsAttachements\Repair.aspx" />
+    <Content Include="Lists\PALegalAffairsAttachements\Schema.xml" />
+    <Content Include="Lists\PALegalAffairsAttachements\Upload.aspx" />
+    <Content Include="Lists\PALegalOfficerProcedures\Elements.xml" />
+    <Content Include="Lists\PALegalOfficerProcedures\PALegalOfficerProceduresInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\PALegalOfficerProcedures\Schema.xml" />
+    <Content Include="Lists\PARequestsAttachments\EditDlg.htm" />
+    <Content Include="Lists\PARequestsAttachments\Elements.xml" />
+    <Content Include="Lists\PARequestsAttachments\FileDlg.htm" />
+    <Content Include="Lists\PARequestsAttachments\PARequestsAttachmentsInstance\Elements.xml" />
+    <Content Include="Lists\PARequestsAttachments\Repair.aspx" />
+    <Content Include="Lists\PARequestsAttachments\Schema.xml" />
+    <Content Include="Lists\PARequestsAttachments\Upload.aspx" />
+    <Content Include="Lists\PAPaymentRecords\Elements.xml" />
+    <Content Include="Lists\PAPaymentRecords\PAPaymentRecordsInstance\Elements.xml" />
+    <Content Include="Lists\PAPaymentRecords\Schema.xml" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\EditDlg.htm" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\Elements.xml" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\FileDlg.htm" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\PAProgEmpStatusandRecomAttachementsInstance\Elements.xml" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\Repair.aspx" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\Schema.xml" />
+    <Content Include="Lists\PAProgEmpStatusandRecomAttachements\Upload.aspx" />
+    <Content Include="Lists\PAProgramManagerProcedures\Elements.xml" />
+    <Content Include="Lists\PAProgramManagerProcedures\PAProgramManagerProceduresInstance\Elements.xml" />
+    <Content Include="Lists\PAProgramManagerProcedures\Schema.xml" />
+    <Content Include="Lists\PAProgramManagerRecommendation\Elements.xml" />
+    <Content Include="Lists\PAProgramManagerRecommendation\PAProgramManagerRecommendationInstance\Elements.xml" />
+    <Content Include="Lists\PAProgramManagerRecommendation\Schema.xml" />
+    <Content Include="Lists\PAReceptionProcedures\Elements.xml" />
+    <Content Include="Lists\PAReceptionProcedures\PAReceptionProceduresInstance\Elements.xml" />
+    <Content Include="Lists\PAReceptionProcedures\Schema.xml" />
+    <Content Include="Lists\PARequestsHistory\Elements.xml" />
+    <Content Include="Lists\PARequestsHistory\PARequestsHistoryInstance\Elements.xml" />
+    <Content Include="Lists\PARequestsHistory\Schema.xml" />
+    <Content Include="Lists\PARequests\Elements.xml" />
+    <Content Include="Lists\PARequests\PARequestsInstance\Elements.xml" />
+    <Content Include="Lists\PARequests\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\PARolesNavigationLinks\Elements.xml" />
+    <Content Include="Lists\PARolesNavigationLinks\PARolesNavigationLinksInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\PARolesNavigationLinks\Schema.xml" />
+    <Content Include="Lists\PASimilarRequests\Elements.xml" />
+    <Content Include="Lists\PASimilarRequests\Schema.xml" />
+    <Content Include="Lists\PASimilarRequests\PASimilarRequestsInstance\Elements.xml" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\EditDlg.htm" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\Elements.xml" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\FileDlg.htm" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\Repair.aspx" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\Schema.xml" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\PAStatementReqReplyAttachementsInstance\Elements.xml" />
+    <Content Include="Lists\PAStatementReqReplyAttachements\Upload.aspx" />
+    <Content Include="Lists\PAStatementRequests\Elements.xml" />
+    <Content Include="Lists\PAStatementRequests\Schema.xml" />
+    <Content Include="Lists\PAStatementRequests\PAStatementRequestsInstance\Elements.xml" />
+    <Content Include="Lists\PATechCommitteeAttachements\EditDlg.htm" />
+    <Content Include="Lists\PATechCommitteeAttachements\Elements.xml" />
+    <Content Include="Lists\PATechCommitteeAttachements\FileDlg.htm" />
+    <Content Include="Lists\PATechCommitteeAttachements\Repair.aspx" />
+    <Content Include="Lists\PATechCommitteeAttachements\Schema.xml" />
+    <Content Include="Lists\PATechCommitteeAttachements\PATechCommitteeAttachementsInstance\Elements.xml" />
+    <Content Include="Lists\PATechCommitteeAttachements\Upload.aspx" />
+    <Content Include="Lists\PATechCommitteeProcedures\Elements.xml" />
+    <Content Include="Lists\PATechCommitteeProcedures\Schema.xml" />
+    <Content Include="Lists\PATechCommitteeProcedures\PATechCommitteeProceduresInstance\Elements.xml" />
+    <Content Include="Lists\PAEmployeeDecisions\Elements.xml" />
+    <Content Include="Lists\PAEmployeeDecisions\Schema.xml" />
+    <Content Include="Lists\PAEmployeeDecisions\PAEmployeeDecisionsInstance\Elements.xml" />
+    <Content Include="Lists\PAEmployeeProcedures\Elements.xml" />
+    <Content Include="Lists\PAEmployeeProcedures\Schema.xml" />
+    <Content Include="Lists\PAEmployeeProcedures\PAEmployeeProceduresInstance\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITWORX.MOEHEWF.Common\ITWORX.MOEHEWF.Common.csproj">
+      <Project>{ceaafa8d-f1f3-4e00-96a4-106fdd4fead8}</Project>
+      <Name>ITWORX.MOEHEWF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITWORX.MOEHEWF.UCE\ITWORX.MOEHEWF.UCE.csproj">
+      <Project>{cffe0d79-b085-4986-8ba9-9df7aa8078bd}</Project>
+      <Name>ITWORX.MOEHEWF.UCE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>
+if "$(ConfigurationName)"=="Debug" (
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\gacutil.exe" -i $(TargetPath)
+"C:\Windows\System32\inetsrv\appcmd.exe" recycle apppool "SharePoint - 80")
+)
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

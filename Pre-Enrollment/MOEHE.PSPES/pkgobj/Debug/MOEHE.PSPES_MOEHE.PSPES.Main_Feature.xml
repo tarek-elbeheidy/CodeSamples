@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="5e469ebc-779a-4a49-8be6-be8b049a3d35" ReceiverAssembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" ReceiverClass="MOEHE.PSPES.Features.MOEHE.PSPES.Main.MOEHEPSPESEventReceiver" Scope="Site" Title="MOEHE.PSPES.Main">
+  <ElementManifests>
+    <ElementManifest Location="AddApplication\Elements.xml" />
+    <ElementFile Location="AddApplication\AddApplication.webpart" />
+    <ElementManifest Location="App_GlobalResources\Elements.xml" />
+    <ElementManifest Location="SetupSupportingDocs\Elements.xml" />
+    <ElementFile Location="SetupSupportingDocs\SetupSupportingDocs.webpart" />
+    <ElementManifest Location="SeatCapacityAllocate\Elements.xml" />
+    <ElementFile Location="SeatCapacityAllocate\SeatCapacityAllocate.webpart" />
+    <ElementManifest Location="ChangeLanguage\Elements.xml" />
+    <ElementFile Location="ChangeLanguage\ChangeLanguage.webpart" />
+    <ElementManifest Location="NavigationMenu\Elements.xml" />
+    <ElementFile Location="NavigationMenu\NavigationMenu.webpart" />
+    <ElementManifest Location="ApplicationCompleteProcessWP\Elements.xml" />
+    <ElementFile Location="ApplicationCompleteProcessWP\ApplicationCompleteProcessWP.webpart" />
+    <ElementManifest Location="SearchApplications\Elements.xml" />
+    <ElementFile Location="SearchApplications\SearchApplications.webpart" />
+    <ElementManifest Location="EditApplication\Elements.xml" />
+    <ElementFile Location="EditApplication\EditApplication.webpart" />
+    <ElementManifest Location="EnrollmentControlling\Elements.xml" />
+    <ElementFile Location="EnrollmentControlling\EnrollmentControlling.webpart" />
+    <ElementManifest Location="Exceptions\Elements.xml" />
+    <ElementFile Location="Exceptions\Exceptions.webpart" />
+    <ElementManifest Location="WithdrawApplication\Elements.xml" />
+    <ElementFile Location="WithdrawApplication\WithdrawApplication.webpart" />
+    <ElementManifest Location="AllinoneReport\Elements.xml" />
+    <ElementFile Location="AllinoneReport\AllinoneReport.webpart" />
+    <ElementManifest Location="ScheduleWindow\Elements.xml" />
+    <ElementFile Location="ScheduleWindow\ScheduleWindow.webpart" />
+    <ElementManifest Location="BreadCrumb\Elements.xml" />
+    <ElementFile Location="BreadCrumb\BreadCrumb.webpart" />
+    <ElementManifest Location="SeatAvailabilityReport\Elements.xml" />
+    <ElementFile Location="SeatAvailabilityReport\SeatAvailabilityReport.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Schools"
+                OnQuickLaunch="TRUE"
+                TemplateType="20100"
+                Url="Lists/Schools"
+                Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Abdulla Bin Turky Model Independent Boys</Field>
+          <Field Name="TitleAr">مدرسة عبد الله بن تركي النموذجية المستقلة للبنين</Field>
+          <Field Name="CountryOfStudy">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Abdullah bin Jassim Al Thani Boys Model Independent</Field>
+          <Field Name="TitleAr">مدرسة عبد الله بن جاسم آل ثاني النموذجية المستقلة للبنين</Field>
+          <Field Name="CountryOfStudy">4</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

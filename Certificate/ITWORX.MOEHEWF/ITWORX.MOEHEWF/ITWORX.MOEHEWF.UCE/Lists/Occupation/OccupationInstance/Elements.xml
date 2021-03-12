@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Occupation" OnQuickLaunch="TRUE" TemplateType="10028" Url="Lists/Occupation" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Manager</Field>
+          <Field Name="TitleAr">مدير</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Employee</Field>
+          <Field Name="TitleAr">موظف</Field>
+        </Row>
+      </Rows>
+    </Data>
+
+  </ListInstance>
+</Elements>

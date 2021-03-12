@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SimilarRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SimilarRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01009140bde480a74f0faa05737ddc0ce4e1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{0823b647-dcf9-49df-98fa-bd98c33bdb40}" Name="RequestID" /><FieldRef ID="{59bf08a1-608f-43cc-802d-8f5d289a9932}" Name="University" /><FieldRef ID="{78f968c8-4ed9-499f-bb87-9ca2ad4b3b8b}" Name="Faculty" /><FieldRef ID="{ce5cb3b4-3ab3-46b9-8d41-4f1f3c6bce59}" Name="AcademicDegree" /><FieldRef ID="{a6329b9f-f714-427e-8fbd-14c79531681b}" Name="Country" /><FieldRef ID="{9061831b-a708-424c-ba00-9db6d7e9630f}" Name="Specialization" /><FieldRef ID="{aa16433c-1c03-44f9-b604-c0ee6bd07c4d}" Name="StudyLanguage" /><FieldRef ID="{d21c9097-9c53-4c27-bd01-c8588b835b44}" Name="Nationality" /><FieldRef ID="{12375f0d-ba95-4e56-94e1-88c94060dd82}" Name="StudySystem" /><FieldRef ID="{36c924cc-b5d0-4962-b5f0-585215b8d548}" Name="StudyType" /><FieldRef ID="{354e5ff4-f3d7-4242-8036-ab16990aea92}" Name="RequestStatus" /><FieldRef ID="{5a139f72-6d87-4626-a0ea-a3824845151b}" Name="ReqSubmitDate" /><FieldRef ID="{8ea1ccb0-99d1-4bd8-9183-ba5fa22273c5}" Name="EntityNeedsEquivalent" /><FieldRef ID="{f11d5c2e-7ab1-44b4-9b3a-5c5199ba75f8}" Name="EquivalentFinalDecision" /><FieldRef ID="{f190068d-3984-4094-afaf-e5451ea631b8}" Name="QatariID" /><FieldRef ID="{b1720e0b-34bf-4f2c-a61b-0c58647b3e80}" Name="ApplicantName" /><FieldRef ID="{114caf58-4092-4f0b-af70-2ff9ab39f553}" Name="CertificateNeedsEquivalent" /><FieldRef ID="{86a7002e-ad8f-4c79-9b15-c37454f9c59b}" Name="ReceiveReqDate" /><FieldRef ID="{b832342d-b09b-416f-a7d0-16d1a454866d}" Name="ReqRejectionReason" /><FieldRef ID="{a9dadc38-1320-4d08-b8d5-16ed6ddb87d3}" Name="ReqRejectedFrom" /><FieldRef ID="{12a916e7-d1d8-4998-bb0a-4ef6a7ab7948}" Name="ReqRejectionDate" /><FieldRef ID="{b9b489d1-dff7-4112-8c40-eac75056aba8}" Name="ClarificationRequested" /><FieldRef ID="{e9d9a1a9-9f5a-4c60-89bb-8bf565dd7892}" Name="ClarRequestedDate" /><FieldRef ID="{01634780-26f4-433d-8c77-2c8c050c351f}" Name="FinalDecision" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="RequestID" ID="{0823b647-dcf9-49df-98fa-bd98c33bdb40}" DisplayName="Request ID" Type="Text" /><Field Name="University" ID="{59bf08a1-608f-43cc-802d-8f5d289a9932}" DisplayName="University" Type="Text" /><Field Name="Faculty" ID="{78f968c8-4ed9-499f-bb87-9ca2ad4b3b8b}" DisplayName="Faculty" Type="Text" /><Field Name="AcademicDegree" ID="{ce5cb3b4-3ab3-46b9-8d41-4f1f3c6bce59}" DisplayName="Academic Degree" Type="Text" /><Field Name="Country" ID="{a6329b9f-f714-427e-8fbd-14c79531681b}" DisplayName="Country" Type="Text" /><Field Name="Specialization" ID="{9061831b-a708-424c-ba00-9db6d7e9630f}" DisplayName="Specialization" Type="Text" /><Field Name="StudyLanguage" ID="{aa16433c-1c03-44f9-b604-c0ee6bd07c4d}" DisplayName="StudyLanguage" Type="Text" /><Field Name="Nationality" ID="{d21c9097-9c53-4c27-bd01-c8588b835b44}" DisplayName="Nationality" Type="Text" /><Field Name="StudySystem" ID="{12375f0d-ba95-4e56-94e1-88c94060dd82}" DisplayName="StudySystem" Type="Text" /><Field Name="StudyType" ID="{36c924cc-b5d0-4962-b5f0-585215b8d548}" DisplayName="StudyType" Type="Text" /><Field Name="RequestStatus" ID="{354e5ff4-f3d7-4242-8036-ab16990aea92}" DisplayName="RequestStatus" Type="Text" /><Field Name="ReqSubmitDate" ID="{5a139f72-6d87-4626-a0ea-a3824845151b}" DisplayName="ReqSubmitDate" Type="DateTime" /><Field Name="EntityNeedsEquivalent" ID="{8ea1ccb0-99d1-4bd8-9183-ba5fa22273c5}" DisplayName="EntityNeedsEquivalent" Type="Text" /><Field Name="EquivalentFinalDecision" ID="{f11d5c2e-7ab1-44b4-9b3a-5c5199ba75f8}" DisplayName="EquivalentFinalDecision" Type="Text" /><Field Name="QatariID" ID="{f190068d-3984-4094-afaf-e5451ea631b8}" DisplayName="QatariID" Type="Text" /><Field Name="ApplicantName" ID="{b1720e0b-34bf-4f2c-a61b-0c58647b3e80}" DisplayName="ApplicantName" Type="Text" /><Field Name="CertificateNeedsEquivalent" ID="{114caf58-4092-4f0b-af70-2ff9ab39f553}" DisplayName="CertificateNeedsEquivalent" Type="Text" /><Field Name="ReceiveReqDate" ID="{86a7002e-ad8f-4c79-9b15-c37454f9c59b}" DisplayName="ReceiveReqDate" Type="DateTime" /><Field Name="ReqRejectionReason" ID="{b832342d-b09b-416f-a7d0-16d1a454866d}" DisplayName="ReqRejectionReason" Type="Text" /><Field Name="ReqRejectedFrom" ID="{a9dadc38-1320-4d08-b8d5-16ed6ddb87d3}" DisplayName="ReqRejectedFrom" Type="Text" /><Field Name="ReqRejectionDate" ID="{12a916e7-d1d8-4998-bb0a-4ef6a7ab7948}" DisplayName="ReqRejectionDate" Type="DateTime" /><Field Name="ClarificationRequested" ID="{b9b489d1-dff7-4112-8c40-eac75056aba8}" DisplayName="ClarificationRequested" Type="Text" /><Field Name="ClarRequestedDate" ID="{e9d9a1a9-9f5a-4c60-89bb-8bf565dd7892}" DisplayName="ClarRequestedDate" Type="DateTime" /><Field Name="FinalDecision" ID="{01634780-26f4-433d-8c77-2c8c050c351f}" DisplayName="FinalDecision" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestID" /><FieldRef Name="University" /><FieldRef Name="Faculty" /><FieldRef Name="AcademicDegree" /><FieldRef Name="Country" /><FieldRef Name="Specialization" /><FieldRef Name="StudyLanguage" /><FieldRef Name="Nationality" /><FieldRef Name="StudySystem" /><FieldRef Name="StudyType" /><FieldRef Name="RequestStatus" /><FieldRef Name="ReqSubmitDate" /><FieldRef Name="EntityNeedsEquivalent" /><FieldRef Name="EquivalentFinalDecision" /><FieldRef Name="QatariID" /><FieldRef Name="ApplicantName" /><FieldRef Name="CertificateNeedsEquivalent" /><FieldRef Name="ReceiveReqDate" /><FieldRef Name="ReqRejectionReason" /><FieldRef Name="ReqRejectedFrom" /><FieldRef Name="ReqRejectionDate" /><FieldRef Name="ClarificationRequested" /><FieldRef Name="ClarRequestedDate" /><FieldRef Name="FinalDecision" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

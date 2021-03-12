@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UCEEmployeeProcedures" OnQuickLaunch="TRUE" TemplateType="10054" Url="Lists/UCEEmployeeProcedures" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <!--HeadManager-->
+        <Row>
+          <Field Name="Title">Return to Program Manager</Field>
+          <Field Name="TitleAr"> إرجاع الطلب لمدير البرنامج </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="OrderNo">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Approved</Field>
+          <Field Name="TitleAr"> بالموافقة</Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="OrderNo">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejected</Field>
+          <Field Name="TitleAr"> بالرفض </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+          <Field Name="OrderNo">3</Field>
+        </Row>
+        <!--<Row>
+          <Field Name="Title">Return to Assist UnderSecretary</Field>
+          <Field Name="TitleAr"> إرجاع الطلب للوكيل المساعد </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+            <Field Name="OrderNo">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Consultation Committee</Field>
+          <Field Name="TitleAr"> تحويل الطلب للجنة الاستشارية  </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+            <Field Name="OrderNo">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Legal Affairs</Field>
+          <Field Name="TitleAr"> التحويل للشؤون القانونية  </Field>
+          <Field Name="SPGroupName">Head Managers</Field>
+            <Field Name="OrderNo">6</Field>
+        </Row>-->
+
+        <!--ProgramManager-->
+        <Row>
+          <Field Name="Title">Returen the Request to last Employee</Field>
+          <Field Name="TitleAr"> ارجاع الطلب لاخر موظف </Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="OrderNo">7</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name="Title">Return to Receptionist</Field>
+          <Field Name="TitleAr"> ارجاع الطلب لموظف الأستقبال</Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="OrderNo">8</Field>
+        </Row>-->
+        <Row>
+          <Field Name="Title">Choose/Re-Choose Employee to check the Request</Field>
+          <Field Name="TitleAr"> تحديد / اعادة تحديد موظف لتنفيذ الطلب </Field>
+          <Field Name="SPGroupName">Program Managers</Field>
+          <Field Name="OrderNo">9</Field>
+        </Row>
+
+        <!--AssistSecretary-->
+        <!--<Row>
+          <Field Name="Title">Return the request to Department Manager</Field>
+          <Field Name="TitleAr"> إرجاع الطلب لمدير الإدارة </Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+            <Field Name="OrderNo">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Transfer to Consultation Committee</Field>
+          <Field Name="TitleAr"> تحويل الطلب للجنة الاستشارية</Field>
+          <Field Name="SPGroupName">Assistant UnderSecretary Employees</Field>
+            <Field Name="OrderNo">11</Field>
+        </Row> -->
+
+        <!--Technical Committee -->
+        <!-- <Row>
+          <Field Name="Title">Return to Department Manager</Field>
+          <Field Name="TitleAr">إرجاع الطلب لمدير الادارة</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+            <Field Name="OrderNo">12</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Return to Assist UnderSecretary</Field>
+          <Field Name="TitleAr"> إرجاع الطلب للوكيل المساعد</Field>
+          <Field Name="SPGroupName">Technical Committee Employees</Field>
+            <Field Name="OrderNo">13</Field>
+        </Row> -->
+
+
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

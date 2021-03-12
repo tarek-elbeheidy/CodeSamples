@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UniversityMainCountry" OnQuickLaunch="TRUE" TemplateType="20043" Url="Lists/UniversityMainCountry" Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+   
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Spain</Field>
+          <Field Name="TitleAr">إسبانيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">United States</Field>
+          <Field Name="TitleAr">الولايات المتحدة الأمريكية</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Australia</Field>
+          <Field Name="TitleAr">أستراليا</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">United Kingdom</Field>
+          <Field Name="TitleAr">المملكة المتحدة</Field>
+        </Row>
+              </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

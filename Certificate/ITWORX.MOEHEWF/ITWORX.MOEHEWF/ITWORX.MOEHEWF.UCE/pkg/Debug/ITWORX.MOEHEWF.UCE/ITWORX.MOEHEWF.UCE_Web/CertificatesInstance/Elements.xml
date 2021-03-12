@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Certificates" OnQuickLaunch="TRUE" TemplateType="10015" Url="Lists/Certificates" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">General Secondary</Field>
+          <Field Name="TitleAr">الثانوية العامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Master's</Field>
+          <Field Name="TitleAr">ماجستير</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Bachelor's</Field>
+          <Field Name="TitleAr">بكالوريوس</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Diploma (three years)</Field>
+          <Field Name="TitleAr">دبلوم (ثلاث سنوات)</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Diploma of Intermediate or Associate (two years)</Field>
+          <Field Name="TitleAr">دبلوم متوسط او مشارك (مدة الدراسة سنتان)</Field>
+        </Row>
+        <!-- <Row>
+          <Field Name ="Title">Benefit from administrative development not to work</Field>
+          <Field Name="TitleAr">إفادة من التنمية الأدارية بعدم العمل</Field>
+        </Row> 
+        <Row>
+          <Field Name ="Title">Diploma</Field>
+          <Field Name="TitleAr">دبلوم</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Average Diploma or Associate</Field>
+          <Field Name="TitleAr">ادبلوم متوسط أو مشارك</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Higher Diploma</Field>
+          <Field Name="TitleAr">دبلوم عالي</Field>
+        </Row>-->
+       
+        
+              </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

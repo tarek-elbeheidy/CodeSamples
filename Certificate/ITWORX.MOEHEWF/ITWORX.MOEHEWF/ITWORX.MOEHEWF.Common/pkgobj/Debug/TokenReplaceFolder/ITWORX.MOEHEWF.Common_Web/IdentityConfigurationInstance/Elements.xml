@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IdentityConfiguration" OnQuickLaunch="TRUE" TemplateType="10061" Url="Lists/IdentityConfiguration" Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Site Url</Field>
+          <Field Name="Key">SiteUrl</Field>
+          <Field Name="Value">http://moehe-dev-04:21446/</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Identity Service URL</Field>
+          <Field Name="Key">IdentityServiceURL</Field>
+          <Field Name="Value">http://localhost:59775/api/ADRegisteration</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Create User</Field>
+          <Field Name="Key">CreateUser</Field>
+          <Field Name="Value">CreateUser</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reset Password</Field>
+          <Field Name="Key">ResetPassword</Field>
+          <Field Name="Value">ResetPassword</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Forgot Password</Field>
+          <Field Name="Key">ForgotPassword</Field>
+          <Field Name="Value">ForgotPassword</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Forgot UserName</Field>
+          <Field Name="Key">ForgotUserName</Field>
+          <Field Name="Value">ForgotUserName</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Send Verification Code</Field>
+          <Field Name="Key">SendVerificationCode</Field>
+          <Field Name="Value">SendVerificationCode</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Resend VerificationCode</Field>
+          <Field Name="Key">ResendVerificationCode</Field>
+          <Field Name="Value">ResendVerificationCode</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Block User Verification</Field>
+          <Field Name="Key">BlockUserVerification</Field>
+          <Field Name="Value">BlockUserVerification</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MOI Validation</Field>
+          <Field Name="Key">MOIValidation</Field>
+          <Field Name="Value">MOIValidation</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Applicant Group Name</Field>
+          <Field Name="Key">ApplicantGroupName</Field>
+          <Field Name="Value">Applicants"</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AD Password Pattern</Field>
+          <Field Name="Key">GetADPasswordPattern</Field>
+          <Field Name="Value">GetADPasswordPattern</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Generate new Password</Field>
+          <Field Name="Key">GenerateNewPassword</Field>
+          <Field Name="Value">GenerateNewPassword</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Get MOI User Profile</Field>
+          <Field Name="Key">GetMOIUserProfile</Field>
+          <Field Name="Value">GetMOIUserProfile</Field>
+        </Row>
+        
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

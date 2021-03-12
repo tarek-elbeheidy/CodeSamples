@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="FileName"
+                OnQuickLaunch="TRUE"
+                TemplateType="10203"
+                Url="Lists/FileName"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+         <Row>
+          <Field Name="Title">Copy of Qatari ID card or student passport (Valid)</Field>
+          <Field Name="TitleAr">صورة البطاقة الشخصية القطرية أو جواز السفر للطالب (سارية المفعول)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">1</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+          <Row>
+          <Field Name="Title">Copy of the last degree certificate (Certificate to be equivalent)</Field>
+          <Field Name="TitleAr">صورة آخر شهادة دراسية بالدرجات (الشهادة المراد معادلتها)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">1;#;#2;#;#3;#;#4;#;#5;#;#6</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">4</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>  
+        <Row>
+          <Field Name="Title">Copy of the certificate of the grade before the last (Degrees)</Field>
+          <Field Name="TitleAr">صورة الشهادة الدراسية للصف قبل الأخير (بالدرجات)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">1;#;#2;#;#3;#;#4;#;#5;#;#6</Field>
+          <Field Name="ScholasticLevel">7;#;#8;#;#9;#;#10;#;#11;#;#12</Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Copy of Qatari ID card (Valid)</Field>
+          <Field Name="TitleAr">صورة البطاقة الشخصية القطرية للطالب (سارية المفعول)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">2;#;#3;#;#4;#;#5;#;#6</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">4;#;#3;#;#1;#;#2</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+          <Row>
+          <Field Name="Title">Copy of student passport (Valid)</Field>
+          <Field Name="TitleAr">صورة جواز السفر للطالب (ساري المفعول)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">2;#;#3;#;#4;#;#5;#;#6</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">4;#;#3;#;#1;#;#2</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+         <Row>
+          <Field Name="Title">Copy of student birth certificate</Field>
+          <Field Name="TitleAr">صورة من شهادة ميلاد الطالب</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">2;#;#3;#;#4;#;#6</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate of employment of a parent in a government agency or Certificate of absence from public or private schools</Field>
+          <Field Name="TitleAr">شهادة عمل أحد الوالدين بجهة حكومية أو شهادة شاغر من المدارس الحكومية أو الخاصة</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory">3;#;#4;#;#6</Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">American Diploma (Certificate to be equivalent)</Field>
+          <Field Name="TitleAr">شهادة الدبلومة الأمريكية (الشهادة المراد معادلتها)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">3</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Degrees certificate for the last four years</Field>
+          <Field Name="TitleAr">كشف درجات للسنوات الاربع الأخيرة</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">3</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>          
+        <Row>
+          <Field Name="Title">A copy of the equivalence of the certificate from the issued country</Field>
+          <Field Name="TitleAr">صورة من معادلة الشهادة من الدولة مصدر الشهادة</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">3;#;#4;#;#1</Field>
+          <Field Name="MOEHECountryType">Arab</Field>
+        </Row>
+        
+          <Row>
+          <Field Name="Title">Copies of O level certificates for at least five subjects</Field>
+          <Field Name="TitleAr">صور شهادات مواد المستوى العادي  (  O level ) على الأقل خمس مواد</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">1</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+      <Row>
+          <Field Name="Title">Copies of high-level material (A or AS) certificates are at least two subjects</Field>
+          <Field Name="TitleAr">صور شهادات مواد المستوى الرفيع  (  A   أو   AS  ) على الأقل مادتين </Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">1</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+         <Row>
+          <Field Name="Title">A copy of the International Baccalaureate Diploma (Graduation)</Field>
+          <Field Name="TitleAr">صورة من شهادة دبلوم البكالوريا الدولية ( إفاة التخرج )</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">2</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">A copy of the baccalaureate statement (Certificate to be equivalent)</Field>
+          <Field Name="TitleAr">صورة من كشف درجات البكالوريا  (الشهادة المراد معادلتها)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">2</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+           <Row>
+          <Field Name="Title">A copy of certificate before the previous one (Degrees)</Field>
+          <Field Name="TitleAr">صورة شهادة السنة قبل السابقة (بالدرجات)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">4</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"> Copy of the certificate of the year preceding the last certificate (Degrees)</Field>
+          <Field Name="TitleAr">صورة شهادة السنة السابقة لأخر شهادة (بالدرجات) </Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType">4</Field>
+          <Field Name="MOEHECountryType">Arab;#Foreign</Field>
+        </Row>
+      
+          
+        <Row>
+          <Field Name="Title">Copy of the ID card</Field>
+          <Field Name="TitleAr">نسخة من البطاقة الشخصية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Copy of the passport</Field>
+          <Field Name="TitleAr">نسخة من جواز السفر</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+       
+      
+        <Row>
+          <Field Name="Title">Secondary certificate equivalence</Field>
+          <Field Name="TitleAr">معادلة الشهادة الثانوية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+       
+        
+        <Row>
+          <Field Name="Title">Workbook</Field>
+          <Field Name="TitleAr">كتاب جهة العمل</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="NationalityCategory"></Field>
+          <Field Name="ScholasticLevel"></Field>
+          <Field Name="CertificateType"></Field>
+          <Field Name="MOEHECountryType"></Field>
+        </Row>
+       
+    
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

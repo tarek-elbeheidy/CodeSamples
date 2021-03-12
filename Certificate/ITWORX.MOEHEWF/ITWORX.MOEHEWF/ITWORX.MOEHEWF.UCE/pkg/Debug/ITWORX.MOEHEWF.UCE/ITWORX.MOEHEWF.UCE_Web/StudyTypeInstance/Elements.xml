@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StudyType" OnQuickLaunch="TRUE" TemplateType="10042" Url="Lists/StudyType" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">عن بعد</Field>
+          <Field Name="TitleAr">
+            انتظام
+          </Field>
+        </Row>
+              </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

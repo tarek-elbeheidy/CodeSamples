@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Faculty" OnQuickLaunch="TRUE" TemplateType="10026" Url="Lists/Faculty" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Faculty of Arts and Sciences</Field>
+          <Field Name="TitleAr">كلية الآداب والعلوم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Fine Arts  </Field>
+          <Field Name="TitleAr">كلية فنون جميلة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Dentistry</Field>
+          <Field Name="TitleAr">كلية طب الأسنان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Economics and Business Administration</Field>
+          <Field Name="TitleAr">كلية الاقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Engineering and Architecture </Field>
+          <Field Name="TitleAr">كلية الهندسة والعمارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Architecture</Field>
+          <Field Name="TitleAr">كلية الهندسة المعمارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Divinity</Field>
+          <Field Name="TitleAr">كلية اللاهوت</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Fine Arts and Design</Field>
+          <Field Name="TitleAr">كلية الفنون الجميلة والتصميم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Performing Arts</Field>
+          <Field Name="TitleAr">كلية الفنون الأدائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Health Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الصحية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of biological science</Field>
+          <Field Name="TitleAr">كلية العلوم البيولوجية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of medicine and health</Field>
+          <Field Name="TitleAr">كلية الطب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Veterinary</Field>
+          <Field Name="TitleAr">كلية الطب البيطري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Pharmacy</Field>
+          <Field Name="TitleAr">كلية الصيدله</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Tourism</Field>
+          <Field Name="TitleAr">كلية السياحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of mathematics and physical sciences</Field>
+          <Field Name="TitleAr">كلية الرياضيات والعلوم الطبيعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Maritime Studies</Field>
+          <Field Name="TitleAr">كلية الدراسات البحرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Law</Field>
+          <Field Name="TitleAr">كلية الحقوق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Education</Field>
+          <Field Name="TitleAr">كلية التربيه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of education, social sciences and law</Field>
+          <Field Name="TitleAr">كلية التربية والعلوم الاجتماعية والقانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of environment</Field>
+          <Field Name="TitleAr">كلية البيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of business</Field>
+          <Field Name="TitleAr">كلية الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Economics  and   Administrative Sciences</Field>
+          <Field Name="TitleAr">كلية الاقتصاد والعلوم الإدارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of peformance, visual arts and communicatons</Field>
+          <Field Name="TitleAr">كلية الاداء والفنون والاتصالات المرئية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Communication and Media Studies</Field>
+          <Field Name="TitleAr">كلية الاتصالات والدراسات الإعلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Communications</Field>
+          <Field Name="TitleAr">كلية الاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business, Law and Art</Field>
+          <Field Name="TitleAr">إدارة الأعمال والقانون والفن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Engineering and the Environment</Field>
+          <Field Name="TitleAr">كلية الهندسة والبيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Humanities</Field>
+          <Field Name="TitleAr">كلية العلوم الإنسانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Natural and Environmental Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الطبيعية والبيئية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Physical Sciences and Engineering</Field>
+          <Field Name="TitleAr">كلية العلوم الفيزيائية والهندسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Social, Human and Mathematical Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الاجتماعية والإنسانية والعلم الرياضي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Architecture and History of Art</Field>
+          <Field Name="TitleAr">كلية الهندسة المعمارية وتاريخ الفن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Asian and Middle Eastern Studies</Field>
+          <Field Name="TitleAr">كلية الدراسات الآسيوية والشرق أوسطية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Biology</Field>
+          <Field Name="TitleAr">كلية البيولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Business  and   Management</Field>
+          <Field Name="TitleAr">كلية الأعمال والإدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Classics</Field>
+          <Field Name="TitleAr">كلية الكلاسيكية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Computer Science  and   Technology</Field>
+          <Field Name="TitleAr">كلية العلوم والتكنولوجيا الكمبيوتر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Earth Sciences  and   Geography</Field>
+          <Field Name="TitleAr">كلية علوم الأرض والجغرافيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of English</Field>
+          <Field Name="TitleAr">أعضاء هيئة التدريس في اللغة الإنجليزية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of History</Field>
+          <Field Name="TitleAr">كلية التاريخ</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Human, Social and Political Science</Field>
+          <Field Name="TitleAr">كلية العلوم الإنسانية والاجتماعية والسياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Modern and Medieval Languages</Field>
+          <Field Name="TitleAr">كلية اللغات الحديثة والعصور الوسطى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Music</Field>
+          <Field Name="TitleAr">كلية الموسيقى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Philosophy</Field>
+          <Field Name="TitleAr">كلية الفلسفة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Physics  and   Chemistry</Field>
+          <Field Name="TitleAr">كلية الفيزياء والكيمياء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Architecture, Building and Planning</Field>
+          <Field Name="TitleAr">كلية العمارة والبناء والتخطيط</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Arts</Field>
+          <Field Name="TitleAr">كلية الفنون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Business and Economics  </Field>
+          <Field Name="TitleAr">كلية الأعمال والاقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Melbourne School of Engineering</Field>
+          <Field Name="TitleAr">أعضاء هيئة التدريس من كلية الهندسة ملبورن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Medicine, Dentistry and Health Sciences</Field>
+          <Field Name="TitleAr">كلية الطب، طب الأسنان والعلوم الصحية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Science</Field>
+          <Field Name="TitleAr">كليه العلوم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of  Veterinary and Agricultural Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم البيطرية والزراعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Theology</Field>
+          <Field Name="TitleAr">كلية أصول الدين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business Administration</Field>
+          <Field Name="TitleAr">إدارة الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Political Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم السياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Technical Education</Field>
+          <Field Name="TitleAr">كلية التعليم الفني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Technology</Field>
+          <Field Name="TitleAr">كلية تكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Religious Studies</Field>
+          <Field Name="TitleAr">كلية الدراسات الدينية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aviation Science</Field>
+          <Field Name="TitleAr">علوم الطيران</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Hastings College of Arts and Technology</Field>
+          <Field Name="TitleAr">كلية هاستينغز للفنون والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Graduate School of  Business</Field>
+          <Field Name="TitleAr">كلية الدراسات العليا في الإدارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Chemical Engineering</Field>
+          <Field Name="TitleAr">كلية هندسة كيميائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Commerce College</Field>
+          <Field Name="TitleAr">كلية التجارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">fire administration</Field>
+          <Field Name="TitleAr">إدارة الحرائق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">High School of Science and Technology</Field>
+          <Field Name="TitleAr">المدرسة العليا للعلوم و التقنيات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of agricultural engineering and technology</Field>
+          <Field Name="TitleAr">كلية الهندسة والتكنولوجيا الزراعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of Agriculture</Field>
+          <Field Name="TitleAr">كلية الزراعة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Science and Engineering</Field>
+          <Field Name="TitleAr">كلية العلوم والهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">science in computer system</Field>
+          <Field Name="TitleAr">علوم الحاسب الالى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of engineering and technology</Field>
+          <Field Name="TitleAr">كلية الهندسة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty Engineering and Technology</Field>
+          <Field Name="TitleAr">كلية الهندسة والتقنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Information</Field>
+          <Field Name="TitleAr">كلية الأعلام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Applied Engineering and Urban Planning</Field>
+          <Field Name="TitleAr">كلية الهندسة التطبيقية والتخطيط العمراني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Administration and Economy</Field>
+          <Field Name="TitleAr">كلية إدارة واقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">كلية الحياه والعلوم الطبيعية</Field>
+          <Field Name="TitleAr">كلية الحياه والعلوم الطبيعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Institute of Engineering</Field>
+          <Field Name="TitleAr">المعهد العالى للهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Royal Holloway</Field>
+          <Field Name="TitleAr">رويال هولواي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Administrative Studies</Field>
+          <Field Name="TitleAr">كلية الدراسات الأدارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Commerce and Business Administration</Field>
+          <Field Name="TitleAr">كلية التجارة وإدارة الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">cima diploma in islamic finance</Field>
+          <Field Name="TitleAr">دبلوم سيما في التمويل الإسلامي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Chaffey College</Field>
+          <Field Name="TitleAr">كلية تشافي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Economics and Business Administration</Field>
+          <Field Name="TitleAr">كلية إدارة الاقتصاد والأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering</Field>
+          <Field Name="TitleAr">هندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">معهد الآداب الشرقيّة</Field>
+          <Field Name="TitleAr">معهد الآداب الشرقيّة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Law and Politics</Field>
+          <Field Name="TitleAr">كلية القانون والسياسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Arts and Education</Field>
+          <Field Name="TitleAr">كلية الآداب والتربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Electrical and Electronic Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة الكهربائية و الإلكترونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Agricultural Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة الزراعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Automatic Control and Computer Engineering</Field>
+          <Field Name="TitleAr">كلية التحكم الآلي وهندسة الحاسب الآلي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Engineering and Engineering Technology</Field>
+          <Field Name="TitleAr">كلية الهندسة والهندسة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Literary Education</Field>
+          <Field Name="TitleAr">التربية الأدبية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Institute for Higher Tiba Engineering</Field>
+          <Field Name="TitleAr">معهد طيبه العالى للهندسه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Technology and Innovation</Field>
+          <Field Name="TitleAr">كلية التكنولوجيا والابتكار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dar al-Hadith charity</Field>
+          <Field Name="TitleAr">دار الحديث الخيرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College talk</Field>
+          <Field Name="TitleAr">كلية الحديث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Dawa and Fundamentals of Religion</Field>
+          <Field Name="TitleAr">كلية الدعوة واصول الدين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">London School Of marketing</Field>
+          <Field Name="TitleAr">كلية لندن للتسويق</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">كلية المجتمع</Field>
+          <Field Name="TitleAr">كلية المجتمع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College Built environment</Field>
+          <Field Name="TitleAr">كلية العمران</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Institute of Engineering and Technology in Minya</Field>
+          <Field Name="TitleAr">المعهد العالى للهندسة والتكنولوجيا المنيا"</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Built environment</Field>
+          <Field Name="TitleAr">البيئة المبنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Workers University in Assiut</Field>
+          <Field Name="TitleAr">الجامعة العمالية أسيوط</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Sharia and Islamic Studies</Field>
+          <Field Name="TitleAr">كلية الشريعة والدراسات الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electronic Engineering</Field>
+          <Field Name="TitleAr">الهندسة الإلكترونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Fine Arts</Field>
+          <Field Name="TitleAr">كلية الفنون الجميلة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Sharia and Law</Field>
+          <Field Name="TitleAr">كلية الشريعة والقانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information Systems</Field>
+          <Field Name="TitleAr">نظم المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Colombo International Nautical and Engineering College</Field>
+          <Field Name="TitleAr">كولومبو الدولي بحري وكلية الهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Blackburn College</Field>
+          <Field Name="TitleAr">كلية بلاكبيرن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Institute of Musical Arts</Field>
+          <Field Name="TitleAr">المعهد العالي للفنون الموسيقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">blackburn college</Field>
+          <Field Name="TitleAr">blackburn college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Jon M. Huntsman School of Business</Field>
+          <Field Name="TitleAr">Jon M. Huntsman School of Business</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Liberal Arts and Sciences</Field>
+          <Field Name="TitleAr">كلية الآداب والعلوم الإنسانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Engineering and Science</Field>
+          <Field Name="TitleAr">كلية الهندسة والعلوم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">school computing science and Engineering</Field>
+          <Field Name="TitleAr">school computing science and Engineering</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering and Informatics</Field>
+          <Field Name="TitleAr">الهندسة والمعلوماتية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">international Business Administration</Field>
+          <Field Name="TitleAr">ادارة اعمال دولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">arts,computing ,science and engineering</Field>
+          <Field Name="TitleAr">الفنون، والحوسبة، والعلوم والهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Institute of Aviation Engineering and Technology</Field>
+          <Field Name="TitleAr">معهد هندسة و تكنولوجيا الطيران</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Marine Engineering</Field>
+          <Field Name="TitleAr">كليه الهندسه البحريه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Civil Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة المدنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Human Development</Field>
+          <Field Name="TitleAr">كلية التنمية البشرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Technological Equipment</Field>
+          <Field Name="TitleAr">كلية معدات المعالجة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Archaeology</Field>
+          <Field Name="TitleAr">كلية الآثار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Transport and Logistics</Field>
+          <Field Name="TitleAr">النقل الدولي واللوجستيات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">college of Literature</Field>
+          <Field Name="TitleAr">كلية الاداب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">W. P. Carey School of Business</Field>
+          <Field Name="TitleAr">W. P. Carey School of Business</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administrative and Financial Sciences</Field>
+          <Field Name="TitleAr">العلوم الادارية والمالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">college of Law</Field>
+          <Field Name="TitleAr">كلية القانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Police Academy</Field>
+          <Field Name="TitleAr">كلية الشرطة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Sharia law and Islamic Studies</Field>
+          <Field Name="TitleAr">كلية الشريعة والقانون والدراسات الأسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ahmed bin Mohammed Military College</Field>
+          <Field Name="TitleAr">كلية احمد بن محمد العسكريه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ahmed bin Mohammed Military</Field>
+          <Field Name="TitleAr">احمد بن محمد العسكرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Electrical Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة الكهربائية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Welding technology and Equipment</Field>
+          <Field Name="TitleAr">تكنولوجيا اللحام والمعدات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Art and Social Behavior</Field>
+          <Field Name="TitleAr">الفنون والسلوك الاجتماعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Architecture and Building Technology</Field>
+          <Field Name="TitleAr">الهندسة المعمارية وتكنولوجيا البناء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of the Built Environment</Field>
+          <Field Name="TitleAr">كلية البيئة العمرانية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Houston Community College</Field>
+          <Field Name="TitleAr">كلية المجتمع هيوستن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Sharia</Field>
+          <Field Name="TitleAr">كلية الشريعة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">المعهد الفني التجارى</Field>
+          <Field Name="TitleAr">المعهد الفني التجارى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Forensic Science</Field>
+          <Field Name="TitleAr">علم الطب الشرعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administration and technology</Field>
+          <Field Name="TitleAr">الادارة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electronic Tech</Field>
+          <Field Name="TitleAr">Electronic Tech</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Administration and Economics</Field>
+          <Field Name="TitleAr">كلية الادارة والاقتصاد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Urban and Regional Planning</Field>
+          <Field Name="TitleAr">كليه التخطيط الاقليمي والعمراني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Mechanical Engineering</Field>
+          <Field Name="TitleAr">كلية الهندسة الميكانيكية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Juridical and Economic Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم القانونية والاقتصادية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of the Holy Quran and Islamic Studies</Field>
+          <Field Name="TitleAr">كلية القرآن الكريم والدراسات الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of environment and technology</Field>
+          <Field Name="TitleAr">كلية البيئة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Anthropology</Field>
+          <Field Name="TitleAr">علم الانسان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Law and Economics and Political Science</Field>
+          <Field Name="TitleAr">الحقوق والعلوم الإقتصادية والسياسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Engineering, Environment and Computing</Field>
+          <Field Name="TitleAr">الهندسة والبيئة والحوسبة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business and Human Resource Management</Field>
+          <Field Name="TitleAr">إدارة الأعمال والموارد البشرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Human Resources and Business Management</Field>
+          <Field Name="TitleAr">الموارد البشرية وإدارة الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Royal College of National Defense of Jordan</Field>
+          <Field Name="TitleAr">كلية الدفاع الوطني الملكية الاردنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Graduate Studies</Field>
+          <Field Name="TitleAr">الدراسات العليا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">buisness and law</Field>
+          <Field Name="TitleAr">الأعمال والقانون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Science and Technology</Field>
+          <Field Name="TitleAr">العلوم والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Education and Applied Science</Field>
+          <Field Name="TitleAr">التربية والعلوم التطبيقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">irvine valley college</Field>
+          <Field Name="TitleAr">irvine valley college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Islamic and Arabic Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الإسلامية والعربية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Portsmouth Business School</Field>
+          <Field Name="TitleAr">مدرسة بورتسموث الأعمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business and Supply Chain Management</Field>
+          <Field Name="TitleAr">الأعمال وإدارة سلسلة التوريد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ecole Supérieur Privée d'Ingénieur et des Etudes Technologiques</Field>
+          <Field Name="TitleAr">المدرسة العليا الخاصة للهندسة والتكنولوجية الدراسات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of Arts</Field>
+          <Field Name="TitleAr">مدرسة الفنون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Applied Electronics and Instrumentation</Field>
+          <Field Name="TitleAr">الالكترونيات التطبيقية والأجهزة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Institute of Education</Field>
+          <Field Name="TitleAr">معهد التعليم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Lord Ashcroft International Business School</Field>
+          <Field Name="TitleAr">اللورد أشكروفت كلية إدارة الأعمال الدولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">gateway community college</Field>
+          <Field Name="TitleAr">بوابة كلية المجتمع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Humanities and Social Sciences</Field>
+          <Field Name="TitleAr">العلوم الانسانية والاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Abu Dhabi Police College</Field>
+          <Field Name="TitleAr">كلية الشرطة ابوظبي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">arts, environment and technology</Field>
+          <Field Name="TitleAr">الفنون والبيئة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Management Development Institute</Field>
+          <Field Name="TitleAr">معهد التنمية الإدارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Science, Technology and Science Article</Field>
+          <Field Name="TitleAr">كلية العلوم التكنولوجيو وعلوم المادة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Engineering and Information Technology</Field>
+          <Field Name="TitleAr">كلية الهندسة وتقنية المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ECAM EPMI</Field>
+          <Field Name="TitleAr">ECAM EPMI</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Institute of Social Service Benha</Field>
+          <Field Name="TitleAr">المعهد العالي للخدمة الاجتماعية ببنها</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Institute geometric mean</Field>
+          <Field Name="TitleAr">المعهد المتوسط الهندسي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Volgenau School of Engineering</Field>
+          <Field Name="TitleAr">Volgenau School of Engineering</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nyozon Institute for Training Ahli</Field>
+          <Field Name="TitleAr">Nyozon Institute for Training Ahli</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Juridical Economic and Social Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم القانونية والإقتصادية والإجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Business  Information Technology</Field>
+          <Field Name="TitleAr">الأعمال وتكنولوجيا المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Nursing</Field>
+          <Field Name="TitleAr">كلية التمريض</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Valencia College</Field>
+          <Field Name="TitleAr">Valencia College</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Engineering and Computer Science</Field>
+          <Field Name="TitleAr">كلية الهندسة وعلوم الحاسب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Institute of Finance and Accounting Sciences</Field>
+          <Field Name="TitleAr">المعهد التقني للعلوم المالية والمحاسبية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Biomedical Sciences</Field>
+          <Field Name="TitleAr">العلوم الطبية الحيوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of Engineering and Computer Science</Field>
+          <Field Name="TitleAr">كلية الهندسة وعلوم الحاسوب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of information and communication technology</Field>
+          <Field Name="TitleAr">كلية نظم المعلومات والاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Arts</Field>
+          <Field Name="TitleAr">كلية الاداب والفنون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">West Los Angeles College</Field>
+          <Field Name="TitleAr">West Los Angeles College</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Arts and Social Sciences</Field>
+          <Field Name="TitleAr">كلية الاداب والعلوم الاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of Applied Technical Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم التقنية التطبيقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty advocacy and media</Field>
+          <Field Name="TitleAr">كلية الدعوة والاعلام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Oriental Languages</Field>
+          <Field Name="TitleAr">كلية اللغات الشرقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Oriental Languages</Field>
+          <Field Name="TitleAr">كلية اللغات الشرقية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">school of computing and design</Field>
+          <Field Name="TitleAr">كلية الحوسبة والتصميم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BRITANNIA ROYAL NAVAL COLLEGE</Field>
+          <Field Name="TitleAr">BRITANNIA ROYAL NAVAL COLLEGE</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">administration science</Field>
+          <Field Name="TitleAr">العلوم الادارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">College of languages</Field>
+          <Field Name="TitleAr">كلية اللغات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Economics and Science</Field>
+          <Field Name="TitleAr">كلية الاقتصاد والعلوم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Earth Science and Engineering</Field>
+          <Field Name="TitleAr">علوم الأرض والهندسة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Loughborough college</Field>
+          <Field Name="TitleAr">Loughborough college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Business Studies</Field>
+          <Field Name="TitleAr">كلية الدراسات التجارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">hove college</Field>
+          <Field Name="TitleAr">hove college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SCHOOL OF ENGINEERING AND TECHNOLOGY</Field>
+          <Field Name="TitleAr">كلية الهندسة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">david game college</Field>
+          <Field Name="TitleAr">david game college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">CHEMICAL ENGINEERING  and   TECHNOLOGY</Field>
+          <Field Name="TitleAr">الهندسة الكيميائية والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ira A. Fulton Schools of Engineering</Field>
+          <Field Name="TitleAr">Ira A. Fulton Schools of Engineering</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">kuwait mod technical school</Field>
+          <Field Name="TitleAr">kuwait mod technical school</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of medicine and health</Field>
+          <Field Name="TitleAr">كلية الطب والصحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">northern virginia community college</Field>
+          <Field Name="TitleAr">northern virginia community college</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">القانون وعلوم الشرطة</Field>
+          <Field Name="TitleAr">القانون وعلوم الشرطة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Arts, Environment</Field>
+          <Field Name="TitleAr">كلية الآداب والبيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Arts, Environment  and   Technology</Field>
+          <Field Name="TitleAr">كلية الآداب والبيئة والتكنولوجيا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nottingham Business School</Field>
+          <Field Name="TitleAr">Nottingham Business School</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Regional development and spatial planning</Field>
+          <Field Name="TitleAr">التنمية الإقليمية والتخطيط المكاني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Health and Social Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الصحية والاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">faculty of architecture and design</Field>
+          <Field Name="TitleAr">كلية الهندسة المعمارية والتصميم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Department of History, Philosophy and Religion</Field>
+          <Field Name="TitleAr">قسم التاريخ والفلسفة والدين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Electronic Engineering and Computer Science</Field>
+          <Field Name="TitleAr">كلية الهندسة الإلكترونية وعلوم الحاسب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Spinnaker College</Field>
+          <Field Name="TitleAr">Spinnaker College</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">كلية كالدونيان الهندسية</Field>
+          <Field Name="TitleAr">كلية كالدونيان الهندسية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">School of Telecommunications Engineering</Field>
+          <Field Name="TitleAr">كلية هندسة الاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Information technology architecture</Field>
+          <Field Name="TitleAr">هندسة تقنيات المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">And studies of the Muslim world Research Institute</Field>
+          <Field Name="TitleAr">معهد بحوث ودراسات العالم الاسلامي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Institute of Engineering and Technology in Damietta new</Field>
+          <Field Name="TitleAr">المعهد العالي للهندسة والتكنولجيا بمياط الجديده</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">LIB Arts</Field>
+          <Field Name="TitleAr">LIB Arts</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">EAST END COMPUTING AND BUSINESS COLLEGE</Field>
+          <Field Name="TitleAr">EAST END COMPUTING AND BUSINESS COLLEGE</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Higher Judicial Institute</Field>
+          <Field Name="TitleAr">المعهد العالي للقضاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International College of Engineering and Management</Field>
+          <Field Name="TitleAr">الكلية الدولية للهندسة والادارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Administrative Sciences</Field>
+          <Field Name="TitleAr">كلية العلوم الادارية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">قسم العلوم الامنية</Field>
+          <Field Name="TitleAr">قسم العلوم الامنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">King Faisal Air Academy</Field>
+          <Field Name="TitleAr">كلية الملك فيصل الجوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PORT SHIPPING</Field>
+          <Field Name="TitleAr">ادارة الموانئ والنقل البحري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Faculty of Sports</Field>
+          <Field Name="TitleAr">كلية التربية الرياضية</Field>
+        </Row>
+
+
+        <!--<Row>
+          <Field Name="Title">طب أسنان</Field>
+          <Field Name="TitleAr"> طب أسنان</Field>
+          <Field Name="University">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعلام</Field>
+          <Field Name="TitleAr">إعلام</Field>
+          <Field Name="University">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اقتصاد وعلوم سياسية</Field>
+          <Field Name="TitleAr">اقتصاد وعلوم سياسية</Field>
+          <Field Name="University">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">هندسة</Field>
+          <Field Name="TitleAr"> هندسة </Field>
+          <Field Name="University">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Commerce</Field>
+          <Field Name="TitleAr"> تجارة  </Field>
+          <Field Name="University">6</Field>
+        </Row>
+       <Row>
+          <Field Name="Title">Other</Field>
+          <Field Name="TitleAr"> اخرى  </Field>
+          <Field Name="University">7</Field>
+        </Row>-->
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

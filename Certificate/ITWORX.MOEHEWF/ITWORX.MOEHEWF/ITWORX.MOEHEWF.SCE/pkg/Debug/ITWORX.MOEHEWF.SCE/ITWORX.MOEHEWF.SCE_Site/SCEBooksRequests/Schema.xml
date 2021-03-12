@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCEBooksRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCEBooksRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100de42029d8ffc4819b1bfb02066c7d843" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{1fcdae78-e174-4ba6-b38b-a417b1f02bb6}" Name="BookNumber" /><FieldRef ID="{0f400795-612f-4511-a168-b17a30781a0c}" Name="BookDate" /><FieldRef ID="{85e2b64a-1b89-460d-87da-f9fa01603599}" Name="PreparedBy" /><FieldRef ID="{11ee87e2-8c6d-463a-af64-c5d4837c21b5}" Name="BookSubject" /><FieldRef ID="{400144b8-6761-4be3-9aa3-8e68d8573ab0}" Name="EntityAddress" /><FieldRef ID="{90ab9271-7ac8-403c-a4ab-254403090b31}" Name="EntityMail" /><FieldRef ID="{3d53b110-3ab6-454b-ad4a-49c6d7bf14c1}" Name="BookBody" /><FieldRef ID="{b5736959-2376-4489-9e6f-b05252388ff8}" Name="EntityReply" /><FieldRef ID="{961aded3-2957-4a26-a7fb-0e370b2c3163}" Name="RequestID" /><FieldRef ID="{b906a547-12b1-4475-97f9-f93390860c60}" Name="BookEntity" /><FieldRef ID="{c7aa77f5-d47c-4c79-8f66-55264f934149}" Name="BookEntityAr" /><FieldRef ID="{4120db1d-54e3-4345-9117-950103527843}" Name="BookStatus" /><FieldRef ID="{70e9df85-95bf-456a-b2ae-62974cf5fdfb}" Name="ReplyNumber" /><FieldRef ID="{04778680-e0bc-4672-8872-9fba45eb94cc}" Name="ReplyDate" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="BookNumber" ID="{1fcdae78-e174-4ba6-b38b-a417b1f02bb6}" DisplayName="BookNumber" Type="Text" /><Field Name="BookDate" ID="{0f400795-612f-4511-a168-b17a30781a0c}" DisplayName="BookDate" Type="Text" /><Field Name="PreparedBy" ID="{85e2b64a-1b89-460d-87da-f9fa01603599}" DisplayName="PreparedBy" Type="User" List="UserInfo" /><Field Name="BookSubject" ID="{11ee87e2-8c6d-463a-af64-c5d4837c21b5}" DisplayName="BookSubject" Type="Text" /><Field Name="EntityAddress" ID="{400144b8-6761-4be3-9aa3-8e68d8573ab0}" DisplayName="EntityAddress" Type="Text" /><Field Name="EntityMail" ID="{90ab9271-7ac8-403c-a4ab-254403090b31}" DisplayName="EntityMail" Type="Text" /><Field Name="BookBody" ID="{3d53b110-3ab6-454b-ad4a-49c6d7bf14c1}" DisplayName="BookBody" Type="Note" /><Field Name="EntityReply" ID="{b5736959-2376-4489-9e6f-b05252388ff8}" DisplayName="EntityReply" Type="Note" /><Field Name="RequestID" ID="{961aded3-2957-4a26-a7fb-0e370b2c3163}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="BookEntity" ID="{b906a547-12b1-4475-97f9-f93390860c60}" DisplayName="BookEntity" Type="Lookup" List="Lists/ExCommAgency" ShowField="Title" /><Field Name="BookEntityAr" ID="{c7aa77f5-d47c-4c79-8f66-55264f934149}" DisplayName="BookEntityAr" Type="Lookup" List="Lists/ExCommAgency" ShowField="TitleAr" FieldRef="{b906a547-12b1-4475-97f9-f93390860c60}" /><Field Name="BookStatus" ID="{4120db1d-54e3-4345-9117-950103527843}" DisplayName="BookStatus" Type="Text" /><Field Name="ReplyNumber" ID="{70e9df85-95bf-456a-b2ae-62974cf5fdfb}" DisplayName="ReplyNumber" Type="Text" /><Field Name="ReplyDate" ID="{04778680-e0bc-4672-8872-9fba45eb94cc}" DisplayName="ReplyDate" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="BookNumber" /><FieldRef Name="BookDate" /><FieldRef Name="PreparedBy" /><FieldRef Name="BookSubject" /><FieldRef Name="EntityAddress" /><FieldRef Name="EntityMail" /><FieldRef Name="BookBody" /><FieldRef Name="EntityReply" /><FieldRef Name="RequestID" /><FieldRef Name="BookEntity" /><FieldRef Name="BookEntityAr" /><FieldRef Name="BookStatus" /><FieldRef Name="ReplyNumber" /><FieldRef Name="ReplyDate" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

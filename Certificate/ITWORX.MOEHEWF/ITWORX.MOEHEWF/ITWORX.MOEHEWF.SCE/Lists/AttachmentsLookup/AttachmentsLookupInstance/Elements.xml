@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AttachmentsLookup"
+                OnQuickLaunch="TRUE"
+                TemplateType="10112"
+                Url="Lists/AttachmentsLookup"
+                Description="My List Instance" FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">File Upload</Field>
+          <Field Name="TitleAr">ارفاق ملف</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="DocumentLibraryName">SCERequestsAttachments</Field>
+          <Field Name="DocLibWebUrl">http://moehe-dev-09</Field>
+          <Field Name="MaxFileNumber">3</Field>
+          <Field Name="Group1">NewSCEAttachments</Field>
+          <Field Name="LookupFieldName">RequestID</Field>
+          <Field Name="IsRequired">1</Field>
+          <Field Name="RequiredValidationMessage">File upload is required</Field>
+          <Field Name="RequiredValidationMessageAr">ارفاق ملف مطلوب</Field>
+          <Field Name="MaxSize">7168000</Field>
+          <Field Name="SupportedExtensions">jpg,pdf,png</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Attachment</Field>
+          <Field Name="TitleAr">المرفقات</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="DocumentLibraryName">SCESearchStatusRecommendationAttachments</Field>
+          <Field Name="DocLibWebUrl">http://moehe-dev-09</Field>
+          <Field Name="MaxFileNumber">7</Field>
+          <Field Name="Group1">SCESearchStatusAttachments</Field>
+          <Field Name="LookupFieldName">RequestID</Field>
+          <Field Name="IsRequired">0</Field>
+          <Field Name="RequiredValidationMessage">File is required</Field>
+          <Field Name="RequiredValidationMessageAr">الملف مطلوب</Field>
+          <Field Name="MaxSize">7168000</Field>
+          <Field Name="SupportedExtensions">jpg,pdf,png</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">File Name</Field>
+          <Field Name="TitleAr">اسم الملف</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="DocumentLibraryName">SCEStatementsAttachments</Field>
+          <Field Name="DocLibWebUrl">http://moehe-dev-09</Field>
+          <Field Name="MaxFileNumber">0</Field>
+          <Field Name="Group1">SCEStatementAttachments</Field>
+          <Field Name="LookupFieldName">StatementID</Field>
+          <Field Name="IsRequired">0</Field>
+          <Field Name="RequiredValidationMessage">File is required</Field>
+          <Field Name="RequiredValidationMessageAr">الملف مطلوب</Field>
+          <Field Name="MaxSize">7168000</Field>
+          <Field Name="SupportedExtensions">jpg,pdf,png</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">File Upload</Field>
+          <Field Name="TitleAr">ارفاق ملف</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="DocumentLibraryName">SCEBookAttachments</Field>
+          <Field Name="DocLibWebUrl">http://moehe-dev-09</Field>
+          <Field Name="MaxFileNumber">10</Field>
+          <Field Name="Group1">SCEBookAttachments</Field>
+          <Field Name="LookupFieldName">BookID</Field>
+          <Field Name="IsRequired">0</Field>
+          <Field Name="RequiredValidationMessage">File upload is required</Field>
+          <Field Name="RequiredValidationMessageAr">حقل ارفاق ملف اجباري</Field>
+          <Field Name="MaxSize">7168000</Field>
+          <Field Name="SupportedExtensions">jpg,pdf,png</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

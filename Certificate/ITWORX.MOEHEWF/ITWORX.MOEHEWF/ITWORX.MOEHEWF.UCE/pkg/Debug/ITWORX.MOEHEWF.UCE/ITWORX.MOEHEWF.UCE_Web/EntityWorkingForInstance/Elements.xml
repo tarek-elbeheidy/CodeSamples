@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EntityWorkingFor" OnQuickLaunch="TRUE" TemplateType="10023" Url="Lists/EntityWorkingFor" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+
+        <Row>
+          <Field Name="Title">Kahramaa</Field>
+          <Field Name="TitleAr">كهرماء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Lakhawya</Field>
+          <Field Name="TitleAr">لخويا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">QNB</Field>
+          <Field Name="TitleAr">بنك قطر الوطني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Secretariat of the Council of Ministers</Field>
+          <Field Name="TitleAr">الأمانة العامة لمجلس الوزراء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Information and Communications Technology</Field>
+          <Field Name="TitleAr">وزارة الاتصالات وتكنولوجيا المعلومات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Economy and Commerce</Field>
+          <Field Name="TitleAr">وزارة الاقتصاد والتجارة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Endowments and Islamic Affairs</Field>
+          <Field Name="TitleAr">وزارة الأوقاف والشؤون الإسلامية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Municipality and Urban Planning</Field>
+          <Field Name="TitleAr">وزارة البلدية والتخطيط العمراني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Environment</Field>
+          <Field Name="TitleAr">وزارة البيئة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Development Planning and Statistics</Field>
+          <Field Name="TitleAr">وزارة التخطيط التنموي والإحصاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Administrative Development and Labour and Social Affairs</Field>
+          <Field Name="TitleAr">وزارة التنمية الإدارية والعمل والشؤون الاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of culture and sports</Field>
+          <Field Name="TitleAr">وزارة الثقافة والرياضة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Foreign Affairs</Field>
+          <Field Name="TitleAr">وزارة الخارجية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Interior</Field>
+          <Field Name="TitleAr">وزارة الداخلية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Defence</Field>
+          <Field Name="TitleAr">وزارة الدفاع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Youth and Sports</Field>
+          <Field Name="TitleAr">وزارة الشباب والرياضة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Energy and Industry</Field>
+          <Field Name="TitleAr">وزارة الطاقة والصناعة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Justice</Field>
+          <Field Name="TitleAr">وزارة العدل</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Labor and Social Affairs</Field>
+          <Field Name="TitleAr">وزارة العمل والشؤون الاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Finance</Field>
+          <Field Name="TitleAr">وزارة المالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry of Transport</Field>
+          <Field Name="TitleAr">وزارة المواصلات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Amiri Guard</Field>
+          <Field Name="TitleAr">الحرس الأميري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Childhood Culture Center</Field>
+          <Field Name="TitleAr">المركز الثقافي للطفولة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Ports Management Company</Field>
+          <Field Name="TitleAr">الشركة القطرية لإدارة الموانئ</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Postal Services Company - Qpost</Field>
+          <Field Name="TitleAr">الشركة القطرية للخدمات البريدية - كيوبوست</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supreme Council of Education</Field>
+          <Field Name="TitleAr">المجلس الأعلى للتعليم</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supreme Council of Health</Field>
+          <Field Name="TitleAr">المجلس الأعلى للصحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supreme Judiciary Council</Field>
+          <Field Name="TitleAr">المجلس الأعلى للقضاء</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar General Electricity  and   Water Corporation (KAHRAMAA)</Field>
+          <Field Name="TitleAr">المؤسسة العامة القطرية للكهرباء والماء (كهرماء)</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Media Corporation</Field>
+          <Field Name="TitleAr">المؤسسة القطرية للإعلام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public Prosecution</Field>
+          <Field Name="TitleAr">النيابة العامة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Retirement and Social Insurance Authority</Field>
+          <Field Name="TitleAr">الهيئة العامة للتقاعد والتأمينات الاجتماعية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Authority of Customs</Field>
+          <Field Name="TitleAr">الهيئة العامة للجمارك</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Tourism Authority</Field>
+          <Field Name="TitleAr">الهيئة العامة للسياحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Investment Authority</Field>
+          <Field Name="TitleAr">جهاز قطر للاستثمار</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">STATE AUDIT BUREAU</Field>
+          <Field Name="TitleAr">ديوان المحاسبة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Chamber</Field>
+          <Field Name="TitleAr">غرفة قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Assistive Technology Center - mada</Field>
+          <Field Name="TitleAr">مركز التكنولوجيا المساعدة قطر - مدى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Protection and Social Rehabilitation Centre</Field>
+          <Field Name="TitleAr">مركز الحماية والتأهيل الاجتماعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Foundation for Elderly People Care - IHSAN</Field>
+          <Field Name="TitleAr">مركز تمكين ورعاية كبار السن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Orphan Foundation</Field>
+          <Field Name="TitleAr">مركز رعاية الأيتام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Central Bank</Field>
+          <Field Name="TitleAr">مصرف قطر المركزي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mowasalat</Field>
+          <Field Name="TitleAr">مواصلات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Primary Health Care Corporation</Field>
+          <Field Name="TitleAr">مؤسسة الرعاية الصحية الأولية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Hamad Medical Corporation</Field>
+          <Field Name="TitleAr">مؤسسة حمد الطبية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Public Works Authority (Ashghal)</Field>
+          <Field Name="TitleAr">هيئة الأشغال العامة (أشغال)</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Authority of Civil Aviation</Field>
+          <Field Name="TitleAr">الهيئه العامه للطيران المدني</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Communications Regulatory Authority</Field>
+          <Field Name="TitleAr">هيئة تنظيم الاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Regulatory Authority for Charitable Activities</Field>
+          <Field Name="TitleAr">هيئة تنظيم الأعمال الخيرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Financial Markets Authority</Field>
+          <Field Name="TitleAr">هيئة قطر للأسواق المالية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Museums Authority</Field>
+          <Field Name="TitleAr">هيئة متاحف قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar News Agency</Field>
+          <Field Name="TitleAr">وكالة الأنباء القطرية - قنا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Silatech</Field>
+          <Field Name="TitleAr">صلتك</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Education Above All</Field>
+          <Field Name="TitleAr">التعليم فوق الجميع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Diabetes Association</Field>
+          <Field Name="TitleAr">الجمعية القطرية للسكري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar National Cancer Society</Field>
+          <Field Name="TitleAr">الجمعية القطرية لمكافحة السرطان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Olympic Committee</Field>
+          <Field Name="TitleAr">اللجنة الأولمبية القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Supreme Committee for Delivery and Legacy</Field>
+          <Field Name="TitleAr">اللجنة العليا للمشاريع والإرث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">National Human Rights Committee</Field>
+          <Field Name="TitleAr">اللجنة الوطنية لحقوق الإنسان</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Development Bank</Field>
+          <Field Name="TitleAr">بنك قطر للتنمية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar University</Field>
+          <Field Name="TitleAr">جامعة قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Red Crescent Society</Field>
+          <Field Name="TitleAr">جمعية الهلال الأحمر القطري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Family Consulting Center</Field>
+          <Field Name="TitleAr">مركز الاستشارات العائلية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Social Development Center</Field>
+          <Field Name="TitleAr">مركز الإنماء الاجتماعي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Al Sheikh Abdullah bin Zaid Al-Mahmoud Islamic Cultural Center</Field>
+          <Field Name="TitleAr">مركز الشيخ عبد الله بن زايد آل محمود الثقافي الإسلامي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Katara Cultural Village</Field>
+          <Field Name="TitleAr">مؤسسة الحي الثقافي - كتارا</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aspire zone Foundation</Field>
+          <Field Name="TitleAr">مؤسسة أسباير زون</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Foundation for Education, Science and Community Development</Field>
+          <Field Name="TitleAr">مؤسسة قطر للتربية والعلوم وتنمية المجتمع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Financial Centre Regulatory Authority</Field>
+          <Field Name="TitleAr">هيئة تنظيم مركز قطر للمال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Gulf Helicopters</Field>
+          <Field Name="TitleAr">هليكوبتر الخليج</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Airways</Field>
+          <Field Name="TitleAr">الخطوط الجوية القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ahli Bank</Field>
+          <Field Name="TitleAr">البنك الاهلي</Field>
+        </Row>       
+        <Row>
+          <Field Name="Title">Qatar Petroleum</Field>
+          <Field Name="TitleAr">قطر للبترول</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electricity and Water Company Qatar</Field>
+          <Field Name="TitleAr">شركة الكهرباء والماء القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Stars League</Field>
+          <Field Name="TitleAr">دوري نجوم قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatari Diar Real Estate Investment Company</Field>
+          <Field Name="TitleAr">شركة الديار القطرية للاستثمار العقاري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Chemical Company Limited</Field>
+          <Field Name="TitleAr">شركة قطر للكيماويات المحدودة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Astad Project Management</Field>
+          <Field Name="TitleAr">استاد للاستشارات الهندسيه واداره المشاريع</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maersk Oil Qatar</Field>
+          <Field Name="TitleAr">ميرسك قطر للبترول</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Amiri Diwan</Field>
+          <Field Name="TitleAr">الديوان الاميري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ooredoo</Field>
+          <Field Name="TitleAr">أوريدو</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Gas</Field>
+          <Field Name="TitleAr">قطر غاز</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Al Jazeera Children</Field>
+          <Field Name="TitleAr">قناة الجزيرة للأطفال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Al Jazeera network</Field>
+          <Field Name="TitleAr">شبكة الجزيرة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ORYX GTL</Field>
+          <Field Name="TitleAr">اوريكس جي تي ال</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Occidental Petroleum Corporation</Field>
+          <Field Name="TitleAr">شركة اوكسيدنتال قطر للبترول</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Commercial Bank of Qatar</Field>
+          <Field Name="TitleAr">البنك التجاري القطري</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Consultative Council</Field>
+          <Field Name="TitleAr">مجلس الشورى</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">The organizing committee of camel racing</Field>
+          <Field Name="TitleAr">اللجنة المنظمة لسباق الهجن</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">RasGas</Field>
+          <Field Name="TitleAr">راس غاز</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Anti Doping Lab Qatar</Field>
+          <Field Name="TitleAr">مختبر مكافحة المنشطات قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Waseef</Field>
+          <Field Name="TitleAr">وصيف</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doha Bank</Field>
+          <Field Name="TitleAr">بنك الدوحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Steel</Field>
+          <Field Name="TitleAr">قطر ستيل</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Private Engineering Office</Field>
+          <Field Name="TitleAr">المكتب الهندسي الخاص</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Mining</Field>
+          <Field Name="TitleAr">قطر للتعدين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Doha Insurance</Field>
+          <Field Name="TitleAr">الدوحة للتأمين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Noor Institute</Field>
+          <Field Name="TitleAr">معهد النور</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar General Organization for Standardization</Field>
+          <Field Name="TitleAr">الهيئة العامة القطرية للمواصفات والتقييس</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Barwa Bank</Field>
+          <Field Name="TitleAr">بنك بروة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Azzobara Primary, Prep  and   Secondary Independent School For Boys</Field>
+          <Field Name="TitleAr">مدرسة الزبارة الابتدائية الاعدادية الثانوية المستقلة للبنين</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Hamad International Airport Qatar</Field>
+          <Field Name="TitleAr">مطار حمد الدولي قطر</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Alkass</Field>
+          <Field Name="TitleAr">قنوات الكأس الرياضية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HSBC Bank</Field>
+          <Field Name="TitleAr">اتش اس بي سي الشرق الاوسط المحدود</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar railways</Field>
+          <Field Name="TitleAr">شركة سكك الحديد القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Katara Hospitality</Field>
+          <Field Name="TitleAr">شركة كتارا للضيافة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">QATAR FUND FOR DEVELOPMENT</Field>
+          <Field Name="TitleAr">صندوق قطر للتنمية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">sidra</Field>
+          <Field Name="TitleAr">مركز السدرة للطب</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ministry Of Education and Higher Education</Field>
+          <Field Name="TitleAr">وزارة التعليم والتعليم العالي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Fertiliser Company</Field>
+          <Field Name="TitleAr">شركة قطر للأسمدة الكيماوية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">United development company UDC</Field>
+          <Field Name="TitleAr">الشركه المتحده للتنميه</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Fuel</Field>
+          <Field Name="TitleAr">قطر للوقود</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Power Company</Field>
+          <Field Name="TitleAr">شركة قطر للطاقة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Navigation - Milaha</Field>
+          <Field Name="TitleAr">ملاحة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">manateq</Field>
+          <Field Name="TitleAr">مناطق</Field>
+        </Row>
+
+      </Rows>
+    </Data>
+    </ListInstance>
+</Elements>

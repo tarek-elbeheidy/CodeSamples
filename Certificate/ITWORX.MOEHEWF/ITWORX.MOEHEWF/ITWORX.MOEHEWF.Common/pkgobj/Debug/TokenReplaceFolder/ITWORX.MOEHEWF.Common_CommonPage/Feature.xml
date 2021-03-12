@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="8e3ada60-a8a8-4d3c-be49-675750495727" Scope="Web" Title="ITWORX.MOEHEWF.Common Page">
+  <ElementManifests>
+    <ElementManifest Location="Common\Elements.xml" />
+    <ElementFile Location="Common\HomeRegister.aspx" />
+    <ElementFile Location="Common\HomeDashboard.aspx" />
+  </ElementManifests>
+</Feature>

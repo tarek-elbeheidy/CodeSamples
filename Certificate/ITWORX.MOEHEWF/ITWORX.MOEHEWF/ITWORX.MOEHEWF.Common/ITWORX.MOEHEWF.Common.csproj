@@ -1,0 +1,844 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEAAFA8D-F1F3-4E00-96A4-106FDD4FEAD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITWORX.MOEHEWF.Common</RootNamespace>
+    <AssemblyName>ITWORX.MOEHEWF.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, PublicKeyToken=912e7393af98ccb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="dotnet.highcharts, Version=4.0.0.0, Culture=neutral, PublicKeyToken=88854f873df851bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\dotnet.highcharts.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Integration.SMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=495f854eafa1594f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ITWORX.MOEHE.Integration.SMS.dll</HintPath>
+    </Reference>
+    <Reference Include="ITWORX.MOEHE.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=942948f6a64aa526, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ITWORX.MOEHE.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.IdentityModel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.IdentityModel\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Publishing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.IdentityModel\3.5.0.0__31bf3856ad364e35\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\AcademicDegree.cs" />
+    <Compile Include="BL\Applicants.cs" />
+    <Compile Include="BL\ApplicantsAttachments.cs" />
+    <Compile Include="BL\AttachmentType.cs" />
+    <Compile Include="BL\CalculatedDetailsForCertificate.cs" />
+    <Compile Include="BL\CalculatedDetailsForCertificateAttachments.cs" />
+    <Compile Include="BL\CertificatesAttachments.cs" />
+    <Compile Include="BL\CountryOfStudy.cs" />
+    <Compile Include="BL\DelegationDocuments.cs" />
+    <Compile Include="BL\FinalDecisionPrint.cs" />
+    <Compile Include="BL\HETemplates.cs" />
+    <Compile Include="BL\HistoricalRecords.cs" />
+    <Compile Include="BL\Nationality.cs" />
+    <Compile Include="BL\NationalityCategory.cs" />
+    <Compile Include="BL\Notifications.cs" />
+    <Compile Include="BL\OrganizationlLettersAttachments.cs" />
+    <Compile Include="BL\Procedure.cs" />
+    <Compile Include="BL\Request.cs" />
+    <Compile Include="BL\RequestPhase.cs" />
+    <Compile Include="BL\RequestsChart.cs" />
+    <Compile Include="BL\RequestStatus.cs" />
+    <Compile Include="BL\RequestTypes.cs" />
+    <Compile Include="BL\ServiceDashboard.cs" />
+    <Compile Include="BL\StatementOrganizations.cs" />
+    <Compile Include="BL\TermsAndConditions.cs" />
+    <Compile Include="BL\TrackingRequest.cs" />
+    <Compile Include="BL\University.cs" />
+    <Compile Include="BL\UniversityLists.cs" />
+    <Compile Include="Connected Services\ProductionCyberSrcTransactionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\TestingCyberSrcTransactionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ApplicantDetails.ascx.cs">
+      <DependentUpon>ApplicantDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ApplicantDetails.ascx.designer.cs">
+      <DependentUpon>ApplicantDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ClientSideFileUpload.ascx.cs">
+      <DependentUpon>ClientSideFileUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ClientSideFileUpload.ascx.designer.cs">
+      <DependentUpon>ClientSideFileUpload.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DDLWithTXTWithNoPostback.ascx.cs">
+      <DependentUpon>DDLWithTXTWithNoPostback.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DDLWithTXTWithNoPostback.ascx.designer.cs">
+      <DependentUpon>DDLWithTXTWithNoPostback.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DropdownWithTextbox.ascx.cs">
+      <DependentUpon>DropdownWithTextbox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DropdownWithTextbox.ascx.designer.cs">
+      <DependentUpon>DropdownWithTextbox.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\FileUpload.ascx.cs">
+      <DependentUpon>FileUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\FileUpload.ascx.designer.cs">
+      <DependentUpon>FileUpload.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LanguageSwitcher.ascx.cs">
+      <DependentUpon>LanguageSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LanguageSwitcher.ascx.designer.cs">
+      <DependentUpon>LanguageSwitcher.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LoginIn.ascx.cs">
+      <DependentUpon>LoginIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LoginIn.ascx.designer.cs">
+      <DependentUpon>LoginIn.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\MOEHE_TC.ascx.cs">
+      <DependentUpon>MOEHE_TC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\MOEHE_TC.ascx.designer.cs">
+      <DependentUpon>MOEHE_TC.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\NewUser.ascx.cs">
+      <DependentUpon>NewUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\NewUser.ascx.designer.cs">
+      <DependentUpon>NewUser.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ResetPassword.ascx.cs">
+      <DependentUpon>ResetPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ResetPassword.ascx.designer.cs">
+      <DependentUpon>ResetPassword.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\SendVerification.ascx.cs">
+      <DependentUpon>SendVerification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\SendVerification.ascx.designer.cs">
+      <DependentUpon>SendVerification.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\TermsAndConditions.ascx.cs">
+      <DependentUpon>TermsAndConditions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\TermsAndConditions.ascx.designer.cs">
+      <DependentUpon>TermsAndConditions.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UserVerification.ascx.cs">
+      <DependentUpon>UserVerification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UserVerification.ascx.designer.cs">
+      <DependentUpon>UserVerification.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UCLoginIn.ascx.cs">
+      <DependentUpon>UCLoginIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UCLoginIn.ascx.designer.cs">
+      <DependentUpon>UCLoginIn.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AcademicDegree.cs" />
+    <Compile Include="Entities\Applicants.cs" />
+    <Compile Include="Entities\ApplicantsAttachments.cs" />
+    <Compile Include="Entities\AttachmentType.cs" />
+    <Compile Include="Entities\CountryOfStudy.cs" />
+    <Compile Include="Entities\HETemplates.cs" />
+    <Compile Include="Entities\HistoricalRecord.cs" />
+    <Compile Include="Entities\Nationality.cs" />
+    <Compile Include="Entities\NationalityCategory.cs" />
+    <Compile Include="Entities\Notifications.cs" />
+    <Compile Include="Entities\Proc.cs" />
+    <Compile Include="Entities\Request.cs" />
+    <Compile Include="Entities\RequestPhase.cs" />
+    <Compile Include="Entities\RequestsChart.cs" />
+    <Compile Include="Entities\RequestStatus.cs" />
+    <Compile Include="Entities\RequestTypes.cs" />
+    <Compile Include="Entities\ServiceDashboard.cs" />
+    <Compile Include="Entities\StatementOrganizations.cs" />
+    <Compile Include="Entities\TermsAndConditions.cs" />
+    <Compile Include="Entities\TrackingRequest.cs" />
+    <Compile Include="Entities\University.cs" />
+    <Compile Include="Entities\UniversityLists.cs" />
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\DisplayFile.aspx.cs">
+      <DependentUpon>DisplayFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\DisplayFile.aspx.designer.cs">
+      <DependentUpon>DisplayFile.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\MOEHELogIn.aspx.cs">
+      <DependentUpon>MOEHELogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\MOEHELogIn.aspx.designer.cs">
+      <DependentUpon>MOEHELogIn.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\UCLogin.aspx.cs">
+      <DependentUpon>UCLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\UCLogin.aspx.designer.cs">
+      <DependentUpon>UCLogin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\paymentreceipt.aspx.cs">
+      <DependentUpon>paymentreceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ITWORX.MOEHEWF.Common\paymentreceipt.aspx.designer.cs">
+      <DependentUpon>paymentreceipt.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\BusinessHelper.cs" />
+    <Compile Include="Utilities\CallingIdentityApiHelper.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\ExtendedMethods.cs" />
+    <Compile Include="Utilities\FileUploaded.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\PaymentHelper.cs" />
+    <Compile Include="Utilities\UserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\HomeDashboard\HomeDashboard.cs" />
+    <Compile Include="WebParts\HomeDashboard\HomeDashboardUserControl.ascx.cs">
+      <DependentUpon>HomeDashboardUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\HomeDashboard\HomeDashboardUserControl.ascx.designer.cs">
+      <DependentUpon>HomeDashboardUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\HomeRegister\HomeRegister.cs" />
+    <Compile Include="WebParts\HomeRegister\HomeRegisterUserControl.ascx.cs">
+      <DependentUpon>HomeRegisterUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\HomeRegister\HomeRegisterUserControl.ascx.designer.cs">
+      <DependentUpon>HomeRegisterUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\Registeration\Registeration.cs" />
+    <Compile Include="WebParts\Registeration\RegisterationUserControl.ascx.cs">
+      <DependentUpon>RegisterationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\Registeration\RegisterationUserControl.ascx.designer.cs">
+      <DependentUpon>RegisterationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\TrackingRequest\TrackingRequest.cs" />
+    <Compile Include="WebParts\TrackingRequest\TrackingRequestUserControl.ascx.cs">
+      <DependentUpon>TrackingRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\TrackingRequest\TrackingRequestUserControl.ascx.designer.cs">
+      <DependentUpon>TrackingRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e484a7b-aa33-4f45-9229-73146795c141}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Common\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad08fc60-6cc1-40b7-95e6-dfe5cfbee9b7}</SharePointProjectItemId>
+    </None>
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\CyberSourceTransactionWS.wsdl" />
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\CyberSourceTransaction_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\ITWORX.MOEHEWF.Common.ProductionCyberSrcTransactionService.outputMessageOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\ITWORX.MOEHEWF.Common.ProductionCyberSrcTransactionService.ReplyMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\TestingCyberSrcTransactionService\CyberSourceTransactionWS.wsdl" />
+    <None Include="Connected Services\TestingCyberSrcTransactionService\CyberSourceTransaction_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TestingCyberSrcTransactionService\ITWORX.MOEHEWF.Common.TestingCyberSrcTransactionService.outputMessageOut.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\TestingCyberSrcTransactionService\ITWORX.MOEHEWF.Common.TestingCyberSrcTransactionService.ReplyMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebcc0f91-9cc1-463a-9410-adb6a0d4a575}</SharePointProjectItemId>
+    </None>
+    <None Include="ContextMenuItem\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2b741088-da30-40c1-98e2-af940f9c9832}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\NintexOutcomes\NintexOutcomes.feature">
+      <FeatureId>{80bded8d-41f1-4d39-bf9d-1b98d3fedbce}</FeatureId>
+    </None>
+    <None Include="Features\CommonPage\CommonPage.feature">
+      <FeatureId>{33d17c28-7541-409a-a716-ba7dd3f5fcdb}</FeatureId>
+    </None>
+    <None Include="Features\ChangePassword\ChangePassword.feature">
+      <FeatureId>{2247ec38-eaac-449d-a301-f0f57ab5ffa1}</FeatureId>
+    </None>
+    <None Include="Features\Web\Web.feature">
+      <FeatureId>{ed3a3fc2-ea52-435c-aa6b-bc57108005a4}</FeatureId>
+    </None>
+    <None Include="Features\Site\Site.feature">
+      <FeatureId>{a8efc75a-16fa-4493-9dfd-45e7c82870f2}</FeatureId>
+    </None>
+    <None Include="Features\WebParts\WebParts.feature">
+      <FeatureId>{dec95036-6235-4338-b468-7c88559b2d01}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Candara-Bold.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.woff2" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Candara-Bold.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.woff2" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\FontAwesome.otf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.eot" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.ttf" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.woff" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.woff2" />
+    <None Include="Layouts\ITWORX.MOEHEWF.Common\MoeheLogin.master" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{15ed7d5e-25d4-400e-ab29-ae1b7c12c509}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Lists\Applicants\ApplicantsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{76abd6c9-19c1-4375-b853-3c3ce0e06d1e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Applicants\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1ef4992-ef6e-4612-81c7-dd24ab1b814b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\AttachmentType\AttachmentTypeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0558270-537c-4e10-8d36-cd149e7d4dec}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\AttachmentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{53614af8-dec0-4e46-bdb4-4bd2397f5db5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Configuration\ConfigurationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc5bc009-8938-488c-b9fe-60758a305feb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Configuration\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{794a5e6f-e7e5-456a-8f68-afab7e5d29eb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CountryOfStudy\CountryOfStudyInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6cbc422-3e5e-4c2d-bec6-804f2f97c7bc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CountryOfStudy\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fba4c4e0-0e31-4f13-8b3c-bba9beae1317}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\HETemplates\HETemplatesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dfabcf82-5dee-4913-b1d9-bf955cbd5c6b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\HETemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0e1920b6-497a-4ca1-bcf8-e4bb90421c61}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IdentityConfiguration\IdentityConfigurationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8fdee68a-d334-4676-b402-8cce40a80f27}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IdentityConfiguration\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f8776a83-e43b-48c4-a03c-7685811e6369}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NationalityCategory\NationalityCategoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3d31dfd3-50c1-4264-baba-12184863f426}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NationalityCategory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70a1cffb-a3c8-4719-9013-908b3776ae29}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Nationality\NationalityInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ded9b2b-ee3a-4eb3-a913-c00e7fde33c7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Nationality\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e3c2063b-208c-47dd-a82f-0d68d1b940ed}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NintexConfiguredOutcomes\NintexConfiguredOutcomesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ee522dc6-7ce7-4409-84c1-dc6128a2f877}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\NintexConfiguredOutcomes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f89af68e-9786-4502-a5ee-c909e14330fa}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Notifications\NotificationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ae85522-0efd-4825-8af2-cfc3861d34fb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Notifications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f0b1c64a-d647-468f-9486-c82e27a15e36}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ReceptionEmployeesVacations\ReceptionEmployeesVacationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{657ce438-ef75-4424-b749-db7098ce69e9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ReceptionEmployeesVacations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cadcb634-84d8-44be-a161-63dc4acbe21b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RequestStatus\RequestStatusInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{32cde7b0-3f6d-4a84-b02e-799d48564ed1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RequestStatus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c6502d5-6ad2-4da4-8dc9-53f14c1f4d74}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RequestTypes\RequestTypesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{17a2bf04-319b-4e4c-b1e5-4d48e43a69d0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\RequestTypes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d67a4cdc-e512-475d-957c-b5e004cfc537}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ServiceDashBoard\ServiceDashBoardInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0a315da0-1315-4e95-be04-cdde99940d15}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ServiceDashBoard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85945040-b27d-4fe6-96ce-2ad79b16f408}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatementOrganizations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{232ae567-f9c3-4b75-a15e-f388ba4242db}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatementOrganizations\StatementOrganizationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a5c945d3-f7cf-4020-bbea-2c275e448519}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\TermsAndConditions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c6e0598-c29b-4184-a50d-86d0f162d85b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\TermsAndConditions\TermsAndConditionsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{72a5b635-1f4e-45b8-b56b-7aee07e28ea4}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\UniversityLists\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f30d2fcf-d7e4-4c6c-9507-d8a4a180dc13}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\UniversityLists\UniversityListsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4e8245fe-0c49-4352-98e0-3f701fe15857}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\University\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c73248d5-41c0-4e5d-871f-6dd5497aec89}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\University\UniversityInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9ba7150b-b7db-4fdc-8c5e-25a001609e2c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\UserVerificationCode\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a5f0f23-5c3c-439d-83f6-43de2cf5a9d5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\UserVerificationCode\UserVerificationCodeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{87049e83-95c9-4c26-9e95-a4462d1800d5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\VerificationErrorInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{671dbdff-f65f-4c7d-84c4-fceb2b84eaa3}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\VerificationErrorInfo\VerificationErrorInfoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4c8a6d77-aaf7-41b4-90a2-ff2fd762c5ed}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{0f3e972a-265c-4d00-a51f-520f25a618c9}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{506174d2-208c-4dd5-8967-f754343bb26f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\HomeDashboard\HomeDashboard.webpart" />
+    <None Include="WebParts\HomeDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c38c7e83-de14-441b-977c-19f46db8a1ee}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\HomeRegister\HomeRegister.webpart" />
+    <None Include="WebParts\HomeRegister\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0008cf5e-0080-49f9-b81d-4d1ebe53b5fe}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\Registeration\Registeration.webpart">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\Registeration\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{90faccb6-bbb5-4ae3-8c5d-955febafa720}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TrackingRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e9e788a0-3ecd-47b5-9d05-8793a1e0fded}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TrackingRequest\TrackingRequest.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX.MOEHEWF.Common.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ITWORX.MOEHEWF.Common.en-US.resx" />
+    <EmbeddedResource Include="App_GlobalResources\ITWORX.MOEHEWF.Common.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Common\HomeDashboard.aspx" />
+    <None Include="Connected Services\TestingCyberSrcTransactionService\configuration91.svcinfo" />
+    <None Include="Connected Services\TestingCyberSrcTransactionService\configuration.svcinfo" />
+    <None Include="Connected Services\TestingCyberSrcTransactionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\configuration91.svcinfo" />
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\configuration.svcinfo" />
+    <None Include="Connected Services\ProductionCyberSrcTransactionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="ContextMenuItem\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ApplicantDetails.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ClientSideFileUpload.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DDLWithTXTWithNoPostback.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\MOEHE_TC.ascx" />
+    <Content Include="Features\ChangePassword\ChangePassword.Template.xml">
+      <DependentUpon>ChangePassword.feature</DependentUpon>
+    </Content>
+    <Content Include="Lists\HETemplates\EditDlg.htm" />
+    <Content Include="Lists\HETemplates\Elements.xml" />
+    <Content Include="Lists\HETemplates\FileDlg.htm" />
+    <Content Include="Lists\HETemplates\HETemplatesInstance\Elements.xml" />
+    <Content Include="Lists\HETemplates\Repair.aspx" />
+    <Content Include="Lists\HETemplates\Schema.xml" />
+    <Content Include="Lists\HETemplates\Upload.aspx" />
+    <Content Include="Lists\ServiceDashBoard\Elements.xml" />
+    <Content Include="Lists\ServiceDashBoard\Schema.xml" />
+    <Content Include="Lists\ServiceDashBoard\ServiceDashBoardInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\StatementOrganizations\Elements.xml" />
+    <Content Include="Lists\StatementOrganizations\Schema.xml" />
+    <Content Include="Lists\StatementOrganizations\StatementOrganizationsInstance\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Common\HomeRegister.aspx" />
+    <Content Include="Common\Elements.xml" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DropdownWithTextbox.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\FileUpload.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LanguageSwitcher.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LoginIn.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\NewUser.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ResetPassword.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\SendVerification.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\TermsAndConditions.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UserVerification.ascx" />
+    <Content Include="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UCLoginIn.ascx" />
+    <Content Include="Features\NintexOutcomes\NintexOutcomes.Template.xml">
+      <DependentUpon>NintexOutcomes.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\CommonPage\CommonPage.Template.xml">
+      <DependentUpon>CommonPage.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Web\Web.Template.xml">
+      <DependentUpon>Web.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Site\Site.Template.xml">
+      <DependentUpon>Site.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\WebParts\WebParts.Template.xml">
+      <DependentUpon>WebParts.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\bootstrap-rtl.min.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\bootstrap.min.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\font-awesome.min.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\home-theme.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\jquery-ui.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\master.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\common\select2.min.css" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.svg" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\DisplayFile.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\ForgetPassword.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\images\favicon.ico" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\images\logo1.png" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\images\masterpage-bg.png" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\images\warning.png" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\js\bootstrap.min.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\js\jquery-3.2.1.min.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\js\jquery-ui.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\js\master.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\js\select2.min.js" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\MOEHELogIn.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\Register.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\ResetPassword.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\UCLogin.aspx" />
+    <Content Include="Layouts\ITWORX.MOEHEWF.Common\paymentreceipt.aspx" />
+    <Content Include="Lists\Applicants\ApplicantsInstance\Elements.xml" />
+    <Content Include="Lists\Applicants\Elements.xml" />
+    <Content Include="Lists\Applicants\Schema.xml" />
+    <Content Include="Lists\AttachmentType\AttachmentTypeInstance\Elements.xml" />
+    <Content Include="Lists\AttachmentType\Elements.xml" />
+    <Content Include="Lists\AttachmentType\Schema.xml" />
+    <Content Include="Lists\Configuration\ConfigurationInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Configuration\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Configuration\Schema.xml" />
+    <Content Include="Lists\CountryOfStudy\CountryOfStudyInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\CountryOfStudy\Elements.xml" />
+    <Content Include="Lists\CountryOfStudy\Schema.xml" />
+    <Content Include="Lists\IdentityConfiguration\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\IdentityConfiguration\IdentityConfigurationInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\IdentityConfiguration\Schema.xml" />
+    <Content Include="Lists\NationalityCategory\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\NationalityCategory\NationalityCategoryInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\NationalityCategory\Schema.xml" />
+    <Content Include="Lists\Nationality\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Nationality\NationalityInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Nationality\Schema.xml" />
+    <Content Include="Lists\NintexConfiguredOutcomes\Elements.xml" />
+    <Content Include="Lists\NintexConfiguredOutcomes\NintexConfiguredOutcomesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\NintexConfiguredOutcomes\Schema.xml" />
+    <Content Include="Lists\Notifications\Elements.xml" />
+    <Content Include="Lists\Notifications\NotificationsInstance\Elements.xml" />
+    <Content Include="Lists\Notifications\Schema.xml" />
+    <Content Include="Lists\ReceptionEmployeesVacations\Elements.xml" />
+    <Content Include="Lists\ReceptionEmployeesVacations\ReceptionEmployeesVacationsInstance\Elements.xml" />
+    <Content Include="Lists\ReceptionEmployeesVacations\Schema.xml" />
+    <Content Include="Lists\RequestStatus\Elements.xml" />
+    <Content Include="Lists\RequestStatus\RequestStatusInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\RequestStatus\Schema.xml" />
+    <Content Include="Lists\RequestTypes\Elements.xml" />
+    <Content Include="Lists\RequestTypes\RequestTypesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\RequestTypes\Schema.xml" />
+    <Content Include="Lists\TermsAndConditions\Elements.xml" />
+    <Content Include="Lists\TermsAndConditions\Schema.xml" />
+    <Content Include="Lists\TermsAndConditions\TermsAndConditionsInstance\Elements.xml" />
+    <Content Include="Lists\UniversityLists\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\UniversityLists\Schema.xml" />
+    <Content Include="Lists\UniversityLists\UniversityListsInstance\Elements.xml" />
+    <Content Include="Lists\University\Elements.xml" />
+    <Content Include="Lists\University\Schema.xml" />
+    <Content Include="Lists\University\UniversityInstance\Elements.xml" />
+    <Content Include="Lists\UserVerificationCode\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\UserVerificationCode\Schema.xml" />
+    <Content Include="Lists\UserVerificationCode\UserVerificationCodeInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\VerificationErrorInfo\Elements.xml" />
+    <Content Include="Lists\VerificationErrorInfo\Schema.xml" />
+    <Content Include="Lists\VerificationErrorInfo\VerificationErrorInfoInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebParts\HomeDashboard\Elements.xml" />
+    <Content Include="WebParts\HomeDashboard\HomeDashboardUserControl.ascx" />
+    <Content Include="WebParts\HomeRegister\Elements.xml" />
+    <Content Include="WebParts\HomeRegister\HomeRegisterUserControl.ascx" />
+    <Content Include="WebParts\Registeration\Elements.xml" />
+    <Content Include="WebParts\Registeration\RegisterationUserControl.ascx" />
+    <Content Include="WebParts\TrackingRequest\Elements.xml" />
+    <Content Include="WebParts\TrackingRequest\TrackingRequestUserControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX.MOEHEWF.Common.ar-SA.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX.MOEHEWF.Common.en-US.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ITWORX.MOEHEWF.Common.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pkg\Debug\ITWORX.MOEHEWF.Common\App_GlobalResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ProductionCyberSrcTransactionService\" />
+    <WCFMetadataStorage Include="Connected Services\TestingCyberSrcTransactionService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>if "$(ConfigurationName)"=="Debug" (
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\gacutil.exe" -i $(TargetPath)
+"C:\Windows\System32\inetsrv\appcmd.exe" recycle apppool "SharePoint - 3983")
+)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

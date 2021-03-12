@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="AttachmentsLookup" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/AttachmentsLookup" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100dfef795cd50640aba66fc3abcd986ff8" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{c411deea-afc9-49ed-8211-7724970c7537}" Name="TitleAr" /><FieldRef ID="{97ffbb69-8683-4895-a2e8-6149e16a9868}" Name="Status" /><FieldRef ID="{0ffb7fc9-13e7-4d7a-80d9-a07ba3459989}" Name="DocumentLibraryName" /><FieldRef ID="{e5056e4b-1734-4c81-9f5e-2f6c5427c793}" Name="DocLibWebUrl" /><FieldRef ID="{40574bed-f7df-45b2-9562-133818b18946}" Name="MaxFileNumber" /><FieldRef ID="{03610f04-f289-4ba8-956b-4d784db27342}" Name="Group1" /><FieldRef ID="{fbfe028d-c97f-4a55-a8cf-0c4770de5e29}" Name="LookupFieldName" /><FieldRef ID="{f486ca06-19c3-4619-8252-44095d5588e2}" Name="IsRequired" /><FieldRef ID="{d0d2d564-0427-4a7c-88d4-afc1d938af40}" Name="RequiredValidationMessage" /><FieldRef ID="{9a40c7ae-5d81-4ce9-b456-7b7113e9f613}" Name="RequiredValidationMessageAr" /><FieldRef ID="{f56f75dc-04fa-453d-b09c-b63400947ea1}" Name="MaxSize" /><FieldRef ID="{d1c9b6af-fb17-4533-b666-f4a48f9daed4}" Name="SupportedExtensions" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentType ID="0x0100C369FF30EFC343C7989D6FBF557B6A32" Name="LookupsCT" Group="MOEHE" Description="My Content Type" Inherits="FALSE" Version="0"><FieldRefs><FieldRef ID="{c411deea-afc9-49ed-8211-7724970c7537}" DisplayName="Title Ar" Required="FALSE" Name="TitleAr" /><FieldRef ID="{97ffbb69-8683-4895-a2e8-6149e16a9868}" DisplayName="Status" Required="FALSE" Name="Status" /><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{c411deea-afc9-49ed-8211-7724970c7537}" Name="TitleAr" DisplayName="Title Ar" Type="Text" Required="FALSE" Group="MOEHE"></Field><Field ID="{97ffbb69-8683-4895-a2e8-6149e16a9868}" Name="Status" DisplayName="Status" Type="Choice" Required="FALSE" Group="MOEHE"><CHOICES><CHOICE>Active</CHOICE><CHOICE>InActive</CHOICE><CHOICE>Deleted</CHOICE></CHOICES></Field><Field Name="DocumentLibraryName" ID="{0ffb7fc9-13e7-4d7a-80d9-a07ba3459989}" DisplayName="DocumentLibraryName" Type="Text" /><Field Name="DocLibWebUrl" ID="{e5056e4b-1734-4c81-9f5e-2f6c5427c793}" DisplayName="DocLibWebUrl" Type="Text" /><Field Name="MaxFileNumber" ID="{40574bed-f7df-45b2-9562-133818b18946}" DisplayName="MaxFileNumber" Type="Number" /><Field Name="Group1" ID="{03610f04-f289-4ba8-956b-4d784db27342}" DisplayName="Group" Type="Text" /><Field Name="LookupFieldName" ID="{fbfe028d-c97f-4a55-a8cf-0c4770de5e29}" DisplayName="LookupFieldName" Type="Text" /><Field Name="IsRequired" ID="{f486ca06-19c3-4619-8252-44095d5588e2}" DisplayName="IsRequired" Type="Boolean" /><Field Name="RequiredValidationMessage" ID="{d0d2d564-0427-4a7c-88d4-afc1d938af40}" DisplayName="RequiredValidationMessage" Type="Text" /><Field Name="RequiredValidationMessageAr" ID="{9a40c7ae-5d81-4ce9-b456-7b7113e9f613}" DisplayName="RequiredValidationMessageAr" Type="Text" /><Field Name="MaxSize" ID="{f56f75dc-04fa-453d-b09c-b63400947ea1}" DisplayName="MaxSize" Type="Number" /><Field Name="SupportedExtensions" ID="{d1c9b6af-fb17-4533-b666-f4a48f9daed4}" DisplayName="SupportedExtensions" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TitleAr" /><FieldRef Name="Status" /><FieldRef Name="DocumentLibraryName" /><FieldRef Name="DocLibWebUrl" /><FieldRef Name="MaxFileNumber" /><FieldRef Name="Group1" /><FieldRef Name="LookupFieldName" /><FieldRef Name="IsRequired" /><FieldRef Name="RequiredValidationMessage" /><FieldRef Name="RequiredValidationMessageAr" /><FieldRef Name="MaxSize" /><FieldRef Name="SupportedExtensions" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

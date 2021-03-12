@@ -1,0 +1,2057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RequestStatus"
+                OnQuickLaunch="TRUE"
+                TemplateType="10008"
+                Url="Lists/RequestStatus"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Code">UCEDraft</Field>
+          <Field Name="ApplicantDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="ApplicantDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">0</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/ManageRequest.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">1</Field>
+          <Field Name="ApplicantRequestPhaseAr">الإدخال</Field>
+          <Field Name="ApplicantRequestPhaseEn">Entering</Field>
+          <Field Name="ReviewerRequestPhaseAr">الإدخال</Field>
+          <Field Name="ReviewerRequestPhaseEn">Entering</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Draft</Field>
+          <Field Name="HistoryDescriptionAr">الطلب غير مكتمل</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCESubmitted</Field>
+          <Field Name="ApplicantDescriptionAr">طلب حالي</Field>
+          <Field Name="ApplicantDescriptionEn">Current Request</Field>
+          <Field Name="ReviewerDescriptionEn">New Request has been submitted</Field>
+          <Field Name="ReviewerDescriptionAr">تم إدخال طلب جديد</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/ManageRequestDetails.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب </Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEReceptionistReviewInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review request information and it's correctness by receptionist</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة بيانات الطلب والتأكد من صحتها من قبل موظف الأستقبال</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and Follow-up</Field>
+          <Field Name="ActionByEn">Receptionist</Field>
+          <Field Name="ActionByAr">موظف الأستقبال</Field>
+          <Field Name="HistoryDescriptionEn">Review request information and it's correctness by receptionist</Field>
+          <Field Name="HistoryDescriptionAr"> مراجعة بيانات الطلب والتأكد من صحتها من قبل موظف الأستقبال</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEReceptionistNeedsClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionAr">مطلوب توضيح</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">قيد استكمال البيانات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Pending data completion</Field>
+          <Field Name="ReviewerRequestPhaseAr">قيد استكمال البيانات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Pending data completion</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Needs Clarification</Field>
+          <Field Name="HistoryDescriptionAr">مطلوب توضيح </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCReceptionistClarificationReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+         <Field Name="TargetPageUrl">/Pages/ProcedureReceptionistDetails.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">1</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ReviewerRequestPhaseEn">In progress</Field>
+          <Field Name="ActionByEn">Receptionist</Field>
+          <Field Name="ActionByAr">وحدة الاستقبال </Field>
+          <Field Name="HistoryDescriptionEn">In progress</Field>
+          <Field Name="HistoryDescriptionAr">تحت الإجراء </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramManagerReview</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها شموليتها من قبل مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it by program manager</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEReceptionistMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it by receptionist</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة البيانات والتأكد من صحتها وشموليتها من قبل موظف الأستقبال</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ReviewerRequestPhaseEn">In progress</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review information and correct it by receptionist</Field>
+          <Field Name="HistoryDescriptionAr"> مراجعة البيانات والتأكد من صحتها وشموليتها من قبل موظف الأستقبال</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramEmployeeReview</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it from program employee</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها وشموليتها من  قبل موظف معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAsianAndEuropianEmployeeReview</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it from Asian and European Employee</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها وشموليتها من  قبل موظف معادلة الشهادات الاروبي و الأسيوي</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+        </Row>       
+        <Row>
+          <Field Name="Code">UCEProgramEmployeeNeedsClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionAr">مطلوب توضيح</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+          
+        
+        <Row>
+          <Field Name="Code">UCProgramEmployeeClarificationReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramManagerReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Program Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل مدير برنامج معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramEmployeeMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Request is missing information</Field>
+          <Field Name="ReviewerDescriptionAr">بحث الحالة غير مستوفي البيانات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAsianAndEuropianEmployeeMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها وشموليتها</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Employee for other countries</Field>
+          <Field Name="ActionByAr">موظف معادلة الشهادات للدول الأخرى</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>      
+        <Row>
+          <Field Name="Code">UCEHeadManagerReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل مديرإدارة معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision Preparation</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramManagerMissingRecommendationFromHeadManager</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation that is missing information from Program Employee that is sent by Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالةالغير مستوفية البيانات و توصية من قبل مدير برنامج معادلة الشهادات اللتي أرسلها مدير الادارة </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مديرإدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHeadManagerAccepted</Field>
+          <Field Name="ApplicantDescriptionAr">تنفيذ القرار النهائي</Field>
+          <Field Name="ApplicantDescriptionEn">Executing Final Decision</Field>
+          <Field Name="ReviewerDescriptionEn">Accept from Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr"> القبول من قبل مدير إدارة معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مديرإدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHeadManagerRejected</Field>
+          <Field Name="ApplicantDescriptionAr">تنفيذ القرار النهائي</Field>
+          <Field Name="ApplicantDescriptionEn">Executing Final Decision</Field>
+          <Field Name="ReviewerDescriptionEn">Reject from Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr"> الرفض من قبل مدير إدارة معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مديرإدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Assistant Undersecretary that is sent by Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل الوكيل المساعد اللتي أرسلها  مدير الادارة </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Assistant Undersecretary</Field>
+          <Field Name="ActionByAr">الوكيل المساعد </Field>
+          <Field Name="HistoryDescriptionEn">Review recommendation from Assistant Undersecretary that is sent by Head Manager</Field>
+          <Field Name="HistoryDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل الوكيل المساعد اللتي أرسلها  مدير الادارة </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCETechnicalCommitteeReviewRecommendationFromHeadManager</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Technical Committee that is sent by Head Manager</Field>
+          <Field Name="ReviewerDescriptionAr"> الاطلاع على بحث الحالة و توصية من قبل لجنة معادلة الشهادات اللتي أرسلها  مدير الادارة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Technical Committee</Field>
+          <Field Name="ActionByAr">لجنة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review recommendation from Technical Committee that is sent by Head Manager</Field>
+          <Field Name="HistoryDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل لجنة معادلة الشهادات اللتي أرسلها  مدير الادارة </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCELegalEmployeePendingReview</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Pending on legal employee review</Field>
+          <Field Name="ReviewerDescriptionAr">فى إنتظار مراجعة موظف الشئون القانونية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Legal Employee</Field>
+          <Field Name="ActionByAr">موظف الشؤون القانونية</Field>
+          <Field Name="HistoryDescriptionEn">Pending on legal employee review</Field>
+          <Field Name="HistoryDescriptionAr">فى إنتظار مراجعة موظف الشئون القانونية </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEProgramManagerMissingRecommendationFromAssistantUndersecretary</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation that is missing information from Program Employee that is sent by Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالةالغير مستوفية البيانات و توصية من قبل مدير برنامج معادلة الشهادات اللتي أرسلها الوكيل المساعد  </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ReviewerRequestPhaseEn">In progress</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review recommendation that is missing information from Program Employee that is sent by Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr"> الاطلاع على بحث الحالةالغير مستوفية البيانات و توصية من قبل مدير برنامج معادلة الشهادات اللتي أرسلها الوكيل المساعد</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryAccepted</Field>
+          <Field Name="ApplicantDescriptionAr">مقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Accepted</Field>
+          <Field Name="ReviewerDescriptionEn">Accept from Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr"> القبول من قبل الوكيل المساعد</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مقبول</Field>
+          <Field Name="ApplicantRequestPhaseEn">Accepted</Field>
+          <Field Name="ReviewerRequestPhaseAr">مقبول</Field>
+          <Field Name="ReviewerRequestPhaseEn">Accepted</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Accept from Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr"> القبول من قبل الوكيل المساعد </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryRejected</Field>
+          <Field Name="ApplicantDescriptionAr">مرفوض</Field>
+          <Field Name="ApplicantDescriptionEn">Rejected</Field>
+          <Field Name="ReviewerDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr"> الرفض من قبل الوكيل المساعد</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مرفوض</Field>
+          <Field Name="ApplicantRequestPhaseEn">Rejected</Field>
+          <Field Name="ReviewerRequestPhaseAr">مرفوض</Field>
+          <Field Name="ReviewerRequestPhaseEn">Rejected</Field>
+         <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr">الرفض من قبل الوكيل المساعد </Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCETechnicalCommitteeReviewRecommendationAssistantUndersecretary</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Technical Committee that is sent by Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل لجنة معادلة الشهادات اللتي أرسلها الوكيل المساعد </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Technical Committee</Field>
+          <Field Name="ActionByAr">لجنة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Review recommendation from Technical Committee that is sent by Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr"> الاطلاع على بحث الحالة و توصية من قبل لجنة معادلة الشهادات اللتي أرسلها الوكيل المساعد</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Check request that is missing information from Assistant Undersecretary that is sent by Technical Committee </Field>
+          <Field Name="ReviewerDescriptionAr">  فحص الحالة الغير مستوفية البيانات  من قبل الوكيل المساعد اللتي أرسلها اللجنة الفنية </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ReviewerRequestPhaseEn">In progress</Field>
+          <Field Name="ActionByEn">Assistant Undersecretary</Field>
+          <Field Name="ActionByAr">الوكيل المساعد</Field>
+          <Field Name="HistoryDescriptionEn">Check request that is missing information from Assistant Undersecretary that is sent by Technical Committee</Field>
+          <Field Name="HistoryDescriptionAr"> فحص الحالة الغير مستوفية البيانات  من قبل الوكيل المساعد اللتي أرسلها اللجنة الفنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHeadManagerMissingInformationTechnicalCommittee</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Check request that is missing information from Head Manager that is sent by Technical Committee </Field>
+          <Field Name="ReviewerDescriptionAr">  فحص الحالة الغير مستوفية البيانات  من قبل مدير إدارة معادلة الشهادات اللتي أرسلها اللجنة الفنية </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ReviewerRequestPhaseEn">In progress</Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Check request that is missing information from Head Manager that is sent by Technical Committee </Field>
+          <Field Name="HistoryDescriptionAr">  فحص الحالة الغير مستوفية البيانات  من قبل مدير إدارة معادلة الشهادات اللتي أرسلها اللجنة الفنية </Field>
+
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryAcceptDecisionTechnicalCommittee</Field>
+          <Field Name="ApplicantDescriptionAr">مقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Accepted</Field>
+          <Field Name="ReviewerDescriptionEn">Accept from Technical Committee</Field>
+          <Field Name="ReviewerDescriptionAr"> القبول من قبل اللجنة الفنية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مقبول</Field>
+          <Field Name="ApplicantRequestPhaseEn">Accepted</Field>
+          <Field Name="ReviewerRequestPhaseAr">مقبول</Field>
+          <Field Name="ReviewerRequestPhaseEn">Accepted</Field>
+          <Field Name="ActionByEn">Assistant Undersecretary</Field>
+          <Field Name="ActionByAr"> وكيل المساعد لشؤون التعليم العالي</Field>
+          <Field Name="HistoryDescriptionEn">Accept from Technical Committee</Field>
+          <Field Name="HistoryDescriptionAr"> القبول من قبل اللجنة الفنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEAssistantUndersecretaryRejectDecisionTechnicalCommittee</Field>
+          <Field Name="ApplicantDescriptionAr">مرفوض</Field>
+          <Field Name="ApplicantDescriptionEn">Rejected</Field>
+          <Field Name="ReviewerDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr"> الرفض من قبل  اللجنة الفنية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مرفوض</Field>
+          <Field Name="ApplicantRequestPhaseEn">Rejected</Field>
+          <Field Name="ReviewerRequestPhaseAr">مرفوض</Field>
+          <Field Name="ReviewerRequestPhaseEn">Rejected</Field>
+          <Field Name="ActionByEn">Assistant Undersecretary</Field>
+          <Field Name="ActionByAr"> وكيل المساعد لشؤون التعليم العالي</Field>
+          <Field Name="HistoryDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr"> الرفض من قبل  اللجنة الفنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHeadManagereAcceptDecisionTechnicalCommitte</Field>
+          <Field Name="ApplicantDescriptionAr">مقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Accepted</Field>
+          <Field Name="ReviewerDescriptionEn">Accept from Technical Committee</Field>
+          <Field Name="ReviewerDescriptionAr"> القبول من قبل اللجنة الفنية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مقبول</Field>
+          <Field Name="ApplicantRequestPhaseEn">Accepted</Field>
+          <Field Name="ReviewerRequestPhaseAr">مقبول</Field>
+          <Field Name="ReviewerRequestPhaseEn">Accepted</Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr"> مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Accept from Technical Committee</Field>
+          <Field Name="HistoryDescriptionAr"> القبول من قبل اللجنة الفنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHeadManagerRejectDecisionTechnicalCommittee</Field>
+          <Field Name="ApplicantDescriptionAr">مرفوض</Field>
+          <Field Name="ApplicantDescriptionEn">Rejected</Field>
+          <Field Name="ReviewerDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="ReviewerDescriptionAr"> الرفض من قبل  اللجنة الفنية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">مرفوض</Field>
+          <Field Name="ApplicantRequestPhaseEn">Rejected</Field>
+          <Field Name="ReviewerRequestPhaseAr">مرفوض</Field>
+          <Field Name="ReviewerRequestPhaseEn">Rejected</Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr"> مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Reject from Assistant Undersecretary</Field>
+          <Field Name="HistoryDescriptionAr"> الرفض من قبل  اللجنة الفنية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCELegalEmployeeSendNotes</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Legal employee send the notes</Field>
+          <Field Name="ReviewerDescriptionAr">إرسال مذكرات موظف الشؤون القانونية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Legal Employee</Field>
+          <Field Name="ActionByAr">موظف الشؤون القانونية</Field>
+          <Field Name="HistoryDescriptionEn">Legal employee send the notes</Field>
+          <Field Name="HistoryDescriptionAr">إرسال مذكرات موظف الشؤون القانونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCELegalEmployeeMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Pending on legal employee review</Field>
+          <Field Name="ReviewerDescriptionAr">فى إنتظار مراجعة موظف الشئون القانونية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">تحت الأجراء</Field>
+          <Field Name="ApplicantRequestPhaseEn">In progress</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Audit and follow-up</Field>
+          <Field Name="ActionByEn">Legal Employee</Field>
+          <Field Name="ActionByAr">موظف الشؤون القانونية</Field>
+          <Field Name="HistoryDescriptionEn">Pending on legal employee review</Field>
+          <Field Name="HistoryDescriptionAr">فى إنتظار مراجعة موظف الشئون القانونية</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCECulturalMissionNeedsStatement</Field>
+          <Field Name="ApplicantDescriptionAr">معلق للمراجعة</Field>
+          <Field Name="ApplicantDescriptionEn">Pending for review</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Statement from Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">طلب إفادة من قبل الملحقية الثقافية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">موظف برنامج معادلة الشهادات</Field>
+          <Field Name="ActionByAr">Program Employee</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCECulturalMissionStatementReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to statement by Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">الرد علي طلب إفادة من قبل الملحقية الثقافية </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Cultural Mission</Field>
+          <Field Name="ActionByAr">الملحقية الثقافية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>       
+        <Row>
+          <Field Name="Code">UCEClosedByRejection</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr">بالرفض</Field>
+          <Field Name="FinalDecisionEn">By Rejection</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEClosedByAcceptance</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr">بالقبول</Field>
+          <Field Name="FinalDecisionEn">By Acceptance</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEExternalCommunicationAddBook</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Suspend</Field>
+          <Field Name="ReviewerDescriptionAr">معلق</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">External Communication</Field>
+          <Field Name="ActionByAr">مخاطبات خارجية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEApplicantClarificationReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Suspend</Field>
+          <Field Name="ReviewerDescriptionAr">معلق</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCECulturalMissionSuspend</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Suspend</Field>
+          <Field Name="ReviewerDescriptionAr">معلق</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">CulturalMission</Field>
+          <Field Name="ActionByAr">الملحقية الثقافية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEExternalCommunicationSuspend</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Suspend</Field>
+          <Field Name="ReviewerDescriptionAr">معلق</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">ExternalCommunication</Field>
+          <Field Name="ActionByAr">مخاطبات خارجية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHigherEduInstitutesNeedsStatement</Field>
+          <Field Name="ApplicantDescriptionAr">معلق للمراجعة</Field>
+          <Field Name="ApplicantDescriptionEn">Pending for review</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Statement from Higher Edu Institutes</Field>
+          <Field Name="ReviewerDescriptionAr">طلب إفادة من قبل معاهد التعليم العالي</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr"> موظف برنامج معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">UCEHigherEduInstitutesStatementReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to Statement from Higher Edu Institutes</Field>
+          <Field Name="ReviewerDescriptionAr">الرد علي طلب إفادة من قبل معاهد التعليم العالي</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayRequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Higher Edu Institutes</Field>
+          <Field Name="ActionByAr"> معاهد التعليم العالي</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <!--===============================================================-->
+        <Row>
+          <Field Name="Code">PADraft</Field>
+          <Field Name="ApplicantDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="ApplicantDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">0</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/ManagePARequest.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">1</Field>
+          <Field Name="ApplicantRequestPhaseAr">الإدخال</Field>
+          <Field Name="ApplicantRequestPhaseEn">Entering</Field>
+          <Field Name="ReviewerRequestPhaseAr">الإدخال</Field>
+          <Field Name="ReviewerRequestPhaseEn">Entering</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Draft</Field>
+          <Field Name="HistoryDescriptionAr">الطلب غير مكتمل</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PASubmitted</Field>
+          <Field Name="ApplicantDescriptionAr">طلب حالي</Field>
+          <Field Name="ApplicantDescriptionEn">Current Request</Field>
+          <Field Name="ReviewerDescriptionEn">New Request has been submitted</Field>
+          <Field Name="ReviewerDescriptionAr">تم إدخال طلب جديد</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/ManagePARequestDetails.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr"> مقدم الطلب </Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Code">PAEmployeeNeedsClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Review request information and it's correctness by the employee</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة بيانات الطلب والتأكد من صحتها من قبل الموظف</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/PAClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف وحدة الموافقة المسبقة</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAEmployeeClarificationReplay</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب </Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAProgramManagerReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها شموليتها من قبل مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it by program manager</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAProgramEmployeeMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review information and correct it by receptionist</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة البيانات والتأكد من صحتها وشموليتها من قبل موظف وحدة الموافقة المسبقة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHeadManagerReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Program Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل مدير برنامج معادلة الشهادات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHeadEmployeeMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Request is missing information</Field>
+          <Field Name="ReviewerDescriptionAr">الطلب غير مستوفي البيانات</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHeadManagerAccepted</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr">بالقبول</Field>
+          <Field Name="FinalDecisionEn">By Acceptance</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHeadManagerRejected</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr">بالرفض</Field>
+          <Field Name="FinalDecisionEn">By Rejection</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn">Head Manager</Field>
+          <Field Name="ActionByAr">مدير إدارة معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAEmployeeReviewInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review request information and it's correctness by the employee</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة بيانات الطلب والتأكد من صحتها من قبل الموظف</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ApplicantRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ReviewerRequestPhaseAr">المراجعة و التدقيق</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف وحدة الموافقة المسبقة</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">المراجعة و التدقيق</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">RegistrationPassword</Field>
+          <Field Name="ApplicantDescriptionAr">كلمة مرور التسجيل</Field>
+          <Field Name="ApplicantDescriptionEn">Registration Password</Field>
+          <Field Name="ReviewerDescriptionEn">Registration Password</Field>
+          <Field Name="ReviewerDescriptionAr">كلمة مرور التسجيل</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">0</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">Registration Password</Field>
+          <Field Name="HistoryDescriptionAr">كلمة مرور التسجيل</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">RegistrationVerificationCode</Field>
+          <Field Name="ApplicantDescriptionAr">كود التفعيل</Field>
+          <Field Name="ApplicantDescriptionEn">Registration Verification Code</Field>
+          <Field Name="ReviewerDescriptionEn">Registration Verification Code</Field>
+          <Field Name="ReviewerDescriptionAr">كود التفعيل</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">0</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">Registration Verification Code</Field>
+          <Field Name="HistoryDescriptionAr">كود التفعيل</Field>
+        </Row> 
+        <Row>
+          <Field Name="Code">PAProgramManagerReject</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي </Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي </Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة الموافقة المسبقة</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision Preparation</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAProgramManagerAcceptance</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision Preparation</Field>
+          <Field Name="ActionByEn">Program Manager</Field>
+          <Field Name="ActionByAr">مدير برنامج وحدة الموافقة المسبقة</Field>
+          <Field Name="HistoryDescriptionEn">Final Decision Preparation</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row> 
+        <Row>
+          <Field Name="Code">UCEDraftForClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionAr">مطلوب توضيح</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/ClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <!--===============================================================-->
+
+        <Row>
+          <Field Name="Code">PACulturalMissionNeedsStatement</Field>
+          <Field Name="ApplicantDescriptionAr">معلق للمراجعة</Field>
+          <Field Name="ApplicantDescriptionEn">Pending for review</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Statement from Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">طلب إفادة من قبل الملحقية الثقافية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Program Employee</Field>
+          <Field Name="ActionByAr">موظف معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PACulturalMissionStatementReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to statement by Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">الرد علي طلب إفادة من قبل الملحقية الثقافية </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Cultural Mission</Field>
+          <Field Name="ActionByAr">الملحقية الثقافية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHigherEduInstitutesNeedsStatement</Field>
+          <Field Name="ApplicantDescriptionAr">معلق للمراجعة</Field>
+          <Field Name="ApplicantDescriptionEn">Pending for review</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Statement from Higher Edu Institutes</Field>
+          <Field Name="ReviewerDescriptionAr">طلب إفادة من قبل معاهد التعليم العالي</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Higher Edu Institutes</Field>
+          <Field Name="ActionByAr"> معاهد التعليم العالي</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PAHigherEduInstitutesStatementReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to Statement from Higher Edu Institutes</Field>
+          <Field Name="ReviewerDescriptionAr">الرد علي طلب إفادة من قبل معاهد التعليم العالي</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplayPARequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Higher Edu Institutes</Field>
+          <Field Name="ActionByAr"> معاهد التعليم العالي</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">PADraftForClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionAr">مطلوب توضيح</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/PAClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/PAReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Code">HEDDMessage</Field>
+          <Field Name="ApplicantDescriptionAr">HEDD Message</Field>
+          <Field Name="ApplicantDescriptionEn">HEDD Message</Field>
+          <Field Name="ReviewerDescriptionEn"></Field>
+          <Field Name="ReviewerDescriptionAr"></Field>
+          <Field Name="CanApplicantEditRequest"></Field>
+          <Field Name="CanReviewerEditRequest"></Field>
+          <Field Name="IsCommentRequired"></Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest"></Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">HEDD Message</Field>
+          <Field Name="HistoryDescriptionAr">HEDD Message</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">CHEDMessage</Field>
+          <Field Name="ApplicantDescriptionAr">CHED Message</Field>
+          <Field Name="ApplicantDescriptionEn">CHED Message</Field>
+          <Field Name="ReviewerDescriptionEn"></Field>
+          <Field Name="ReviewerDescriptionAr"></Field>
+          <Field Name="CanApplicantEditRequest"></Field>
+          <Field Name="CanReviewerEditRequest"></Field>
+          <Field Name="IsCommentRequired"></Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest"></Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">CHED Message</Field>
+          <Field Name="HistoryDescriptionAr">CHED Message</Field>
+        </Row>
+      
+     <!--===============================================================-->
+        
+         
+ <Row>
+          <Field Name="Code">SCEDraft</Field>
+          <Field Name="ApplicantDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="ApplicantDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionEn">Draft</Field>
+          <Field Name="ReviewerDescriptionAr">الطلب غير مكتمل</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">0</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/ManageSCERequest.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">1</Field>
+          <Field Name="ApplicantRequestPhaseAr">الإدخال</Field>
+          <Field Name="ApplicantRequestPhaseEn">Entering</Field>
+          <Field Name="ReviewerRequestPhaseAr">الإدخال</Field>
+          <Field Name="ReviewerRequestPhaseEn">Entering</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Draft</Field>
+          <Field Name="HistoryDescriptionAr">الطلب غير مكتمل</Field>
+        </Row>
+		
+		 <Row>
+          <Field Name="Code">SCESubmitted</Field>
+          <Field Name="ApplicantDescriptionAr">طلب حالي</Field>
+          <Field Name="ApplicantDescriptionEn">Current Request</Field>
+          <Field Name="ReviewerDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الأجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/ManageSCERequestDetails.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">فحص الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Checking Request</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">التدقيق والمتابعة</Field>
+        </Row>
+		
+	
+		
+			 <Row>
+          <Field Name="Code">SCEReturnForUnauthorized</Field>
+          <Field Name="ApplicantDescriptionAr"></Field>
+          <Field Name="ApplicantDescriptionEn"></Field>
+          <Field Name="ReviewerDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الأجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn">Reassign Employees</Field>
+          <Field Name="ActionByAr">الموظفين الموكل لهم الصلاحية</Field>
+          <Field Name="HistoryDescriptionEn"></Field>
+          <Field Name="HistoryDescriptionAr"></Field>
+        </Row>
+		
+			 <Row>
+          <Field Name="Code">SCEEquivalenceEmployeeReassign</Field>
+          <Field Name="ApplicantDescriptionAr">طلب حالي</Field>
+          <Field Name="ApplicantDescriptionEn">Current Request</Field>
+          <Field Name="ReviewerDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الأجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/ManageSCERequestDetails.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">فحص الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Checking Request</Field>
+          <Field Name="ReviewerRequestPhaseAr">التدقيق والمتابعة</Field>
+          <Field Name="ReviewerRequestPhaseEn">Review and Audit</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Review and Audit</Field>
+          <Field Name="HistoryDescriptionAr">التدقيق والمتابعة</Field>
+        </Row>
+		
+		
+		 <Row>
+          <Field Name="Code">SCEEmployeeNeedsClarification</Field>
+          <Field Name="ApplicantDescriptionAr">طلب توضيح</Field>
+          <Field Name="ApplicantDescriptionEn">Needs Clarification</Field>
+          <Field Name="ReviewerDescriptionEn">Review request information and it's correctness by the employee</Field>
+          <Field Name="ReviewerDescriptionAr"> مراجعة بيانات الطلب والتأكد من صحتها من قبل الموظف</Field>
+          <Field Name="CanApplicantEditRequest">1</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/SCEClarificationRequestsListing.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">طلب توضيح مطلوب الرد</Field>
+          <Field Name="ApplicantRequestPhaseEn">Clarification needs reply</Field>
+          <Field Name="ReviewerRequestPhaseAr">قيد استكمال البيانات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Completing Information</Field>
+          <Field Name="ActionByEn">Applicant</Field>
+          <Field Name="ActionByAr">مقدم الطلب</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+		
+		
+		 <Row>
+          <Field Name="Code">SCEEmployeeClarificationReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الإجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">1</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+		
+	
+		 <Row>
+          <Field Name="Code">SCECulturalMissionNeedsStatement</Field>
+          <Field Name="ApplicantDescriptionAr">معلق للمراجعة</Field>
+          <Field Name="ApplicantDescriptionEn">Pending for review</Field>
+          <Field Name="ReviewerDescriptionEn">Needs Statement from Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">طلب إفادة من الملحقية الثقافية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Cultural Mission</Field>
+          <Field Name="ActionByAr">الملحقية الثقافية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row> <!--Returned Req-->
+          <Field Name="Code">SCECulturalMissionStatementReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to statement by Cultural Mission</Field>
+          <Field Name="ReviewerDescriptionAr">الرد علي طلب إفادة من قبل الملحقية الثقافية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+		
+		
+		
+		 <Row>
+          <Field Name="Code">SCEExternalCommunicationAddBook</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Add new book</Field>
+          <Field Name="ReviewerDescriptionAr">ارسال مخاطبات خارجية</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">External Communications</Field>
+          <Field Name="ActionByAr">مخاطبات خارجية</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+        <Row> <!--Returned Req-->
+          <Field Name="Code">SCEExternalCommunicationReply</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reply to external communication book</Field>
+          <Field Name="ReviewerDescriptionAr">ارسال مخاطبات خارجية وإدخال الرد عليها</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ApplicantRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ReviewerRequestPhaseAr">التحقق من صحة الشهادات</Field>
+          <Field Name="ReviewerRequestPhaseEn">Certificate Validation</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Certificate Validation</Field>
+          <Field Name="HistoryDescriptionAr">التحقق من صحة الشهادات</Field>
+        </Row>
+		
+	
+		 <Row>
+          <Field Name="Code">SCEAcceptedRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Accept certificate equivalency</Field>
+          <Field Name="ReviewerDescriptionAr">الموافقة على طلب المعادلة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ActionByEn">Section Manager</Field>
+          <Field Name="ActionByAr">رئيس قسم المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Preparing Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+		
+		 <Row>
+          <Field Name="Code">SCERejectedRecommendationSectionManager</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reject certificate equivalency</Field>
+          <Field Name="ReviewerDescriptionAr">رفض طلب المعادلة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ActionByEn">Section Manager</Field>
+          <Field Name="ActionByAr">رئيس قسم المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Preparing Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+		
+		 <Row>
+          <Field Name="Code">SCERejectedRecommendationDepartmentManager</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionEn">Reject certificate equivalency</Field>
+          <Field Name="ReviewerDescriptionAr">رفض طلب المعادلة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Department Manager</Field>
+          <Field Name="ActionByAr">مدير الإدارة</Field>
+          <Field Name="HistoryDescriptionEn">Preparing Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+		
+		
+		
+		<Row>
+      <!--Returned Req-->
+          <Field Name="Code">SCESectionManagerMissingInformation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review Information and check if it's valid or not</Field>
+          <Field Name="ReviewerDescriptionAr">مراجعة البيانات والتأكد من صحتها وشموليتها </Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب </Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+		
+	
+		 <Row>
+          <Field Name="Code">SCESectionManagerAccepted</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Acceptance</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالقبول</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+           <Field Name="FinalDecisionAr">بالقبول</Field>
+          <Field Name="FinalDecisionEn">By Acceptance</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+        <Row>
+          <Field Name="Code">SCESectionManagerRejected</Field>
+          <Field Name="ApplicantDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="ApplicantDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionEn">Closed By Rejection</Field>
+          <Field Name="ReviewerDescriptionAr">مغلق بالرفض</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+         <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr">بالرفض</Field>
+          <Field Name="FinalDecisionEn">By Rejection</Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Final Decision </Field>
+          <Field Name="ReviewerRequestPhaseAr">القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Final Decision </Field>
+          <Field Name="ActionByEn"></Field>
+          <Field Name="ActionByAr"></Field>
+          <Field Name="HistoryDescriptionEn">Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">القرار النهائي</Field>
+        </Row>
+		
+		
+		<Row>
+          <Field Name="Code">SCEDepartmentManagerReviewRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation from Program Manager</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على بحث الحالة و توصية من قبل مدير الإدارة</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/SCEReviewerDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Department Manager</Field>
+          <Field Name="ActionByAr">مدير الإدارة</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+		
+		<Row>
+      <!--Returned Req-->
+          <Field Name="Code">SCEDepartmentManagerMissingRecommendation</Field>
+          <Field Name="ApplicantDescriptionAr">تحت الإجراء</Field>
+          <Field Name="ApplicantDescriptionEn">In progress</Field>
+          <Field Name="ReviewerDescriptionEn">Review recommendation and check if information is missing</Field>
+          <Field Name="ReviewerDescriptionAr">الاطلاع على توصية موظف المعادلة ودراسة اذا كان الطلب غير مستوفي الشروط</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ApplicantRequestPhaseEn">Request Study</Field>
+          <Field Name="ReviewerRequestPhaseAr">دراسة الطلب</Field>
+          <Field Name="ReviewerRequestPhaseEn">Request Study</Field>
+          <Field Name="ActionByEn">Equivalence Employee</Field>
+          <Field Name="ActionByAr">موظف المعادلة</Field>
+          <Field Name="HistoryDescriptionEn">Request Study</Field>
+          <Field Name="HistoryDescriptionAr">دراسة الطلب</Field>
+        </Row>
+        <Row>
+          <!--Returned Req-->
+          <Field Name="Code">SCEDepartmentManagerAcceptDecision</Field>
+          <Field Name="ApplicantDescriptionAr">القبول</Field>
+          <Field Name="ApplicantDescriptionEn">Accept</Field>
+          <Field Name="ReviewerDescriptionEn">Accept</Field>
+          <Field Name="ReviewerDescriptionAr">القبول</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ActionByEn">Section Manager</Field>
+          <Field Name="ActionByAr">رئيس قسم تصديق و معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Preparing Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+
+<Row>
+  <!--Returned Req-->
+          <Field Name="Code">SCEDepartmentManagerRejectDecision</Field>
+          <Field Name="ApplicantDescriptionAr">الرفض</Field>
+          <Field Name="ApplicantDescriptionEn">Reject</Field>
+          <Field Name="ReviewerDescriptionEn">Reject</Field>
+          <Field Name="ReviewerDescriptionAr">الرفض</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl">/Pages/DisplaySCERequest.aspx</Field>
+          <Field Name="ReviewerTargetPageURL">/Pages/ReviewerSCEDisplayRequestDetails.aspx</Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ApplicantRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ReviewerRequestPhaseAr">إعداد القرار النهائي</Field>
+          <Field Name="ReviewerRequestPhaseEn">Preparing Final Decision</Field>
+          <Field Name="ActionByEn">Section Manager</Field>
+          <Field Name="ActionByAr">رئيس قسم تصديق و معادلة الشهادات</Field>
+          <Field Name="HistoryDescriptionEn">Preparing Final Decision</Field>
+          <Field Name="HistoryDescriptionAr">إعداد القرار النهائي</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Code">SCEReopenRequest</Field>
+          <Field Name="ApplicantDescriptionAr"></Field>
+          <Field Name="ApplicantDescriptionEn"></Field>
+          <Field Name="ReviewerDescriptionEn">In Progress</Field>
+          <Field Name="ReviewerDescriptionAr">تحت الأجراء</Field>
+          <Field Name="CanApplicantEditRequest">0</Field>
+          <Field Name="CanReviewerEditRequest">1</Field>
+          <Field Name="IsCommentRequired">0</Field>
+          <Field Name="TargetPageUrl"></Field>
+          <Field Name="ReviewerTargetPageURL"></Field>
+          <Field Name="FinalDecisionAr"></Field>
+          <Field Name="FinalDecisionEn"></Field>
+          <Field Name="CanDeleteRequest">0</Field>
+          <Field Name="ApplicantRequestPhaseAr"></Field>
+          <Field Name="ApplicantRequestPhaseEn"></Field>
+          <Field Name="ReviewerRequestPhaseAr"></Field>
+          <Field Name="ReviewerRequestPhaseEn"></Field>
+          <Field Name="ActionByEn">Reassign Employees</Field>
+          <Field Name="ActionByAr">الموظفين الموكل لهم الصلاحية</Field>
+          <Field Name="HistoryDescriptionEn"></Field>
+          <Field Name="HistoryDescriptionAr"></Field>
+        </Row>
+    
+      </Rows>
+      
+    </Data>
+  </ListInstance>
+</Elements>

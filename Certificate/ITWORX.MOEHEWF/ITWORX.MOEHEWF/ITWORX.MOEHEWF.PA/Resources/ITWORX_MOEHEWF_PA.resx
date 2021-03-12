@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Agree" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="BritainCulturalAttaché" xml:space="preserve">
+    <value>Cultural Attaché in Britain</value>
+  </data>
+  <data name="CalculatedDetailsAttachText" xml:space="preserve">
+    <value>Adding and Editing Attachments</value>
+  </data>
+  <data name="ChooseValue" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PAClarificationRequests" xml:space="preserve">
+    <value>Clarification Requests</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>CountryName</value>
+  </data>
+  <data name="DelegationTemplates" xml:space="preserve">
+    <value>Delegation Templates</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="EnterNewCountry" xml:space="preserve">
+    <value>Enter New Country</value>
+  </data>
+  <data name="EnterNewFaculty" xml:space="preserve">
+    <value>Enter new faculty</value>
+  </data>
+  <data name="EnterNewSpecialization" xml:space="preserve">
+    <value>Enter new specialization</value>
+  </data>
+  <data name="EnterNewUniversity" xml:space="preserve">
+    <value>Enter new University</value>
+  </data>
+  <data name="EntityNeedsEquivalency" xml:space="preserve">
+    <value>Entity Needs Equivalency</value>
+  </data>
+  <data name="EntityProvidingStudy" xml:space="preserve">
+    <value>Entity Providing Study</value>
+  </data>
+  <data name="EntityWorkingFor" xml:space="preserve">
+    <value>Entity Working For</value>
+  </data>
+  <data name="Faculty" xml:space="preserve">
+    <value>Faculty</value>
+  </data>
+  <data name="HEDDMessage" xml:space="preserve">
+    <value>Dear customer {0}  is one of the HEDD universities Please quickly provide the administration of the equivalence of certificates from the HEDD site so that the management of the equivalence of certificates to continue to implement your request</value>
+  </data>
+  <data name="HigherEduInstitutes" xml:space="preserve">
+    <value>Institutions of Higher Education</value>
+  </data>
+  <data name="LateRequests" xml:space="preserve">
+    <value>Late Requests</value>
+  </data>
+  <data name="LocalSample" xml:space="preserve">
+    <value>LocalSample</value>
+  </data>
+  <data name="LocalSample1" xml:space="preserve">
+    <value>LocalSample</value>
+  </data>
+  <data name="PANewRequests" xml:space="preserve">
+    <value>New Requests</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoOfRequests" xml:space="preserve">
+    <value>Total Requests: </value>
+  </data>
+  <data name="OccupationName" xml:space="preserve">
+    <value>Occupation Name</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PreviousCertificates" xml:space="preserve">
+    <value>Previous Certificates</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="QatarMinistryForeignAffairs" xml:space="preserve">
+    <value>Qatar Ministry of Foreign Affairs</value>
+  </data>
+  <data name="RegNumbersOnly" xml:space="preserve">
+    <value>You must enter numbers only</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="RequiedEntityProvidingStudy" xml:space="preserve">
+    <value>Entity Providing study is required</value>
+  </data>
+  <data name="RequiedOtherEntityProvidingStudy" xml:space="preserve">
+    <value>Other Entity Providing study is required</value>
+  </data>
+  <data name="RequiredEntityNeedsEquivalency" xml:space="preserve">
+    <value>Entity Needs Equivalency is required</value>
+  </data>
+  <data name="RequiredEntityWorkingFor" xml:space="preserve">
+    <value>Entity Working For is required</value>
+  </data>
+  <data name="RequiredNewCountry" xml:space="preserve">
+    <value>New Country is required</value>
+  </data>
+  <data name="RequiredNewFaculty" xml:space="preserve">
+    <value>New Faculty is required</value>
+  </data>
+  <data name="RequiredNewSpecialization" xml:space="preserve">
+    <value>New Specialization of highest equivalent certificate  is required</value>
+  </data>
+  <data name="RequiredNewUniversity" xml:space="preserve">
+    <value>New University is required</value>
+  </data>
+  <data name="RequiredOccupationName" xml:space="preserve">
+    <value>Occupation Name is required</value>
+  </data>
+  <data name="RequiredOtherEntityNeedsEquivalency" xml:space="preserve">
+    <value>Other Entity Needs Equivalency is required</value>
+  </data>
+  <data name="RequiredOtherEntityWorkingFor" xml:space="preserve">
+    <value>Other Entity Working For is required</value>
+  </data>
+  <data name="RequiredOtherOccupationName" xml:space="preserve">
+    <value>Other Occupation Name is required</value>
+  </data>
+  <data name="RequiredState" xml:space="preserve">
+    <value>State is required</value>
+  </data>
+  <data name="RequiredUniversity" xml:space="preserve">
+    <value>University is required</value>
+  </data>
+  <data name="RequiredUniversityMainHeadquarter" xml:space="preserve">
+    <value>Main University Headqaurter is required</value>
+  </data>
+  <data name="ReturnedRequests" xml:space="preserve">
+    <value>Returned Requests</value>
+  </data>
+  <data name="ReturntoAssistUnderSecretary" xml:space="preserve">
+    <value>Return to Assist UnderSecretary</value>
+  </data>
+  <data name="ReturntoDepartmentManager" xml:space="preserve">
+    <value>Return to Department Manager</value>
+  </data>
+  <data name="ReturntoDeptManager" xml:space="preserve">
+    <value>Return the request to Department Manager</value>
+  </data>
+  <data name="ScienceInternationalEconomicsFaculty" xml:space="preserve">
+    <value>Science and International Economics Faculty</value>
+  </data>
+  <data name="Specialization" xml:space="preserve">
+    <value>Specialization</value>
+  </data>
+  <data name="TransfertoCommittee" xml:space="preserve">
+    <value>Transfer to Committee</value>
+  </data>
+  <data name="TransfertoConsultCommittee" xml:space="preserve">
+    <value>Transfer to Consultation Committee</value>
+  </data>
+  <data name="TransferToLegalAffairs" xml:space="preserve">
+    <value>Transfer to Legal Affairs</value>
+  </data>
+  <data name="University" xml:space="preserve">
+    <value>University</value>
+  </data>
+  <data name="UniversityListNotFound" xml:space="preserve">
+    <value>No university list is found,لا يوجد قائمة جامعات</value>
+  </data>
+  <data name="UniversityMainHeadquarter" xml:space="preserve">
+    <value>Main University Place</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ChooseAnotherEmp" xml:space="preserve">
+    <value>Choose/Re-Choose Employee to check the Request</value>
+  </data>
+  <data name="ReturntoLastEmp" xml:space="preserve">
+    <value>Returen the Request to last Employee</value>
+  </data>
+  <data name="ReturntoReceptionist" xml:space="preserve">
+    <value>Return to Receptionist</value>
+  </data>
+  <data name="AttachmentNotCompleted" xml:space="preserve">
+    <value>Attachments Not Completed</value>
+  </data>
+  <data name="ForgedCertificate" xml:space="preserve">
+    <value>Certificate is Forged</value>
+  </data>
+  <data name="NotRecognized" xml:space="preserve">
+    <value>University not Recognized</value>
+  </data>
+  <data name="ReturntoProgramManager" xml:space="preserve">
+    <value>Return to Program Manager</value>
+  </data>
+  <data name="PAAssistantUnderSecretaryDecision" xml:space="preserve">
+    <value>Assistant Undersecretary Decision</value>
+  </data>
+  <data name="PAHeadManagerDecision" xml:space="preserve">
+    <value>Head Manager Decision</value>
+  </data>
+  <data name="PATechCommitteeDecision" xml:space="preserve">
+    <value>Technical Committee Decision</value>
+  </data>
+  <data name="ProgManagerRecommend" xml:space="preserve">
+    <value>Program Manager Recommendation</value>
+  </data>
+  <data name="ProgEmployeeRecommendation" xml:space="preserve">
+    <value>Program Employee Recommendation</value>
+  </data>
+  <data name="RequiredCertificateFile" xml:space="preserve">
+    <value>You must upload certificate</value>
+  </data>
+  <data name="SaveSucceed" xml:space="preserve">
+    <value>Your Request Number {0} has been saved successfully</value>
+  </data>
+  <data name="SubmitSucceed" xml:space="preserve">
+    <value>Your Request Number {0} has been submitted successfully</value>
+  </data>
+  <data name="ReSubmitSucceed" xml:space="preserve">
+    <value>Your Request Number {0} has been resubmitted successfully</value>
+  </data>
+  <data name="ClarificationReplyRequired" xml:space="preserve">
+    <value>Your data saved successfully, please reply to clarification to send request back</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Notes Prepared</value>
+  </data>
+  <data name="StudyPlan" xml:space="preserve">
+    <value>Copy of the Study Plan</value>
+  </data>
+  <data name="AcceptanceLetter" xml:space="preserve">
+    <value>Copy of the university unconditional acceptance letter</value>
+  </data>
+  <data name="adlsaLetter" xml:space="preserve">
+    <value>Copy of the letter from ADLSAQa that you are not working, if any</value>
+  </data>
+  <data name="CopyOfOrganizationlLetter" xml:space="preserve">
+    <value>Approval copy of the entity your work for, for travelling to study on personal expense</value>
+  </data>
+  <data name="schoolDocuments" xml:space="preserve">
+    <value>Copy of High School certificate</value>
+  </data>
+  <data name="universityDocuments" xml:space="preserve">
+    <value>Copy of the certificate equivalency</value>
+  </data>
+  <data name="fileUploadCalcDetails" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="SecondarySchool" xml:space="preserve">
+    <value>General Secondary</value>
+  </data>
+  <data name="returnToEmployee" xml:space="preserve">
+    <value>Returen the Request to the Employee</value>
+  </data>
+  <data name="adlsaLetterRequired" xml:space="preserve">
+    <value>Copy of the letter from ADLSAQa that you are not working is required</value>
+  </data>
+  <data name="CopyOfOrganizationlLetterRequired" xml:space="preserve">
+    <value>Approval copy of the entity your work for, for travelling to study on personal expense is required</value>
+  </data>
+  <data name="schoolDocumentsRequired" xml:space="preserve">
+    <value>Copy of High School certificate is required</value>
+  </data>
+  <data name="universityDocumentsRequired" xml:space="preserve">
+    <value>Copy of the certificate equivalency is required</value>
+  </data>
+  <data name="clarificationReplay" xml:space="preserve">
+    <value>Clarification replay from applicant </value>
+  </data>
+  <data name="RequiredSpecialization" xml:space="preserve">
+    <value>Specialization of highest equivalent certificate is required</value>
+  </data>
+  <data name="AcceptedHours" xml:space="preserve">
+    <value>Accepted Hours</value>
+  </data>
+  <data name="Grading" xml:space="preserve">
+    <value>Grading</value>
+  </data>
+  <data name="RequiredAcceptedHours" xml:space="preserve">
+    <value>Accepted Hours is required</value>
+  </data>
+  <data name="RequiredFileUploadGrades" xml:space="preserve">
+    <value>Grading is required</value>
+  </data>
+  <data name="RequiredJoinedOtherUniversities" xml:space="preserve">
+    <value>Did you join other universities is required</value>
+  </data>
+  <data name="AcceptedHoursList" xml:space="preserve">
+    <value>List of accepted hours by the transferring university</value>
+  </data>
+  <data name="DegreeList" xml:space="preserve">
+    <value>Grades List</value>
+  </data>
+  <data name="EquivalentHours" xml:space="preserve">
+    <value>Equivalent Hours</value>
+  </data>
+  <data name="RequiredUnconditionalAdmissionLetter" xml:space="preserve">
+    <value>Unconditional Admission Letter is required</value>
+  </data>
+  <data name="UnconditionalAdmissionLetter" xml:space="preserve">
+    <value>Unconditional Admission Letter</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="RequiredDelegates" xml:space="preserve">
+    <value>Delegates is required</value>
+  </data>
+  <data name="HeadManagerRealName" xml:space="preserve">
+    <value>مريم إبراهيم الزيارة</value>
+  </data>
+  <data name="EquivalencManager" xml:space="preserve">
+    <value>مدير إدارة معادلة الشهادات الدراسية الجامعية</value>
+  </data>
+  <data name="FinalDecisionApplicantText1" xml:space="preserve">
+    <value>أقر أنا مقدم طلب الحصول على الموافقة المسبقة للدراسة في الخارج بأن جميع البيانات الواردة في هذا الطلب صحيحة وأني لا أعمل في وزارة الدفاع أو الداخلية أو أي جهة عسكرية أو أمنية أخرى، وأتحمل كامل المسئولية القانونية وكل ما يترتب على الإخلال في تقديم المعلومات الصحيحة.</value>
+  </data>
+  <data name="FinalDecisionApplicantText2" xml:space="preserve">
+    <value>كما أتعهد أنه في حالة حصولي على الموافقة على طلبي فإني ملتزم بمعايير الدراسة المذكورة في قرار الموافقة وما يلزم ذلك من إجراءات كما يلي:</value>
+  </data>
+  <data name="FinalDecisionApplicantText3" xml:space="preserve">
+    <value>  •  	عدم تغيير الدولة – الجامعة- التخصص- المرحلة الدراسية إلا بموافقة إدارة معادلة الشهادات الجامعية.</value>
+  </data>
+  <data name="FinalDecisionApplicantText4" xml:space="preserve">
+    <value>  •  	أن تكون الدراسة والاختبارات في المقر الرئيسي لجامعة</value>
+  </data>
+  <data name="FinalDecisionApplicantText5" xml:space="preserve">
+    <value>  •  	ألا تقل مدة الدراسة عن ثلاث سنوات ونصف لمرحلة البكالوريوس.</value>
+  </data>
+  <data name="FinalDecisionApplicantText6" xml:space="preserve">
+    <value>  •  	الالتزام بعدم معادلة اي ساعات دراسية لا تتوافق مع الانظمة المعمول بها في وزارة التعليم والتعليم العالي.</value>
+  </data>
+  <data name="FinalDecisionApplicantText7" xml:space="preserve">
+    <value>  •  	الالتحاق بالدراسة اعتباراً من التاريخ المحدد في كتاب القبول الجامعي وفي حال عدم الالتحاق بالتاريخ المحدد، علي التقدم مرة أخرى بطلب الحصول على الموافقة المسبقة وفقا للشروط والمعايير الجديدة.</value>
+  </data>
+  <data name="StatementReplyCultMission" xml:space="preserve">
+    <value>&lt;p style="text-align: right;"&gt;{0} : بيان الرد من الملحقية الثقافية على الطلب رقم &lt;/p&gt;
+&lt;br/&gt;
+Statement Reply from Cultural Mission on Request ID : {1}</value>
+  </data>
+  <data name="StatementReplyFrom" xml:space="preserve">
+    <value>&lt;p style="text-align: right;"&gt;{0} : بيان الرد من معاهد التعليم العالي على الطلب رقم &lt;/p&gt;
+&lt;br/&gt;
+Statement Reply from Higher Educational Institutes on Request ID : {1}</value>
+  </data>
+  <data name="StatementReply" xml:space="preserve">
+    <value>Reply to a Request for a Statement / الرد على طلب إفادة</value>
+  </data>
+  <data name="UniversityList" xml:space="preserve">
+    <value>{0} University List,قائمة جامعات {1}</value>
+  </data>
+  <data name="CultMissionDashboard" xml:space="preserve">
+    <value>Prior Approval - Cultural Mission</value>
+  </data>
+  <data name="HeadManagerDashboard" xml:space="preserve">
+    <value>Prior Approval - Head Manger</value>
+  </data>
+  <data name="HigherEduDashboard" xml:space="preserve">
+    <value>Prior Approval - Higher Education</value>
+  </data>
+  <data name="ProgManagerDashboard" xml:space="preserve">
+    <value>Prior Approval - Program Manager </value>
+  </data>
+  <data name="ProgramEmpDashboard" xml:space="preserve">
+    <value>Prior Approval - Program Employee </value>
+  </data>
+  <data name="ConvertedHours" xml:space="preserve">
+    <value>Number of hours accepted (converted)</value>
+  </data>
+  <data name="PrevHoursIfExist" xml:space="preserve">
+    <value>The hours transferred from the previous study (colleges / universities), if exist</value>
+  </data>
+  <data name="ConvertedHoursTH" xml:space="preserve">
+    <value>Converted Hours</value>
+  </data>
+  <data name="RequiredProgramNewSpecialization" xml:space="preserve">
+    <value>Academic program  to join new specialization is required</value>
+  </data>
+  <data name="RequiredProgramSpecialization" xml:space="preserve">
+    <value>Academic program  to join specialization is required</value>
+  </data>
+  <data name="RequiredNewEntityWorkingFor" xml:space="preserve">
+    <value>Entity Working For is required</value>
+  </data>
+  <data name="ApplicantRequestsClosed" xml:space="preserve">
+    <value>Applicant Requests Closed</value>
+  </data>
+  <data name="FinalDecisionApplicantTextHeader" xml:space="preserve">
+    <value>إقرار وتعهد الطالب كما هو مذكور في طلب التقديم</value>
+  </data>
+</root>

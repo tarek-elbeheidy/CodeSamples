@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1392b117-1e7e-4d7a-a71b-8c3355b604ce}"
+       Name="MOEHEDocumentStatus"
+       DisplayName="MOEHE Document Status"
+       Type="Choice"
+       Required="FALSE"
+       Group="MOEHE">
+    <CHOICES>
+      <CHOICE>Uploaded</CHOICE>
+      <CHOICE>Deleted</CHOICE>
+      <CHOICE>Saved</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="Procedure_DeptManagerDetailsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Procedure_DeptManagerDetails\" Type="ElementManifest" />
+    <ProjectItemFile Source="Procedure_DeptManagerDetails.webpart" Target="Procedure_DeptManagerDetails\" Type="ElementFile" />
+    <ProjectItemFile Source="Procedure_DeptManagerDetailsUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.UCE.WebParts\Procedure_DeptManagerDetails\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.UCE.WebParts.Procedure_DeptManagerDetails" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="IGDegree"
+                OnQuickLaunch="TRUE"
+                TemplateType="10601"
+                Url="Lists/IGDegree"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">A+</Field>
+          <Field Name="TitleAr">A+</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">A</Field>
+          <Field Name="TitleAr">A</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">B</Field>
+          <Field Name="TitleAr">B</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">C</Field>
+          <Field Name="TitleAr">C</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">D</Field>
+          <Field Name="TitleAr">D</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">E</Field>
+          <Field Name="TitleAr">E</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">F</Field>
+          <Field Name="TitleAr">F</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">3</Field>
+          <Field Name="TitleAr">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">4</Field>
+          <Field Name="TitleAr">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">5</Field>
+          <Field Name="TitleAr">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">6</Field>
+          <Field Name="TitleAr">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">7</Field>
+          <Field Name="TitleAr">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">8</Field>
+          <Field Name="TitleAr">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">9</Field>
+          <Field Name="TitleAr">9</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

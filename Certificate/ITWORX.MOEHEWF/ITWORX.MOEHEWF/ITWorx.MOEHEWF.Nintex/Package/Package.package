@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="95932e33-5992-48ea-9e1b-b985b32ddbc0" 
+        solutionId="95932e33-5992-48ea-9e1b-b985b32ddbc0" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ITWorx.MOEHEWF.Nintex"
+        sharePointProductVersion="16.0">
+</package>

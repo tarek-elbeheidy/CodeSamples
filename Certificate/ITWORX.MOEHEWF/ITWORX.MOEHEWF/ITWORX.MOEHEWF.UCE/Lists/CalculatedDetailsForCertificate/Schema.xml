@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="CalculatedDetailsForCertificate" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/CalculatedDetailsForCertificate" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010004ba8ca1ce9049778cdfcde75e097775" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{0f1d56cd-d8a8-4870-b7f0-17a535927104}" Name="Country" /><FieldRef ID="{7fc16a03-3f51-47b4-b92f-74ff2b81cc39}" Name="University" /><FieldRef ID="{fe4042a1-55e1-4896-9003-d314b1ec4271}" Name="Faculty" /><FieldRef ID="{0d11c5b5-63dd-4c77-86c3-27eda00d61ea}" Name="StudyingSystem" /><FieldRef ID="{205d7742-69b1-46b7-beef-e669f342c6b6}" Name="StudyingType" /><FieldRef ID="{590c938a-a290-4bbc-9425-6a78d8584fd5}" Name="RequestID" /><FieldRef ID="{4ef67d9f-edfc-47ed-9772-5175b0396062}" Name="StudyingPeriod" /><FieldRef ID="{284b98d1-2fe2-44a4-b01d-262a7a9d0dbd}" Name="CountryAr" /><FieldRef ID="{ffee4a3a-af8c-46e3-8135-b89bf5afb5ef}" Name="OtherCountry" /><FieldRef ID="{e93a5cfb-6e46-49dc-a7b1-2eb888cf0966}" Name="UniversityAr" /><FieldRef ID="{58a69cb1-fe4e-4dfb-97b6-da2f17dcd47f}" Name="OtherUniversity" /><FieldRef ID="{f995452f-fe2d-45df-8f5c-88bdb7f7aeeb}" Name="FacultyAr" /><FieldRef ID="{771824a0-3fda-4404-b98b-83ac078cc26f}" Name="OtherFaculty" /><FieldRef ID="{92ba0bfb-7a48-4c1e-b894-63b5fcbec363}" Name="StudyingSystemAr" /><FieldRef ID="{7d1f3385-1144-4634-b9f6-6fdc06b2bb6d}" Name="StudyingTypeAr" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Field Name="Country" ID="{0f1d56cd-d8a8-4870-b7f0-17a535927104}" DisplayName="Country" Type="Lookup" List="Lists/CountryOfStudy" ShowField="Title" /><Field Name="University" ID="{7fc16a03-3f51-47b4-b92f-74ff2b81cc39}" DisplayName="University" Type="Lookup" List="Lists/University" ShowField="Title" /><Field Name="Faculty" ID="{fe4042a1-55e1-4896-9003-d314b1ec4271}" DisplayName="Faculty" Type="Text" List="Lists/Faculty" ShowField="Title" /><Field Name="StudyingSystem" ID="{0d11c5b5-63dd-4c77-86c3-27eda00d61ea}" DisplayName="StudyingSystem" Type="Lookup" List="Lists/StudySystem" ShowField="Title" /><Field Name="StudyingType" ID="{205d7742-69b1-46b7-beef-e669f342c6b6}" DisplayName="StudyingType" Type="Lookup" List="Lists/StudyType" ShowField="Title" /><Field Name="RequestID" ID="{590c938a-a290-4bbc-9425-6a78d8584fd5}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /><Field Name="StudyingPeriod" ID="{4ef67d9f-edfc-47ed-9772-5175b0396062}" DisplayName="StudyingPeriod" Type="Text" /><Field Name="CountryAr" ID="{284b98d1-2fe2-44a4-b01d-262a7a9d0dbd}" DisplayName="CountryAr" Type="Lookup" List="Lists/CountryOfStudy" ShowField="TitleAr" FieldRef="{0f1d56cd-d8a8-4870-b7f0-17a535927104}" /><Field Name="OtherCountry" ID="{ffee4a3a-af8c-46e3-8135-b89bf5afb5ef}" DisplayName="OtherCountry" Type="Text" /><Field Name="UniversityAr" ID="{e93a5cfb-6e46-49dc-a7b1-2eb888cf0966}" DisplayName="UniversityAr" Type="Lookup" List="Lists/University" ShowField="TitleAr" FieldRef="{7fc16a03-3f51-47b4-b92f-74ff2b81cc39}" /><Field Name="OtherUniversity" ID="{58a69cb1-fe4e-4dfb-97b6-da2f17dcd47f}" DisplayName="OtherUniversity" Type="Text" /><Field Name="FacultyAr" ID="{f995452f-fe2d-45df-8f5c-88bdb7f7aeeb}" DisplayName="FacultyAr" Type="Text" List="Lists/Faculty" ShowField="TitleAr" FieldRef="{fe4042a1-55e1-4896-9003-d314b1ec4271}" /><Field Name="OtherFaculty" ID="{771824a0-3fda-4404-b98b-83ac078cc26f}" DisplayName="OtherFaculty" Type="Text" /><Field Name="StudyingSystemAr" ID="{92ba0bfb-7a48-4c1e-b894-63b5fcbec363}" DisplayName="StudyingSystemAr" Type="Lookup" List="Lists/StudySystem" ShowField="TitleAr" FieldRef="{0d11c5b5-63dd-4c77-86c3-27eda00d61ea}" /><Field Name="StudyingTypeAr" ID="{7d1f3385-1144-4634-b9f6-6fdc06b2bb6d}" DisplayName="StudyingTypeAr" Type="Lookup" List="Lists/StudyType" ShowField="TitleAr" FieldRef="{205d7742-69b1-46b7-beef-e669f342c6b6}" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Country" /><FieldRef Name="University" /><FieldRef Name="Faculty" /><FieldRef Name="StudyingSystem" /><FieldRef Name="StudyingType" /><FieldRef Name="RequestID" /><FieldRef Name="StudyingPeriod" /><FieldRef Name="CountryAr" /><FieldRef Name="OtherCountry" /><FieldRef Name="UniversityAr" /><FieldRef Name="OtherUniversity" /><FieldRef Name="FacultyAr" /><FieldRef Name="OtherFaculty" /><FieldRef Name="StudyingSystemAr" /><FieldRef Name="StudyingTypeAr" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

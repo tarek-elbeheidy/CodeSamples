@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100C369FF30EFC343C7989D6FBF557B6A32" Name="LookupsCT" Group="MOEHE" Description="My Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{c411deea-afc9-49ed-8211-7724970c7537}" DisplayName="Title Ar" Required="FALSE" Name="TitleAr" />
+      <FieldRef ID="{97ffbb69-8683-4895-a2e8-6149e16a9868}" DisplayName="Status" Required="FALSE" Name="Status" />
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Title" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

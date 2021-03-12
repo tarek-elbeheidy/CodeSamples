@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Nintex Workflow Multi Outcome Task (0x0108010064E42B14ADA442C78E98D686760A8493) -->
+  <ContentType ID="0x0108010064E42B14ADA442C78E98D686760A8493003381165258E740D9BFB1092DED5973F7"
+               Name="MOEHE CE Technical Committee Task From Deputy Minister"
+               Group="MOEHE Nintex Workflows"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url" >
+          <Display>/_layouts/15/ITWORX.MOEHEWF.UCE/TechnicalCommitteUnderSec.aspx</Display>
+          <Edit>/_layouts/15/ITWORX.MOEHEWF.UCE/TechnicalCommitteUnderSec.aspx</Edit>
+          <New>/_layouts/15/ITWORX.MOEHEWF.UCE/TechnicalCommitteUnderSec.aspx</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

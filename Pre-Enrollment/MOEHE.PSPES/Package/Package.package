@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="39c2f735-f8de-4c16-acf4-a943b422f482" solutionId="39c2f735-f8de-4c16-acf4-a943b422f482" resetWebServer="true" sharePointProductVersion="16.0" name="MOEHE.PSPES" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="AjaxControlToolkit.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\AjaxControlToolkit.18.1.0\lib\net40\AjaxControlToolkit.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="5b0a717a-4725-44d3-8d97-ab53b99e3fde" />
+    <featureReference itemId="0298f67f-9bab-4b48-b976-3835a275296b" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="216b3c28-659d-40c3-a42e-1f0f843d1062" />
+    <projectItemReference itemId="78abb78a-f637-450c-aa4e-9882186fdfba" />
+  </projectItems>
+</package>

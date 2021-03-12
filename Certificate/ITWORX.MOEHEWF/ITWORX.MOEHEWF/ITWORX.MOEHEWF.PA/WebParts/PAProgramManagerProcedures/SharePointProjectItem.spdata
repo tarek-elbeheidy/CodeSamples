@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PAProgramManagerProceduresUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PAProgramManagerProcedures\" Type="ElementManifest" />
+    <ProjectItemFile Source="PAProgramManagerProcedures.webpart" Target="PAProgramManagerProcedures\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProgramManagerProceduresUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA.WebParts\PAProgramManagerProcedures\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.PA.WebParts.PAProgramManagerProcedures" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

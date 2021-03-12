@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ExCommAgency"
+                OnQuickLaunch="TRUE"
+                TemplateType="10209"
+                Url="Lists/ExCommAgency"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Qatar Ministry of Foreign Affairs</Field>
+          <Field Name="TitleAr">وزارة الخارجية القطرية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

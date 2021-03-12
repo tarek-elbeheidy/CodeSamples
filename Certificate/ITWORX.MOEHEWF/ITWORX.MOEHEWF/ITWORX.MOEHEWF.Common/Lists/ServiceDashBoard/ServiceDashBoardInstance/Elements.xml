@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ServiceDashBoard"
+                OnQuickLaunch="TRUE"
+                TemplateType="10070"
+                Url="Lists/ServiceDashBoard"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Certificate Equivalence Service</Field>
+          <Field Name="TitleAr">خدمة معادلة الشهادات الجامعية</Field>
+          <Field Name="SPGroup">Arabian and Asian Program Employees,Head Managers,Program Managers,Higher Educational Institutions,Cultural Mission Britain,Cultural Mission Australia,Cultural Mission France,Cultural Mission USA,Cultural Mission Canada,Cultural Mission Jordan,Financial Management</Field>
+          <Field Name="Active">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Prior Approval Service</Field>
+          <Field Name="TitleAr">خدمة الموافقة المسبقة</Field>
+          <Field Name="SPGroup">Arabian and Asian Program Employees,Head Managers,Program Managers,Higher Educational Institutions,Cultural Mission Britain,Cultural Mission Australia,Cultural Mission France,Cultural Mission USA,Cultural Mission Canada,Cultural Mission Jordan</Field>
+          <Field Name="Active">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Schooling Certificate Equivalence Service</Field>
+          <Field Name="TitleAr">خدمة معادلة الشهادات المدرسية</Field>
+          <Field Name="SPGroup">3</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

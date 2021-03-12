@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOEHE.PSPES", "MOEHE.PSPES\MOEHE.PSPES.csproj", "{1E4089A0-B644-46E8-AE6C-51E2E618BA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOEHE.PSPES.WebAPI", "WebAPI\MOEHE.PSPES.WebAPI.csproj", "{1B765711-472A-4549-A2DA-D5FA6089434B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOEHE.PSC.UI", "MOEHE.PSC.UI\MOEHE.PSC.UI.csproj", "{D2DADB1A-F5A0-4606-A355-7091428FA45E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4089A0-B644-46E8-AE6C-51E2E618BA64}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B765711-472A-4549-A2DA-D5FA6089434B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B765711-472A-4549-A2DA-D5FA6089434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B765711-472A-4549-A2DA-D5FA6089434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B765711-472A-4549-A2DA-D5FA6089434B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DADB1A-F5A0-4606-A355-7091428FA45E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B0A9FEF-B305-46EB-891F-CC7815C7CD33}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-app-01:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebAPI\\MOEHE.PSPES.WebAPI.csproj
+		SccProjectName1 = WebAPI
+		SccLocalPath1 = WebAPI
+		SccProjectUniqueName2 = MOEHE.PSPES\\MOEHE.PSPES.csproj
+		SccProjectName2 = MOEHE.PSPES
+		SccLocalPath2 = MOEHE.PSPES
+		SccProjectUniqueName3 = MOEHE.PSC.UI\\MOEHE.PSC.UI.csproj
+		SccProjectName3 = MOEHE.PSC.UI
+		SccLocalPath3 = MOEHE.PSC.UI
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="WithdrawApplicationUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="WithdrawApplication\" Type="ElementManifest" />
+    <ProjectItemFile Source="WithdrawApplication.webpart" Target="WithdrawApplication\" Type="ElementFile" />
+    <ProjectItemFile Source="WithdrawApplicationUserControl.ascx" Target="CONTROLTEMPLATES\MOEHE.PSPES.Webparts\WithdrawApplication\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="MOEHE.PSPES.Webparts.WithdrawApplication" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

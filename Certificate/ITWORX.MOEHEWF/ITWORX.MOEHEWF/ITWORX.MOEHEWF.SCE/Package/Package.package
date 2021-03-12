@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9fc92fa3-1590-4680-ac42-a7c15423c35f" solutionId="9fc92fa3-1590-4680-ac42-a7c15423c35f" resetWebServer="false" sharePointProductVersion="16.0" name="ITWORX.MOEHEWF.SCE" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\Newtonsoft.Json.dll" />
+    <customAssembly location="EPPlus.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\EPPlus.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="0e3e55a5-9dae-42ec-a1a4-822e44a9f7b3" />
+    <featureReference itemId="d6f9295f-891a-469a-944e-0b52527e0c66" />
+    <featureReference itemId="2279ca6b-3e59-479a-86a9-b5841df3f88c" />
+    <featureReference itemId="22d8a187-e982-4b5c-93a7-1a4ba89b9755" />
+    <featureReference itemId="a4f8c6c5-72f7-4bc2-ad74-f5aa77355c4f" />
+    <featureReference itemId="24e6c847-8a93-4fb7-8c26-f605ddf7273b" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="9989c2d5-defb-4e8b-a7e9-69d15111c616" />
+    <projectItemReference itemId="6ef495c3-f758-48ab-b70f-17c9dffd658c" />
+    <projectItemReference itemId="93d585a9-4413-48b2-9943-284b39a48391" />
+  </projectItems>
+</package>

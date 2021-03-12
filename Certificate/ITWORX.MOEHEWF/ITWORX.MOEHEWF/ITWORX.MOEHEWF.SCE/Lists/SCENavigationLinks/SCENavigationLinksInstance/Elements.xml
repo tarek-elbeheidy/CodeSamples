@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="SCENavigationLinks"
+                OnQuickLaunch="TRUE"
+                TemplateType="10500"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f"
+                Url="Lists/SCENavigationLinks"
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">قائمة الطلبات </Field>
+          <Field Name="PageLinkEn">/Pages/SCEEquivalenceEmployeesDashboard.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEEquivalenceEmployeesDashboard.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+           <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">قائمة الطلبات </Field>
+          <Field Name="PageLinkEn">/Pages/SCECulturalMissionDashboard.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCECulturalMissionDashboard.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Cultural Mission Britain,SCE Cultural Mission Australia,SCE Cultural Mission France,SCE Cultural Mission USA,SCE Cultural Mission Canada,SCE Cultural Mission Jordan,SCE Cultural Mission,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">قائمة الطلبات </Field>
+          <Field Name="PageLinkEn">/Pages/SCEDepartmentManagerDashboard.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEDepartmentManagerDashboard.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Department Managers,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">قائمة الطلبات </Field>
+          <Field Name="PageLinkEn">/Pages/SCESectionManagerDashboard.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCESectionManagerDashboard.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">قائمة الطلبات </Field>
+          <Field Name="PageLinkEn">/Pages/SCEHigherEducationalInstitutionsDashboard.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEHigherEducationalInstitutionsDashboard.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Higher Educational Institutions,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dashboard</Field>
+          <Field Name="PageTitleAr">القائمة الرئيسية </Field>
+          <Field Name="PageLinkEn">/Pages/TrackRequest.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/TrackRequest.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,Applicants,</Field>
+          <Field Name="PageType">Parent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Personal Contacts</Field>
+          <Field Name="PageTitleAr">بيانات التواصل</Field>
+          <Field Name="PageLinkEn">/Pages/ViewContact.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/ViewContact.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">2</Field>
+          <Field Name="SPGroupName">,Applicants,SCE Equivalence Employees,SCE Cultural Mission Britain,SCE Cultural Mission Australia,SCE Cultural Mission France,SCE Cultural Mission USA,SCE Cultural Mission Canada,SCE Cultural Mission Jordan,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">Main</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Request Details</Field>
+          <Field Name="PageTitleAr">تفاصيل الطلب</Field>
+          <Field Name="PageLinkEn">/Pages/ViewRequest.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/ViewRequest.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,Applicants,SCE Equivalence Employees,SCE Cultural Mission Britain,SCE Cultural Mission Australia,SCE Cultural Mission France,SCE Cultural Mission USA,SCE Cultural Mission Canada,SCE Cultural Mission Jordan,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">Main</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Request Details</Field>
+          <Field Name="PageTitleAr">تفاصيل الطلب</Field>
+          <Field Name="PageLinkEn">/Pages/EditSCERequest.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/EditSCERequest.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,Applicants,Employees as Applicants,</Field>
+          <Field Name="PageType">Main</Field>
+          <Field Name="RequestStatus">72</Field>
+        </Row>
+        <!--Applicant-->
+        <Row>
+          <Field Name="Title">Clarification Requests</Field>
+          <Field Name="PageTitleAr">سجل طلبات التوضيح</Field>
+          <Field Name="PageLinkEn">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,Applicants,</Field>
+          <Field Name="PageType">Main</Field>
+        </Row>
+         <Row>
+          <Field Name="Title">Historical Records</Field>
+          <Field Name="PageTitleAr">السجل التاريخي</Field>
+          <Field Name="PageLinkEn">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,Applicants,</Field>
+          <Field Name="PageType">Main</Field>
+        </Row>
+        <!-- SCE Equivalence Employees-->        
+        <Row>
+          <Field Name="Title">Return Request</Field>
+          <Field Name="PageTitleAr">إعادة الطلب لعدم الاختصاص</Field>
+          <Field Name="PageLinkEn">/Pages/SCERReturnRequestEmp.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCERReturnRequestEmp.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Clarification Requests</Field>
+          <Field Name="PageTitleAr">طلبات التوضيح</Field>
+          <Field Name="PageLinkEn">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">2</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Search Similar Requests</Field>
+          <Field Name="PageTitleAr">البحث عن حالات مشابهة</Field>
+          <Field Name="PageLinkEn">/Pages/SCESearchSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCESearchSimilarRequests.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Requests for a statement</Field>
+          <Field Name="PageTitleAr">طلبات الإفادة</Field>
+          <Field Name="PageLinkEn">/Pages/SCEStatementListing.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEStatementListing.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">4</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,SCE Cultural Mission Britain,SCE Cultural Mission Australia,SCE Cultural Mission France,SCE Cultural Mission USA,SCE Cultural Mission Canada,SCE Cultural Mission Jordan,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">External Letters</Field>
+          <Field Name="PageTitleAr">المخاطبات الخارجية</Field>
+          <Field Name="PageLinkEn">/Pages/SCEBookRequests.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEBookRequests.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">5</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Search Status And Recommendation</Field>
+          <Field Name="PageTitleAr">بحث الحالة والتوصية</Field>
+          <Field Name="PageLinkEn">/Pages/SCEPERecommendation.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEPERecommendation.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">6</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Final Decision and print</Field>
+          <Field Name="PageTitleAr">القرار النهائي وطباعة المعادلة</Field>
+          <Field Name="PageLinkEn">/Pages/SCEDecisionPM.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEDecisionPM.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Historical Records</Field>
+          <Field Name="PageTitleAr">السجل التاريخي للمعادلة</Field>
+          <Field Name="PageLinkEn">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">2</Field>
+          <Field Name="SPGroupName">,SCE Equivalence Employees,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+       
+        <!--Section/Department managers-->
+        <Row>
+          <Field Name="Title">Return Requests</Field>
+          <Field Name="PageTitleAr">إرجاع الطلب</Field>
+          <Field Name="PageLinkEn">/Pages/SCERejectRequestPM.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCERejectRequestPM.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Final Decision and print</Field>
+          <Field Name="PageTitleAr">القرار النهائي وطباعة المعادلة</Field>
+          <Field Name="PageLinkEn">/Pages/SCEDecisionPM.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEDecisionPM.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">2</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">Action</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">Clarification Requests</Field>
+          <Field Name="PageTitleAr">طلبات التوضيح</Field>
+          <Field Name="PageLinkEn">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEClarificationsListing.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">1</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Similar Requests</Field>
+          <Field Name="PageTitleAr">الحالات مشابهة</Field>
+          <Field Name="PageLinkEn">/Pages/SCEViewSimilarRequests.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEViewSimilarRequests.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">2</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Requests for a statement</Field>
+          <Field Name="PageTitleAr">طلبات الإفادة</Field>
+          <Field Name="PageLinkEn">/Pages/SCEStatementListing.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEStatementListing.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">3</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">External communications</Field>
+          <Field Name="PageTitleAr">المخاطبات الخارجية</Field>
+          <Field Name="PageLinkEn">/Pages/SCEBookRequests.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEBookRequests.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">4</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Search status and recommendation</Field>
+          <Field Name="PageTitleAr">بحث الحالة والتوصية</Field>
+          <Field Name="PageLinkEn">/Pages/SCEPERecommendation.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCEPERecommendation.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">5</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Historical Records</Field>
+          <Field Name="PageTitleAr">السجل التاريخي للمعادلة</Field>
+          <Field Name="PageLinkEn">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="PageLinkAr">/Pages/SCERequestHistory.aspx</Field>
+          <Field Name="Active">Yes</Field>
+          <Field Name="PageOrder">6</Field>
+          <Field Name="SPGroupName">,SCE Section Managers,SCE Department Managers,</Field>
+          <Field Name="PageType">View</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

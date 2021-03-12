@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0f3e972a-265c-4d00-a51f-520f25a618c9" ResetWebServer="TRUE" SharePointProductVersion="16.0">
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="ITWORX.MOEHEWF.Common.ar-SA.resx" />
+    <App_GlobalResourceFile Location="ITWORX.MOEHEWF.Common.en-US.resx" />
+    <App_GlobalResourceFile Location="ITWORX.MOEHEWF.Common.resx" />
+  </ApplicationResourceFiles>
+  <Assemblies>
+    <Assembly Location="ITWORX.MOEHE.Integration.Identity.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="itextsharp" Namespace="itextsharp" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="ITWORX.MOEHEWF.Common.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ITWORX.MOEHEWF.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b2931724f1d7d1c" Namespace="ITWORX.MOEHEWF.Common.WebParts.TrackingRequest" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b2931724f1d7d1c" Namespace="ITWORX.MOEHEWF.Common.WebParts.HomeRegister" TypeName="*" />
+        <SafeControl Assembly="ITWORX.MOEHEWF.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b2931724f1d7d1c" Namespace="ITWORX.MOEHEWF.Common.WebParts.HomeDashboard" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\ITWORX.MOEHEWF.Common.ar-SA.resx" />
+    <RootFile Location="Resources\ITWORX.MOEHEWF.Common.en-US.resx" />
+    <RootFile Location="Resources\ITWORX.MOEHEWF.Common.resx" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common.WebParts\TrackingRequest\TrackingRequestUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common.WebParts\HomeRegister\HomeRegisterUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common.WebParts\HomeDashboard\HomeDashboardUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ApplicantDetails.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ClientSideFileUpload.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DDLWithTXTWithNoPostback.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\MOEHE_TC.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\DropdownWithTextbox.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\FileUpload.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LanguageSwitcher.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\LoginIn.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\NewUser.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\ResetPassword.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\SendVerification.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\TermsAndConditions.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UserVerification.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ITWORX.MOEHEWF.Common\UCLoginIn.ascx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Candara-Bold.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\Tahoma.woff2" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Candara-Bold.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.woff2" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\FontAwesome.otf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.woff2" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.eot" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.ttf" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.woff" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\Tahoma.woff2" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\MoeheLogin.master" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\bootstrap-rtl.min.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Light.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\ar-sa\fonts\GE SS Text Medium.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\font-awesome.min.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\home-theme.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\jquery-ui.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\master.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\common\select2.min.css" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\fontawesome-webfont.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Light.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\GE SS Text Medium.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\glyphicons-halflings-regular.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\css\fonts\slick.svg" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\DisplayFile.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\ForgetPassword.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\images\favicon.ico" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\images\logo1.png" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\images\masterpage-bg.png" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\images\warning.png" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\js\bootstrap.min.js" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\js\jquery-3.2.1.min.js" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\js\jquery-ui.js" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\js\master.js" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\js\select2.min.js" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\MOEHELogIn.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\Register.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\ResetPassword.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\UCLogin.aspx" />
+    <TemplateFile Location="Layouts\ITWORX.MOEHEWF.Common\paymentreceipt.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ITWORX.MOEHEWF.Common_WebParts\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.Common_Site\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.Common_Web\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.Common_CommonPage\Feature.xml" />
+    <FeatureManifest Location="ITWORX.MOEHEWF.Common_ChangePassword\Feature.xml" />
+  </FeatureManifests>
+</Solution>

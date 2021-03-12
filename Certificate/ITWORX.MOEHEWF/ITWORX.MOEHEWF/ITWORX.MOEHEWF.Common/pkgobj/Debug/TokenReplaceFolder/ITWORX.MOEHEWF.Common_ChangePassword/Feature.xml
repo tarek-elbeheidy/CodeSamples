@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="ef87fd56-06eb-4d97-a231-80017a37c0e2" Scope="Web" Title="ITWORX.MOEHEWF.Common ChangePassword">
+  <ElementManifests>
+    <ElementManifest Location="ContextMenuItem\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RequestStatus" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RequestStatus" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100a46abcedb0104f0aa17730c263709b8d" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{606ce24e-60e9-4212-bb5e-f903f990d0d8}" Name="Code" /><FieldRef ID="{04b6a133-e89a-4aec-b2c3-f9044ff0cd6e}" Name="ApplicantDescriptionAr" /><FieldRef ID="{eb0f2457-3883-4ba6-9d44-d7264c8b5bb6}" Name="ApplicantDescriptionEn" /><FieldRef ID="{86efe97d-3dd3-435e-b245-a065dd28660b}" Name="ReviewerDescriptionAr" /><FieldRef ID="{4e80e17b-12fe-4758-b848-ae7f888dc7d4}" Name="ReviewerDescriptionEn" /><FieldRef ID="{d0e9d31c-9b33-4eeb-9730-0af1760439c3}" Name="CanApplicantEditRequest" /><FieldRef ID="{cfc4ec63-036f-4904-8ca8-d98ff9d49f68}" Name="CanReviewerEditRequest" /><FieldRef ID="{b955cbb9-db00-461d-80b9-623156617ef4}" Name="IsCommentRequired" /><FieldRef ID="{22aa2ac9-b428-4921-98f6-c2c4248fb2e0}" Name="TargetPageUrl" /><FieldRef ID="{abe44404-6111-4d15-b3e3-db52aefd6e7a}" Name="TargetEmailGroup" /><FieldRef ID="{c78c9aa5-dbc9-40a4-b178-8e7eb9c38b1b}" Name="FinalDecisionAr" /><FieldRef ID="{00234bc0-b449-41f3-8c55-d66a5b63a462}" Name="FinalDecisionEn" /><FieldRef ID="{398ced12-1859-4bef-813d-846ba70be7da}" Name="CanDeleteRequest" /><FieldRef ID="{44952543-1422-4e31-9594-b24817f3ac69}" Name="ApplicantRequestPhaseAr" /><FieldRef ID="{fcfbdaaf-5f18-4e9b-bddc-d000928fa574}" Name="ApplicantRequestPhaseEn" /><FieldRef ID="{7202d257-a67d-4f44-ae96-a7b2cbfb2dfa}" Name="ReviewerRequestPhaseAr" /><FieldRef ID="{8fe96ce7-2b10-4dd3-a15f-46c271939b5a}" Name="ReviewerRequestPhaseEn" /><FieldRef ID="{45a51f6f-1281-4bce-87ee-f8f2c7907dd5}" Name="ActionByEn" /><FieldRef ID="{6983eaf8-86c5-4a15-8a4c-86b7273e1e00}" Name="ActionByAr" /><FieldRef ID="{c8e469c7-ef2f-444a-9896-2e708892fd1d}" Name="ReviewerTargetPageURL" /><FieldRef ID="{3324e924-2796-4d52-8e38-39fd3c440ee0}" Name="HistoryDescriptionEn" /><FieldRef ID="{d07acf64-dc5f-4d30-9d81-646b9640dd24}" Name="HistoryDescriptionAr" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="Code" ID="{606ce24e-60e9-4212-bb5e-f903f990d0d8}" DisplayName="Code" Type="Text" /><Field Name="ApplicantDescriptionAr" ID="{04b6a133-e89a-4aec-b2c3-f9044ff0cd6e}" DisplayName="ApplicantDescriptionAr" Type="Text" /><Field Name="ApplicantDescriptionEn" ID="{eb0f2457-3883-4ba6-9d44-d7264c8b5bb6}" DisplayName="ApplicantDescriptionEn" Type="Text" /><Field Name="ReviewerDescriptionAr" ID="{86efe97d-3dd3-435e-b245-a065dd28660b}" DisplayName="ReviewerDescriptionAr" Type="Text" /><Field Name="ReviewerDescriptionEn" ID="{4e80e17b-12fe-4758-b848-ae7f888dc7d4}" DisplayName="ReviewerDescriptionEn" Type="Text" /><Field Name="CanApplicantEditRequest" ID="{d0e9d31c-9b33-4eeb-9730-0af1760439c3}" DisplayName="CanApplicantEditRequest" Type="Boolean" /><Field Name="CanReviewerEditRequest" ID="{cfc4ec63-036f-4904-8ca8-d98ff9d49f68}" DisplayName="CanReviewerEditRequest" Type="Boolean" /><Field Name="IsCommentRequired" ID="{b955cbb9-db00-461d-80b9-623156617ef4}" DisplayName="IsCommentRequired" Type="Text" /><Field Name="TargetPageUrl" ID="{22aa2ac9-b428-4921-98f6-c2c4248fb2e0}" DisplayName="TargetPageUrl" Type="Text" /><Field Name="TargetEmailGroup" ID="{abe44404-6111-4d15-b3e3-db52aefd6e7a}" DisplayName="TargetEmailGroup" Type="Text" /><Field Name="FinalDecisionAr" ID="{c78c9aa5-dbc9-40a4-b178-8e7eb9c38b1b}" DisplayName="FinalDecisionAr" Type="Text" /><Field Name="FinalDecisionEn" ID="{00234bc0-b449-41f3-8c55-d66a5b63a462}" DisplayName="FinalDecisionEn" Type="Text" /><Field Name="CanDeleteRequest" ID="{398ced12-1859-4bef-813d-846ba70be7da}" DisplayName="CanDeleteRequest" Type="Boolean" /><Field Name="ApplicantRequestPhaseAr" ID="{44952543-1422-4e31-9594-b24817f3ac69}" DisplayName="ApplicantRequestPhaseAr" Type="Text" /><Field Name="ApplicantRequestPhaseEn" ID="{fcfbdaaf-5f18-4e9b-bddc-d000928fa574}" DisplayName="ApplicantRequestPhaseEn" Type="Text" /><Field Name="ReviewerRequestPhaseAr" ID="{7202d257-a67d-4f44-ae96-a7b2cbfb2dfa}" DisplayName="ReviewerRequestPhaseAr" Type="Text" /><Field Name="ReviewerRequestPhaseEn" ID="{8fe96ce7-2b10-4dd3-a15f-46c271939b5a}" DisplayName="ReviewerRequestPhaseEn" Type="Text" /><Field Name="ActionByEn" ID="{45a51f6f-1281-4bce-87ee-f8f2c7907dd5}" DisplayName="ActionByEn" Type="Text" /><Field Name="ActionByAr" ID="{6983eaf8-86c5-4a15-8a4c-86b7273e1e00}" DisplayName="ActionByAr" Type="Text" /><Field Name="ReviewerTargetPageURL" ID="{c8e469c7-ef2f-444a-9896-2e708892fd1d}" DisplayName="ReviewerTargetPageURL" Type="Text" /><Field Name="HistoryDescriptionEn" ID="{3324e924-2796-4d52-8e38-39fd3c440ee0}" DisplayName="HistoryDescriptionEn" Type="Text" /><Field Name="HistoryDescriptionAr" ID="{d07acf64-dc5f-4d30-9d81-646b9640dd24}" DisplayName="HistoryDescriptionAr" Type="Text" /></Fields>
+    <Views>
+      
+      
+    
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Code" /><FieldRef Name="ApplicantDescriptionAr" /><FieldRef Name="ApplicantDescriptionEn" /><FieldRef Name="ReviewerDescriptionAr" /><FieldRef Name="ReviewerDescriptionEn" /><FieldRef Name="CanApplicantEditRequest" /><FieldRef Name="CanReviewerEditRequest" /><FieldRef Name="IsCommentRequired" /><FieldRef Name="TargetPageUrl" /><FieldRef Name="TargetEmailGroup" /><FieldRef Name="FinalDecisionAr" /><FieldRef Name="FinalDecisionEn" /><FieldRef Name="CanDeleteRequest" /><FieldRef Name="ApplicantRequestPhaseAr" /><FieldRef Name="ApplicantRequestPhaseEn" /><FieldRef Name="ReviewerRequestPhaseAr" /><FieldRef Name="ReviewerRequestPhaseEn" /><FieldRef Name="ActionByEn" /><FieldRef Name="ActionByAr" /><FieldRef Name="ReviewerTargetPageURL" /><FieldRef Name="HistoryDescriptionEn" /><FieldRef Name="HistoryDescriptionAr" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    
+    
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

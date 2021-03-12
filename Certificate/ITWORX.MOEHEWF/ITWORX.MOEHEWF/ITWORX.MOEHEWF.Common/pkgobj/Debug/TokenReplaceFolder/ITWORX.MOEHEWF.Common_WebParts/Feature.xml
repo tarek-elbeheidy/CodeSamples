@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="6e6c5255-65ee-486c-99ba-ba2ff3d96938" Scope="Site" Title="ITWORX.MOEHEWF.Common WebParts">
+  <ElementManifests>
+    <ElementManifest Location="TrackingRequest\Elements.xml" />
+    <ElementFile Location="TrackingRequest\TrackingRequest.webpart" />
+    <ElementManifest Location="HomeRegister\Elements.xml" />
+    <ElementFile Location="HomeRegister\HomeRegister.webpart" />
+    <ElementManifest Location="HomeDashboard\Elements.xml" />
+    <ElementFile Location="HomeDashboard\HomeDashboard.webpart" />
+  </ElementManifests>
+</Feature>

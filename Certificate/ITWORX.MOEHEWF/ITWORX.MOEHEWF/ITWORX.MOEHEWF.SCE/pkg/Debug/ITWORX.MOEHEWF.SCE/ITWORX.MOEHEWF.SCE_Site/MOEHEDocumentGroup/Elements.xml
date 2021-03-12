@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9711a4a7-8e82-4f6a-9ea6-02333ee83d06}"
+       Name="MOEHEDocumentGroup"
+       DisplayName="MOEHE Document Group"
+       Type="Text"
+       Required="FALSE"
+       Group="MOEHE">
+  </Field>
+</Elements>

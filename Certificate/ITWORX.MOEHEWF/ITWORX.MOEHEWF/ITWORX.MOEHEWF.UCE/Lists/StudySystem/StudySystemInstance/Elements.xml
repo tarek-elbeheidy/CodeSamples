@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StudySystem" OnQuickLaunch="TRUE" TemplateType="10041" Url="Lists/StudySystem" Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+    <Data>
+      <Rows>
+        <!--<Row>
+          <Field Name="Title">Credit Hours</Field>
+          <Field Name="TitleAr">بالفصل الدراسي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Credit Hours</Field>
+          <Field Name="TitleAr">بالسنه</Field>
+        </Row>-->
+        <Row>
+          <Field Name="Title">Regularity</Field>
+          <Field Name="TitleAr">انتظام</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Partial</Field>
+          <Field Name="TitleAr">جزئي</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Remotely</Field>
+          <Field Name="TitleAr">عن بعد</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Online</Field>
+          <Field Name="TitleAr">عبر الانترنت</Field>
+        </Row>
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

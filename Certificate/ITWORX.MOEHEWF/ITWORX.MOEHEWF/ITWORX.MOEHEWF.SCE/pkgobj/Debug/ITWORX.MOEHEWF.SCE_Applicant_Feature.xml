@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="9d940002-8c5a-441e-aa0e-b01939fc8322" Scope="Web" Title="ITWORX.MOEHEWF.SCE Applicant">
+  <ElementManifests>
+    <ElementManifest Location="Applicant\Elements.xml" />
+    <ElementFile Location="Applicant\SampleUpload.aspx" />
+    <ElementFile Location="Applicant\SCEClarificationsListing.aspx" />
+    <ElementFile Location="Applicant\SCEClarificationRequestDetails.aspx" />
+    <ElementFile Location="Applicant\NewSCERequest.aspx" />
+    <ElementFile Location="Applicant\EditSCERequest.aspx" />
+  </ElementManifests>
+</Feature>

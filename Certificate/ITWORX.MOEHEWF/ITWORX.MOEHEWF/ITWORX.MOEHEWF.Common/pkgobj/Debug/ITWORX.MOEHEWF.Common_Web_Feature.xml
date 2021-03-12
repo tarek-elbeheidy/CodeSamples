@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="b34f7dd3-6132-408a-a9f4-b0fb5bd95428" Scope="Web" Title="ITWORX.MOEHEWF.Common Web">
+  <ElementManifests>
+    <ElementManifest Location="ConfigurationInstance\Elements.xml" />
+    <ElementManifest Location="NationalityInstance\Elements.xml" />
+    <ElementManifest Location="NationalityCategoryInstance\Elements.xml" />
+    <ElementManifest Location="ApplicantsInstance\Elements.xml" />
+    <ElementManifest Location="RequestStatusInstance\Elements.xml" />
+    <ElementManifest Location="CountryOfStudyInstance\Elements.xml" />
+    <ElementManifest Location="UniversityInstance\Elements.xml" />
+    <ElementManifest Location="UniversityListsInstance\Elements.xml" />
+    <ElementManifest Location="RequestTypesInstance\Elements.xml" />
+    <ElementManifest Location="ReceptionEmployeesVacationsInstance\Elements.xml" />
+    <ElementManifest Location="VerificationErrorInfoInstance\Elements.xml" />
+    <ElementManifest Location="UserVerificationCodeInstance\Elements.xml" />
+    <ElementManifest Location="IdentityConfigurationInstance\Elements.xml" />
+    <ElementManifest Location="NintexConfiguredOutcomesInstance\Elements.xml" />
+    <ElementManifest Location="NotificationsInstance\Elements.xml" />
+    <ElementManifest Location="StatementOrganizationsInstance\Elements.xml" />
+    <ElementManifest Location="HETemplatesInstance\Elements.xml" />
+    <ElementManifest Location="ServiceDashBoardInstance\Elements.xml" />
+    <ElementManifest Location="TermsAndConditionsInstance\Elements.xml" />
+  </ElementManifests>
+</Feature>

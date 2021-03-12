@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PAProcedure_TechCommitteeDetailsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PAProcedure_TechCommitteeDetails\" Type="ElementManifest" />
+    <ProjectItemFile Source="PAProcedure_TechCommitteeDetails.webpart" Target="PAProcedure_TechCommitteeDetails\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProcedure_TechCommitteeDetailsUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA.WebParts\PAProcedure_TechCommitteeDetails\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.PA.WebParts.PAProcedure_TechCommitteeDetails" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

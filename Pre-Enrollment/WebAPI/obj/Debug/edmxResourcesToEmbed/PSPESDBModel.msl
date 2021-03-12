@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PrivateScoolsPreEnrollmentModelStoreContainer" CdmEntityContainer="PrivateScoolsPreEnrollmentEntities222">
+    <EntitySetMapping Name="AddedGrades">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.AddedGrade">
+        <MappingFragment StoreEntitySet="AddedGrades">
+          <ScalarProperty Name="DTTM" ColumnName="DTTM" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="ADDED_NUMBER_OF_GRADES" ColumnName="ADDED_NUMBER_OF_GRADES" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_SCHOOL_YEAR" ColumnName="MOE_SCHOOL_YEAR" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnrollementControllings">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.EnrollementControlling">
+        <MappingFragment StoreEntitySet="EnrollementControlling">
+          <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="GradeCodes" ColumnName="GradeCodes" />
+          <ScalarProperty Name="CountryCodes" ColumnName="CountryCodes" />
+          <ScalarProperty Name="SchoolCode" ColumnName="SchoolCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enrollment_Exception_Attachment">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.Enrollment_Exception_Attachment">
+        <MappingFragment StoreEntitySet="Enrollment_Exception_Attachment">
+          <ScalarProperty Name="DOCUMENT_LOCATION" ColumnName="DOCUMENT_LOCATION" />
+          <ScalarProperty Name="Enrollment_Exception_Type_ID" ColumnName="Enrollment_Exception_Type_ID" />
+          <ScalarProperty Name="Enrollment_Exception_ID" ColumnName="Enrollment_Exception_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InterviewResults">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.InterviewResult">
+        <MappingFragment StoreEntitySet="InterviewResult">
+          <ScalarProperty Name="InterviewResult1" ColumnName="InterviewResult" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="DTTM" ColumnName="DTTM" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageTemplates">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MessageTemplate">
+        <MappingFragment StoreEntitySet="MessageTemplate">
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="EnglishMessage" ColumnName="EnglishMessage" />
+          <ScalarProperty Name="ArabicMessage" ColumnName="ArabicMessage" />
+          <ScalarProperty Name="TemplateTitle" ColumnName="TemplateTitle" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_ADDED_CAPACITY">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_ADDED_CAPACITY">
+        <MappingFragment StoreEntitySet="MOE_ADDED_CAPACITY">
+          <ScalarProperty Name="DTTM" ColumnName="DTTM" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="MOE_ADDED_CAPACITY1" ColumnName="MOE_ADDED_CAPACITY" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_SCHOOL_YEAR" ColumnName="MOE_SCHOOL_YEAR" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_AGE_VALIDATE_Temp">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE_Temp">
+        <MappingFragment StoreEntitySet="MOE_AGE_VALIDATE_Temp">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="MOE_MAX_AGE_STRING" ColumnName="MOE_MAX_AGE_STRING" />
+          <ScalarProperty Name="MOE_MIN_AGE_STRING" ColumnName="MOE_MIN_AGE_STRING" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ARA" ColumnName="MOE_GRADE_DESC_ARA" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ENG" ColumnName="MOE_GRADE_DESC_ENG" />
+          <ScalarProperty Name="MOE_CURRICULUM_DESC" ColumnName="MOE_CURRICULUM_DESC" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_MAX_AGE" ColumnName="MOE_MAX_AGE" />
+          <ScalarProperty Name="MOE_MIN_AGE" ColumnName="MOE_MIN_AGE" />
+          <ScalarProperty Name="MOE_CALCULATE_AGE_ASOF_DT" ColumnName="MOE_CALCULATE_AGE_ASOF_DT" />
+          <ScalarProperty Name="MOE_GRADE" ColumnName="MOE_GRADE" />
+          <ScalarProperty Name="MOE_CURRICULUM_ID" ColumnName="MOE_CURRICULUM_ID" />
+          <ScalarProperty Name="MOE_SCHOOL_TYPE" ColumnName="MOE_SCHOOL_TYPE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_APPL_ACAD_INFO">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_APPL_ACAD_INFO">
+        <MappingFragment StoreEntitySet="MOE_APPL_ACAD_INFO">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_STU_RSLT" ColumnName="MOE_STU_RSLT" />
+          <ScalarProperty Name="MOE_GRADE" ColumnName="MOE_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="MOE_APPL_REF_NBR" ColumnName="MOE_APPL_REF_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="MOE_ACAD_INFO_ID" ColumnName="MOE_ACAD_INFO_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_APPL_SUPPORT_DOCS">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_APPL_SUPPORT_DOCS">
+        <MappingFragment StoreEntitySet="MOE_APPL_SUPPORT_DOCS">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_DOCUMENT_LOCATION" ColumnName="MOE_DOCUMENT_LOCATION" />
+          <ScalarProperty Name="MOE_DOCUMENT_TYPE_ID" ColumnName="MOE_DOCUMENT_TYPE_ID" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_Application_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA">
+        <MappingFragment StoreEntitySet="MOE_Application_DATA">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="MOE_STUDENT_NAME_ARA" ColumnName="MOE_STUDENT_NAME_ARA" />
+          <ScalarProperty Name="MOE_STUDENT_NAME_ENG" ColumnName="MOE_STUDENT_NAME_ENG" />
+          <ScalarProperty Name="IsApplicationFinalized" ColumnName="IsApplicationFinalized" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_WAITLIST_NUMBER" ColumnName="MOE_WAITLIST_NUMBER" />
+          <ScalarProperty Name="MOE_AVAIL_TRANSPORT" ColumnName="MOE_AVAIL_TRANSPORT" />
+          <ScalarProperty Name="MOE_RESIDENTIAL_AREA" ColumnName="MOE_RESIDENTIAL_AREA" />
+          <ScalarProperty Name="MOE_APPLIED_GRADE" ColumnName="MOE_APPLIED_GRADE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_APPL_YEAR" ColumnName="MOE_APPL_YEAR" />
+          <ScalarProperty Name="MOE_APPL_INCR_ID" ColumnName="MOE_APPL_INCR_ID" />
+          <ScalarProperty Name="MOE_APPL_REF_NBR" ColumnName="MOE_APPL_REF_NBR" />
+          <ScalarProperty Name="MOE_APPL_DATE" ColumnName="MOE_APPL_DATE" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_BIO_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_BIO_DATA">
+        <MappingFragment StoreEntitySet="MOE_BIO_DATA">
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_LAST_UPDATED_DATE" ColumnName="MOE_LAST_UPDATED_DATE" />
+          <ScalarProperty Name="MOE_STATUS_DATE" ColumnName="MOE_STATUS_DATE" />
+          <ScalarProperty Name="MOE_STATUS" ColumnName="MOE_STATUS" />
+          <ScalarProperty Name="MOE_COUNTRY_CODE" ColumnName="MOE_COUNTRY_CODE" />
+          <ScalarProperty Name="MOE_COUNTRY_ARABIC_NAME" ColumnName="MOE_COUNTRY_ARABIC_NAME" />
+          <ScalarProperty Name="MOE_COUNTRY_ENGLISH_NAME" ColumnName="MOE_COUNTRY_ENGLISH_NAME" />
+          <ScalarProperty Name="MOE_GENDER" ColumnName="MOE_GENDER" />
+          <ScalarProperty Name="MOE_DOB" ColumnName="MOE_DOB" />
+          <ScalarProperty Name="MOE_ARABIC_NAME" ColumnName="MOE_ARABIC_NAME" />
+          <ScalarProperty Name="MOE_ENGLISH_NAME" ColumnName="MOE_ENGLISH_NAME" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_CURRICULUM_LOOKUP">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_CURRICULUM_LOOKUP">
+        <MappingFragment StoreEntitySet="MOE_CURRICULUM_LOOKUP">
+          <ScalarProperty Name="MOE_CURRICULUM_NAMEAR" ColumnName="MOE_CURRICULUM_NAMEAR" />
+          <ScalarProperty Name="MOE_CURRICULUM_NAMEEN" ColumnName="MOE_CURRICULUM_NAMEEN" />
+          <ScalarProperty Name="MOE_CURRICULUM_ID" ColumnName="MOE_CURRICULUM_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_DOUBLE_CURRICULUM_MAPPING">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_DOUBLE_CURRICULUM_MAPPING">
+        <MappingFragment StoreEntitySet="MOE_DOUBLE_CURRICULUM_MAPPING">
+          <ScalarProperty Name="CURRICULUM_DESC" ColumnName="CURRICULUM_DESC" />
+          <ScalarProperty Name="CURRICULUM_ID" ColumnName="CURRICULUM_ID" />
+          <ScalarProperty Name="DOUBLE_CURRICULUM_DESC" ColumnName="DOUBLE_CURRICULUM_DESC" />
+          <ScalarProperty Name="DOUBLE_CURRICULUM_ID" ColumnName="DOUBLE_CURRICULUM_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_ENROLLMENT_EXCEPTION">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION">
+        <MappingFragment StoreEntitySet="MOE_ENROLLMENT_EXCEPTION">
+          <ScalarProperty Name="EXCEPTION_AUDIT_ID" ColumnName="EXCEPTION_AUDIT_ID" />
+          <ScalarProperty Name="MOE_CREATED_DATE" ColumnName="MOE_CREATED_DATE" />
+          <ScalarProperty Name="ENROLLMENT_WHILE_CLOSED_EXCEPTION" ColumnName="ENROLLMENT_WHILE_CLOSED_EXCEPTION" />
+          <ScalarProperty Name="GENDER_EXCEPTION" ColumnName="GENDER_EXCEPTION" />
+          <ScalarProperty Name="CURRICULUM_EXCEPTION" ColumnName="CURRICULUM_EXCEPTION" />
+          <ScalarProperty Name="NATIONALITY_EXCEPTION" ColumnName="NATIONALITY_EXCEPTION" />
+          <ScalarProperty Name="REPEAT_YEAR_EXCEPTION" ColumnName="REPEAT_YEAR_EXCEPTION" />
+          <ScalarProperty Name="AGE_EXCEPTION" ColumnName="AGE_EXCEPTION" />
+          <ScalarProperty Name="MOE_EXCEPTION_EXPIRY" ColumnName="MOE_EXCEPTION_EXPIRY" />
+          <ScalarProperty Name="MOE_GRADE" ColumnName="MOE_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="National_ID" ColumnName="National_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_ENROLLMENT_EXCEPTION_AUDIT">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_ENROLLMENT_EXCEPTION_AUDIT">
+        <MappingFragment StoreEntitySet="MOE_ENROLLMENT_EXCEPTION_AUDIT">
+          <ScalarProperty Name="MOE_UPDATED_ON" ColumnName="MOE_UPDATED_ON" />
+          <ScalarProperty Name="MOE_UPDATED_BY" ColumnName="MOE_UPDATED_BY" />
+          <ScalarProperty Name="ENROLLMENT_WHILE_CLOSED_EXCEPTION" ColumnName="ENROLLMENT_WHILE_CLOSED_EXCEPTION" />
+          <ScalarProperty Name="GENDER_EXCEPTION" ColumnName="GENDER_EXCEPTION" />
+          <ScalarProperty Name="CURRICULUM_EXCEPTION" ColumnName="CURRICULUM_EXCEPTION" />
+          <ScalarProperty Name="NATIONALITY_EXCEPTION" ColumnName="NATIONALITY_EXCEPTION" />
+          <ScalarProperty Name="REPEAT_YEAR_EXCEPTION" ColumnName="REPEAT_YEAR_EXCEPTION" />
+          <ScalarProperty Name="AGE_EXCEPTION" ColumnName="AGE_EXCEPTION" />
+          <ScalarProperty Name="MOE_EXCEPTION_EXPIRY" ColumnName="MOE_EXCEPTION_EXPIRY" />
+          <ScalarProperty Name="MOE_GRADE" ColumnName="MOE_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="National_ID" ColumnName="National_ID" />
+          <ScalarProperty Name="ENROLLMENT_EXCEPTION_ID" ColumnName="ENROLLMENT_EXCEPTION_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_Enrollment_Exception_Types">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_Enrollment_Exception_Types">
+        <MappingFragment StoreEntitySet="MOE_Enrollment_Exception_Types">
+          <ScalarProperty Name="AttachmentRequired" ColumnName="AttachmentRequired" />
+          <ScalarProperty Name="ExceptionTypeNameAR" ColumnName="ExceptionTypeNameAR" />
+          <ScalarProperty Name="ExceptionTypeName" ColumnName="ExceptionTypeName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_GUARDIAN_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_GUARDIAN_DATA">
+        <MappingFragment StoreEntitySet="MOE_GUARDIAN_DATA">
+          <ScalarProperty Name="MOE_GUARDIAN_NAME_ARA" ColumnName="MOE_GUARDIAN_NAME_ARA" />
+          <ScalarProperty Name="MOE_GUARDIAN_NAME_ENG" ColumnName="MOE_GUARDIAN_NAME_ENG" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_EMPLOYER" ColumnName="MOE_EMPLOYER" />
+          <ScalarProperty Name="MOE_EMPLOYER_TYPE_ID" ColumnName="MOE_EMPLOYER_TYPE_ID" />
+          <ScalarProperty Name="MOE_EMAIL" ColumnName="MOE_EMAIL" />
+          <ScalarProperty Name="MOE_FAX_CONTACT_NBR" ColumnName="MOE_FAX_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_MOBILE_CONTACT_NBR" ColumnName="MOE_MOBILE_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_WORK_CONTACT_NBR" ColumnName="MOE_WORK_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_HOME_CONTACT_NBR" ColumnName="MOE_HOME_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_MARITAL_STATUS_ID" ColumnName="MOE_MARITAL_STATUS_ID" />
+          <ScalarProperty Name="MOE_ISGUARDIAN" ColumnName="MOE_ISGUARDIAN" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_TYPE_ID" ColumnName="MOE_RELATIONSHIP_TYPE_ID" />
+          <ScalarProperty Name="MOE_RELATED_QID" ColumnName="MOE_RELATED_QID" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_HEALTH_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_HEALTH_DATA">
+        <MappingFragment StoreEntitySet="MOE_HEALTH_DATA">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_SPECIAL_NEEDS_DETAILS" ColumnName="MOE_SPECIAL_NEEDS_DETAILS" />
+          <ScalarProperty Name="MOE_LEARNING_DIFFICULTIES" ColumnName="MOE_LEARNING_DIFFICULTIES" />
+          <ScalarProperty Name="MOE_SPL_NEEDS" ColumnName="MOE_SPL_NEEDS" />
+          <ScalarProperty Name="MOE_HLTH_PROBLEMS_DETAILS" ColumnName="MOE_HLTH_PROBLEMS_DETAILS" />
+          <ScalarProperty Name="MOE_HLTH_PROBLEMS" ColumnName="MOE_HLTH_PROBLEMS" />
+          <ScalarProperty Name="MOE_FIT_FOR_SCHOOLING" ColumnName="MOE_FIT_FOR_SCHOOLING" />
+          <ScalarProperty Name="MOE_HLTH_CTR_NAME" ColumnName="MOE_HLTH_CTR_NAME" />
+          <ScalarProperty Name="MOE_HLTH_CARD_NBR" ColumnName="MOE_HLTH_CARD_NBR" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="MOE_HEALTH_DATA_ID" ColumnName="MOE_HEALTH_DATA_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_MARITAL_STATUS">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_MARITAL_STATUS">
+        <MappingFragment StoreEntitySet="MOE_MARITAL_STATUS">
+          <ScalarProperty Name="MOE_MARITAL_STATUS_ARA" ColumnName="MOE_MARITAL_STATUS_ARA" />
+          <ScalarProperty Name="MOE_MARITAL_STATUS_ENG" ColumnName="MOE_MARITAL_STATUS_ENG" />
+          <ScalarProperty Name="MOE_MARITAL_STATUS_ID" ColumnName="MOE_MARITAL_STATUS_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_MARITIALSTATUS_LOOKUP">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_MARITIALSTATUS_LOOKUP">
+        <MappingFragment StoreEntitySet="MOE_MARITIALSTATUS_LOOKUP">
+          <ScalarProperty Name="MOE_MARITIALSTATUS_NAMEAR" ColumnName="MOE_MARITIALSTATUS_NAMEAR" />
+          <ScalarProperty Name="MOE_MARITIALSTATUS_NAMEEN" ColumnName="MOE_MARITIALSTATUS_NAMEEN" />
+          <ScalarProperty Name="MOE_MARITIALSTATUS_ID" ColumnName="MOE_MARITIALSTATUS_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_RELATIONSHIP">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP">
+        <MappingFragment StoreEntitySet="MOE_RELATIONSHIP">
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAME_ARA" ColumnName="MOE_RELATIONSHIP_NAME_ARA" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAME_ENG" ColumnName="MOE_RELATIONSHIP_NAME_ENG" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_TYPE_ID" ColumnName="MOE_RELATIONSHIP_TYPE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_RELATIONSHIP_LOOKUP">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP_LOOKUP">
+        <MappingFragment StoreEntitySet="MOE_RELATIONSHIP_LOOKUP">
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAMEAR" ColumnName="MOE_RELATIONSHIP_NAMEAR" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAMEEN" ColumnName="MOE_RELATIONSHIP_NAMEEN" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_ID" ColumnName="MOE_RELATIONSHIP_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_SCHOOL">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_SCHOOL">
+        <MappingFragment StoreEntitySet="MOE_SCHOOL">
+          <ScalarProperty Name="MOE_CLOSE_DATE" ColumnName="MOE_CLOSE_DATE" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_SCHOOL_WEBSITE" ColumnName="MOE_SCHOOL_WEBSITE" />
+          <ScalarProperty Name="MOE_PRN_EMAIL" ColumnName="MOE_PRN_EMAIL" />
+          <ScalarProperty Name="MOE_PRN_CONTACT_NBR" ColumnName="MOE_PRN_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_EMAIL" ColumnName="MOE_EMAIL" />
+          <ScalarProperty Name="MOE_CONTACT_NBR" ColumnName="MOE_CONTACT_NBR" />
+          <ScalarProperty Name="MOE_SCHOOL_OWN_NID" ColumnName="MOE_SCHOOL_OWN_NID" />
+          <ScalarProperty Name="MOE_SCHOOL_GENDER" ColumnName="MOE_SCHOOL_GENDER" />
+          <ScalarProperty Name="MOE_SCHOOL_STAGES" ColumnName="MOE_SCHOOL_STAGES" />
+          <ScalarProperty Name="MOE_CITY" ColumnName="MOE_CITY" />
+          <ScalarProperty Name="MOE_SCHOOL_ADDRESS2" ColumnName="MOE_SCHOOL_ADDRESS2" />
+          <ScalarProperty Name="MOE_SCHOOL_ADDRESS1" ColumnName="MOE_SCHOOL_ADDRESS1" />
+          <ScalarProperty Name="MOE_SCHOOL_LOCATION" ColumnName="MOE_SCHOOL_LOCATION" />
+          <ScalarProperty Name="MOE_EFF_STATUS" ColumnName="MOE_EFF_STATUS" />
+          <ScalarProperty Name="MOE_EFFECTIVE_DATE" ColumnName="MOE_EFFECTIVE_DATE" />
+          <ScalarProperty Name="MOE_SCHOOL_NAME_ARA" ColumnName="MOE_SCHOOL NAME_ARA" />
+          <ScalarProperty Name="MOE_SCHOOL_NAME_ENG" ColumnName="MOE_SCHOOL_NAME_ENG" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_SEAT_CAPACITY">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_SEAT_CAPACITY">
+        <MappingFragment StoreEntitySet="MOE_SEAT_CAPACITY">
+          <ScalarProperty Name="MOE_CURRENT_ENROLLED" ColumnName="MOE_CURRENT_ENROLLED" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_PREENROL_SEATS" ColumnName="MOE_PREENROL_SEATS" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTMM" ColumnName="MOE_TRANSACTION_DTMM" />
+          <ScalarProperty Name="MOE_SEAT_DISTRIBUTION" ColumnName="MOE_SEAT_DISTRIBUTION" />
+          <ScalarProperty Name="MOE_SCHOOL_GRADE" ColumnName="MOE_SCHOOL_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_TERM">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_TERM">
+        <MappingFragment StoreEntitySet="MOE_TERM">
+          <ScalarProperty Name="MOE_TERM1" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="MOE_ACADEMIC_YEAR_DESC" ColumnName="MOE_ACADEMIC_YEAR_DESC" />
+          <ScalarProperty Name="MOE_ISOPEN_ENROLLMENT" ColumnName="MOE_ISOPEN_ENROLLMENT" />
+          <ScalarProperty Name="MOE_EFF_STATUS" ColumnName="MOE_EFF_STATUS" />
+          <ScalarProperty Name="MOE_EFFECTIVE_DATE" ColumnName="MOE_EFFECTIVE_DATE" />
+          <ScalarProperty Name="MOE_TERM_ENDING_DATE" ColumnName="MOE_TERM_ENDING_DATE" />
+          <ScalarProperty Name="MOE_TERM_BEGIN_DATE" ColumnName="MOE_TERM_BEGIN_DATE" />
+          <ScalarProperty Name="MOE_TERM_DESCRIPTION_ARA" ColumnName="MOE_TERM_DESCRIPTION_ARA" />
+          <ScalarProperty Name="MOE_TERM_DESCRIPTION_ENG" ColumnName="MOE_TERM_DESCRIPTION_ENG" />
+          <ScalarProperty Name="MOE_TERM_CODE" ColumnName="MOE_TERM_CODE" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_WITHDRAWAL_REASON">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_REASON">
+        <MappingFragment StoreEntitySet="MOE_WITHDRAWAL_REASON">
+          <ScalarProperty Name="MOE_NAME_ARABIC" ColumnName="MOE_NAME_ARABIC" />
+          <ScalarProperty Name="MOE_NAME_ENGLISH" ColumnName="MOE_NAME_ENGLISH" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOI_Country_Map">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOI_Country_Map">
+        <MappingFragment StoreEntitySet="MOI_Country_Map">
+          <ScalarProperty Name="MOI_COUNTRY_CODE" ColumnName="MOI_COUNTRY_CODE" />
+          <ScalarProperty Name="SMS_COUNTRY_CODE" ColumnName="SMS_COUNTRY_CODE" />
+          <ScalarProperty Name="NSIS_COUNTRY_CODE" ColumnName="NSIS_COUNTRY_CODE" />
+          <ScalarProperty Name="COUNTRY_ARA" ColumnName="COUNTRY_ARA" />
+          <ScalarProperty Name="COUNTRY" ColumnName="COUNTRY" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationActions">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.NotificationAction">
+        <MappingFragment StoreEntitySet="NotificationAction">
+          <ScalarProperty Name="ParentNotificationType" ColumnName="ParentNotificationType" />
+          <ScalarProperty Name="EnglishName" ColumnName="EnglishName" />
+          <ScalarProperty Name="ArabicName" ColumnName="ArabicName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeatReservationFees">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.SeatReservationFee">
+        <MappingFragment StoreEntitySet="SeatReservationFee">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="ApplicationDataID" ColumnName="ApplicationDataID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="FeesPaidDate" ColumnName="FeesPaidDate" />
+          <ScalarProperty Name="ReservationFeesAmount" ColumnName="ReservationFeesAmount" />
+          <ScalarProperty Name="ApplicantReferenceNumber" ColumnName="ApplicantReferenceNumber" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SMSHistories">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.SMSHistory">
+        <MappingFragment StoreEntitySet="SMSHistory">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="MsgSender" ColumnName="MsgSender" />
+          <ScalarProperty Name="MsgStatus" ColumnName="MsgStatus" />
+          <ScalarProperty Name="MsgTime" ColumnName="MsgTime" />
+          <ScalarProperty Name="MsgText" ColumnName="MsgText" />
+          <ScalarProperty Name="MsgTitle" ColumnName="MsgTitle" />
+          <ScalarProperty Name="MsgType" ColumnName="MsgType" />
+          <ScalarProperty Name="MOE_APPL_REF_NBR" ColumnName="MOE_APPL_REF_NBR" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SupportingDocumentSetups">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.SupportingDocumentSetup">
+        <MappingFragment StoreEntitySet="SupportingDocumentSetup">
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="IsRequiredForSchool" ColumnName="IsRequiredForSchool" />
+          <ScalarProperty Name="IsRequiredForPSO" ColumnName="IsRequiredForPSO" />
+          <ScalarProperty Name="CurriculumID" ColumnName="CurriculumID" />
+          <ScalarProperty Name="DocumentTypeID" ColumnName="DocumentTypeID" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="SchoolCode" ColumnName="SchoolCode" />
+          <ScalarProperty Name="Term" ColumnName="Term" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestResults">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.TestResult">
+        <MappingFragment StoreEntitySet="TestResult">
+          <ScalarProperty Name="TestResult1" ColumnName="TestResult" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="DTTM" ColumnName="DTTM" />
+          <ScalarProperty Name="ResultDocLocation" ColumnName="ResultDocLocation" />
+          <ScalarProperty Name="MOE_APPL_NBR" ColumnName="MOE_APPL_NBR" />
+          <ScalarProperty Name="NATIONAL_ID" ColumnName="NATIONAL_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionsLogs">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.TransactionsLog">
+        <MappingFragment StoreEntitySet="TransactionsLog">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ShortDescription" ColumnName="ShortDescription" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="ActionCode" ColumnName="ActionCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuildingCapacities">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.BuildingCapacity">
+        <MappingFragment StoreEntitySet="BuildingCapacity">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="BuildingCapacity1" ColumnName="BuildingCapacity" />
+          <ScalarProperty Name="SchoolCode" ColumnName="SchoolCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_AGE_VALIDATE">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE">
+        <MappingFragment StoreEntitySet="MOE_AGE_VALIDATE">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="MOE_MAX_AGE_STRING" ColumnName="MOE_MAX_AGE_STRING" />
+          <ScalarProperty Name="MOE_MIN_AGE_STRING" ColumnName="MOE_MIN_AGE_STRING" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ARA" ColumnName="MOE_GRADE_DESC_ARA" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ENG" ColumnName="MOE_GRADE_DESC_ENG" />
+          <ScalarProperty Name="MOE_CURRICULUM_DESC" ColumnName="MOE_CURRICULUM_DESC" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="MOE_MAX_AGE" ColumnName="MOE_MAX_AGE" />
+          <ScalarProperty Name="MOE_MIN_AGE" ColumnName="MOE_MIN_AGE" />
+          <ScalarProperty Name="MOE_CALCULATE_AGE_ASOF_DT" ColumnName="MOE_CALCULATE_AGE_ASOF_DT" />
+          <ScalarProperty Name="MOE_GRADE" ColumnName="MOE_GRADE" />
+          <ScalarProperty Name="MOE_CURRICULUM_ID" ColumnName="MOE_CURRICULUM_ID" />
+          <ScalarProperty Name="MOE_SCHOOL_TYPE" ColumnName="MOE_SCHOOL_TYPE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_EMPLOYER_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_DATA">
+        <MappingFragment StoreEntitySet="MOE_EMPLOYER_DATA">
+          <ScalarProperty Name="MOE_EMPLOYER_NAMEAR" ColumnName="MOE_EMPLOYER_NAMEAR" />
+          <ScalarProperty Name="MOE_EMPLOYER_NAMEEN" ColumnName="MOE_EMPLOYER_NAMEEN" />
+          <ScalarProperty Name="MOE_EMPLOYER_ID" ColumnName="MOE_EMPLOYER_ID" />
+          <ScalarProperty Name="MOE_EMPLOYER_SECTOR_ID" ColumnName="MOE_EMPLOYER_SECTOR_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_EMPLOYER_TYPE">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_TYPE">
+        <MappingFragment StoreEntitySet="MOE_EMPLOYER_TYPE">
+          <ScalarProperty Name="MOE_EMPLOYER_TYPE_NAME_ARA" ColumnName="MOE_EMPLOYER_TYPE_NAME_ARA" />
+          <ScalarProperty Name="MOE_EMPLOYER_TYPE_NAME_ENG" ColumnName="MOE_EMPLOYER_TYPE_NAME_ENG" />
+          <ScalarProperty Name="MOE_EMPLOYER_TYPE_ID" ColumnName="MOE_EMPLOYER_TYPE_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_GRADE">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_GRADE">
+        <MappingFragment StoreEntitySet="MOE_GRADE">
+          <ScalarProperty Name="MOE_EFF_STATUS" ColumnName="MOE_EFF_STATUS" />
+          <ScalarProperty Name="MOE_EFFECTIVE_DATE" ColumnName="MOE_EFFECTIVE_DATE" />
+          <ScalarProperty Name="MOE_DESCRIPTION" ColumnName="MOE_DESCRIPTION" />
+          <ScalarProperty Name="MOE_SCHOOL_GRADE" ColumnName="MOE_SCHOOL_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Testings">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.Testing">
+        <MappingFragment StoreEntitySet="Testing">
+          <ScalarProperty Name="TestName" ColumnName="TestName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_PREENROLLMENT_REPORT_VIEW">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_PREENROLLMENT_REPORT_VIEW">
+        <MappingFragment StoreEntitySet="MOE_PREENROLLMENT_REPORT_VIEW">
+          <ScalarProperty Name="RESERVE_FEE" ColumnName="RESERVE_FEE" />
+          <ScalarProperty Name="MOE_FEES_PAID_DATE" ColumnName="MOE_FEES_PAID_DATE" />
+          <ScalarProperty Name="INTERVIEW_DATETIME" ColumnName="INTERVIEW_DATETIME" />
+          <ScalarProperty Name="MOE_INTERVIEW_RESULTS" ColumnName="MOE_INTERVIEW_RESULTS" />
+          <ScalarProperty Name="TEST_DATETIME" ColumnName="TEST_DATETIME" />
+          <ScalarProperty Name="MOE_TEST_RESULTS" ColumnName="MOE_TEST_RESULTS" />
+          <ScalarProperty Name="MOE_RESULTS_LOCATION" ColumnName="MOE_RESULTS_LOCATION" />
+          <ScalarProperty Name="MOE_DOCUMENT_LOCATION" ColumnName="MOE_DOCUMENT_LOCATION" />
+          <ScalarProperty Name="MOE_SPL_NEEDS" ColumnName="MOE_SPL_NEEDS" />
+          <ScalarProperty Name="MOE_LEARNING_DIFFICULTIES" ColumnName="MOE_LEARNING_DIFFICULTIES" />
+          <ScalarProperty Name="HEALTH_PROBLEMS_DETAILS" ColumnName="HEALTH_PROBLEMS_DETAILS" />
+          <ScalarProperty Name="FIT_TO_STUDY" ColumnName="FIT_TO_STUDY" />
+          <ScalarProperty Name="HEALTH_CENTER_NAME" ColumnName="HEALTH_CENTER_NAME" />
+          <ScalarProperty Name="HEALTH_CARD_NUMBER" ColumnName="HEALTH_CARD_NUMBER" />
+          <ScalarProperty Name="MOE_MARITIALSTATUS_NAMEAR" ColumnName="MOE_MARITIALSTATUS_NAMEAR" />
+          <ScalarProperty Name="MOE_MARITIALSTATUS_NAMEEN" ColumnName="MOE_MARITIALSTATUS_NAMEEN" />
+          <ScalarProperty Name="MOE_MARITIALSTATUS_ID" ColumnName="MOE_MARITIALSTATUS_ID" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAMEAR" ColumnName="MOE_RELATIONSHIP_NAMEAR" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_NAMEEN" ColumnName="MOE_RELATIONSHIP_NAMEEN" />
+          <ScalarProperty Name="MOE_RELATIONSHIP_ID" ColumnName="MOE_RELATIONSHIP_ID" />
+          <ScalarProperty Name="GUARDIAN_FAX_NUMBER" ColumnName="GUARDIAN_FAX_NUMBER" />
+          <ScalarProperty Name="GUARDIAN_EMAIL" ColumnName="GUARDIAN_EMAIL" />
+          <ScalarProperty Name="GUARDIAN_WORK_PHONE_NUMBER" ColumnName="GUARDIAN_WORK_PHONE_NUMBER" />
+          <ScalarProperty Name="GUARDIAN_HOME_PHONE_NUMBER" ColumnName="GUARDIAN_HOME_PHONE_NUMBER" />
+          <ScalarProperty Name="GUARDIAN_MOBILE_NUMBER" ColumnName="GUARDIAN_MOBILE_NUMBER" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_NAME_AR" ColumnName="GUARDIAN_EMPLOYER_NAME_AR" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_NAME_EN" ColumnName="GUARDIAN_EMPLOYER_NAME_EN" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_ID" ColumnName="GUARDIAN_EMPLOYER_ID" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_TYPE_NAME_AR" ColumnName="GUARDIAN_EMPLOYER_TYPE_NAME_AR" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_TYPE_NAME_EN" ColumnName="GUARDIAN_EMPLOYER_TYPE_NAME_EN" />
+          <ScalarProperty Name="GUARDIAN_EMPLOYER_TYPE_ID" ColumnName="GUARDIAN_EMPLOYER_TYPE_ID" />
+          <ScalarProperty Name="GUARDIAN_GENDER" ColumnName="GUARDIAN_GENDER" />
+          <ScalarProperty Name="GUARDIAN_NATIONALITY_EN" ColumnName="GUARDIAN_NATIONALITY_EN" />
+          <ScalarProperty Name="GUARDIAN_NATIONALITY_AR" ColumnName="GUARDIAN_NATIONALITY_AR" />
+          <ScalarProperty Name="GUARDIAN_NAME_AR" ColumnName="GUARDIAN_NAME_AR" />
+          <ScalarProperty Name="GUARDIAN_NAME_EN" ColumnName="GUARDIAN_NAME_EN" />
+          <ScalarProperty Name="MOE_RELATED_QID" ColumnName="MOE_RELATED_QID" />
+          <ScalarProperty Name="PREVIOUS_YEAR_RESULT" ColumnName="PREVIOUS_YEAR_RESULT" />
+          <ScalarProperty Name="PREVIOUS_YEAR_GRADE" ColumnName="PREVIOUS_YEAR_GRADE" />
+          <ScalarProperty Name="MOE_PREVIOUS_SCHOOLNAME_ARA" ColumnName="MOE_PREVIOUS_SCHOOLNAME_ARA" />
+          <ScalarProperty Name="MOE_PREVIOUS_SCHOOLNAME_ENG" ColumnName="MOE_PREVIOUS_SCHOOLNAME_ENG" />
+          <ScalarProperty Name="PREVIOUS_YEAR_SCHOOL_CODE" ColumnName="PREVIOUS_YEAR_SCHOOL_CODE" />
+          <ScalarProperty Name="PREVIOUS_CURRICULUM_NAMEAR" ColumnName="PREVIOUS_CURRICULUM_NAMEAR" />
+          <ScalarProperty Name="PREVIOUS_CURRICULUM_NAMEEN" ColumnName="PREVIOUS_CURRICULUM_NAMEEN" />
+          <ScalarProperty Name="PREVIOUS_CURRICULUM_ID" ColumnName="PREVIOUS_CURRICULUM_ID" />
+          <ScalarProperty Name="PREVIOUS_YEAR_TERM" ColumnName="PREVIOUS_YEAR_TERM" />
+          <ScalarProperty Name="CURRENT_YEAR_RESULT" ColumnName="CURRENT_YEAR_RESULT" />
+          <ScalarProperty Name="CURRENT_YEAR_GRADE" ColumnName="CURRENT_YEAR_GRADE" />
+          <ScalarProperty Name="MOE_CURRENT_SCHOOLNAME_ARA" ColumnName="MOE_CURRENT_SCHOOLNAME_ARA" />
+          <ScalarProperty Name="MOE_CURRENT_SCHOOLNAME_ENG" ColumnName="MOE_CURRENT_SCHOOLNAME_ENG" />
+          <ScalarProperty Name="CURRENT_YEAR_SCHOOL_CODE" ColumnName="CURRENT_YEAR_SCHOOL_CODE" />
+          <ScalarProperty Name="CURRENT_CURRICULUM_NAMEAR" ColumnName="CURRENT_CURRICULUM_NAMEAR" />
+          <ScalarProperty Name="CURRENT_CURRICULUM_NAMEEN" ColumnName="CURRENT_CURRICULUM_NAMEEN" />
+          <ScalarProperty Name="CURRENT_CURRICULUM_ID" ColumnName="CURRENT_CURRICULUM_ID" />
+          <ScalarProperty Name="CURRENT_YEAR_TERM" ColumnName="CURRENT_YEAR_TERM" />
+          <ScalarProperty Name="MOE_CURRICULUM_NAMEEN" ColumnName="MOE_CURRICULUM_NAMEEN" />
+          <ScalarProperty Name="MOE_CURRICULUM_NAMEAR" ColumnName="MOE_CURRICULUM_NAMEAR" />
+          <ScalarProperty Name="MOE_CURRICULUM_ID" ColumnName="MOE_CURRICULUM_ID" />
+          <ScalarProperty Name="MOE_GENDER" ColumnName="MOE_GENDER" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTTM" ColumnName="MOE_TRANSACTION_DTTM" />
+          <ScalarProperty Name="IsApplicationFinalized" ColumnName="IsApplicationFinalized" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MOE_AVAIL_TRANSPORT" ColumnName="MOE_AVAIL_TRANSPORT" />
+          <ScalarProperty Name="MOE_APPLIED_GRADE" ColumnName="MOE_APPLIED_GRADE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="MOE_SCHOOL_NAME_ARA" ColumnName="MOE_SCHOOL_NAME_ARA" />
+          <ScalarProperty Name="MOE_SCHOOL_NAME_ENG" ColumnName="MOE_SCHOOL_NAME_ENG" />
+          <ScalarProperty Name="MOE_SCHOOL_GENDER" ColumnName="MOE_SCHOOL_GENDER" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_DOB" ColumnName="MOE_DOB" />
+          <ScalarProperty Name="MOE_RESIDENTIAL_AREA" ColumnName="MOE_RESIDENTIAL_AREA" />
+          <ScalarProperty Name="APPLICATION_DATE" ColumnName="APPLICATION_DATE" />
+          <ScalarProperty Name="MOE_APPL_REF_NBR" ColumnName="MOE_APPL_REF_NBR" />
+          <ScalarProperty Name="MOE_COUNTRY_ARABIC_NAME" ColumnName="MOE_COUNTRY_ARABIC_NAME" />
+          <ScalarProperty Name="MOE_COUNTRY_ENGLISH_NAME" ColumnName="MOE_COUNTRY_ENGLISH_NAME" />
+          <ScalarProperty Name="MOE_COUNTRY_CODE" ColumnName="MOE_COUNTRY_CODE" />
+          <ScalarProperty Name="STUDENT_NAME_AR" ColumnName="STUDENT_NAME_AR" />
+          <ScalarProperty Name="STUDENT_NAME_EN" ColumnName="STUDENT_NAME_EN" />
+          <ScalarProperty Name="STUDENT_QID" ColumnName="STUDENT_QID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_Schools_Grades_Ages">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.V_Schools_Grades_Ages">
+        <MappingFragment StoreEntitySet="V_Schools_Grades_Ages">
+          <ScalarProperty Name="GradeValue" ColumnName="GradeValue" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="MOE_CALCULATE_AGE_ASOF_DT" ColumnName="MOE_CALCULATE_AGE_ASOF_DT" />
+          <ScalarProperty Name="MOE_MAX_AGE_STRING" ColumnName="MOE_MAX_AGE_STRING" />
+          <ScalarProperty Name="MOE_MAX_AGE" ColumnName="MOE_MAX_AGE" />
+          <ScalarProperty Name="MOE_MIN_AGE_STRING" ColumnName="MOE_MIN_AGE_STRING" />
+          <ScalarProperty Name="MOE_MIN_AGE" ColumnName="MOE_MIN_AGE" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ENG" ColumnName="MOE_GRADE_DESC_ENG" />
+          <ScalarProperty Name="MOE_GRADE_DESC_ARA" ColumnName="MOE_GRADE_DESC_ARA" />
+          <ScalarProperty Name="MOE_CURRICULUM_DESC" ColumnName="MOE_CURRICULUM_DESC" />
+          <ScalarProperty Name="MOE_CURRICULUM_ID" ColumnName="MOE_CURRICULUM_ID" />
+          <ScalarProperty Name="MOE_CURRENT_ENROLLED" ColumnName="MOE_CURRENT_ENROLLED" />
+          <ScalarProperty Name="MOE_USERID" ColumnName="MOE_USERID" />
+          <ScalarProperty Name="MOE_PREENROL_SEATS" ColumnName="MOE_PREENROL_SEATS" />
+          <ScalarProperty Name="MOE_TRANSACTION_DTMM" ColumnName="MOE_TRANSACTION_DTMM" />
+          <ScalarProperty Name="MOE_SEAT_DISTRIBUTION" ColumnName="MOE_SEAT_DISTRIBUTION" />
+          <ScalarProperty Name="MOE_SCHOOL_GRADE" ColumnName="MOE_SCHOOL_GRADE" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="RN" ColumnName="RN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOE_WITHDRAWAL_DATA">
+      <EntityTypeMapping TypeName="PrivateScoolsPreEnrollmentModel.MOE_WITHDRAWAL_DATA">
+        <MappingFragment StoreEntitySet="MOE_WITHDRAWAL_DATA">
+          <ScalarProperty Name="MOE_TERM" ColumnName="MOE_TERM" />
+          <ScalarProperty Name="MOE_COMMENTS" ColumnName="MOE_COMMENTS" />
+          <ScalarProperty Name="MOE_LOGIN_ID" ColumnName="MOE_LOGIN_ID" />
+          <ScalarProperty Name="MOE_ACTION_DATE" ColumnName="MOE_ACTION_DATE" />
+          <ScalarProperty Name="MOE_ATTACHMENT" ColumnName="MOE_ATTACHMENT" />
+          <ScalarProperty Name="MOE_WITHDRAWAL_REASONID" ColumnName="MOE_WITHDRAWAL_REASONID" />
+          <ScalarProperty Name="MOE_WITHDRAWAL_DATE" ColumnName="MOE_WITHDRAWAL_DATE" />
+          <ScalarProperty Name="MOE_WITHDRAWAL_REQUESTDATE" ColumnName="MOE_WITHDRAWAL_REQUESTDATE" />
+          <ScalarProperty Name="MOE_REFERENCE_ID" ColumnName="MOE_REFERENCE_ID" />
+          <ScalarProperty Name="MOE_NATIONAL_ID" ColumnName="MOE_NATIONAL_ID" />
+          <ScalarProperty Name="MOE_SCHOOL_CODE" ColumnName="MOE_SCHOOL_CODE" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

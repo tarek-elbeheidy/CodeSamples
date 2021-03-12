@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7a6b46bf-9b02-4841-857a-4f6595600662" solutionId="7a6b46bf-9b02-4841-857a-4f6595600662" resetWebServer="false" sharePointProductVersion="16.0" name="ITWORX.MOEHEWF.UCE" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="dotnet.highcharts.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\dotnet.highcharts.dll" />
+    <customAssembly location="AjaxControlToolkit.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\AjaxControlToolkit.dll">
+      <safeControls>
+        <safeControl namespaceName="AjaxControlToolkit" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\itextsharp.dll">
+      <safeControls>
+        <safeControl assemblyName="itextsharp" namespaceName="itextsharp" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+    <customAssembly location="EPPlus.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\References\EPPlus.dll">
+      <safeControls>
+        <safeControl namespaceName="EPPlus" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="887c5f45-c0f8-470c-9a61-147bf70d71a7" />
+    <featureReference itemId="fce25961-8704-476b-a421-6815285a18cf" />
+    <featureReference itemId="c4e04e16-e237-4ffe-856d-d6b5a3c9d51e" />
+    <featureReference itemId="1bd46d0f-2091-4b75-9f41-3a87fe35d50f" />
+    <featureReference itemId="5347d9fd-dce0-4a82-8243-716b0cbcf9b5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="190f8664-3610-4c5c-9745-1c77558cb5bb" />
+    <projectItemReference itemId="3e5826a4-eda1-42de-aef6-19dac7eb6e51" />
+    <projectItemReference itemId="812e054b-998c-497b-8a78-0014f670a9d0" />
+  </projectItems>
+</package>

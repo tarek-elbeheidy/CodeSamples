@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Notifications"
+                OnQuickLaunch="TRUE"
+                TemplateType="10056"
+                Url="Lists/Notifications"
+                Description="My List Instance" FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+              &lt;div dir=&quot;ltr&quot;&gt;Dear customer,&lt;br&gt;&lt;/br&gt;your request No. {0} has been received for the equivalence of the certificate {1}. The request is being examined, and we will notify you of any updates through website,SMSs and your registered e-mail{2}&lt;/div&gt;
+              &lt;div dir=&quot;rtl&quot;&gt;عزيزي المتعامل , &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم إستلام طلبكم رقم {3} و الخاص بمعادلة شهادة {4} و جاري فحص الطلب، و سنعلمك بأي جديد يطرأ على الطلب من خلال موقع معادلة الشهادات و رسائل نصية و بريدكم الالكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع معادلة الشهادات &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">2</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات
+          </Field>
+          <Field Name="Body">
+              Dear customer, your request No. {0} has been received for the equivalence of the certificate {1}. The request is being examined, and we will notify you of any updates through website,SMSs and your registered e-mail{2}
+              عزيزي المتعامل ,  نعلمكم أنه تم إستلام طلبكم رقم {3} و الخاص بمعادلة شهادة {4} و جاري فحص الطلب، و سنعلمك بأي جديد يطرأ على الطلب من خلال موقع معادلة الشهادات و رسائل نصية و بريدكم الالكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع معادلة الشهادات 
+          </Field>
+          <Field Name="RequestStatusId">2</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة</Field>
+          <Field Name="Body">
+              &lt;div dir=&quot;ltr&quot;&gt;Dear customer,&lt;br&gt;&lt;/br&gt;your request No. {0} has been received.The request is being examined, and we will notify you of any updates through website,SMSs and your registered e-mail{1}&lt;/div&gt;
+              &lt;div dir=&quot;rtl&quot;&gt;عزيزي المتعامل , &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم إستلام طلبكم رقم {2} و جاري فحص الطلب، و سنعلمك بأي جديد يطرأ على الطلب من خلال موقع معادلة الشهادات و رسائل نصية و بريدكم الالكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع معادلة الشهادات &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">45</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة
+          </Field>
+          <Field Name="Body">
+              Dear customer, your request No. {0} has been received.The request is being examined, and we will notify you of any updates through website,SMSs and your registered e-mail{1}
+              عزيزي المتعامل ,  نعلمكم أنه تم إستلام طلبكم رقم {2} و جاري فحص الطلب، و سنعلمك بأي جديد يطرأ على الطلب من خلال موقع معادلة الشهادات و رسائل نصية و بريدكم الالكتروني المسجل لدينا، الرجاء متابعة طلبكم باستمرار على موقع معادلة الشهادات 
+          </Field>
+          <Field Name="RequestStatusId">45</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">
+            Certificate Equivalency
+            معادلة الشهادات
+          </Field>
+          <Field Name="Body">
+            Dear customer,a request for clarification has been sent to you for your request No. {0} for the equivalence of the certificate {1} ,please meet the required within a week of its date to be able to complete your
+            عزيزي المتعامل تم ارسال طلب توضيح لكم لطلبكم رقم {2} والخاص بمعادلة شهادة {3} ,يرجي الدخول علي طلبكم علي موقع ادارة معادلة الشهادات وموافتنا بالمطلوب في غضون أسبوع من تاريخه لنتمكن من استكمال طلبكم
+          </Field>
+          <Field Name="RequestStatusId">4</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Subject">
+            Certificate Equivalency
+            معادلة الشهادات
+          </Field>
+          <Field Name="Body">
+            Dear Customer, {0} University is one of HEDD universities.Please provide the needed certificates from the HEDD site so that the equivalence of certificates department continue implementing your
+            عزيزي المتعامل جامعة {1} هي احدي جامعات HEDD الرجاء سرعة موافاة ادارة معادلة الشهادات بيناتكم من موقع HEDD وذلك لتتمكن ادارة معادلة الشهادات من الاستمرار في تنفيذ طلبكم
+          </Field>
+          <Field Name="RequestStatusId">65</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            Dear Customer, Your username is {0} 
+            Website URL: https://certificate.edu.gov.qa
+            عزيزي المتعامل, اسم المستخدم  {1} 
+            رابط الموقع: https://certificate.edu.gov.qa
+          </Field>
+          <Field Name="RequestStatusId">55</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt;
+              Dear Customer,&lt;br&gt;&lt;/br&gt; Your Password is {0} 
+              &lt;/br&gt;Website URL:  &lt;a&gt; https://certificate.edu.gov.qa &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt;
+              عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; كلمة المرور  &lt;span dir=&quot;ltr&quot; style="text-align:right">{1}&lt;/span&gt;
+            &lt;/br&gt;رابط الموقع:  &lt;a&gt; https://certificate.edu.gov.qa &lt;/a&gt;
+           &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">55</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            Dear Customer, Your Password is {0}
+            Website URL: https://certificate.edu.gov.qa
+            عزيزي المتعامل,  كلمة المرور  {1}
+            رابط الموقع: https://certificate.edu.gov.qa
+          </Field>
+          <Field Name="RequestStatusId">67</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt;
+            Dear Customer,&lt;br&gt;&lt;/br&gt; Your Password is {0}
+            &lt;/br&gt;Website URL:  &lt;a&gt; https://certificate.edu.gov.qa &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt;
+            عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; كلمة المرور  &lt;span dir=&quot;ltr&quot; style="text-align:right">{1}&lt;/span&gt;
+            &lt;/br&gt;رابط الموقع:  &lt;a&gt; https://certificate.edu.gov.qa &lt;/a&gt;
+            &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">67</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            Dear Customer, Your Verification code is {0}
+            عزيزي المتعامل,  كود التفعيل الخاص بك هو {1}
+          </Field>
+          <Field Name="RequestStatusId">56</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear Customer, &lt;br&gt;&lt;/br&gt; Your Verification code is {0}&lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; كود التفعيل الخاص بك هو {1}&lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">56</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            Dear Customer, your request No. {0} has been approved regarding the equivelance of the certificate {1}
+            عزيزي المتعامل,  نعلمكم أنه تم قبول طلبكم رقم {2} الخاص بمعادلة شهادة {3}
+          </Field>
+          <Field Name="RequestStatusId">17</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear Customer, &lt;br&gt;&lt;/br&gt; your request No. {0} has been approved regarding the equivelance of the certificate {1} &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم قبول طلبكم رقم {2} الخاص بمعادلة شهادة {3} &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">17</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            Dear Customer, your request No. {0} has been rejected regarding the equivelance of the certificate {1}
+            عزيزي المتعامل,  نعلمكم أنه تم رفض طلبكم رقم {2} الخاص بمعادلة شهادة {3}
+          </Field>
+          <Field Name="RequestStatusId">18</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear Customer, &lt;br&gt;&lt;/br&gt; your request No. {0} has been rejected regarding the equivelance of the certificate {1} &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم رفض طلبكم رقم {2} الخاص بمعادلة شهادة {3} &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">18</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة</Field>
+          <Field Name="Body">
+            Dear Customer, your request No. {0} has been approved .
+            عزيزي المتعامل,  نعلمكم أنه تم قبول طلبكم رقم {1} .
+          </Field>
+          <Field Name="RequestStatusId">52</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear Customer, &lt;br&gt;&lt;/br&gt; your request No. {0} has been approved . &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم قبول طلبكم رقم {1} . &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">52</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة</Field>
+          <Field Name="Body">
+            Dear Customer, your request No. {0} has been rejected .
+            عزيزي المتعامل,  نعلمكم أنه تم رفض طلبكم رقم {1} .
+          </Field>
+          <Field Name="RequestStatusId">53</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Preaprroval/الموافقة المسبقة</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear Customer, &lt;br&gt;&lt;/br&gt; your request No. {0} has been rejected . &lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي المتعامل, &lt;br&gt;&lt;/br&gt; نعلمكم أنه تم رفض طلبكم رقم {1} . &lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">53</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear ,Request for a statement of request is required {0}&lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي , مطلوب طلب افادة للطلب رقم {1}&lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">42</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">Certificate Equivalency/معادلة الشهادات</Field>
+          <Field Name="Body">
+            &lt;div dir=&quot;ltr&quot;&gt; Dear ,Request for a statement of request is required {0}&lt;/div&gt;
+            &lt;div dir=&quot;rtl&quot;&gt; عزيزي , مطلوب طلب افادة للطلب رقم {1}&lt;/div&gt;
+          </Field>
+          <Field Name="RequestStatusId">34</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Subject">
+            Certificate Equivalency
+            معادلة الشهادات
+          </Field>
+          <Field Name="Body">
+            Dear Customer, {0} University is one of CHED universities.Please provide the needed certificates from the CHED site so that the equivalence of certificates department continue implementing your request
+            عزيزي المتعامل جامعة {1} هي احدي جامعات CHED الرجاء سرعة موافاة ادارة معادلة الشهادات بيناتكم من موقع CHED وذلك لتتمكن ادارة معادلة الشهادات من الاستمرار في تنفيذ طلبكم
+          </Field>
+          <Field Name="RequestStatusId">66</Field>
+          <Field Name="Type">0</Field>
+        </Row>
+        <Row>
+          <Field Name="Subject">
+            Certificate Equivalency
+            معادلة الشهادات
+          </Field>
+          <Field Name="Body">
+            Dear Customer, {0} University is one of CHED universities.Please provide the needed certificates from the CHED site so that the equivalence of certificates department continue implementing your request
+            عزيزي المتعامل جامعة {1} هي احدي جامعات CHED الرجاء سرعة موافاة ادارة معادلة الشهادات بيناتكم من موقع CHED وذلك لتتمكن ادارة معادلة الشهادات من الاستمرار في تنفيذ طلبكم
+          </Field>
+          <Field Name="RequestStatusId">66</Field>
+          <Field Name="Type">1</Field>
+        </Row>
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

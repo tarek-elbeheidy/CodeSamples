@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="FileName"
+                OnQuickLaunch="TRUE"
+                TemplateType="10203"
+                Url="Lists/FileName"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Copy of the ID card</Field>
+          <Field Name="TitleAr">نسخة من البطاقة الشخصية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">a copy of the passport</Field>
+          <Field Name="TitleAr">نسخة من جواز السفر</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Copy of student passport</Field>
+          <Field Name="TitleAr">صورة جواز السفر للطالب</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Copy of student ID card (front and back)</Field>
+          <Field Name="TitleAr">صورة البطاقة الشخصية القطرية للطالب ( أمامي وخلفي)</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate of employment of a parent in a government agency</Field>
+          <Field Name="TitleAr">شهادة عمل أحد الوالدين بجهة حكومية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate of absence from public or private schools</Field>
+          <Field Name="TitleAr">شهادة  شاغر من المدارس الحكومية أو الخاصة</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Student birth certificate</Field>
+          <Field Name="TitleAr">شهادة ميلاد الطالب</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Last degree certificate in degrees</Field>
+          <Field Name="TitleAr">آخر شهادة دراسية بالدرجات</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate before the last degree certificate in degrees</Field>
+          <Field Name="TitleAr">شهادة ما قبل آخر شهادة دراسية بالدرجات</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Secondary certificate equivalence</Field>
+          <Field Name="TitleAr">معادلة الشهادة الثانوية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Baccalaureate</Field>
+          <Field Name="TitleAr">شهادة البكالوريا الدولية</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Workbook</Field>
+          <Field Name="TitleAr">كتاب جهة العمل</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

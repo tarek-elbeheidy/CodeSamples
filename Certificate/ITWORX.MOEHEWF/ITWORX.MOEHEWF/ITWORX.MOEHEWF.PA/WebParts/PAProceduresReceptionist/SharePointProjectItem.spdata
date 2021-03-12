@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PAProceduresReceptionistUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PAProceduresReceptionist\" Type="ElementManifest" />
+    <ProjectItemFile Source="PAProceduresReceptionist.webpart" Target="PAProceduresReceptionist\" Type="ElementFile" />
+    <ProjectItemFile Source="PAProceduresReceptionistUserControl.ascx" Target="CONTROLTEMPLATES\ITWORX.MOEHEWF.PA.WebParts\PAProceduresReceptionist\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ITWORX.MOEHEWF.PA.WebParts.PAProceduresReceptionist" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{97ffbb69-8683-4895-a2e8-6149e16a9868}"
+       Name="Status"
+       DisplayName="Status"
+       Type="Choice"
+       Required="FALSE"
+       Group="MOEHE">
+      <CHOICES> 
+        <CHOICE>Active</CHOICE> 
+        <CHOICE>InActive</CHOICE>
+        <CHOICE>Deleted</CHOICE> 
+      </CHOICES>
+  </Field>
+</Elements>

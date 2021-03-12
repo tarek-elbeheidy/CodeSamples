@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CertificateType"
+                OnQuickLaunch="TRUE"
+                TemplateType="10200"
+                Url="Lists/CertificateType"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">British Culture (IGCSE)</Field>
+          <Field Name="TitleAr">الثقافة البريطانية (IGCSE)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Baccalaureate (IB)</Field>
+          <Field Name="TitleAr">البكالوريا الدولية (IB)</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">American Diploma</Field>
+          <Field Name="TitleAr">الدبلومة الأمريكية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">High school</Field>
+          <Field Name="TitleAr">ثانوي عام</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Secondary School in Qatar</Field>
+          <Field Name="TitleAr">الثانوية العامة بدولة قطر</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General Secondary School Certificate for an Arab State</Field>
+          <Field Name="TitleAr">شهادة الثانوية العامة لدولة عربية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">International Baccalaureate</Field>
+          <Field Name="TitleAr">شهادة البكالوريا الدولية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Certificate whom it may concern</Field>
+          <Field Name="TitleAr">شهادة لمن يهمه الأمر</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Diploma of Commerce School in Qatar</Field>
+          <Field Name="TitleAr">دبلوم مدرسة التجارة في قطر</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Qatar Armed Forces Institute</Field>
+          <Field Name="TitleAr">معهد القوات المسلحة القطرية</Field>
+          <Field Name="Status">Active</Field>
+          <Field Name="SearchCritaria">2</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

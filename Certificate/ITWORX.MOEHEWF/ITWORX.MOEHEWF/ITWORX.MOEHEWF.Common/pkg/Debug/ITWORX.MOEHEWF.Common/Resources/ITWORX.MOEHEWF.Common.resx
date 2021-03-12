@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseValue" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="ClosedRequestsNo" xml:space="preserve">
+    <value>Closed Requests No</value>
+  </data>
+  <data name="NeedsClarificationRequestsNo" xml:space="preserve">
+    <value>Needs Clarification Requests</value>
+  </data>
+  <data name="SubmittedRequestsNo" xml:space="preserve">
+    <value>Submitted Requests</value>
+  </data>
+  <data name="UnderProgressRequestsNo" xml:space="preserve">
+    <value>In progress Requests</value>
+  </data>
+  <data name="FU_AttachmentRequiredValidationMessage" xml:space="preserve">
+    <value>{0} is required</value>
+  </data>
+  <data name="FU_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete this attachment?</value>
+  </data>
+  <data name="FU_FileEmptyMessage" xml:space="preserve">
+    <value>The file cannot be empty</value>
+  </data>
+  <data name="FU_FileExistsMessage" xml:space="preserve">
+    <value>An attachment with the same name already exists.</value>
+  </data>
+  <data name="FU_FileExtenionValidationMessage" xml:space="preserve">
+    <value>Supported file extensions are {0}</value>
+  </data>
+  <data name="FU_FileSizeMessage" xml:space="preserve">
+    <value>Maximum file size must not exceed {0} MB</value>
+  </data>
+  <data name="FU_lblActionHeader" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="FU_lblAttachmentNameHeader" xml:space="preserve">
+    <value>Attachment Name</value>
+  </data>
+  <data name="FU_lblModifiedByHeader" xml:space="preserve">
+    <value>Uploaded By</value>
+  </data>
+  <data name="FU_lblModifiedHeader" xml:space="preserve">
+    <value>Uploaded Date</value>
+  </data>
+  <data name="FU_MaxFileNumberErrorMessage" xml:space="preserve">
+    <value>Maximum number of files is {0}</value>
+  </data>
+  <data name="FU_RequiredValidationMessage" xml:space="preserve">
+    <value>{0} is required</value>
+  </data>
+  <data name="FU_SelectDefaultValue" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="FU_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete ?</value>
+  </data>
+  <data name="FU_NoFilesUploaded" xml:space="preserve">
+    <value>No files uploaded</value>
+  </data>
+  <data name="CreateNewRequest" xml:space="preserve">
+    <value>Create New Request</value>
+  </data>
+  <data name="RequiredBirthDate" xml:space="preserve">
+    <value>Birth Date is required</value>
+  </data>
+  <data name="RequiredDateOfBirth" xml:space="preserve">
+    <value>Please enter birth date</value>
+  </data>
+  <data name="RequiredEmail" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="RequiredFirstName" xml:space="preserve">
+    <value>FirstName is required</value>
+  </data>
+  <data name="RequiredLastName" xml:space="preserve">
+    <value>LastName is required</value>
+  </data>
+  <data name="RequiredMobileNumber" xml:space="preserve">
+    <value>Mobile Number is required</value>
+  </data>
+  <data name="RequiredNationality" xml:space="preserve">
+    <value>Nationality is required</value>
+  </data>
+  <data name="RequiredPassword" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="RequiredPersonalID" xml:space="preserve">
+    <value>Personal ID is required</value>
+  </data>
+  <data name="RequiredQatarId" xml:space="preserve">
+    <value>Please enter qatar Id</value>
+  </data>
+  <data name="RequiredUserName" xml:space="preserve">
+    <value>User name is required</value>
+  </data>
+  <data name="ReqVerificationCode" xml:space="preserve">
+    <value>You didn't enter verification code </value>
+  </data>
+  <data name="ResendVerificationCodeLink" xml:space="preserve">
+    <value>Didn't recieve the code ? Resend code</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="UserExists" xml:space="preserve">
+    <value>User already exists!</value>
+  </data>
+  <data name="WrongVerificationCode" xml:space="preserve">
+    <value>Please enter a valid verification code</value>
+  </data>
+  <data name="InvalidRegisterationData" xml:space="preserve">
+    <value>Error occured during registeration !</value>
+  </data>
+  <data name="SameQatarIdExists" xml:space="preserve">
+    <value>User with same Qatar Id already Exists </value>
+  </data>
+  <data name="InvalidQatarId" xml:space="preserve">
+    <value>You have entered Invalid Qatar id !</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Error occured during change password !</value>
+  </data>
+  <data name="WrongEmailAddress" xml:space="preserve">
+    <value>Wrong email address !</value>
+  </data>
+  <data name="paymentCanceled" xml:space="preserve">
+    <value>Payment canceled</value>
+  </data>
+  <data name="paymentSuccess" xml:space="preserve">
+    <value>Your payment was successful</value>
+  </data>
+  <data name="UniversityCertificate" xml:space="preserve">
+    <value>خدمة الشهادات الجامعية</value>
+  </data>
+  <data name="paymentFailed" xml:space="preserve">
+    <value>Payment Failed</value>
+  </data>
+  <data name="academicDegree" xml:space="preserve">
+    <value>الدرجة العلمية</value>
+  </data>
+  <data name="applicantName" xml:space="preserve">
+    <value>أسم الطالب</value>
+  </data>
+  <data name="approvalDate" xml:space="preserve">
+    <value>تاريخ الموافقة</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="employeeComment" xml:space="preserve">
+    <value>Comment of the responsible officer</value>
+  </data>
+  <data name="finalDecisionTitle" xml:space="preserve">
+    <value>قرار الموافقة المسبقة للدراسة في الخارج</value>
+  </data>
+  <data name="note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="personalID" xml:space="preserve">
+    <value>الرقم الشخصى</value>
+  </data>
+  <data name="programDuration" xml:space="preserve">
+    <value>مدة البرنامج الدراسى</value>
+  </data>
+  <data name="requestNum" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="responsibleOfficer" xml:space="preserve">
+    <value>responsible Officer</value>
+  </data>
+  <data name="Specialization" xml:space="preserve">
+    <value>التخصص</value>
+  </data>
+  <data name="studyingType" xml:space="preserve">
+    <value>نوع الدراسة</value>
+  </data>
+  <data name="submitDate" xml:space="preserve">
+    <value>The date of application</value>
+  </data>
+  <data name="university" xml:space="preserve">
+    <value>الجامعة</value>
+  </data>
+  <data name="CurrentPasswordErrorMessage" xml:space="preserve">
+    <value>Current password is incorrect , please renter again</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Applicant</value>
+  </data>
+  <data name="PasswordPolicyError" xml:space="preserve">
+    <value>Error changing password.Reason: The password does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements.</value>
+  </data>
+  <data name="VerificationCodeExpired" xml:space="preserve">
+    <value>Verification code has been expired , please try to resend it</value>
+  </data>
+  <data name="RemainingblockTime" xml:space="preserve">
+    <value>Please try again after number of seconds : </value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="HeadManager" xml:space="preserve">
+    <value>Director of the department</value>
+  </data>
+  <data name="finalDecision" xml:space="preserve">
+    <value>Final Decision</value>
+  </data>
+  <data name="PasswordContainsUsername" xml:space="preserve">
+    <value>Password contains part of your name &lt;span&gt; {0} &lt;/span&gt;</value>
+  </data>
+  <data name="AcademicStartDate" xml:space="preserve">
+    <value>تاريخ بداية الدراسة</value>
+  </data>
+  <data name="ExpectedGraduationDate" xml:space="preserve">
+    <value>التاريخ المتوقع للتخرج</value>
+  </data>
+  <data name="TransferedHours" xml:space="preserve">
+    <value>عدد الساعات المحولة من الدراسة السابقة</value>
+  </data>
+  <data name="notFound" xml:space="preserve">
+    <value>لا يوجد</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value> Home</value>
+  </data>
+  <data name="UploadedDate" xml:space="preserve">
+    <value>Uploaded Date</value>
+  </data>
+</root>

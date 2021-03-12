@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1b59500d2b64aa0913941fada156a35" Name="Diagram1">
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.InterviewResult" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MessageTemplate" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_ADDED_CAPACITY" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_ACAD_INFO" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_APPL_SUPPORT_DOCS" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_Application_DATA" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_BIO_DATA" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_EMPLOYER_TYPE" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_GUARDIAN_DATA" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_HEALTH_DATA" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_MARITAL_STATUS" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_RELATIONSHIP" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_SCHOOL" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_SEAT_CAPACITY" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.NotificationAction" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SeatReservationFee" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SMSHistory" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.SupportingDocumentSetup" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.sysdiagram" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.TestResult" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_AGE_VALIDATE" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_GRADE" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.MOE_TERM" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.Testing" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrivateScoolsPreEnrollmentModel.BuildingCapacity" Width="1.5" PointX="9.375" PointY="14.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

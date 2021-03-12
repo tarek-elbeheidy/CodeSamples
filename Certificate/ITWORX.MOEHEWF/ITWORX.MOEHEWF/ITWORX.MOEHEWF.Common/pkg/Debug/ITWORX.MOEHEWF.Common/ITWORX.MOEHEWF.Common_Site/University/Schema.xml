@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="University" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/University" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010096b5dc51ff7d4a04a67b30bb49c11670" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{c0db95fa-a403-4472-8f46-375ee47d0a84}" Name="TitleAr" /><FieldRef ID="{10e70b89-7b0f-4ece-9c45-fa6a50951180}" Name="CountryOfStudy" /><FieldRef ID="{734c27aa-1bc3-43bb-99e4-8c3129fdc587}" Name="HEDD" /><FieldRef ID="{72f5d27b-0e03-410a-bbfc-26947952e437}" Name="Year" /><FieldRef ID="{bd547fb3-19c0-4da0-ab2f-2d6d35d2dc4e}" Name="CountryOfStudyAr" /><FieldRef ID="{f1099808-1cfe-42c6-95c3-5b356b52f0a1}" Name="CHED" /><FieldRef ID="{c14bd3c8-2168-434a-9419-8b83425d29ce}" Name="IsOnline" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+      
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="TitleAr" ID="{c0db95fa-a403-4472-8f46-375ee47d0a84}" DisplayName="TitleAr" Type="Text" /><Field Name="CountryOfStudy" ID="{10e70b89-7b0f-4ece-9c45-fa6a50951180}" DisplayName="CountryOfStudy" Type="Lookup" List="Lists/CountryOfStudy" ShowField="Title" /><Field Name="HEDD" ID="{734c27aa-1bc3-43bb-99e4-8c3129fdc587}" DisplayName="HEDD" Type="Boolean" /><Field Name="Year" ID="{72f5d27b-0e03-410a-bbfc-26947952e437}" DisplayName="Year" Type="Number" /><Field Name="CountryOfStudyAr" ID="{bd547fb3-19c0-4da0-ab2f-2d6d35d2dc4e}" DisplayName="CountryOfStudyAr" Type="Lookup" List="Lists/CountryOfStudy" ShowField="TitleAr" FieldRef="{10e70b89-7b0f-4ece-9c45-fa6a50951180}" /><Field Name="CHED" ID="{f1099808-1cfe-42c6-95c3-5b356b52f0a1}" DisplayName="CHED" Type="Boolean" /><Field Name="IsOnline" ID="{c14bd3c8-2168-434a-9419-8b83425d29ce}" DisplayName="IsOnline" Type="Boolean" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TitleAr" /><FieldRef Name="CountryOfStudy" /><FieldRef Name="HEDD" /><FieldRef Name="Year" /><FieldRef Name="CountryOfStudyAr" /><FieldRef Name="CHED" /><FieldRef Name="IsOnline" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="31ec1065-9512-4e83-b316-ddd02e75cc31" Scope="Site" Title="ITWORX.MOEHEWF.SCE WebParts">
+  <ElementManifests>
+    <ElementManifest Location="ClarificationRequest\Elements.xml" />
+    <ElementFile Location="ClarificationRequest\ClarificationRequest.webpart" />
+    <ElementManifest Location="NewClarificationRequest\Elements.xml" />
+    <ElementFile Location="NewClarificationRequest\NewClarificationRequest.webpart" />
+    <ElementManifest Location="ViewClarificationRequest\Elements.xml" />
+    <ElementFile Location="ViewClarificationRequest\ViewClarificationRequest.webpart" />
+    <ElementManifest Location="EditRequest\Elements.xml" />
+    <ElementFile Location="EditRequest\EditRequest.webpart" />
+    <ElementManifest Location="EmployeeDashboard\Elements.xml" />
+    <ElementFile Location="EmployeeDashboard\EmployeeDashboard.webpart" />
+    <ElementManifest Location="NewRequest\Elements.xml" />
+    <ElementFile Location="NewRequest\NewRequest.webpart" />
+    <ElementManifest Location="SCEBooksRequests\Elements.xml" />
+    <ElementFile Location="SCEBooksRequests\SCEBooksRequests.webpart" />
+    <ElementManifest Location="NewSCEBooksRequest\Elements.xml" />
+    <ElementFile Location="NewSCEBooksRequest\NewSCEBooksRequest.webpart" />
+    <ElementManifest Location="SCEReplyToBook\Elements.xml" />
+    <ElementFile Location="SCEReplyToBook\SCEReplyToBook.webpart" />
+  </ElementManifests>
+</Feature>

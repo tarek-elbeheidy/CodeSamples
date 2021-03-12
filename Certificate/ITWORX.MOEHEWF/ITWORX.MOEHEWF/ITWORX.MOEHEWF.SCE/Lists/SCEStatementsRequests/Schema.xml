@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SCEStatementsRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SCEStatementsRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100472391ff9388489096a19990a1fc694a" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{fb76e998-a6d0-4d6a-bb9b-3dc952bd9ee0}" Name="StatementDate" /><FieldRef ID="{06522fdb-bb33-4173-8a8b-31f82e0b97cb}" Name="Sender" /><FieldRef ID="{3331fe0e-f28c-4410-9246-fd181ec9a2e7}" Name="StatementSubject" /><FieldRef ID="{aec4f1fd-d833-4c6b-8cec-e5ea66e9e7ae}" Name="RequiredStatement" /><FieldRef ID="{7a3ae52a-ab81-4ae8-9ba5-9e16eb22f87e}" Name="RequestID" /><FieldRef ID="{68170d93-6717-4242-9432-38e62e9b4bcd}" Name="StatementAgency" /><FieldRef ID="{bb03ec7d-13c0-4dc6-934c-b67a18aa728e}" Name="StatementAgencyAr" /><FieldRef ID="{487d205a-84cb-4741-8419-4b6616cbfbc5}" Name="ReplyDate" /><FieldRef ID="{ed992b06-531c-4e96-b82b-96b2b541e8d0}" Name="StatementReply" /><FieldRef ID="{895cf5c0-21f0-4a23-b523-db66416a8a7b}" Name="ReplySender" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="StatementDate" ID="{fb76e998-a6d0-4d6a-bb9b-3dc952bd9ee0}" DisplayName="StatementDate" Type="DateTime" /><Field Name="Sender" ID="{06522fdb-bb33-4173-8a8b-31f82e0b97cb}" DisplayName="Sender" Type="User" List="UserInfo" /><Field Name="StatementSubject" ID="{3331fe0e-f28c-4410-9246-fd181ec9a2e7}" DisplayName="StatementSubject" Type="Text" /><Field Name="RequiredStatement" ID="{aec4f1fd-d833-4c6b-8cec-e5ea66e9e7ae}" DisplayName="RequiredStatement" Type="Note" /><Field Name="RequestID" ID="{7a3ae52a-ab81-4ae8-9ba5-9e16eb22f87e}" DisplayName="RequestID" Type="Lookup" List="Lists/SCERequests" ShowField="ID" /><Field Name="StatementAgency" ID="{68170d93-6717-4242-9432-38e62e9b4bcd}" DisplayName="StatementAgency" Type="Lookup" List="Lists/StatementAgency" ShowField="Title" /><Field Name="StatementAgencyAr" ID="{bb03ec7d-13c0-4dc6-934c-b67a18aa728e}" DisplayName="StatementAgencyAr" Type="Lookup" List="Lists/StatementAgency" ShowField="TitleAr" FieldRef="{68170d93-6717-4242-9432-38e62e9b4bcd}" /><Field Name="ReplyDate" ID="{487d205a-84cb-4741-8419-4b6616cbfbc5}" DisplayName="ReplyDate" Type="DateTime" /><Field Name="StatementReply" ID="{ed992b06-531c-4e96-b82b-96b2b541e8d0}" DisplayName="StatementReply" Type="Note" /><Field Name="ReplySender" ID="{895cf5c0-21f0-4a23-b523-db66416a8a7b}" DisplayName="ReplySender" Type="User" List="UserInfo" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="StatementDate" /><FieldRef Name="Sender" /><FieldRef Name="StatementSubject" /><FieldRef Name="RequiredStatement" /><FieldRef Name="RequestID" /><FieldRef Name="StatementAgency" /><FieldRef Name="StatementAgencyAr" /><FieldRef Name="ReplyDate" /><FieldRef Name="StatementReply" /><FieldRef Name="ReplySender" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

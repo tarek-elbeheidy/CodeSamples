@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Decisions" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Decisions" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01008845ba5fe24044e0916f0eaafb4e5fd7" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{9105cf19-5464-489a-9dc0-4361874314a0}" Name="RequestID" /><FieldRef ID="{3de92436-8155-4e33-bf38-c50ac233326c}" Name="Decision" /><FieldRef ID="{469d5973-7ac4-433e-a86d-a88e538f226f}" Name="RejectionReason" /><FieldRef ID="{115f52be-f396-4576-8771-339dd36ab0ce}" Name="DecisionMaker" /><FieldRef ID="{8e8177e4-3ecb-4360-8c35-23a6925d8714}" Name="DecisionDate" /><FieldRef ID="{3ee2d24c-cc46-4f59-a5b9-356463efdea0}" Name="DecisionComments" /><FieldRef ID="{176c52b4-ed15-416e-81f0-cc9a505a8626}" Name="SPGroupName" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="RequestID" ID="{9105cf19-5464-489a-9dc0-4361874314a0}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /><Field Name="Decision" ID="{3de92436-8155-4e33-bf38-c50ac233326c}" DisplayName="Decision" Type="Text" /><Field Name="RejectionReason" ID="{469d5973-7ac4-433e-a86d-a88e538f226f}" DisplayName="RejectionReason" Type="Text" /><Field Name="DecisionMaker" ID="{115f52be-f396-4576-8771-339dd36ab0ce}" DisplayName="DecisionMakerName" Type="Text" /><Field Name="DecisionDate" ID="{8e8177e4-3ecb-4360-8c35-23a6925d8714}" DisplayName="DecisionDate" Type="DateTime" /><Field Name="DecisionComments" ID="{3ee2d24c-cc46-4f59-a5b9-356463efdea0}" DisplayName="DecisionComments" Type="Note" /><Field Name="SPGroupName" ID="{176c52b4-ed15-416e-81f0-cc9a505a8626}" DisplayName="SPGroupName" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestID" /><FieldRef Name="Decision" /><FieldRef Name="RejectionReason" /><FieldRef Name="DecisionMaker" /><FieldRef Name="DecisionDate" /><FieldRef Name="DecisionComments" /><FieldRef Name="SPGroupName" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

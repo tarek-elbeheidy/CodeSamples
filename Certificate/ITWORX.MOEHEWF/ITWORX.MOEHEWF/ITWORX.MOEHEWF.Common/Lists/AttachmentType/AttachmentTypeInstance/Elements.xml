@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AttachmentType"
+                OnQuickLaunch="TRUE"
+                TemplateType="10003"
+                Url="Lists/AttachmentType"
+                Description="My List Instance" 
+                FeatureId="a29c6dd6-e870-4a0a-9df8-584331cc62d3">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Copy from personal card</Field>
+          <Field Name="TitleAr">نسخة من البطاقة الشخصية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Copy from passport</Field>
+          <Field Name="TitleAr">نسخة من جواز السفر</Field>
+        </Row>
+      </Rows>
+    </Data>-->-->
+    </ListInstance>
+</Elements>
+

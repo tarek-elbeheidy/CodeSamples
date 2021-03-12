@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StudyAttachmentTypes"
+                OnQuickLaunch="TRUE"
+                TemplateType="10049"
+                Url="Lists/StudyAttachmentTypes"
+                Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+     <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Grades or Search Summary</Field>
+          <Field Name="TitleAr">قائمة الدرجات أو ملخص البحث</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Language Test - in case of study in another language</Field>
+          <Field Name="TitleAr"> اختبار اللغة الدراسية- في حالة الدراسة بلغة أخرى</Field>
+        </Row>
+          <Row>
+          <Field Name="Title">Visa in the study period - non-Arab countries</Field>
+            <Field Name="TitleAr">صورة الفيزا في فترة الدراسة – الدول غير عربية</Field>
+          </Row>
+        <Row>
+          <Field Name="Title">تفويض الدول العربية </Field>
+          <Field Name="TitleAr">تفويض الدول العربية</Field> 
+          </Row>
+        <Row>
+          <Field Name="Title">Release of Information Consent Letter - around the world except USA and UK</Field>
+          <Field Name="TitleAr">تفويض جميع الكليات في أنحاء العالم ماعد أمريكا وانجلترا</Field>
+          </Row>
+        <Row>
+          <Field Name="Title">Release of Information Consent Letter - UK</Field>
+          <Field Name="TitleAr">تفويض كل الجامعات بالمملكة المتحدة</Field>
+          </Row>
+        <Row>
+          <Field Name="Title">Release of Information Consent Letter - USA except Strayar University</Field>
+          <Field Name="TitleAr">تفويض كل الجامعات في الولايات المتحدة ماعدا جامعة سترايار</Field>
+          </Row>
+        <Row>
+          <Field Name="Title">Release of Information Consent Letter - Strayar University</Field>
+          <Field Name="TitleAr">تفويض جامعة سترايار</Field> 
+          </Row>
+        <Row>
+          <Field Name="Title">Release of Information Consent Letter - Australia</Field>
+          <Field Name="TitleAr">تفويض استراليا</Field>
+          </Row>
+
+      </Rows>
+    </Data>
+  </ListInstance>
+ 
+</Elements>

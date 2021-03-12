@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ClarificationReasons"
+                OnQuickLaunch="TRUE"
+                TemplateType="10202"
+                Url="Lists/ClarificationReasons"
+                Description="My List Instance"
+                FeatureId="21b3175a-fb2b-4b4a-b265-40152875870f">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Reattach attachments</Field>
+          <Field Name="TitleAr">إعادة إرفاق مرفقات</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Shortages in attachments</Field>
+          <Field Name="TitleAr">نواقص في المرفقات</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Query for data</Field>
+          <Field Name="TitleAr">استفسار عن بيانات</Field>
+          <Field Name="Status">Active</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+
+</Elements>

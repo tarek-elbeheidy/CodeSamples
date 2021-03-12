@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClosedRequestsNo" xml:space="preserve">
+    <value>عدد الطلبات المغلقة</value>
+  </data>
+  <data name="NeedsClarificationRequestsNo" xml:space="preserve">
+    <value>طلبات التوضيح التي لم يتم الرد عليها</value>
+  </data>
+  <data name="SubmittedRequestsNo" xml:space="preserve">
+    <value>الطلبات التي تم تقديمها</value>
+  </data>
+  <data name="UnderProgressRequestsNo" xml:space="preserve">
+    <value>الطلبات تحت الاجراء</value>
+  </data>
+  <data name="FU_AttachmentRequiredValidationMessage" xml:space="preserve">
+    <value>{0} مطلوب</value>
+  </data>
+  <data name="FU_ConfirmDeleteMessage" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف هذا المرفق؟</value>
+  </data>
+  <data name="FU_FileEmptyMessage" xml:space="preserve">
+    <value>لا يمكن ان يكون الملف فارغ</value>
+  </data>
+  <data name="FU_FileExistsMessage" xml:space="preserve">
+    <value>يوجد بالفعل مرفق يحمل نفس الاسم.</value>
+  </data>
+  <data name="FU_FileExtenionValidationMessage" xml:space="preserve">
+    <value>أنواع امتدادات الملفات المقبولة هي {0}</value>
+  </data>
+  <data name="FU_FileSizeMessage" xml:space="preserve">
+    <value>الحد المسموح به لـلملف يجب ألا يزيد عن {0} MB.</value>
+  </data>
+  <data name="FU_lblActionHeader" xml:space="preserve">
+    <value>الإجراء</value>
+  </data>
+  <data name="FU_lblAttachmentNameHeader" xml:space="preserve">
+    <value>اسم المرفق</value>
+  </data>
+  <data name="FU_lblModifiedByHeader" xml:space="preserve">
+    <value>تم الرفع بواسطة</value>
+  </data>
+  <data name="FU_lblModifiedHeader" xml:space="preserve">
+    <value>تاريخ الرفع</value>
+  </data>
+  <data name="FU_MaxFileNumberErrorMessage" xml:space="preserve">
+    <value>الحد الأقصى لعدد الملفات المرفوعه {0}</value>
+  </data>
+  <data name="FU_RequiredValidationMessage" xml:space="preserve">
+    <value>{0} مطلوب</value>
+  </data>
+  <data name="FU_SelectDefaultValue" xml:space="preserve">
+    <value>اختار</value>
+  </data>
+  <data name="FU_Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>هل حقاً تريد الحذف ?</value>
+  </data>
+  <data name="FU_NoFilesUploaded" xml:space="preserve">
+    <value>لا توجد ملفات تم تحميلها</value>
+  </data>
+  <data name="CreateNewRequest" xml:space="preserve">
+    <value>انشاء طلب جديد</value>
+  </data>
+  <data name="RequiredDateOfBirth" xml:space="preserve">
+    <value>برجاء إدخال تاريخ الميلاد</value>
+  </data>
+  <data name="RequiredEmail" xml:space="preserve">
+    <value>يجب إدخال بريد إلكتروني </value>
+  </data>
+  <data name="RequiredFirstName" xml:space="preserve">
+    <value>يجب إدخال إسم الاول</value>
+  </data>
+  <data name="RequiredLastName" xml:space="preserve">
+    <value>يجب إدخال إسم الأخير</value>
+  </data>
+  <data name="RequiredNationality" xml:space="preserve">
+    <value>يجب إدخال الجنسية</value>
+  </data>
+  <data name="RequiredPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة السر</value>
+  </data>
+  <data name="RequiredPersonalID" xml:space="preserve">
+    <value>يجب إدخال الرقم الشخصي</value>
+  </data>
+  <data name="RequiredQatarId" xml:space="preserve">
+    <value>برجاء ادخال الرقم القطرى</value>
+  </data>
+  <data name="RequiredUserName" xml:space="preserve">
+    <value>يجب إدخال إسم المستخدم</value>
+  </data>
+  <data name="ReqVerificationCode" xml:space="preserve">
+    <value>لم يتم إدخال كود التفعيل</value>
+  </data>
+  <data name="ResendVerificationCodeLink" xml:space="preserve">
+    <value>لم تصلك الرسالة ؟  أضغط لإعادة إرسال الكود</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>إستعادة كلمة المرور</value>
+  </data>
+  <data name="UserExists" xml:space="preserve">
+    <value>يوجد حساب لهذا المستخدم من قبل ! </value>
+  </data>
+  <data name="WrongVerificationCode" xml:space="preserve">
+    <value>كود التفعيل غير صحيح الرجاء إعادة إدخال الكود الصحيح</value>
+  </data>
+  <data name="InvalidRegisterationData" xml:space="preserve">
+    <value>حدث خطأ فى إنشاء الحساب</value>
+  </data>
+  <data name="SameQatarIdExists" xml:space="preserve">
+    <value> يوجد حساب بنفس الرقم القطرى </value>
+  </data>
+  <data name="InvalidQatarId" xml:space="preserve">
+    <value>الرقم غير مسجل بالنظام</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>حدث خطاء أثناء تغير الرقم السرى !</value>
+  </data>
+  <data name="WrongEmailAddress" xml:space="preserve">
+    <value>يوجد خطاء فى صحة البريد الألكترونى !</value>
+  </data>
+  <data name="paymentCanceled" xml:space="preserve">
+    <value>تمت إلغاءعملية الدفع</value>
+  </data>
+  <data name="paymentSuccess" xml:space="preserve">
+    <value>تمت عملية الدفع بنجاح</value>
+  </data>
+  <data name="UniversityCertificate" xml:space="preserve">
+    <value>خدمة الشهادات الجامعية</value>
+  </data>
+  <data name="paymentFailed" xml:space="preserve">
+    <value>فشلت عملية الدفع</value>
+  </data>
+  <data name="academicDegree" xml:space="preserve">
+    <value>الدرجة العلمية</value>
+  </data>
+  <data name="applicantName" xml:space="preserve">
+    <value>أسم الطالب</value>
+  </data>
+  <data name="approvalDate" xml:space="preserve">
+    <value>تاريخ الموافقة</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="employeeComment" xml:space="preserve">
+    <value>تعليق الموظف المسؤول</value>
+  </data>
+  <data name="finalDecisionTitle" xml:space="preserve">
+    <value>قرار الموافقة المسبقة للدراسة في الخارج</value>
+  </data>
+  <data name="note" xml:space="preserve">
+    <value>ملاحظة</value>
+  </data>
+  <data name="personalID" xml:space="preserve">
+    <value>الرقم الشخصى</value>
+  </data>
+  <data name="programDuration" xml:space="preserve">
+    <value>مدة البرنامج الدراسى</value>
+  </data>
+  <data name="requestNum" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="responsibleOfficer" xml:space="preserve">
+    <value>الموظف المسئول</value>
+  </data>
+  <data name="Specialization" xml:space="preserve">
+    <value>التخصص</value>
+  </data>
+  <data name="studyingType" xml:space="preserve">
+    <value>نوع الدراسة</value>
+  </data>
+  <data name="submitDate" xml:space="preserve">
+    <value>تاريخ تقديم الطلب</value>
+  </data>
+  <data name="university" xml:space="preserve">
+    <value>الجامعة</value>
+  </data>
+  <data name="CurrentPasswordErrorMessage" xml:space="preserve">
+    <value>كلمة المرور الحاليه غير صحيحه برجاء إعادة الأدخال  </value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="PasswordPolicyError" xml:space="preserve">
+    <value>خطأ في تغيير كلمة المرور. السبب: كلمة المرور لا تفي بمتطلبات سياسة كلمة المرور. تحقق من الحد الأدنى لطول كلمة المرور ومتطلبات تعقيد كلمات المرور وكلمة المرور.</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>مقدم الطلب</value>
+  </data>
+  <data name="VerificationCodeExpired" xml:space="preserve">
+    <value>لقد تم إنتهاء صلاحية كود التفعيل ,برجاء إعادة إرساله من جديد</value>
+  </data>
+  <data name="RemainingblockTime" xml:space="preserve">
+    <value> برجاء المحاولة بعد مرور  عدد ثواني : </value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغير كلمة المرور</value>
+  </data>
+  <data name="HeadManager" xml:space="preserve">
+    <value>مدير إدارة معادلة الشهادات</value>
+  </data>
+  <data name="finalDecision" xml:space="preserve">
+    <value>القرار النهائى</value>
+  </data>
+  <data name="PasswordContainsUsername" xml:space="preserve">
+    <value> تحتوي كلمة المرور على جزء من اسمك &lt;span&gt; {0} &lt;/span&gt;</value>
+  </data>
+  <data name="AcademicStartDate" xml:space="preserve">
+    <value>تاريخ بداية الدراسة</value>
+  </data>
+  <data name="ExpectedGraduationDate" xml:space="preserve">
+    <value>التاريخ المتوقع للتخرج</value>
+  </data>
+  <data name="TransferedHours" xml:space="preserve">
+    <value>عدد الساعات المحولة من الدراسة السابقة</value>
+  </data>
+  <data name="notFound" xml:space="preserve">
+    <value>لا يوجد</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value> الصفحة الرئيسية</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="UploadedDate" xml:space="preserve">
+    <value>تاريخ الرفع</value>
+  </data>
+</root>

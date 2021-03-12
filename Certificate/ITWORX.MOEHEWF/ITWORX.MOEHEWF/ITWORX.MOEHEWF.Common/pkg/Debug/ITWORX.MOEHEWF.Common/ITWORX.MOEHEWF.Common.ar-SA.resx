@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions" xml:space="preserve">
+    <value>الإجراء</value>
+  </data>
+  <data name="AddNewRequest" xml:space="preserve">
+    <value>إضافة طلب جديد</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>الموافقة</value>
+  </data>
+  <data name="AllRequests" xml:space="preserve">
+    <value>سجل الطلبات</value>
+  </data>
+  <data name="AttachmentName" xml:space="preserve">
+    <value>المرفق</value>
+    <comment>nat</comment>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="CaptchaMsg" xml:space="preserve">
+    <value>تحقيق :( برجاء إدخال الاحرف الظاهرة أمامك في الصورة بداخل مربع الحوار بالأسفل )*</value>
+  </data>
+  <data name="Certificate" xml:space="preserve">
+    <value>الشهادة</value>
+  </data>
+  <data name="ChangeSearchCriteria" xml:space="preserve">
+    <value>تغيير معايير البحث</value>
+  </data>
+  <data name="ChooseValue" xml:space="preserve">
+    <value>اختار</value>
+  </data>
+  <data name="CreateNewUser" xml:space="preserve">
+    <value>إنشاء مستخدم جديد</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="EmptyTrackingRequests" xml:space="preserve">
+    <value>لا يوجد سجلات لعرضها</value>
+  </data>
+  <data name="FinalDecision" xml:space="preserve">
+    <value>القرار النهائي</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>يجب إدخال تاريخ صحيح</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="MobileNumber" xml:space="preserve">
+    <value>رقم الهاتف المتحرك</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="NationalityCategory" xml:space="preserve">
+    <value>فئة الجنسية</value>
+  </data>
+  <data name="NoOfTrackingRequests" xml:space="preserve">
+    <value>عدد السجلات</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="PersonalID" xml:space="preserve">
+    <value>الرقم الشخصي</value>
+  </data>
+  <data name="PersonalIdMsg" xml:space="preserve">
+    <value> * أدخل 11 رقم للبطاقة بدون مسافات</value>
+  </data>
+  <data name="PhoneNumberEmailMsg" xml:space="preserve">
+    <value>البريد الإلكتروني و رقم الهاتف المتحرك هما وسيلة الاتصال الأساسية بعد التفعيل، لذا يرجى التأكد من صحتهما.</value>
+  </data>
+  <data name="RangePersonalID" xml:space="preserve">
+    <value>يجب إدخال 11 رقم</value>
+  </data>
+  <data name="RangePhoneNumber" xml:space="preserve">
+    <value>يجب إدخال من 8 ل-13 رقم</value>
+  </data>
+  <data name="RegMobileNumber" xml:space="preserve">
+    <value>يجب إدخال أرقام فقط و لا تقل عن 8 أرقام ولا تزيد عن 13 رقم</value>
+  </data>
+  <data name="RegPersonalID" xml:space="preserve">
+    <value>يجب إدخال أرقام فقط و تكون مكونة من 11 رقم فقط</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestPhase" xml:space="preserve">
+    <value>مرحلة الطلب</value>
+  </data>
+  <data name="RequestSubmitDate" xml:space="preserve">
+    <value>تاريخ إرسال الطلب</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>نوع الطلب</value>
+  </data>
+  <data name="RequiredEmail" xml:space="preserve">
+    <value>يجب إدخال بريد إلكتروني </value>
+  </data>
+  <data name="RequiredNationality" xml:space="preserve">
+    <value>يجب إدخال الجنسية</value>
+  </data>
+  <data name="RequiredPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة السر</value>
+  </data>
+  <data name="RequiredPersonalID" xml:space="preserve">
+    <value>يجب إدخال الرقم الشخصي</value>
+  </data>
+  <data name="RequiredUserName" xml:space="preserve">
+    <value>يجب إدخال إسم المستخدم</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>إستعادة كلمة المرور</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>م</value>
+  </data>
+  <data name="SubmitDateFrom" xml:space="preserve">
+    <value>تاريخ استلام الطلب من</value>
+  </data>
+  <data name="SubmitDateTo" xml:space="preserve">
+    <value>تاريخ استلام الطلب إلى</value>
+  </data>
+  <data name="SumbitDateValidation" xml:space="preserve">
+    <value>تاريخ إستلام الطلب إلى يجب أن يكون أكبر من أو يساوي تاريخ إستلام الطلب من</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>الشروط و الأحكام</value>
+  </data>
+  <data name="TermsAndConditionsText" xml:space="preserve">
+    <value>الرجاء الاطلاع على الشروط والأحكام والضوابط الخاصة بمعادلة الشهادات الجامعية والموافقة المسبقة على الرابط التالي قبل 
+المضي في إدخال البيانات التفصيلية للطلب</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>إسم المستخدم</value>
+  </data>
+  <data name="WrongEmailAddress" xml:space="preserve">
+    <value>يجب إدخال بريد إلكتروني صحيح</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>ارسل كود التفعيل</value>
+  </data>
+  <data name="EnterVerification" xml:space="preserve">
+    <value>أدخل كود التفعيل </value>
+  </data>
+  <data name="ReqVerificationCode" xml:space="preserve">
+    <value>لم يتم إدخال كود التفعيل</value>
+  </data>
+  <data name="ResendVerificationCodeLink" xml:space="preserve">
+    <value>لم تصلك الرسالة ؟  أضغط  لإ عادة إرسال الكود</value>
+  </data>
+  <data name="SendCode" xml:space="preserve">
+    <value>أرسل الكود</value>
+  </data>
+  <data name="VerificationCodeNotification" xml:space="preserve">
+    <value>لقد تم إرسال رسالة  بكود التفعيل  على الهاتف و البريد الإلكتروني الخاص بكم   </value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="MOIUserValidation" xml:space="preserve">
+    <value>التحقق من المستخدم</value>
+  </data>
+  <data name="RequiredDateOfBirth" xml:space="preserve">
+    <value>برجاء إدخال تاريخ الميلاد</value>
+  </data>
+  <data name="RequiredQatarId" xml:space="preserve">
+    <value>برجاء ادخال الرقم القطرى</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الأسم الاول</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>الأسم الاخير</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>التالى</value>
+  </data>
+  <data name="QatarId" xml:space="preserve">
+    <value>الرقم الشخصي القطري</value>
+  </data>
+  <data name="RegFirstName" xml:space="preserve">
+    <value>صغية إسم الاول غير صحيحة</value>
+  </data>
+  <data name="RegisterUser" xml:space="preserve">
+    <value>إنشاء مستخدم</value>
+  </data>
+  <data name="RegtLastName" xml:space="preserve">
+    <value>صيغة  إسم الأخير غير صحيحة</value>
+  </data>
+  <data name="RegUserName" xml:space="preserve">
+    <value>صيغة إسم المستخدم غير صحيحة </value>
+  </data>
+  <data name="RequiredFirstName" xml:space="preserve">
+    <value>يجب إدخال إسم الاول</value>
+  </data>
+  <data name="RequiredLastName" xml:space="preserve">
+    <value>يجب إدخال إسم الأخير</value>
+  </data>
+  <data name="siteLang" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Equivalence" xml:space="preserve">
+    <value> الذهاب إلى معادلة الشهادات الجامعية</value>
+  </data>
+  <data name="WelcomeMag" xml:space="preserve">
+    <value>مرحبا بك</value>
+  </data>
+  <data name="RegisterNow" xml:space="preserve">
+    <value>هل تملك حساب ؟ سجل الان</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="UserAccountCreationMessage" xml:space="preserve">
+    <value>لقد تم إنشاء الحساب بنجاح </value>
+  </data>
+  <data name="RequiredMobileNumber" xml:space="preserve">
+    <value>يجب ادخال رقم الجوال</value>
+  </data>
+  <data name="UserExists" xml:space="preserve">
+    <value>يوجد حساب لهذا المستخدم من قبل ! </value>
+  </data>
+  <data name="RequiredGander" xml:space="preserve">
+    <value>يجب إدخال الجنس</value>
+  </data>
+  <data name="RequiredNationalityCategory" xml:space="preserve">
+    <value>يجب إدخال فئة الجنسية</value>
+  </data>
+  <data name="EmployeeLogin" xml:space="preserve">
+    <value>دخول الموظفين</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>مستخدم جديد؟ سجل الأن</value>
+  </data>
+  <data name="WrongVerificationCode" xml:space="preserve">
+    <value>كود التفعيل غير صحيح الرجاء إعادة إدخال الكود الصحيح</value>
+  </data>
+  <data name="choose" xml:space="preserve">
+    <value>أختر ...</value>
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>الرجاء استخدام البيانات التالية لتسجيل الدخول</value>
+  </data>
+  <data name="LangSwitcher" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="MOIValidationError" xml:space="preserve">
+    <value>البيانات المدخلة غير متطابقة مع بيانات السجلات الرسمية الرجاء التأكد من صحة الرقم الشخصي وتاريخ الميلاد</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>التعليمات</value>
+  </data>
+  <data name="NewPasswordSent" xml:space="preserve">
+    <value>لقد تم إرسال كلمة المرور الجديدة لبريدكم الإلكترونى و هاتفكم  </value>
+  </data>
+  <data name="QatarIdInstruction" xml:space="preserve">
+    <value>أدخل الرقم الشخصى القطرى المكون من 11 رقم بدون مسافات</value>
+  </data>
+  <data name="SendResetPassword" xml:space="preserve">
+    <value>إرسال إعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="RegistrationHeader" xml:space="preserve">
+    <value>تسجيل مستخدم جديد</value>
+  </data>
+  <data name="paymentCanceled" xml:space="preserve">
+    <value>تمت إلغاءعملية الدفع</value>
+  </data>
+  <data name="paymentSuccess" xml:space="preserve">
+    <value>تمت عملية الدفع بنجاح</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>كلمة المرور الجديدة</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value> كلمة المرور الحالية</value>
+  </data>
+  <data name="RegConfirmNewPassword" xml:space="preserve">
+    <value>يجب الا يزيد عدد الأرقام عن 100</value>
+  </data>
+  <data name="RegNewPassword" xml:space="preserve">
+    <value>يجب الا يزيد عدد الأرقام عن 100</value>
+  </data>
+  <data name="RegOldPassword" xml:space="preserve">
+    <value>يجب الا يزيد عدد الأرقام عن 100 </value>
+  </data>
+  <data name="RequiredConfirmNewPassword" xml:space="preserve">
+    <value>يجب إدخال تأكيد  كلمة المرور</value>
+  </data>
+  <data name="RequiredNewPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة المرور الجديدة</value>
+  </data>
+  <data name="RequiredOldPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة المرور الحالية </value>
+  </data>
+  <data name="ConfirmPasswordError" xml:space="preserve">
+    <value> يجب أن يكون مطابق  لكلمة المرور الجديدة</value>
+  </data>
+  <data name="CurrentPasswordErrorMessage" xml:space="preserve">
+    <value>كلمة المرور الحاليه غير صحيحه برجاء إعادة الأدخال  </value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>هل نسيت كلمة المرور</value>
+  </data>
+  <data name="goDashboard" xml:space="preserve">
+    <value>الذهاب إلى سجل الطلبات</value>
+  </data>
+  <data name="PriorApproval" xml:space="preserve">
+    <value> الذهاب إلى الموافقة المسبقة للدراسة بالخارج </value>
+  </data>
+  <data name="RegVerificationCode" xml:space="preserve">
+    <value>يجب ان يكون عدد الأرقام أصغر من أو يساوى 10 </value>
+  </data>
+  <data name="RemainingblockTime" xml:space="preserve">
+    <value>: برجاء المحاولة بعد مرور  عدد ثواني</value>
+  </data>
+  <data name="AccountName" xml:space="preserve">
+    <value>يجب الا يحتوي على كل أو جزء من اسم حساب المستخدم</value>
+  </data>
+  <data name="CharactersLength" xml:space="preserve">
+    <value>أن تكون من 6 الي 9 أحرف</value>
+  </data>
+  <data name="Digits" xml:space="preserve">
+    <value>الأرقام المكونة من 10 أرقام (من 0 إلى 9)</value>
+  </data>
+  <data name="EnglishLowercase" xml:space="preserve">
+    <value>أحرف صغيرة إنجليزية (a إلى z)</value>
+  </data>
+  <data name="EnglishUppercase" xml:space="preserve">
+    <value>أحرف كبيرة باللغة الإنجليزية (من A إلى Z)</value>
+  </data>
+  <data name="NonAlphabetic" xml:space="preserve">
+    <value>لاتحتوي على  أحرف غير أبجدية (على سبيل المثال  ، . ، ! ، $ ، # ،٪)</value>
+  </data>
+  <data name="PasswordsMustNotEasilyGuessed" xml:space="preserve">
+    <value>يفضل الا يتم تخمين كلمات المرور بسهولة (مثل الأسماء ، أشهر السنة ، وأيام الأسبوع ، وأسماء المستخدمين ، إلخ. يجب عدم استخدامها ككلمات مرور)</value>
+  </data>
+  <data name="TermsAndConditionAgree" xml:space="preserve">
+    <value>أوافق على جميع الشروط و الأحكام</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CreateNewRequest" xml:space="preserve">
+    <value>انشاء طلب جديد</value>
+  </data>
+  <data name="RequiredRequestType" xml:space="preserve">
+    <value>يجب إختيار نوع الخدمة</value>
+  </data>
+  <data name="RequiredUserPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة المرور </value>
+  </data>
+  <data name="UserPassword" xml:space="preserve">
+    <value>كلمة المرور </value>
+  </data>
+  <data name="ConfirmUserPasswordError" xml:space="preserve">
+    <value> يجب أن يكون مطابق  لكلمة المرور </value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>يجب إدخال كلمة مرور صالحة و مطابقة للتعليمات</value>
+  </data>
+  <data name="PasswordInstructions" xml:space="preserve">
+    <value>تعليمات كلمة المرور</value>
+  </data>
+  <data name="SearchLimit" xml:space="preserve">
+    <value>يوجد عدد كبير من السجلات الناتجة من معايير البحث التى قمت بإختيارها. يرجى اختيار المزيد من التصفيات الموجودة بمعايير البحث</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>تصدير إلي ملف إكسل</value>
+  </data>
+  <data name="SearchFilterMsg" xml:space="preserve">
+    <value>يجب عليك اختيار معيار واحد على الأقل أو ستظهر لك جميع النتائج</value>
+  </data>
+  <data name="EquivalenceHome" xml:space="preserve">
+    <value> معادلة الشهادات الجامعية</value>
+  </data>
+  <data name="QatariPASubmissionMsg" xml:space="preserve">
+    <value>التقديم مفتوح حالياً للطلاب القطريين وأبناء القطريات</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="UploadedDate" xml:space="preserve">
+    <value>تاريخ الرفع</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="SchoolingEquivalence" xml:space="preserve">
+    <value> الذهاب إلى معادلة الشهادات المدرسية</value>
+  </data>
+  <data name="FU_NoFilesUploaded" xml:space="preserve">
+    <value>لا توجد ملفات تم تحميلها</value>
+  </data>
+  <data name="InstructionsDetails" xml:space="preserve">
+    <value>الشهادات المدرسية الصادرة من المدارس الحكومية القطري أو المدارس الخاصة التي تطبق معايير المناهج القطرية لا تحتاج الى معادلة</value>
+  </data>
+  <data name="Reminder" xml:space="preserve">
+    <value>تنبيه :</value>
+  </data>
+  <data name="SchoolingCertificateDescription" xml:space="preserve">
+    <value>يقصد بها معرفة ما تعادله أو توازيه الشهادة المراد معادلتها في السلم التعليمي القطري،
+			 حيث يستفيد من هذه الخدمة الراغبين في الالتحاق بالمدارس الحكومية القطرية والمدارس التي تطبق معايير المناهج القطرية فقط</value>
+  </data>
+  <data name="SchoolingCertificateTitle" xml:space="preserve">
+    <value>خدمة معادلة الشهادات المدرسية :</value>
+  </data>
+  <data name="TermsAndCond" xml:space="preserve">
+    <value>الشروط و الأحكام :</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>اختار</value>
+  </data>
+  <data name="FU_Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="FU_FileSizeMessage" xml:space="preserve">
+    <value>الحد المسموح به لـلملف يجب ألا يزيد عن {0} MB.</value>
+  </data>
+</root>

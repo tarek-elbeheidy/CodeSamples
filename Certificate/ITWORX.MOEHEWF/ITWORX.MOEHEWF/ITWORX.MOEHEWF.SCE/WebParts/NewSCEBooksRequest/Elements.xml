@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="NewSCEBooksRequest" List="113" Url="_catalogs/wp">
+    <File Path="NewSCEBooksRequest\NewSCEBooksRequest.webpart" Url="ITWORX.MOEHEWF.SCE_NewSCEBooksRequest.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="SCE" />
+    </File>
+  </Module>
+</Elements>

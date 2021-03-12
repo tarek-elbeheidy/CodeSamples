@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="aa9cc5e8-0d7b-4572-b949-72d48f44e32d" Scope="Web" Title="ITWORX.MOEHEWF.SCE Reviewer">
+  <ElementManifests>
+    <ElementManifest Location="Reviewer\Elements.xml" />
+    <ElementFile Location="Reviewer\SCEEquivalenceEmployeesDashboard.aspx" />
+    <ElementFile Location="Reviewer\SCESectionManagerDashboard.aspx" />
+    <ElementFile Location="Reviewer\SCEHigherEducationalInstitutionsDashboard.aspx" />
+    <ElementFile Location="Reviewer\SCECulturalMissionDashboard.aspx" />
+    <ElementFile Location="Reviewer\SCEDepartmentManagerDashboard.aspx" />
+    <ElementFile Location="Reviewer\SCENewClarificationReq.aspx" />
+    <ElementFile Location="Reviewer\SCEClarificationsListing.aspx" />
+    <ElementFile Location="Reviewer\SCEClarificationRequestDetails.aspx" />
+    <ElementFile Location="Reviewer\NewSCERequest.aspx" />
+    <ElementFile Location="Reviewer\SCEBookRequestDetails.aspx" />
+    <ElementFile Location="Reviewer\SCEBookRequests.aspx" />
+    <ElementFile Location="Reviewer\SCEReplyToBookRequest.aspx" />
+  </ElementManifests>
+</Feature>

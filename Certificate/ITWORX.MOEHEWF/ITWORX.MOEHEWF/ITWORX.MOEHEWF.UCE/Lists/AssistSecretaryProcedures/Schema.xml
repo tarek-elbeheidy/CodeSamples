@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="AssistSecretaryProcedures" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/AssistSecretaryProcedures" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100c96046e059c64299938d649799cb86f1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{3411c660-c21f-4c28-bc58-1c209cd6a1d6}" Name="Procedure" /><FieldRef ID="{a3ac027b-b949-451e-8331-1c7df0e4afa2}" Name="ProcedureComments" /><FieldRef ID="{dd49ce47-2d0d-4b2b-8a0b-9f735469c3ac}" Name="ProcedureCreatedBy" /><FieldRef ID="{c78b7c2f-f867-479d-9fed-7046f54c29f5}" Name="ProcedureDate" /><FieldRef ID="{c52c518f-03a7-45fa-b64a-0fc5b6f4e76d}" Name="RejectionReason" /><FieldRef ID="{568df939-49c6-4d18-8acd-f65f65f38a71}" Name="RequestID" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="Procedure" ID="{3411c660-c21f-4c28-bc58-1c209cd6a1d6}" DisplayName="Procedure" Type="Text" /><Field Name="ProcedureComments" ID="{a3ac027b-b949-451e-8331-1c7df0e4afa2}" DisplayName="ProcedureComments" Type="Note" /><Field Name="ProcedureCreatedBy" ID="{dd49ce47-2d0d-4b2b-8a0b-9f735469c3ac}" DisplayName="ProcedureCreatedBy" Type="Text" /><Field Name="ProcedureDate" ID="{c78b7c2f-f867-479d-9fed-7046f54c29f5}" DisplayName="ProcedureDate" Type="DateTime" /><Field Name="RejectionReason" ID="{c52c518f-03a7-45fa-b64a-0fc5b6f4e76d}" DisplayName="RejectionReason" Type="Text" /><Field Name="RequestID" ID="{568df939-49c6-4d18-8acd-f65f65f38a71}" DisplayName="RequestID" Type="Lookup" List="Lists/Requests" ShowField="ID" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Procedure" /><FieldRef Name="ProcedureComments" /><FieldRef Name="ProcedureCreatedBy" /><FieldRef Name="ProcedureDate" /><FieldRef Name="RejectionReason" /><FieldRef Name="RequestID" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

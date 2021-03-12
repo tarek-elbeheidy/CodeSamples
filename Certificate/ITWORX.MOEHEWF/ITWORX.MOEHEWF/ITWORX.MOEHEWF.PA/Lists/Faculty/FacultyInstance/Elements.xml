@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Faculty" OnQuickLaunch="TRUE" TemplateType="20026" Url="Lists/Faculty" Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">طب أسنان</Field>
+          <Field Name="TitleAr"> طب أسنان</Field>
+          <Field Name="University">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">إعلام</Field>
+          <Field Name="TitleAr">إعلام</Field>
+          <Field Name="University">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">اقتصاد وعلوم سياسية</Field>
+          <Field Name="TitleAr">اقتصاد وعلوم سياسية</Field>
+          <Field Name="University">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">هندسة</Field>
+          <Field Name="TitleAr"> هندسة </Field>
+          <Field Name="University">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Commerce</Field>
+          <Field Name="TitleAr"> تجارة  </Field>
+          <Field Name="University">6</Field>
+        </Row>
+       <Row>
+          <Field Name="Title">Other</Field>
+          <Field Name="TitleAr"> اخرى  </Field>
+          <Field Name="University">7</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="a29c6dd6-e870-4a0a-9df8-584331cc62d3" Scope="Site" Title="ITWORX.MOEHEWF.Common Site">
+  <ElementManifests>
+    <ElementManifest Location="Configuration\Elements.xml" />
+    <ElementFile Location="Configuration\Schema.xml" />
+    <ElementManifest Location="Nationality\Elements.xml" />
+    <ElementFile Location="Nationality\Schema.xml" />
+    <ElementManifest Location="NationalityCategory\Elements.xml" />
+    <ElementFile Location="NationalityCategory\Schema.xml" />
+    <ElementManifest Location="Applicants\Elements.xml" />
+    <ElementFile Location="Applicants\Schema.xml" />
+    <ElementManifest Location="RequestStatus\Elements.xml" />
+    <ElementFile Location="RequestStatus\Schema.xml" />
+    <ElementManifest Location="CountryOfStudy\Elements.xml" />
+    <ElementFile Location="CountryOfStudy\Schema.xml" />
+    <ElementManifest Location="University\Elements.xml" />
+    <ElementFile Location="University\Schema.xml" />
+    <ElementManifest Location="UniversityLists\Elements.xml" />
+    <ElementFile Location="UniversityLists\Schema.xml" />
+    <ElementManifest Location="RequestTypes\Elements.xml" />
+    <ElementFile Location="RequestTypes\Schema.xml" />
+    <ElementManifest Location="ReceptionEmployeesVacations\Elements.xml" />
+    <ElementFile Location="ReceptionEmployeesVacations\Schema.xml" />
+    <ElementManifest Location="VerificationErrorInfo\Elements.xml" />
+    <ElementFile Location="VerificationErrorInfo\Schema.xml" />
+    <ElementManifest Location="UserVerificationCode\Elements.xml" />
+    <ElementFile Location="UserVerificationCode\Schema.xml" />
+    <ElementManifest Location="IdentityConfiguration\Elements.xml" />
+    <ElementFile Location="IdentityConfiguration\Schema.xml" />
+    <ElementManifest Location="NintexConfiguredOutcomes\Elements.xml" />
+    <ElementFile Location="NintexConfiguredOutcomes\Schema.xml" />
+    <ElementManifest Location="Notifications\Elements.xml" />
+    <ElementFile Location="Notifications\Schema.xml" />
+    <ElementManifest Location="StatementOrganizations\Elements.xml" />
+    <ElementFile Location="StatementOrganizations\Schema.xml" />
+    <ElementManifest Location="HETemplates\Elements.xml" />
+    <ElementFile Location="HETemplates\Schema.xml" />
+    <ElementFile Location="HETemplates\EditDlg.htm" />
+    <ElementFile Location="HETemplates\FileDlg.htm" />
+    <ElementFile Location="HETemplates\Repair.aspx" />
+    <ElementFile Location="HETemplates\Upload.aspx" />
+    <ElementManifest Location="ServiceDashBoard\Elements.xml" />
+    <ElementFile Location="ServiceDashBoard\Schema.xml" />
+    <ElementManifest Location="TermsAndConditions\Elements.xml" />
+    <ElementFile Location="TermsAndConditions\Schema.xml" />
+  </ElementManifests>
+</Feature>

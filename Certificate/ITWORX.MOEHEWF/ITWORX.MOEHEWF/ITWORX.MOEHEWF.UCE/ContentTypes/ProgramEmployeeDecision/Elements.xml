@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Nintex Workflow Task (0x0108010079DBDE612F7B46928C6A2516BA2CAE37) -->
+  <ContentType ID="0x0108010079DBDE612F7B46928C6A2516BA2CAE3700333D1B140B9D452981B5D9E42A12014C"
+               Name="MOEHE CE Employees Review Final Decision Task"
+               Group="MOEHE Nintex Workflows"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url" >
+          <Display>/_layouts/15/ITWORX.MOEHEWF.UCE/PrimaryAndSecondaryEmployee.aspx</Display>
+          <Edit>/_layouts/15/ITWORX.MOEHEWF.UCE/PrimaryAndSecondaryEmployee.aspx</Edit>
+          <New>/_layouts/15/ITWORX.MOEHEWF.UCE/PrimaryAndSecondaryEmployee.aspx</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

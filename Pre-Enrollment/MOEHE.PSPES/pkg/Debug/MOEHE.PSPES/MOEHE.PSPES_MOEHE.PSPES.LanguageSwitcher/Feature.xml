@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="b976087b-30ec-40ee-a8fa-e48f29352325" ReceiverAssembly="MOEHE.PSPES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=677b80a9c9c0da8c" ReceiverClass="MOEHE.PSPES.Features.MOEHE.PSPES.LanguageSwitcher.MOEHEPSPESEventReceiver" Scope="Site" Title="MOEHE.PSPES LanguageSwitcher"></Feature>

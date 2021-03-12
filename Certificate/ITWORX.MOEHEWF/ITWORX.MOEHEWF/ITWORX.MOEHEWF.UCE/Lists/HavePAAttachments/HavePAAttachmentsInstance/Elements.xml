@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="HavePAAttachments"
+                OnQuickLaunch="TRUE"
+                TemplateType="10090"
+                Url="Lists/HavePAAttachments"
+                Description="My List Instance" FeatureId="7174acd4-b039-4390-90ba-b5dfc4644560">
+  </ListInstance>
+</Elements>

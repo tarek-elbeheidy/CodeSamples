@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="EntityWorkingFor" OnQuickLaunch="TRUE" TemplateType="20023" Url="Lists/EntityWorkingFor" Description="My List Instance" FeatureId="535c1fd9-996d-44ed-bdd7-d232f72e0eee">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Company</Field>
+          <Field Name="TitleAr">وزارة الصحة العامة </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Factory</Field>
+          <Field Name="TitleAr">وزارة الثقافة والرياضة</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Company</Field>
+          <Field Name="TitleAr">وزارة الخارجية القطرية</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Company</Field>
+          <Field Name="TitleAr">وزارة المواصلات والاتصالات</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Company</Field>
+          <Field Name="TitleAr">وزارة الأوقاف والشؤون الإسلامية</Field>
+        </Row>
+      </Rows>
+    </Data>
+    </ListInstance>
+</Elements>

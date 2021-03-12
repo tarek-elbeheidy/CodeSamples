@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="0c00fbe4-be35-4f97-81b3-b90b25746b75" 
+        solutionId="0c00fbe4-be35-4f97-81b3-b90b25746b75" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ITWORX.SharePointCaching"
+        sharePointProductVersion="16.0">
+</package>
